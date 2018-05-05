@@ -1,0 +1,272 @@
+<resources>
+    <string name="app_description">Your cybernetic eye</string>
+    <string name="locale_language">en</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="share_title">Tell to friends</string>
+    <string name="bug_report">Bug report</string>
+    <string name="share_text">link</string>
+    <string name="warning">Warning</string>
+    <string name="close">Close</string>
+    <string name="done">Done</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="undo">Undo</string>
+    <string name="communicate">Communicate</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="share">Share</string>
+    <string name="current_value">Current value:</string>
+    <string name="invalid_setting">Invalid setting</string>
+    <string name="insufficient_permission">Permissions not enough. Give to the App the needed permission.</string>
+    <string name="info_text">Version 0.0.1 Test\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author. For additional info about copyright contact us.</string>
+    <string name="choose_email_client">Choose email client</string>
+    <string name="report_bug_subject">Bug Report Image Analysis Toolset</string>
+
+    <!-- Action bar section -->
+    <string name="action_home">Home</string>
+    <string name="action_save">Save</string>
+    <string name="action_tts">Start-Stop Listen Result</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_info">Info</string>
+    <string name="action_unlock">License Options</string>
+    <!-- Action bar section -->
+
+    <!-- Setting section -->
+    <string name="alert_setting_title">Settings</string>
+    <string name="alert_setting_text">Input the max number of elements, an higher number will allow you to see more results, however the additional results have a less likely match ratio.\nDefault value: 10,</string>
+    <string name="alert_setting_quality">Set the detection quality level (default value: 1200). An higher value could produce more accurate results but is slower.\nQuality value:</string>
+    <string name="use_ocr_cloud">Use Cloud for accurate text detection</string>
+    <string name="use_face_detection_cloud">Use Cloud for accurate face detection</string>
+    <string name="enable_detector_localization">Enable detector translation</string>
+    <string name="alert_setting_barcodescan">Options for barcode detector in scan mode:</string>
+    <string name="use_filtering">Use Interpolation Filter</string>
+    <string name="show_detection_markers">Show Detection Markers</string>
+    <string name="use_auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="autoreturn_barcode">Auto-return on barcode detection</string>
+    <string name="enable_tts">Speak out loud results</string>
+    <!-- End Setting section -->
+
+    <!-- General messages and warning section -->
+    <string name="choose_image">Choose image</string>
+    <string name="edit_image">Edit Picture</string>
+    <string name="edit_image_before_analysis">Edit picture before analysis</string>
+    <string name="start_tts">Start vocal output</string>
+    <string name="stop_tts">Stop vocal output</string>
+    <string name="tts_error">Cannot use Text to Speech function</string>
+    <string name="alert_copied_values">Copied to clipboard!</string>
+    <string name="alert_saved_values">Results saved to a local txt file!</string>
+    <string name="alert_detector_dependencies_missing">Detector dependencies are not yet available. If there is a supported version will be installed soon.</string>
+    <string name="low_storage_error">Detector dependencies cannot be downloaded due to low device storage.</string>
+    <string name="detector_not_ready">Local detector not yet ready.</string>
+    <string name="alert_adblocker">In your device has been detected an AdBlocker. Developing and maintaining this App requires resources, time and expenses. We cannot provide all this for free if you block even the Ads. The commands of the App are now disabled. Disable AdBlocker if you want to use the free mode, or alternatively, purchase a premium subscription.</string>
+    <string name="alert_no_web_search">Result copied to clipboard.\nNo supported search assistants found on your device. Install a supported search assistant (e.g. Google Search) to enable integrated search feature.</string>
+    <string name="alert_no_open_url">Result copied to clipboard.\nNo supported web browsers found on your device. Install a supported web browser(e.g. Chrome or Firefox) to enable direct url opening feature.</string>
+    <string name="alert_camera_intent_error">Your device cannot handle Camera Intent correctly.\nUpdate your Android version to a newer release or install a camera app with a newer Camera Intent support.</string>
+    <string name="alert_gallery_intent_error">Your device cannot handle Gallery Intent correctly.\nUpdate your Android version to a newer release or install a gallery app with a newer Gallery Intent support.</string>
+    <string name="alert_imurl_title">Enter URL</string>
+    <string name="alert_imurl_text">Enter the URL of the image.\n\nNOTE:\nThe URL must be a direct link to the image file, not some dynamic web gallery URL.</string>
+    <string name="alert_imurl_error">Invalid URL!\n\nThe URL must be a valid direct link to the image file, not some dynamic web gallery URL.\nMake sure the URL is reachable and ends with an image extension (for example .jpg, .png, .bmp, .webp, .gif).</string>
+    <string name="alert_nothing_to_save">There is nothing to save.</string>
+    <string name="dialog_select_prompt">Choose a picture from camera or gallery, or enter an image URL.</string>
+    <string name="dialog_select_camera">Camera</string>
+    <string name="dialog_select_camera_scan">Scan Mode</string>
+    <string name="dialog_select_gallery">Gallery</string>
+    <string name="image_picker_error">Cannot load this image. Invalid image or insufficient permissions.</string>
+    <string name="select_photo">"Select a photo</string>
+    <string name="image_details_header">Details:</string>
+    <string name="image_preview_header">Preview:</string>
+    <string name="loading_message">Analysis in progress... Please wait.</string>
+    <string name="nothing_to_speech">Analyze a picture before using this function.</string>
+    <string name="cannot_analyze_now">Something has gone wrong. Some features require an internet connection. Make sure your connection is active and image isn\'t corrupted or try again later.</string>
+    <string name="api_request_failed">\nAPI request failed. If the problem persists, make sure to update the App to latest official version available on Google Play.</string>
+    <string name="translation_fail">Translation engine not ready.</string>
+    <!-- End General messages and warning section -->
+
+    <!-- Element detection section -->
+    <string name="element_detector">Element Detector</string>
+    <string name="element_detector_description">Element detector allows you to identify elements within an image, to find information about them. It supports broad sets of categories ranging from inanimate objects to plants and animals.\n\nUse action button to load an image.</string>
+    <string name="detection_success">Detected elements (tap to search info, long tap to copy to clipboard):</string>
+    <string name="detection_fail">-> Ops! Cannot identify any element in this picture.</string>
+    <!-- End Element detection section -->
+
+    <!-- Web detection section -->
+    <string name="web_detector">Web Image Detector</string>
+    <string name="web_detector_description">Web image detector allows you to find info about the image searching the Internet for similar images and related links.\n\nUse action button to load an image.</string>
+    <string name="detection_web_success">Matches found (tap to search info, long tap to copy to clipboard):</string>
+    <string name="detection_web_links">&#9668; Webpages with matched images (click to open): &#9658;</string>
+    <string name="matching_images_links">&#9668; Matching images (click to open): &#9658;</string>
+    <string name="similar_images_links">&#9668; Similar images (click to open): &#9658;</string>
+    <string name="matching_web_pages">Web pages with matched images:</string>
+    <string name="matching_images">Matching images:</string>
+    <string name="similar_images">Similar images:</string>
+    <string name="detection_web_fail">-> Ops! Cannot identify any match for this picture.</string>
+    <!-- End Web detection section -->
+
+    <!-- OCR section -->
+    <string name="ocr">Optical Text Recognition</string>
+    <string name="ocr_description">Optical Text Recognition allows you to digitize the text content of an image.\n\nUse action button to load an image and start detection.\n\nOptionally you can specify the mode and the language of the text to identify if known (in some circumstances this improves the results avoiding errors due to incorrect interpretation of the text language autodetection).</string>
+    <string name="detection_ocr_success">Detected text (tap to copy to clipboard, long tap to search content on web):</string>
+    <string name="detection_ocr_offline_success">Detected text in offline mode (tap to copy to clipboard):</string>
+    <string name="detection_ocr_fail">-> Ops! Cannot identify any text in this picture.</string>
+    <string name="detection_ocr_fail_offline">-> Ops! Cannot identify any text in this picture.\n\nYou are in local mode, with an internet connection active you can get better results.</string>
+    <string name="detection_recovery_mode_error">[The detection switched automatically to local mode due to an error during the attempt to use the Cloud.]</string>
+    <string name="detection_recovery_mode_fail">[The detection switched automatically to local mode because Cloud based detection failed.]</string>
+    <string name="ocr_mode">Ocr mode</string>
+    <string name="target_language">Target language</string>
+    <string name="language">Language:</string>
+    <string name="translate_to_my_language">Translate result to my language</string>
+    <!-- End OCR section -->
+
+    <!-- Logo detection section -->
+    <string name="logo_detector">Logo Detector</string>
+    <string name="logo_detector_description">Logo detector allows you to identify logos, to find information about brands and products.\n\nUse action button to load an image.</string>
+    <string name="detection_logo_fail">-> Ops! Cannot identify any logo in this picture.</string>
+    <!-- End Logo detection section -->
+
+    <!-- Landmark detection section -->
+    <string name="landmark_detector">Landmark Detector</string>
+    <string name="landmark_detector_description">Landmark detector allows you to identify popular natural and man-made structures, to search info about them or their locality.\n\nUse action button to load an image.</string>
+    <string name="detection_landmark_success">Detected landmarks (tap to search info, long tap to copy to clipboard):</string>
+    <string name="detection_landmark_fail">-> Ops! Cannot identify any landmark in this picture.</string>
+    <!-- End Landmark detection section -->
+
+    <!-- Face Insight section -->
+    <string name="face_insight">Face Insight</string>
+    <string name="face_insight_description">Detect multiple faces within an image, along with the associated facial attributes. This function is also able to perform an emotional analysis to determine the emotional state plus It can tell you if the person is wearing headwear.\n\nUse action button to load an image.</string>
+    <string name="face">FACE</string>
+    <string name="detection_face_success">Faces detected (tap to copy to clipboard):</string>
+    <string name="detection_face_fail">-> Ops! Cannot identify any face in this picture.</string>
+    <string name="detection_face_success_offline">Faces detected in offline mode (tap to copy to clipboard):</string>
+    <string name="detection_face_fail_offline">-> Ops! Cannot identify any face in this picture.\n\nYou are in local mode, with an internet connection active you can get better results.</string>
+    <string name="emotional_analysis">Emotional analysis</string>
+    <string name="face_structure_analysis">Face structure analysis</string>
+    <string name="face_elements_coordinates">Face elements coordinates</string>
+    <string name="detection_quality_stats">Detection quality statistics</string>
+    <string name="other">Other</string>
+    <string name="anger">Anger</string>
+    <string name="joy">Joy</string>
+    <string name="sorrow">Sorrow</string>
+    <string name="surprise">Surprise</string>
+    <string name="headwear">Headwear</string>
+    <string name="pan_angle">Pan Angle</string>
+    <string name="roll_angle">Roll Angle</string>
+    <string name="tilt_angle">Tilt Angle</string>
+    <string name="detection_confidence">Detection confidence</string>
+    <string name="landmarking_confidence">Landmarking confidence</string>
+    <string name="blurred_likelihood">Blurred likelihood</string>
+    <string name="under_exposed_likelihood">Underexposed likelihood</string>
+    <string name="left_eye">Left eye</string>
+    <string name="left_eye_pupil">Left eye pupil</string>
+    <string name="left_eye_right_corner">Left eye right corner</string>
+    <string name="left_eye_left_corner">Left eye left corner</string>
+    <string name="left_eye_top_boundary">Left eye top boundary</string>
+    <string name="left_eye_bottom_boundary">Left eye bottom boundary</string>
+    <string name="right_eye">Right eye</string>
+    <string name="right_eye_pupil">Right eye pupil</string>
+    <string name="right_eye_right_corner">Right eye right corner</string>
+    <string name="right_eye_left_corner">Right eye left corner</string>
+    <string name="right_eye_top_boundary">Right eye top boundary</string>
+    <string name="right_eye_bottom_boundary">Right eye bottom boundary</string>
+    <string name="midpoint_between_eyes">Midpoint between eyes</string>
+    <string name="left_of_left_eyebrow">Left of left eyebrow</string>
+    <string name="right_of_left_eyebrow">Right of right eyebrow</string>
+    <string name="left_of_right_eyebrow">Left of right eyebrow</string>
+    <string name="right_of_right_eyebrow">Right of right eyebrow</string>
+    <string name="left_eyebrow_upper_midpoint">Left eyebrow upper midpoint</string>
+    <string name="right_eyebrow_upper_midpoint">Right eyebrow upper midpoint</string>
+    <string name="left_ear_tragion">Left ear tragus</string>
+    <string name="right_ear_tragion">Right ear tragus</string>
+    <string name="left_ear_tip">Left ear tip</string>
+    <string name="right_ear_tip">Right ear tip</string>
+    <string name="nose_tip">Nose tip</string>
+    <string name="nose_bottom_left">Nose bottom left</string>
+    <string name="nose_bottom_right">Nose bottom right</string>
+    <string name="nose_bottom_center">Nose bottom center</string>
+    <string name="forehead_glabella">Forehead glabella</string>
+    <string name="left_cheek">Cheek left</string>
+    <string name="right_cheek">Cheek right</string>
+    <string name="upper_lip">Upper lip</string>
+    <string name="lower_lip">Lower lip</string>
+    <string name="mouth_left">Mouth left</string>
+    <string name="mouth_right">Mouth right</string>
+    <string name="mouth_center">Mouth center</string>
+    <string name="chin_gnathion">Chin gnation</string>
+    <string name="chin_left_gonion">Chin left gonion</string>
+    <string name="chin_right_gonion">Chin right gonion</string>
+    <string name="face_status">Face status</string>
+    <string name="width">Width</string>
+    <string name="height">Height</string>
+    <string name="rotation">Rotation</string>
+    <string name="maxillofacial_armony_score">Maxillofacial harmony</string>
+    <string name="is_smiling_probability">Is smiling probability</string>
+    <string name="is_left_eye_open_probability">Is left eye opened probability</string>
+    <string name="is_right_eye_open_probability">Is right eye opened probability</string>
+    <!-- End Face Insight section -->
+
+    <!-- Barcode detector section -->
+    <string name="barcode_detector">Barcode Detector</string>
+    <string name="barcode_detector_description">Barcode detector can detect almost all types of barcodes.\n1D barcodes:\nEAN-13, EAN-8, UPC-A, UPC-E, Code-39, Code-93, Code-128, ITF, Codabar.\n2D barcodes:\nQR Code, Data Matrix, PDF-417, AZTEC.\n\nUse action button to load an image or enter in camera scan mode.</string>
+    <string name="dialog_select_prompt_barcode">Choose a picture from camera or gallery, or enter in scan mode.</string>
+    <string name="barcode_detector_success">Barcode data detected (tap to copy to clipboard, long tap to search info):</string>
+    <string name="barcode_detector_fail">-> Ops! Cannot identify any barcode in this picture.</string>
+    <string name="barcode_error">"-> Error reading barcode:"</string>
+    <string name="barcode_scan_info">When code is detected you will see a tracker overlay.\nAfter the detection, tap to close scan and capture detected info, if you haven\'t enabled auto-return.</string>
+    <string name="camera_scan_info">Tap to capture. Pinch/Stretch to zoom.</string>
+    <!-- End Barcode detector section -->
+
+    <!-- Colorimeter section -->
+    <string name="colorimeter">Colorimeter</string>
+    <string name="colorimeter_description">With colorimeter you can identify all colors within an image and see their representation in RGB, HSB and HEX notation. For each detected color, the app will tell you the name of the color or the name of the most similar color, in case the color tone is uncommon and has no name.\n\nUse action button to load an image.</string>
+    <string name="color_analysis_success">Color analysis result (tap to copy to clipboard):</string>
+    <string name="color_analysis_result_name">Nearest color name:</string>
+    <string name="color_analysis_result_fail">-> Ops! Cannot identify colors.</string>
+    <!-- End Colorimeter section -->
+
+    <!-- Censorship meter section -->
+    <string name="censorship_meter">Censorship Risk Meter</string>
+    <string name="censorship_meter_description">This tool allows you to check an image to determine if its content could be censored by automatic system or lead to ban. This feature is useful since many social networks and websites perform automatic checks of the uploaded pictures and could take actions against the user if a critical content is detected.\n\nUse action button to load an image.</string>
+    <string name="censorship_analysis_success">Analysis result (tap to copy to clipboard):</string>
+    <string name="porn">-> PORN:</string>
+    <string name="racy">-> RACY:</string>
+    <string name="medical_explicit">-> MEDICAL EXPLICIT CONTENT:</string>
+    <string name="violence">-> VIOLENCE:</string>
+    <string name="spoof">-> SPOOF:</string>
+    <string name="risk_analysis_summary">Risk likelihood summary:</string>
+    <string name="risk_detected">WARNING! A risk factor has been detected. The upload of this picture could cause ban and censorship in many social networks and communities. Pay attention.</string>
+    <string name="no_risk_detected">Automatic analysis has no detected risks.</string>
+    <!-- End Censorship meter section -->
+
+    <!-- EXIF info section -->
+    <string name="exif_info">EXIF Info</string>
+    <string name="exif_info_description">This feature allows you to load and extract EXIF info from picture files, if available.\nEXIF is a standard for metadata that can include a lot of information as image copyright, the device used, acquisition timestamp, GPS tag data, photo manipulation software used, camera sensor, aperture, focal length, shutter speed, white balance, ISO level etc.\nNote:\nEXIF data often are removed by services that reprocess the image, so you could find null or inconsistent data if you use this function with images downloaded, for example, from Facebook, Whatsapp, Instagram and similar.\n\nUse action button to load an image.</string>
+    <string name="exif_info_result_success">EXIF metadata found (tap to copy to clipboard):</string>
+    <string name="exif_info_result_fail">-> Ops! Cannot identify any EXIF in this picture.</string>
+    <string name="exif_info_not_supported">-> Ops! Your device OS is too old to support latest EXIF API, you need at least Android 4.4 or newer.</string>
+    <!-- End EXIF info section -->
+
+    <!-- Likelihood levels -->
+    <string name="likely">likely</string>
+    <string name="very_likely">very likely</string>
+    <string name="unlikely">unlikely</string>
+    <string name="very_unlikely">very unlikely</string>
+    <string name="possible">possible</string>
+    <!-- End Likelihood levels -->
+
+    <!-- Billing section -->
+    <string name="licensing_options">Licensing Options</string>
+    <string name="bm_error">Cannot check the license status.</string>
+    <string name="error_code">ERROR CODE:</string>
+    <string name="faq">FAQ:\n\nWhy subscription instead of one time purchase?\n-> Because one time purchase cannot be sustainable on long run, each user adds workload to our servers and we have to cover monthly costs.\n\nThere are Apps that use servers with no ads and no subscriptions, why your App is different?\n-> For some companies is enough to have their app installed to get money, because profile users reselling their data. We respect privacy of the users and haven\'t any opaque monetization system. This not mentioning the more expensive than average servers needed for the complex neural network based computer vision tasks performed by this app. The price is very low compared to the value this app adds to your device\'s feature set, however if you don\'t want to pay subscription, don\'t worry, the ads in this app are the very least to maintain the service, they aren\'t spammy and bothering.\n\nCould I cancel subscription if I change my mind in future?\n-> Yes! You can cancel your subscription at any time from Play Store returning to the full free mode with ads.\n\nWill the subscription price remain the same?\n-> The subscription price cannot be changed once a subscription has been activated. It could be changed only for new users that haven\'t any subscription active. This is the reason why subscribing now at promotional launch price (the lowest possible) It\'s a bargain.\n\nIf I have many devices can I use premium on them all with only one subscription?\n-> Of course! The license is linked to your Google Play account and will be automatically applied to all your devices linked to It or that will be linked in future, without any needs of further subscriptions for each device.</string>
+    <string name="active">ACTIVE</string>
+    <string name="disabled">DISABLED</string>
+    <string name="ads_mode_click">Ads mode will be automatically disabled if you purchase a Silver or Gold subscription, and It is enabled if there isn\'t any subscription active.</string>
+    <string name="ads_mode">Ads Mode</string>
+    <string name="ads_mode_description">All features enabled but you will see some ads randomly when you access a new section of this App from the home. (The default free mode)</string>
+    <string name="premium_silver">Silver Subscription</string>
+    <string name="premium_silver_content">Silver Subscription Button</string>
+    <string name="premium_silver_description">Monthly premium subscription allows you to disable all ads and limitations for the best user experience possible.</string>
+    <string name="premium_gold">Gold Subscription</string>
+    <string name="premium_gold_content">Gold Subscription Button</string>
+    <string name="premium_gold_description">Yearly premium subscription allows you to disable all ads and limitations for the best user experience possible. Yearly Gold subscription is cheaper than 12 months of Silver subscription.</string>
+</resources>
