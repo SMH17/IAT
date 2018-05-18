@@ -18,13 +18,14 @@
     <string name="current_value">Valore corrente:</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permission">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Version 0.0.1 Test\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore. Per informazioni aggiuntive sul copyright contattaci.</string>
+    <string name="info_text">Versione 0.0.1 Test\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore. Per informazioni aggiuntive sul copyright contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="report_bug_subject">Bug Report Image Analysis Toolset</string>
 
     <!-- Action bar section -->
     <string name="action_home">Home</string>
     <string name="action_save">Salva Risultato</string>
+    <string name="action_download">Download</string>
     <string name="action_tts">Avvia-Ferma Ascolta Risultato</string>
     <string name="action_settings">Impostazioni</string>
     <string name="action_info">Info</string>
@@ -68,6 +69,7 @@
     <string name="alert_imurl_text">Inserisci l\'URL di un\'immagine.\n\nNOTA:\nL\'URL deve essere un link diretto al file d\'immagine, non l\'URL di qualche galleria web dinamica.</string>
     <string name="alert_imurl_error">URL non valido!\n\nL\'URL deve essere un link diretto al file d\'immagine e accessibile, non l\'URL di qualche galleria web dinamica.\nAssicurati che il link sia raggiungibile e termini con l\'estensione di un file d\'immagine (esempio .jpg, .png, .bmp, .webp, .gif).</string>
     <string name="alert_nothing_to_save">Niente da salvare.</string>
+    <string name="alert_nothing_to_download">Niente da scaricare.</string>
     <string name="dialog_select_prompt">Seleziona un\'immagine da fotocamera o galleria, oppure inserisci il link di un\'immagine.</string>
     <string name="dialog_select_camera">Fotocamera</string>
     <string name="dialog_select_gallery">Galleria</string>
@@ -81,6 +83,11 @@
     <string name="cannot_analyze_now">Qualcosa &#232; andato storto. Assicurati che la connessione sia attiva e l\'immagine non sia corrotta oppure riprova di nuovo pi&#249; tardi.</string>
     <string name="api_request_failed">\nFallita richiesta API. Se il problema persiste, assicurati di aggiornare l\'App all\'ultima versione ufficiale disponibile su Google Play.</string>
     <string name="translation_fail">Sistema di traduzione noon pronto.</string>
+    <string name="num_download_files">Numero files da scaricare:</string>
+    <string name="hide">Nascondi</string>
+    <string name="stop">Ferma</string>
+    <string name="downloaded_file">Scaricato file</string>
+    <string name="download_file_error">Errore scaricamento file</string>
     <!-- End General messages and warning section -->
 
     <!-- Element detection section -->
@@ -92,7 +99,7 @@
 
     <!-- Web detection section -->
     <string name="web_detector">Identificatore Immagini Web</string>
-    <string name="web_detector_description">L\'identificatore immagini web ti permette di cercare informazioni sull\'immagine cercando in internet immagini simili correlate e i rispettivi link.\n\nUsa il pulsante in basso per selezionare un\'immagine.</string>
+    <string name="web_detector_description">L\'identificatore immagini web ti permette di ottenere informazioni sull\'immagine cercando in internet immagini simili correlate e i rispettivi siti, e provando a determinare il contenuto in base alle informazioni estrapolate da essi. Questa funzione ti fornisce le parole chiavi associate, i link dei siti dove sono stati rilevati riscontri e le immagini corrispondenti e visivamente simili, permettendoti di salvare i relativi link o scaricare direttamente i file d\'immagine.\n\nUsa il pulsante in basso per selezionare un\'immagine.</string>
     <string name="detection_web_success">Corrispondenze individuate (clicca per cercare informazioni, tieni premuto per copiare negli appunti):</string>
     <string name="detection_web_links">&#9668; Link delle pagine web che presentano corrispondenze (clicca per aprire): &#9658;</string>
     <string name="matching_images_links">&#9668; Immagini corrispondenti (clicca per aprire): &#9658;</string>
@@ -100,7 +107,10 @@
     <string name="matching_web_pages">Link delle pagine web che presentano corrispondenze:</string>
     <string name="matching_images">Immagini corrispondenti (clicca per aprire):</string>
     <string name="similar_images">Immagini simili:</string>
+    <string name="toggle_links_details">Apre o chiude dettagli link.</string>
     <string name="detection_web_fail">-> Ops! Non &#232; stato possibile identificare alcuna corrispondenza.</string>
+    <string name="images_download">Scaricamento immagini.</string>
+    <string name="categories_to_download">Seleziona categorie da scaricare.</string>
     <!-- End Web detection section -->
 
     <!-- OCR section -->

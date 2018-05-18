@@ -25,6 +25,7 @@
     <!-- Action bar section -->
     <string name="action_home">Home</string>
     <string name="action_save">Save</string>
+    <string name="action_download">Download</string>
     <string name="action_tts">Start-Stop Listen Result</string>
     <string name="action_settings">Settings</string>
     <string name="action_info">Info</string>
@@ -68,6 +69,7 @@
     <string name="alert_imurl_text">Enter the URL of the image.\n\nNOTE:\nThe URL must be a direct link to the image file, not some dynamic web gallery URL.</string>
     <string name="alert_imurl_error">Invalid URL!\n\nThe URL must be a valid direct link to the image file, not some dynamic web gallery URL.\nMake sure the URL is reachable and ends with an image extension (for example .jpg, .png, .bmp, .webp, .gif).</string>
     <string name="alert_nothing_to_save">There is nothing to save.</string>
+    <string name="alert_nothing_to_download">There is nothing to download.</string>
     <string name="dialog_select_prompt">Choose a picture from camera or gallery, or enter an image URL.</string>
     <string name="dialog_select_camera">Camera</string>
     <string name="dialog_select_camera_scan">Scan Mode</string>
@@ -81,6 +83,11 @@
     <string name="cannot_analyze_now">Something has gone wrong. Some features require an internet connection. Make sure your connection is active and image isn\'t corrupted or try again later.</string>
     <string name="api_request_failed">\nAPI request failed. If the problem persists, make sure to update the App to latest official version available on Google Play.</string>
     <string name="translation_fail">Translation engine not ready.</string>
+    <string name="num_download_files">Numbers of files to download:</string>
+    <string name="hide">Hide</string>
+    <string name="stop">Stop</string>
+    <string name="downloaded_file">Downloaded file</string>
+    <string name="download_file_error">Download file error</string>
     <!-- End General messages and warning section -->
 
     <!-- Element detection section -->
@@ -92,7 +99,7 @@
 
     <!-- Web detection section -->
     <string name="web_detector">Web Image Detector</string>
-    <string name="web_detector_description">Web image detector allows you to find info about the image searching the Internet for similar images and related links.\n\nUse action button to load an image.</string>
+    <string name="web_detector_description">Web image detector allows you to find info about the image, searching the Internet for similar images and related web pages, and guessing the content according the grabbed information. This feature provides you the related labels, links of the involved web pages, showing matching and visually similar images (if available), allowing you to save also the respective links or the image files.\n\nUse action button to load an image.</string>
     <string name="detection_web_success">Matches found (tap to search info, long tap to copy to clipboard):</string>
     <string name="detection_web_links">&#9668; Webpages with matched images (click to open): &#9658;</string>
     <string name="matching_images_links">&#9668; Matching images (click to open): &#9658;</string>
@@ -100,7 +107,10 @@
     <string name="matching_web_pages">Web pages with matched images:</string>
     <string name="matching_images">Matching images:</string>
     <string name="similar_images">Similar images:</string>
+    <string name="toggle_links_details">Toggle links details.</string>
     <string name="detection_web_fail">-> Ops! Cannot identify any match for this picture.</string>
+    <string name="images_download">Images download.</string>
+    <string name="categories_to_download">Select categories to download.</string>
     <!-- End Web detection section -->
 
     <!-- OCR section -->
@@ -234,7 +244,7 @@
     <string name="spoof">-> SPOOF:</string>
     <string name="risk_analysis_summary">Risk likelihood summary:</string>
     <string name="risk_detected">WARNING! A risk factor has been detected. The upload of this picture could cause ban and censorship in many social networks and communities. Pay attention.</string>
-    <string name="no_risk_detected">Automatic analysis has no detected risks.</string>
+    <string name="no_risk_detected">Automatic analysis hasn\'t detected risks.</string>
     <!-- End Censorship meter section -->
 
     <!-- EXIF info section -->
@@ -269,4 +279,5 @@
     <string name="premium_gold">Gold Subscription</string>
     <string name="premium_gold_content">Gold Subscription Button</string>
     <string name="premium_gold_description">Yearly premium subscription allows you to disable all ads and limitations for the best user experience possible. Yearly Gold subscription is cheaper than 12 months of Silver subscription.</string>
+    <!-- End Billing section -->
 </resources>
