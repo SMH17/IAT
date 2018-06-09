@@ -11,6 +11,7 @@
     <string name="done">Fatto</string>
     <string name="yes">Conferma</string>
     <string name="no">No</string>
+    <string name="next">Continua</string>
     <string name="undo">Annulla</string>
     <string name="communicate">Comunica</string>
     <string name="contact_us">Contattaci</string>
@@ -18,7 +19,7 @@
     <string name="current_value">Valore corrente:</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permission">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.0.1 Test\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore. Per informazioni aggiuntive sul copyright contattaci.</string>
+    <string name="info_text">Versione 0.2.6 SR 72\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore. Per informazioni aggiuntive sul copyright contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="report_bug_subject">Bug Report Image Analysis Toolset</string>
 
@@ -36,16 +37,18 @@
     <string name="alert_setting_title">Impostazioni</string>
     <string name="alert_setting_text">Inserisci il massimo numero di elementi. Un valore elevato consente di visualizzare un maggior numero di risultati ma i risultati extra avranno un tasso di corrispondenza minore.\nValore di default: 10,</string>
     <string name="alert_setting_quality">Imposta qualit&#224; identificazione (valore predefinito: 1200). Un livello alto pu&#242; produrre risultati pi&#249; accurati ma &#232; pi&#249; lento.\nLivello qualit&#224;:</string>
+    <string name="use_element_detection_cloud">Usa Cloud per identificazione elementi accurata</string>
     <string name="use_ocr_cloud">Usa Cloud per identificazione accurata testo</string>
     <string name="use_face_detection_cloud">Usa Cloud per rilevamento accurato volti</string>
     <string name="enable_detector_localization">Abilita traduzione risultati</string>
-    <string name="alert_setting_barcodescan">Opzioni Identificatore barcode in modalit&#224; scansione:</string>
+    <string name="alert_setting_realtime">Opzioni Identificatore in tempo reale:</string>
     <string name="use_filtering">Usa Filtro Interpolante</string>
     <string name="show_detection_markers">Mostra marcatori d\'identificazione</string>
     <string name="use_auto_focus">Auto Focus</string>
     <string name="use_flash">Usa Flash</string>
     <string name="autoreturn_barcode">Ritorno automatico se barcode trovato</string>
     <string name="enable_tts">Lettura vocale dei risultati</string>
+    <string name="custom_model_name">Il nome di un modello TF-Lite da usare per l\'identificatore personalizzato.</string>
     <!-- End Setting section -->
 
     <!-- General messages and warning section -->
@@ -60,7 +63,8 @@
     <string name="alert_detector_dependencies_missing">L\'identificatore ha bisogno di alcune dipendenze non presenti sul tuo dispositivo. Se sono disponibili verranno presto caricate.</string>
     <string name="low_storage_error">Impossibile caricare alcune dipendenze necessarie perch&#233; la memoria &#232; troppo piena.</string>
     <string name="detector_not_ready">L\'identificatore locale non &#232; pronto.</string>
-    <string name="alert_adblocker">Sul tuo dispositivo &#232; stato rilevato un AdBlocker. Sviluppare e mantenere questa App ha richiesto e richiede risorse, tempo e denaro. Non possiamo fornire tutto questo gratis se gli utenti bloccano gli sponsor. I comandi dell\'App adesso sono disabilitati. Disabilita l\'AdBlocker se vuoi usare la modalit&#224; gratuita, o in alternativa, acquista una sottoscrizione premium.</string>
+    <string name="alert_not_again">Non mostrare pi&#249;.</string>
+    <string name="alert_adblocker">Sul tuo dispositivo &#232; stato rilevato un AdBlocker globale. Sviluppare e mantenere questa App ha richiesto e richiede risorse, tempo e denaro. Non possiamo fornire tutto questo totalmente gratis se gli utenti bloccano pure gli sponsor. I comandi dell\'App adesso sono disabilitati. Disabilita l\'AdBlocker (o aggiungi l\'App alle eccezioni di blocco) se vuoi usare la modalit&#224; gratuita, o in alternativa, acquista una sottoscrizione Premium.</string>
     <string name="alert_no_web_search">Risultato copiato negli appunti\nSul tuo dispositivo non sono stati rilevati assistenti di ricerca supportati. Installa un assistente di ricerca supportato (come ad esempio Ricerca Google) per abilitare la funzione di ricerca integrata.</string>
     <string name="alert_no_open_url">Risultato copiato negli appunti\nSul tuo dispositivo non sono stati rilevati web browser supportati. Installa un web browser supportato(come ad esempio Chrome, Firefox) per abilitare l\'apertura diretta dei link.</string>
     <string name="alert_camera_intent_error">Il tuo dispositivo non sembra in grado di gestire la funzione Camera Intent correttamente.\nAggiorna il sistema a una versione pi&#249; recente di Android o installa dallo store un\'app camera con supporto migliore alle funzioni Camera Intent.</string>
@@ -88,13 +92,39 @@
     <string name="stop">Ferma</string>
     <string name="downloaded_file">Scaricato file</string>
     <string name="download_file_error">Errore scaricamento file</string>
+    <string name="detection_recovery_mode_error">[L\'identificazione &#232; passata in automatico in modalit&#224; offline a causa di un errore durante il tentativo di contattare il Cloud.]</string>
+    <string name="detection_recovery_mode_fail">[L\'identificazione &#232; passata in automatico in modalit&#224; offline perch&#233; il rilevamento con Cloud &#232; fallito.]</string>
     <!-- End General messages and warning section -->
+
+    <!-- Realtime section -->
+    <string name="realtime_detector">Analisi Realtime</string>
+    <string name="realtime_detector_description">L\'Analisi Realtime consente l\'identificazione degli elementi scansionando l\'ambiente in tempo reale senza uso della connessione internet. Dato che questa funzione utilizza modelli neurali semplificati per poter lavorare con le limitate risorse del tuo dispositivo mobile, l\'accuratezza non potr&#224; essere lontanamente paragonabile all\'identificazione basata su cloud. Se necessiti di maggior precisione, usa le altre funzioni dedicate.</string>
+    <string name="toggle_camera_description">Scambia Camera Frontale-Posteriore</string>
+    <string name="toggle_flash_description">Abilita-Disabilita flash</string>
+    <string name="toggle_vocal_output_description">Abilita-Disabilita lettura vocale dei risultati</string>
+    <string name="feature_spinner_description">Seleziona la funzione d\'identificazione desiderata</string>
+    <string name="custom">Personalizzato</string>
+    <string name="elements">Elementi</string>
+    <string name="elements_cloud">Elementi [Cloud]</string>
+    <string name="text">Testo</string>
+    <string name="text_cloud">Testo [Cloud]</string>
+    <string name="documents">Documenti [Cloud]</string>
+    <string name="faces">Volti</string>
+    <string name="faces_cloud">Volti [Cloud]</string>
+    <string name="barcode">Codici</string>
+    <string name="landmarks">Landmark [Cloud]</string>
+    <string name="alart_custom_models_info">Questa funzione permette agli utenti avanzati di usare un modello d\'identificazione personalizzato per individuare elementi. I modelli supportati devono essere in formato compatibile con TensorFlow Lite e costituiti da due file con stesso nome ma estensione .tflite (per il modello) e .txt (per le relative etichette). I modelli personalizzati vanno collocati nella cartella TFModel e configurati nel menu impostazioni. Se non &#232; stato configurato alcun modello, IAT user&#224; un modello predefinito. Leggi la documentazione per ulteriori dettagli.</string>
+    <string name="alert_cannot_load_model">Il modello configurato per l\'identificatore personalizzato non può essere caricato. Pertanto &#232; stato caricato il modello di default.</string>
+    <string name="realtime_engine_error">Errore Realtime Engine</string>
+    <!-- Realtime section -->
 
     <!-- Element detection section -->
     <string name="element_detector">Identificatore Elementi</string>
     <string name="element_detector_description">L\'identificatore elementi ti permette d\'identificare gli elementi presenti in un\'immagine, per consentirti di trovare informazioni a riguardo. Le categorie supportate sono molto ampie e spaziano da oggetti inanimati a piante ed animali.\n\nUsa il pulsante in basso per selezionare un\'immagine.</string>
     <string name="detection_success">Elementi identificati (clicca per cercare informazioni, tieni premuto per copiare negli appunti):</string>
     <string name="detection_fail">-> Ops! Non &#232; stato possibile identificare alcun elemento.</string>
+    <string name="detection_offline_success">Elementi identificati in modalit&#224; locale (tieni premuto per copiare negli appunti):</string>
+    <string name="detection_offline_fail">-> Ops! Non &#232; stato possibile identificare alcun elemento.\n\nAdesso sei in modalit&#224; locale, con una connessione internet attiva puoi ottenere risultati migliori.</string>
      <!-- End Element detection section -->
 
     <!-- Web detection section -->
@@ -120,8 +150,6 @@
     <string name="detection_ocr_offline_success">Testo identificato in modalit&#224; locale (clicca per copiare negli appunti):</string>
     <string name="detection_ocr_fail">-> Ops! Non &#232; stato possibile identificare alcun testo.</string>
     <string name="detection_ocr_fail_offline">-> Ops! Non &#232; stato possibile identificare alcun testo.\n\nAdesso sei in modalit&#224; locale, con una connessione internet attiva puoi ottenere risultati migliori.</string>
-    <string name="detection_recovery_mode_error">[L\'identificazione &#232; passata in automatico in modalit&#224; offline a causa di un errore durante il tentativo di contattare il Cloud.]</string>
-    <string name="detection_recovery_mode_fail">[L\'identificazione &#232; passata in automatico in modalit&#224; offline perch&#233; il rilevamento con Cloud &#232; fallito.]</string>
     <string name="ocr_mode">Modalit&#224; OCR</string>
     <string name="target_language">Linguaggio da identificate</string>
     <string name="language">Lingua:</string>
@@ -220,8 +248,6 @@
     <string name="dialog_select_prompt_barcode">Seleziona un\'immagine da fotocamera o galleria, oppure entra in modalit&#224; scansione.</string>
     <string name="barcode_detector_success">Dati codice a barre identificati (clicca per copiare negli appunti, tieni premuto per cercare informazioni):</string>
     <string name="barcode_detector_fail">-> Ops! Non &#232; stato possibile identificare alcun codice a barre.</string>
-    <string name="barcode_scan_info">Quando il codice viene rilevato vedrai dei marcatori in sovraimpressione.\nDopo il rilevamento clicca per chiudere la scansione e copiare le informazioni identificate, se non hai attivato il ritorno automatico.</string>
-    <string name="camera_scan_info">Clicca per catturare. Pizzica e allarga o stringi per zoomare.</string>
     <string name="barcode_error">"-> Errore di lettura codice: %1$s"</string>
     <!-- End Barcode detector section -->
 

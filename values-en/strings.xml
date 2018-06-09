@@ -11,6 +11,7 @@
     <string name="done">Done</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
+    <string name="next">Continue</string>
     <string name="undo">Undo</string>
     <string name="communicate">Communicate</string>
     <string name="contact_us">Contact Us</string>
@@ -18,7 +19,7 @@
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permission">Permissions not enough. Give to the App the needed permission.</string>
-    <string name="info_text">Version 0.0.1 Test\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author. For additional info about copyright contact us.</string>
+    <string name="info_text">Version 0.2.6 SR 72\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author. For additional info about copyright contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="report_bug_subject">Bug Report Image Analysis Toolset</string>
 
@@ -36,16 +37,18 @@
     <string name="alert_setting_title">Settings</string>
     <string name="alert_setting_text">Input the max number of elements, an higher number will allow you to see more results, however the additional results have a less likely match ratio.\nDefault value: 10,</string>
     <string name="alert_setting_quality">Set the detection quality level (default value: 1200). An higher value could produce more accurate results but is slower.\nQuality value:</string>
+    <string name="use_element_detection_cloud">Use Cloud for accurate element detection</string>
     <string name="use_ocr_cloud">Use Cloud for accurate text detection</string>
     <string name="use_face_detection_cloud">Use Cloud for accurate face detection</string>
     <string name="enable_detector_localization">Enable detector translation</string>
-    <string name="alert_setting_barcodescan">Options for barcode detector in scan mode:</string>
+    <string name="alert_setting_realtime">Options for real time detection:</string>
     <string name="use_filtering">Use Interpolation Filter</string>
     <string name="show_detection_markers">Show Detection Markers</string>
     <string name="use_auto_focus">Auto Focus</string>
     <string name="use_flash">Use Flash</string>
     <string name="autoreturn_barcode">Auto-return on barcode detection</string>
     <string name="enable_tts">Speak out loud results</string>
+    <string name="custom_model_name">The name of a valid TF-Lite model in TFModels folder to use as Custom detection.</string>
     <!-- End Setting section -->
 
     <!-- General messages and warning section -->
@@ -60,7 +63,8 @@
     <string name="alert_detector_dependencies_missing">Detector dependencies are not yet available. If there is a supported version will be installed soon.</string>
     <string name="low_storage_error">Detector dependencies cannot be downloaded due to low device storage.</string>
     <string name="detector_not_ready">Local detector not yet ready.</string>
-    <string name="alert_adblocker">In your device has been detected an AdBlocker. Developing and maintaining this App requires resources, time and expenses. We cannot provide all this for free if you block even the Ads. The commands of the App are now disabled. Disable AdBlocker if you want to use the free mode, or alternatively, purchase a premium subscription.</string>
+    <string name="alert_not_again">Don\'t show again.</string>
+    <string name="alert_adblocker">In your device has been detected a global AdBlocker. Developing and maintaining this App requires resources, time and expenses. We cannot provide all this for free if you block even the Ads. The commands of the App are now disabled. Disable AdBlocker (or whitelist this App) if you want to use the free mode, or alternatively, purchase a Premium subscription.</string>
     <string name="alert_no_web_search">Result copied to clipboard.\nNo supported search assistants found on your device. Install a supported search assistant (e.g. Google Search) to enable integrated search feature.</string>
     <string name="alert_no_open_url">Result copied to clipboard.\nNo supported web browsers found on your device. Install a supported web browser(e.g. Chrome or Firefox) to enable direct url opening feature.</string>
     <string name="alert_camera_intent_error">Your device cannot handle Camera Intent correctly.\nUpdate your Android version to a newer release or install a camera app with a newer Camera Intent support.</string>
@@ -88,13 +92,39 @@
     <string name="stop">Stop</string>
     <string name="downloaded_file">Downloaded file</string>
     <string name="download_file_error">Download file error</string>
+    <string name="detection_recovery_mode_error">[The detection switched automatically to local mode due to an error during the attempt to use the Cloud.]</string>
+    <string name="detection_recovery_mode_fail">[The detection switched automatically to local mode because Cloud based detection failed.]</string>
     <!-- End General messages and warning section -->
+
+    <!-- Realtime section -->
+    <string name="realtime_detector">Realtime Detector</string>
+    <string name="realtime_detector_description">The Realtime Detector allows you to detect elements on fly without internet connection. Since this feature uses much simpler neural network models to run with the limited capabilities of mobile devices, the accuracy cannot be in any way comparable to the Cloud based detection. If you need more accuracy, use the others dedicated features.</string>
+    <string name="toggle_camera_description">Toggle Front-Back Camera</string>
+    <string name="toggle_flash_description">Start-Stop Flash Light</string>
+    <string name="toggle_vocal_output_description">Start-Stop Listen Result</string>
+    <string name="feature_spinner_description">Select the desired identification feature</string>
+    <string name="custom">Custom</string>
+    <string name="elements">Elements</string>
+    <string name="elements_cloud">Elements [Cloud]</string>
+    <string name="text">Text</string>
+    <string name="text_cloud">Text [Cloud]</string>
+    <string name="documents">Documents [Cloud]</string>
+    <string name="faces">Faces</string>
+    <string name="faces_cloud">Faces [Cloud]</string>
+    <string name="barcode">Barcode</string>
+    <string name="landmarks">Landmarks [Cloud]</string>
+    <string name="alart_custom_models_info">This function allows advanced users to use a custom detection model to detect elements. The supported models must be in TensorFlow Lite compatible format and consist of two files with the same name but extension .tflite (for the model) and .txt (for the related labels). The custom models must be placed in TFModel folder and then configured in the setting menu. If no custom model has been configured, IAT will use a default model. Read documentation for details.</string>
+    <string name="alert_cannot_load_model">The configured model for the Custom detector cannot be used, detection has been switched to default model.</string>
+    <string name="realtime_engine_error">Realtime Engine Error</string>
+    <!-- Realtime section -->
 
     <!-- Element detection section -->
     <string name="element_detector">Element Detector</string>
     <string name="element_detector_description">Element detector allows you to identify elements within an image, to find information about them. It supports broad sets of categories ranging from inanimate objects to plants and animals.\n\nUse action button to load an image.</string>
     <string name="detection_success">Detected elements (tap to search info, long tap to copy to clipboard):</string>
     <string name="detection_fail">-> Ops! Cannot identify any element in this picture.</string>
+    <string name="detection_offline_success">Detected elements in offline mode (tap to copy to clipboard):</string>
+    <string name="detection_offline_fail">-> Ops! Cannot identify any element in this picture.\n\nYou are in local mode, with an internet connection active you can get better results.</string>
     <!-- End Element detection section -->
 
     <!-- Web detection section -->
@@ -120,8 +150,6 @@
     <string name="detection_ocr_offline_success">Detected text in offline mode (tap to copy to clipboard):</string>
     <string name="detection_ocr_fail">-> Ops! Cannot identify any text in this picture.</string>
     <string name="detection_ocr_fail_offline">-> Ops! Cannot identify any text in this picture.\n\nYou are in local mode, with an internet connection active you can get better results.</string>
-    <string name="detection_recovery_mode_error">[The detection switched automatically to local mode due to an error during the attempt to use the Cloud.]</string>
-    <string name="detection_recovery_mode_fail">[The detection switched automatically to local mode because Cloud based detection failed.]</string>
     <string name="ocr_mode">Ocr mode</string>
     <string name="target_language">Target language</string>
     <string name="language">Language:</string>
@@ -221,8 +249,6 @@
     <string name="barcode_detector_success">Barcode data detected (tap to copy to clipboard, long tap to search info):</string>
     <string name="barcode_detector_fail">-> Ops! Cannot identify any barcode in this picture.</string>
     <string name="barcode_error">"-> Error reading barcode:"</string>
-    <string name="barcode_scan_info">When code is detected you will see a tracker overlay.\nAfter the detection, tap to close scan and capture detected info, if you haven\'t enabled auto-return.</string>
-    <string name="camera_scan_info">Tap to capture. Pinch/Stretch to zoom.</string>
     <!-- End Barcode detector section -->
 
     <!-- Colorimeter section -->
