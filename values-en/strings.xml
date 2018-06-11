@@ -1,4 +1,7 @@
 <resources>
+    <string name="app_name" translatable="false">ImageAnalysisToolset</string>
+    <string name="app_name_short" translatable="false">&#60;o&#62; IAT &#60;o&#62;</string>
+    <string name="app_name_integral" translatable="false">ImageAnalysisToolset (IAT)</string>
     <string name="app_description">Your cybernetic eye</string>
     <string name="locale_language">en</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -19,7 +22,7 @@
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permission">Permissions not enough. Give to the App the needed permission.</string>
-    <string name="info_text">Version 0.2.6 SR 72\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author. For additional info about copyright contact us.</string>
+    <string name="info_text">Version 0.2.6 SR 73\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author. For additional info about copyright contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="report_bug_subject">Bug Report Image Analysis Toolset</string>
 
@@ -46,8 +49,9 @@
     <string name="show_detection_markers">Show Detection Markers</string>
     <string name="use_auto_focus">Auto Focus</string>
     <string name="use_flash">Use Flash</string>
-    <string name="autoreturn_barcode">Auto-return on barcode detection</string>
+    <string name="autoreturn_barcode">Auto-return barcode in scan mode</string>
     <string name="enable_tts">Speak out loud results</string>
+    <string name="enable_rtm_output_file">Output results on file</string>
     <string name="custom_model_name">The name of a valid TF-Lite model in TFModels folder to use as Custom detection.</string>
     <!-- End Setting section -->
 
@@ -237,6 +241,7 @@
     <string name="height">Height</string>
     <string name="rotation">Rotation</string>
     <string name="maxillofacial_armony_score">Maxillofacial harmony</string>
+    <string name="happiness">Happiness</string>
     <string name="is_smiling_probability">Is smiling probability</string>
     <string name="is_left_eye_open_probability">Is left eye opened probability</string>
     <string name="is_right_eye_open_probability">Is right eye opened probability</string>

@@ -19,7 +19,7 @@
     <string name="current_value">Valore corrente:</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permission">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.2.6 SR 72\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore. Per informazioni aggiuntive sul copyright contattaci.</string>
+    <string name="info_text">Versione 0.2.6 SR 73\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore. Per informazioni aggiuntive sul copyright contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="report_bug_subject">Bug Report Image Analysis Toolset</string>
 
@@ -46,8 +46,9 @@
     <string name="show_detection_markers">Mostra marcatori d\'identificazione</string>
     <string name="use_auto_focus">Auto Focus</string>
     <string name="use_flash">Usa Flash</string>
-    <string name="autoreturn_barcode">Ritorno automatico se barcode trovato</string>
+    <string name="autoreturn_barcode">Auto-ritorno in scansione barcode</string>
     <string name="enable_tts">Lettura vocale dei risultati</string>
+    <string name="enable_rtm_output_file">Scrivi risultati su file</string>
     <string name="custom_model_name">Il nome di un modello TF-Lite da usare per l\'identificatore personalizzato.</string>
     <!-- End Setting section -->
 
@@ -237,6 +238,7 @@
     <string name="height">Altezza</string>
     <string name="rotation">Rotazione</string>
     <string name="maxillofacial_armony_score">Armonia maxillofacciale</string>
+    <string name="happiness">Felicit&#224;</string>
     <string name="is_smiling_probability">Probabilit&#224; sorriso</string>
     <string name="is_left_eye_open_probability">Probabilit&#224; occhio sinistro aperto</string>
     <string name="is_right_eye_open_probability">Probabilit&#224; occhio destro aperto</string>
