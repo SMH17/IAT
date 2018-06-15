@@ -22,7 +22,7 @@
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permission">Permissions not enough. Give to the App the needed permission.</string>
-    <string name="info_text">Version 0.2.6 SR 73\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author. For additional info about copyright contact us.</string>
+    <string name="info_text">Version 0.2.6 SR 75\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author. For additional info about copyright contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="report_bug_subject">Bug Report Image Analysis Toolset</string>
 
@@ -52,6 +52,7 @@
     <string name="autoreturn_barcode">Auto-return barcode in scan mode</string>
     <string name="enable_tts">Speak out loud results</string>
     <string name="enable_rtm_output_file">Output results on file</string>
+    <string name="speak_best">Speak out loud best results only</string>
     <string name="custom_model_name">The name of a valid TF-Lite model in TFModels folder to use as Custom detection.</string>
     <!-- End Setting section -->
 
@@ -86,7 +87,7 @@
     <string name="select_photo">"Select a photo</string>
     <string name="image_details_header">Details:</string>
     <string name="image_preview_header">Preview:</string>
-    <string name="loading_message">Analysis in progress... Please wait.</string>
+    <string name="loading_message">Analysis in progress&#8230; Please wait.</string>
     <string name="nothing_to_speech">Analyze a picture before using this function.</string>
     <string name="cannot_analyze_now">Something has gone wrong. Some features require an internet connection. Make sure your connection is active and image isn\'t corrupted or try again later.</string>
     <string name="api_request_failed">\nAPI request failed. If the problem persists, make sure to update the App to latest official version available on Google Play.</string>

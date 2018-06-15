@@ -19,7 +19,7 @@
     <string name="current_value">Valore corrente:</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permission">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.2.6 SR 73\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore. Per informazioni aggiuntive sul copyright contattaci.</string>
+    <string name="info_text">Versione 0.2.6 SR 75\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore. Per informazioni aggiuntive sul copyright contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="report_bug_subject">Bug Report Image Analysis Toolset</string>
 
@@ -49,6 +49,7 @@
     <string name="autoreturn_barcode">Auto-ritorno in scansione barcode</string>
     <string name="enable_tts">Lettura vocale dei risultati</string>
     <string name="enable_rtm_output_file">Scrivi risultati su file</string>
+    <string name="speak_best">Solo risultati migliori in lettura vocale</string>
     <string name="custom_model_name">Il nome di un modello TF-Lite da usare per l\'identificatore personalizzato.</string>
     <!-- End Setting section -->
 
@@ -83,7 +84,7 @@
     <string name="select_photo">Seleziona una foto</string>
     <string name="image_details_header">Dettagli:</string>
     <string name="image_preview_header">Anteprima</string>
-    <string name="loading_message">Analisi in corso... Attendere prego.</string>
+    <string name="loading_message">Analisi in corso&#8230; Attendere prego.</string>
     <string name="nothing_to_speech">Analizza un\'immagine prima di usare questa funzione.</string>
     <string name="cannot_analyze_now">Qualcosa &#232; andato storto. Assicurati che la connessione sia attiva e l\'immagine non sia corrotta oppure riprova di nuovo pi&#249; tardi.</string>
     <string name="api_request_failed">\nFallita richiesta API. Se il problema persiste, assicurati di aggiornare l\'App all\'ultima versione ufficiale disponibile su Google Play.</string>
