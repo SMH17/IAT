@@ -65,6 +65,7 @@
         <item>AUTO MODE</item>
         <item>Generic Text</item>
         <item>Dense Document</item>
+        <item>Handwriting</item>
     </string-array>
 
 </resources>

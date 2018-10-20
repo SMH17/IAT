@@ -19,9 +19,10 @@
     <string name="current_value">Valore corrente:</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permission">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.2.6 SR 75\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore. Per informazioni aggiuntive sul copyright contattaci.</string>
+    <string name="info_text">Versione 0.2.7 SR 84\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore. Per informazioni aggiuntive sul copyright contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="report_bug_subject">Bug Report Image Analysis Toolset</string>
+    <string name="faq_url">https://sites.google.com/view/iat-app/home/faq</string>
 
     <!-- Action bar section -->
     <string name="action_home">Home</string>
@@ -156,6 +157,7 @@
     <string name="target_language">Linguaggio da identificate</string>
     <string name="language">Lingua:</string>
     <string name="translate_to_my_language">Traduci risultato nella mia lingua</string>
+    <string name="original_text">TESTO ORIGINALE:</string>
     <!-- End OCR section -->
 
     <!-- Logo detection section -->

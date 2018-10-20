@@ -22,9 +22,10 @@
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permission">Permissions not enough. Give to the App the needed permission.</string>
-    <string name="info_text">Version 0.2.6 SR 75\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author. For additional info about copyright contact us.</string>
+    <string name="info_text">Version 0.2.7 SR 84\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author. For additional info about copyright contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="report_bug_subject">Bug Report Image Analysis Toolset</string>
+    <string name="faq_url">https://sites.google.com/view/iat-app/home/faq</string>
 
     <!-- Action bar section -->
     <string name="action_home">Home</string>
@@ -159,6 +160,7 @@
     <string name="target_language">Target language</string>
     <string name="language">Language:</string>
     <string name="translate_to_my_language">Translate result to my language</string>
+    <string name="original_text">ORIGINAL TEXT:</string>
     <!-- End OCR section -->
 
     <!-- Logo detection section -->
@@ -312,4 +314,5 @@
     <string name="premium_gold_content">Gold Subscription Button</string>
     <string name="premium_gold_description">Yearly premium subscription allows you to disable all ads and limitations for the best user experience possible. Yearly Gold subscription is cheaper than 12 months of Silver subscription.</string>
     <!-- End Billing section -->
+
 </resources>
