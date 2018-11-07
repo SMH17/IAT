@@ -19,10 +19,11 @@
     <string name="communicate">Communicate</string>
     <string name="contact_us">Contact Us</string>
     <string name="share">Share</string>
+    <string name="type">Type</string>
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permission">Permissions not enough. Give to the App the needed permission.</string>
-    <string name="info_text">Version 0.2.7 SR 84\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author. For additional info about copyright contact us.</string>
+    <string name="info_text">Version 0.2.7 SR 85\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="report_bug_subject">Bug Report Image Analysis Toolset</string>
     <string name="faq_url">https://sites.google.com/view/iat-app/home/faq</string>
@@ -54,7 +55,12 @@
     <string name="enable_tts">Speak out loud results</string>
     <string name="enable_rtm_output_file">Output results on file</string>
     <string name="speak_best">Speak out loud best results only</string>
-    <string name="custom_model_name">The name of a valid TF-Lite model in TFModels folder to use as Custom detection.</string>
+    <string name="custom_model_name">Specify the name of a valid TF-Lite model in TFModels folder configuring type and parameters, to use as Custom detection.</string>
+    <string name="model_name">Model name</string>
+    <string name="model_batch_size">Batch size</string>
+    <string name="model_dim_x">Image size X</string>
+    <string name="model_dim_y">Image size Y</string>
+    <string name="model_pixel_size">Pixel size</string>
     <!-- End Setting section -->
 
     <!-- General messages and warning section -->

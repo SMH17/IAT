@@ -16,10 +16,11 @@
     <string name="communicate">Comunica</string>
     <string name="contact_us">Contattaci</string>
     <string name="share">Condividi</string>
+    <string name="type">Tipo</string>
     <string name="current_value">Valore corrente:</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permission">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.2.7 SR 84\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore. Per informazioni aggiuntive sul copyright contattaci.</string>
+    <string name="info_text">Versione 0.2.7 SR 85\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="report_bug_subject">Bug Report Image Analysis Toolset</string>
     <string name="faq_url">https://sites.google.com/view/iat-app/home/faq</string>
@@ -51,7 +52,12 @@
     <string name="enable_tts">Lettura vocale dei risultati</string>
     <string name="enable_rtm_output_file">Scrivi risultati su file</string>
     <string name="speak_best">Solo risultati migliori in lettura vocale</string>
-    <string name="custom_model_name">Il nome di un modello TF-Lite da usare per l\'identificatore personalizzato.</string>
+    <string name="custom_model_name">Specifica il nome di un modello TF-Lite da usare per l\'identificatore personalizzato, configurando il rispettivo tipo e i parametri.</string>
+    <string name="model_name">Nome modello</string>
+    <string name="model_batch_size">Dimensione batch</string>
+    <string name="model_dim_x">Dimensione X immagine</string>
+    <string name="model_dim_y">Dimensione Y immagine</string>
+    <string name="model_pixel_size">Dimensione pixel</string>
     <!-- End Setting section -->
 
     <!-- General messages and warning section -->

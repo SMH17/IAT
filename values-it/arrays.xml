@@ -68,4 +68,9 @@
         <item>Manoscritto</item>
     </string-array>
 
+    <string-array name="model_type">
+        <item>Float</item>
+        <item>Quantizzato</item>
+    </string-array>
+
 </resources>
