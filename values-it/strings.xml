@@ -20,7 +20,7 @@
     <string name="current_value">Valore corrente:</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permission">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.2.7 SR 85\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
+    <string name="info_text">Versione 0.2.7 SR 86\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="report_bug_subject">Bug Report Image Analysis Toolset</string>
     <string name="faq_url">https://sites.google.com/view/iat-app/home/faq</string>
@@ -95,7 +95,7 @@
     <string name="nothing_to_speech">Analizza un\'immagine prima di usare questa funzione.</string>
     <string name="cannot_analyze_now">Qualcosa &#232; andato storto. Assicurati che la connessione sia attiva e l\'immagine non sia corrotta oppure riprova di nuovo pi&#249; tardi.</string>
     <string name="api_request_failed">\nFallita richiesta API. Se il problema persiste, assicurati di aggiornare l\'App all\'ultima versione ufficiale disponibile su Google Play.</string>
-    <string name="translation_fail">Sistema di traduzione noon pronto.</string>
+    <string name="translation_fail">Sistema di traduzione non pronto.</string>
     <string name="num_download_files">Numero files da scaricare:</string>
     <string name="hide">Nascondi</string>
     <string name="stop">Ferma</string>
@@ -130,6 +130,7 @@
     <!-- Element detection section -->
     <string name="element_detector">Identificatore Elementi</string>
     <string name="element_detector_description">L\'identificatore elementi ti permette d\'identificare gli elementi presenti in un\'immagine, per consentirti di trovare informazioni a riguardo. Le categorie supportate sono molto ampie e spaziano da oggetti inanimati a piante ed animali.\n\nUsa il pulsante in basso per selezionare un\'immagine.</string>
+    <string name="identification_mode">Tipo d\'identificazione</string>
     <string name="detection_success">Elementi identificati (clicca per cercare informazioni, tieni premuto per copiare negli appunti):</string>
     <string name="detection_fail">-> Ops! Non &#232; stato possibile identificare alcun elemento.</string>
     <string name="detection_offline_success">Elementi identificati in modalit&#224; locale (tieni premuto per copiare negli appunti):</string>

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string-array name="identification_mode">
+        <item>AUTO MODE</item>
+        <item>Identification</item>
+        <item>Multi Localization</item>
+    </string-array>
+
     <string-array name="language_hints">
         <item>AUTO LANG</item>
         <item>Afrikaans</item>
