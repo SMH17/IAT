@@ -20,7 +20,7 @@
     <string name="current_value">Valore corrente:</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permission">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.2.8 SR 86\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
+    <string name="info_text">Versione 0.2.8 SR 90\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="report_bug_subject">Bug Report Image Analysis Toolset</string>
     <string name="faq_url">https://sites.google.com/view/iat-app/home/faq</string>
@@ -62,6 +62,7 @@
 
     <!-- General messages and warning section -->
     <string name="choose_image">Scegli immagine</string>
+    <string name="camera_scan">Modo Scansione</string>
     <string name="edit_image">Edita Immagine</string>
     <string name="edit_image_before_analysis">Edita immagine prima dell\'analisi</string>
     <string name="start_tts">Lettura vocale avviata</string>
@@ -69,8 +70,6 @@
     <string name="tts_error">Impossibile utilizzare funzione TTS</string>
     <string name="alert_copied_values">Copiato negli appunti!</string>
     <string name="alert_saved_values">Risultati salvati su file txt!</string>
-    <string name="alert_detector_dependencies_missing">L\'identificatore ha bisogno di alcune dipendenze non presenti sul tuo dispositivo. Se sono disponibili verranno presto caricate.</string>
-    <string name="low_storage_error">Impossibile caricare alcune dipendenze necessarie perch&#233; la memoria &#232; troppo piena.</string>
     <string name="detector_not_ready">L\'identificatore locale non &#232; pronto.</string>
     <string name="alert_not_again">Non mostrare pi&#249;.</string>
     <string name="alert_adblocker">Sul tuo dispositivo &#232; stato rilevato un AdBlocker globale. Sviluppare e mantenere questa App ha richiesto e richiede risorse, tempo e denaro. Non possiamo fornire tutto questo totalmente gratis se gli utenti bloccano pure gli sponsor. I comandi dell\'App adesso sono disabilitati. Disabilita l\'AdBlocker (o aggiungi l\'App alle eccezioni di blocco) se vuoi usare la modalit&#224; gratuita, o in alternativa, acquista una sottoscrizione Premium.</string>
@@ -87,7 +86,6 @@
     <string name="dialog_select_camera">Fotocamera</string>
     <string name="dialog_select_gallery">Galleria</string>
     <string name="image_picker_error">Impossibile leggere immagine. Immagine non valida o permessi insufficienti.</string>
-    <string name="dialog_select_camera_scan">Modo Scansione</string>
     <string name="select_photo">Seleziona una foto</string>
     <string name="image_details_header">Dettagli:</string>
     <string name="image_preview_header">Anteprima</string>
@@ -257,7 +255,6 @@
     <!-- Barcode detector section -->
     <string name="barcode_detector">Identificatore codici a barre</string>
     <string name="barcode_detector_description">L\'identificatore codici a barre pu&#242; identificare pressoch&#232; tutti i tipi di codice a barre.\nCodici a barre 1D:\nEAN-13, EAN-8, UPC-A, UPC-E, Code-39, Code-93, Code-128, ITF, Codabar.\nCodici a barre 2D:\nQR Code, Data Matrix, PDF-417, AZTEC.\n\nUsa il pulsante in basso per selezionare un\'immagine o entrare in modalit&#224; scansione.</string>
-    <string name="dialog_select_prompt_barcode">Seleziona un\'immagine da fotocamera o galleria, oppure entra in modalit&#224; scansione.</string>
     <string name="barcode_detector_success">Dati codice a barre identificati (clicca per copiare negli appunti, tieni premuto per cercare informazioni):</string>
     <string name="barcode_detector_fail">-> Ops! Non &#232; stato possibile identificare alcun codice a barre.</string>
     <string name="barcode_error">"-> Errore di lettura codice: %1$s"</string>

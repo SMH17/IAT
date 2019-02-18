@@ -23,7 +23,7 @@
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permission">Permissions not enough. Give to the App the needed permission.</string>
-    <string name="info_text">Version 0.2.8 SR 86\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.2.8 SR 90\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="report_bug_subject">Bug Report Image Analysis Toolset</string>
     <string name="faq_url">https://sites.google.com/view/iat-app/home/faq</string>
@@ -65,6 +65,7 @@
 
     <!-- General messages and warning section -->
     <string name="choose_image">Choose image</string>
+    <string name="camera_scan">Scan Mode</string>
     <string name="edit_image">Edit Picture</string>
     <string name="edit_image_before_analysis">Edit picture before analysis</string>
     <string name="start_tts">Start vocal output</string>
@@ -72,8 +73,6 @@
     <string name="tts_error">Cannot use Text to Speech function</string>
     <string name="alert_copied_values">Copied to clipboard!</string>
     <string name="alert_saved_values">Results saved to a local txt file!</string>
-    <string name="alert_detector_dependencies_missing">Detector dependencies are not yet available. If there is a supported version will be installed soon.</string>
-    <string name="low_storage_error">Detector dependencies cannot be downloaded due to low device storage.</string>
     <string name="detector_not_ready">Local detector not yet ready.</string>
     <string name="alert_not_again">Don\'t show again.</string>
     <string name="alert_adblocker">In your device has been detected a global AdBlocker. Developing and maintaining this App requires resources, time and expenses. We cannot provide all this for free if you block even the Ads. The commands of the App are now disabled. Disable AdBlocker (or whitelist this App) if you want to use the free mode, or alternatively, purchase a Premium subscription.</string>
@@ -88,7 +87,7 @@
     <string name="alert_nothing_to_download">There is nothing to download.</string>
     <string name="dialog_select_prompt">Choose a picture from camera or gallery, or enter an image URL.</string>
     <string name="dialog_select_camera">Camera</string>
-    <string name="dialog_select_camera_scan">Scan Mode</string>
+
     <string name="dialog_select_gallery">Gallery</string>
     <string name="image_picker_error">Cannot load this image. Invalid image or insufficient permissions.</string>
     <string name="select_photo">"Select a photo</string>
@@ -260,7 +259,6 @@
     <!-- Barcode detector section -->
     <string name="barcode_detector">Barcode Detector</string>
     <string name="barcode_detector_description">Barcode detector can detect almost all types of barcodes.\n1D barcodes:\nEAN-13, EAN-8, UPC-A, UPC-E, Code-39, Code-93, Code-128, ITF, Codabar.\n2D barcodes:\nQR Code, Data Matrix, PDF-417, AZTEC.\n\nUse action button to load an image or enter in camera scan mode.</string>
-    <string name="dialog_select_prompt_barcode">Choose a picture from camera or gallery, or enter in scan mode.</string>
     <string name="barcode_detector_success">Barcode data detected (tap to copy to clipboard, long tap to search info):</string>
     <string name="barcode_detector_fail">-> Ops! Cannot identify any barcode in this picture.</string>
     <string name="barcode_error">"-> Error reading barcode:"</string>
@@ -321,6 +319,5 @@
     <string name="premium_gold">Gold Subscription</string>
     <string name="premium_gold_content">Gold Subscription Button</string>
     <string name="premium_gold_description">Yearly premium subscription allows you to disable all ads and limitations for the best user experience possible. Yearly Gold subscription is cheaper than 12 months of Silver subscription.</string>
-    <!-- End Billing section -->
 
 </resources>
