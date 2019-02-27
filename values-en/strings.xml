@@ -23,7 +23,7 @@
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permission">Permissions not enough. Give to the App the needed permission.</string>
-    <string name="info_text">Version 0.2.8 SR 93\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.2.8 SR 94\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -89,7 +89,6 @@
     <string name="alert_nothing_to_download">There is nothing to download.</string>
     <string name="dialog_select_prompt">Choose a picture from camera or gallery, or enter an image URL.</string>
     <string name="dialog_select_camera">Camera</string>
-
     <string name="dialog_select_gallery">Gallery</string>
     <string name="image_picker_error">Cannot load this image. Invalid image or insufficient permissions.</string>
     <string name="select_photo">"Select a photo</string>
