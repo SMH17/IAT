@@ -1,7 +1,6 @@
 <resources>
-    <string name="app_name" translatable="false">ImageAnalysisToolset</string>
     <string name="app_name_short" translatable="false">&#60;o&#62; IAT &#60;o&#62;</string>
-    <string name="app_name_integral" translatable="false">ImageAnalysisToolset (IAT)</string>
+    <string name="app_name_long" translatable="false">ImageAnalysisToolset (IAT)</string>
     <string name="app_description">Your cybernetic eye</string>
     <string name="locale_language">en</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -23,11 +22,12 @@
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permission">Permissions not enough. Give to the App the needed permission.</string>
-    <string name="info_text">Version 0.2.8 SR 94\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.2.8 SR 97\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
     <string name="report_bug_subject">Bug Report Image Analysis Toolset</string>
+    <string name="please_wait">Loading. Please wait&#8230;</string>
     <string name="faq_url">https://sites.google.com/view/iat-app/home/faq</string>
 
     <!-- Action bar section -->
@@ -37,7 +37,7 @@
     <string name="action_tts">Start-Stop Listen Result</string>
     <string name="action_settings">Settings</string>
     <string name="action_info">Info</string>
-    <string name="action_unlock">License Options</string>
+    <string name="action_unlock">License</string>
     <!-- Action bar section -->
 
     <!-- Setting section -->
@@ -293,6 +293,7 @@
     <string name="exif_info_description">This feature allows you to load and extract EXIF info from picture files, if available.\nEXIF is a standard for metadata that can include a lot of information as image copyright, the device used, acquisition timestamp, GPS tag data, photo manipulation software used, camera sensor, aperture, focal length, shutter speed, white balance, ISO level etc.\nNote:\nEXIF data often are removed by services that reprocess the image, so you could find null or inconsistent data if you use this function with images downloaded, for example, from Facebook, Whatsapp, Instagram and similar.\n\nUse action button to load an image.</string>
     <string name="exif_info_result_success">EXIF metadata found (tap to copy to clipboard):</string>
     <string name="exif_info_result_fail">-> Ops! Cannot identify any EXIF in this picture.</string>
+    <string name="exif_info_result_error">-> Ops! Cannot identify any EXIF due to an unexpected error.</string>
     <string name="exif_info_not_supported">-> Ops! Your device OS is too old to support latest EXIF API, you need at least Android 4.4 or newer.</string>
     <!-- End EXIF info section -->
 

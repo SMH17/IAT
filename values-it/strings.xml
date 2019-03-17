@@ -20,11 +20,12 @@
     <string name="current_value">Valore corrente:</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permission">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.2.8 SR 94\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
+    <string name="info_text">Versione 0.2.8 SR 97\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="problem_description">DESCRIZIONE PROBLEMA</string>
     <string name="error">ERRORE</string>
     <string name="report_bug_subject">Bug Report Image Analysis Toolset</string>
+    <string name="please_wait">Inizializzazione. Attendere prego&#8230;</string>
     <string name="faq_url">https://sites.google.com/view/iat-app/home/faq</string>
 
     <!-- Action bar section -->
@@ -34,7 +35,7 @@
     <string name="action_tts">Avvia-Ferma Ascolta Risultato</string>
     <string name="action_settings">Impostazioni</string>
     <string name="action_info">Info</string>
-    <string name="action_unlock">Opzioni di Licenza</string>
+    <string name="action_unlock">Licenza</string>
     <!-- End Action bar section -->
 
     <!-- Setting section -->
@@ -290,6 +291,7 @@
     <string name="exif_info_description">Questa funzione ti permette di leggere ed estrapolare le informazioni EXIF dal file d\'immagine, qualora fossero presenti.\nEXIF &#232; uno standard per metadati che possono contenere molte informazioni quali: i dati di copyright dell\'immagine, il dispositivo usato per scattare la foto, l\'ora d\'acquisizione dell\'immagine, il programma di fotoritocco utilizzato, il tipo di sensore della fotocamera, le coordinate dei tag GPS, l\'orientamento, l\'apertura, la velocit&#224; dello scatto, la lunghezza focale, il bilanciamento del bianco, le informazioni di velocit&#224; ISO impostate ecc.\nNota:\nI dati EXIF spesso vengono omessi nei servizi web che applicano riprocessamenti all\'immagine, quindi potresti trovare dati inconsistenti o nulli se usi questa funzione su un\'immagine scaricata ad esempio da Facebook, Whatsapp, Instagram e similari.\n\nUsa il pulsante in basso per selezionare un\'immagine.</string>
     <string name="exif_info_result_success">Metadati EXIF trovati (clicca per copiare negli appunti):</string>
     <string name="exif_info_result_fail">-> Ops! Non &#232; stato possibile identificare le informazioni EXIF.</string>
+    <string name="exif_info_result_error">-> Ops! Non &#232; stato possibile identificare le informazioni EXIF. A causa di un errore inatteso.</string>
     <string name="exif_info_not_supported">-> Ops! Il tuo sistema operativo non supporta la nuove API EXIF, hai bisogno di una versione di Android almeno pari alla 4.4 o pi&#249; recente per usare questa funzione.</string>
     <!-- End EXIF info section -->
 
