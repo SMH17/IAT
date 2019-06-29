@@ -20,7 +20,7 @@
     <string name="current_value">Valore corrente:</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permission">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.2.8 SR 97\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
+    <string name="info_text">Versione 0.2.9 SR 98\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="problem_description">DESCRIZIONE PROBLEMA</string>
     <string name="error">ERRORE</string>
@@ -130,8 +130,8 @@
 
     <!-- Element detection section -->
     <string name="element_detector">Identificatore Elementi</string>
-    <string name="element_detector_description">L\'identificatore elementi ti permette d\'identificare gli elementi presenti in un\'immagine, per consentirti di trovare informazioni a riguardo. Le categorie supportate sono molto ampie e spaziano da oggetti inanimati a piante ed animali.\n\nUsa il pulsante in basso per selezionare un\'immagine.</string>
-    <string name="identification_mode">Tipo d\'identificazione</string>
+    <string name="element_detector_description">L\'identificatore elementi ti permette d\'identificare gli elementi presenti in un\'immagine, per consentirti di trovare informazioni a riguardo. Le categorie supportate sono molto ampie e spaziano da oggetti inanimati a piante ed animali.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
+    <string name="element_identification_mode">Tipo d\'identificazione</string>
     <string name="detection_success">Elementi identificati (clicca per cercare informazioni, tieni premuto per copiare negli appunti):</string>
     <string name="detection_fail">-> Ops! Non &#232; stato possibile identificare alcun elemento.</string>
     <string name="detection_offline_success">Elementi identificati in modalit&#224; locale (tieni premuto per copiare negli appunti):</string>
@@ -140,7 +140,7 @@
 
     <!-- Web detection section -->
     <string name="web_detector">Identificatore Immagini Web</string>
-    <string name="web_detector_description">L\'identificatore immagini web ti permette di ottenere informazioni sull\'immagine cercando in internet immagini simili correlate e i rispettivi siti, e provando a determinare il contenuto in base alle informazioni estrapolate da essi. Questa funzione ti fornisce le parole chiavi associate, i link dei siti dove sono stati rilevati riscontri e le immagini corrispondenti e visivamente simili, permettendoti di salvare i relativi link o scaricare direttamente i file d\'immagine.\n\nUsa il pulsante in basso per selezionare un\'immagine.</string>
+    <string name="web_detector_description">L\'identificatore immagini web ti permette di ottenere informazioni sull\'immagine cercando in internet immagini simili correlate e i rispettivi siti, e provando a determinare il contenuto in base alle informazioni estrapolate da essi. Questa funzione ti fornisce le parole chiavi associate, i link dei siti dove sono stati rilevati riscontri e le immagini corrispondenti e visivamente simili, permettendoti di salvare i relativi link o scaricare direttamente i file d\'immagine.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
     <string name="detection_web_success">Corrispondenze individuate (clicca per cercare informazioni, tieni premuto per copiare negli appunti):</string>
     <string name="detection_web_links">&#9668; Link delle pagine web che presentano corrispondenze (clicca per aprire): &#9658;</string>
     <string name="matching_images_links">&#9668; Immagini corrispondenti (clicca per aprire): &#9658;</string>
@@ -156,7 +156,7 @@
 
     <!-- OCR section -->
     <string name="ocr">Riconoscimento Ottico Testo</string>
-    <string name="ocr_description">Il riconoscimento ottico del testo ti permette di digitalizzare il testo contenuto in un\'immagine.\n\nUsa il pulsante in basso per selezionare un\'immagine e avviare l\'identificazione.\n\nOpzionalmente puoi specificare la modalit&#224; e la lingua del testo da identificare se nota (in alcune circostanze questo migliora i risultati evitando errori dovuti a scorrette interpretazioni della lingua del testo).</string>
+    <string name="ocr_description">Il riconoscimento ottico del testo ti permette di digitalizzare il testo contenuto in un\'immagine.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine e avviare l\'identificazione.\n\nOpzionalmente puoi specificare la modalit&#224; e la lingua del testo da identificare se nota (in alcune circostanze questo migliora i risultati evitando errori dovuti a scorrette interpretazioni della lingua del testo).</string>
     <string name="detection_ocr_success">Testo identificato (clicca per copiare negli appunti, tieni premuto per cercare il contenuto su web):</string>
     <string name="detection_ocr_offline_success">Testo identificato in modalit&#224; locale (clicca per copiare negli appunti):</string>
     <string name="detection_ocr_fail">-> Ops! Non &#232; stato possibile identificare alcun testo.</string>
@@ -170,23 +170,30 @@
 
     <!-- Logo detection section -->
     <string name="logo_detector">Identificatore Loghi e Brand</string>
-    <string name="logo_detector_description">L\'identificazione loghi e brand ti permette d\'individuare i marchi di prodotti o servizi, per cercare informazioni su di essi.\n\nUsa il pulsante in basso per selezionare un\'immagine.</string>
+    <string name="logo_detector_description">L\'identificazione loghi e brand ti permette d\'individuare i marchi di prodotti o servizi, per cercare informazioni su di essi.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
     <string name="detection_logo_fail">-> Ops! Non &#232; stato possibile identificare alcun logo.</string>
     <!-- End Logo detection section -->
 
     <!-- Landmark detection section -->
     <string name="landmark_detector">Identificatore Landmark</string>
-    <string name="landmark_detector_description">L\'identificazione landmark ti permette d\'individuare strutture naturali o artificiali famose, per cercare informazioni su di esse o sul luogo d\'interesse ad esse correlato.\n\nUsa il pulsante in basso per selezionare un\'immagine.</string>
+    <string name="landmark_detector_description">L\'identificazione landmark ti permette d\'individuare strutture naturali o artificiali famose, per cercare informazioni su di esse o sul luogo d\'interesse ad esse correlato.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
     <string name="detection_landmark_success">Landmarks identificati (clicca per cercare informazioni, tieni premuto per copiare negli appunti):</string>
     <string name="detection_landmark_fail">-> Ops! Non &#232; stato possibile identificare alcun landmark.</string>
     <!-- End Landmark detection section -->
 
     <!-- Face Insight section -->
     <string name="face_insight">Rilevamento Facciale</string>
-    <string name="face_insight_description">Consente di rilevare volti all\'interno di un\'immagine, e gli attributi facciali associati. Questa funzione effettua inoltre un\'analisi emotiva per determinare lo stato emotivo del soggetto e in aggiunta &#232; in grado di determinare se il soggetto indossa un copricapo.\n\nUsa il pulsante in basso per selezionare un\'immagine.</string>
+    <string name="face_detection_description">Consente di rilevare volti all\'interno di un\'immagine, e gli attributi facciali associati. Questa funzione effettua inoltre un\'analisi emotiva per determinare lo stato emotivo del soggetto e in aggiunta &#232; in grado di determinare se il soggetto indossa un copricapo.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
+    <string name="face_comparison_description">Compara la somiglianza di 2 volti. Per ottenere un risultato valido, ogni foto deve contenere una sola persona dove tutte le parti del volto (naso, occhi, bocca ecc.) sono ben visibili.\n\nUsa il pulsante rosso in basso per selezionare la prima immagine.</string>
+    <string name="face_celebrity_description">Questa funzione ti permette d\'identificare un volto famoso.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
+    <string name="face_analysis_mode">Tipo d\'analisi</string>
     <string name="face">VOLTO</string>
-    <string name="detection_face_success">Volti individuati (clicca per copiare negli appunti):</string>
-    <string name="detection_face_fail">-> Ops! Non &#232; stato possibile individuare alcun volto.</string>
+    <string name="face_detection_success">Volti individuati (clicca per copiare negli appunti):</string>
+    <string name="face_detection_fail">-> Ops! Non &#232; stato possibile individuare alcun volto.</string>
+    <string name="face_celebrity_success">Individuata elevata similarit&#224; facciale con una celebrit&#224; (clicca per cercare informazioni, tieni premuto per copiare negli appunti):</string>
+    <string name="face_celebrity_fail">-> Non &#232; stato possibile indentificare celebrit&#224; nell\'immagine.</string>
+    <string name="face_comparison_success">Volti comparati (clicca per copiare negli appunti):</string>
+    <string name="face_comparison_fail">-> Ops! Una delle immagini caricate non &#232; abbastanza buona.</string>
     <string name="detection_face_success_offline">Volti individuati in modalit&#224; locale (clicca per copiare negli appunti):</string>
     <string name="detection_face_fail_offline">-> Ops! Non &#232; stato possibile individuare alcun volto.\n\nAdesso sei in modalit&#224; locale, con una connessione internet attiva puoi ottenere risultati migliori.</string>
     <string name="emotional_analysis">Analisi emotiva</string>
@@ -203,6 +210,7 @@
     <string name="roll_angle">Angolo rollio</string>
     <string name="tilt_angle">Angolo inclinazione</string>
     <string name="detection_confidence">Confidenza rilevamento</string>
+    <string name="comparison_confidence">Confidenza comparazione</string>
     <string name="landmarking_confidence">Confidenza marcatura</string>
     <string name="blurred_likelihood">Possibile sfocatura</string>
     <string name="under_exposed_likelihood">Possibile sotto-esposizione</string>
@@ -253,11 +261,13 @@
     <string name="is_smiling_probability">Probabilit&#224; sorriso</string>
     <string name="is_left_eye_open_probability">Probabilit&#224; occhio sinistro aperto</string>
     <string name="is_right_eye_open_probability">Probabilit&#224; occhio destro aperto</string>
+    <string name="resemblance_level">Livello somiglianza</string>
+    <string name="first_image_loaded">-> Prima immagine caricata!\n\nCarca una seconda immagine per la comparazione.</string>
     <!-- End Face Insight section -->
 
     <!-- Barcode detector section -->
     <string name="barcode_detector">Identificatore codici a barre</string>
-    <string name="barcode_detector_description">L\'identificatore codici a barre pu&#242; identificare pressoch&#232; tutti i tipi di codice a barre.\nCodici a barre 1D:\nEAN-13, EAN-8, UPC-A, UPC-E, Code-39, Code-93, Code-128, ITF, Codabar.\nCodici a barre 2D:\nQR Code, Data Matrix, PDF-417, AZTEC.\n\nUsa il pulsante in basso per selezionare un\'immagine o entrare in modalit&#224; scansione.</string>
+    <string name="barcode_detector_description">L\'identificatore codici a barre pu&#242; identificare pressoch&#232; tutti i tipi di codice a barre.\nCodici a barre 1D:\nEAN-13, EAN-8, UPC-A, UPC-E, Code-39, Code-93, Code-128, ITF, Codabar.\nCodici a barre 2D:\nQR Code, Data Matrix, PDF-417, AZTEC.\n\nUsa i pulsanti rossi in basso per selezionare un\'immagine o entrare in modalit&#224; scansione.</string>
     <string name="barcode_detector_success">Dati codice a barre identificati (clicca per copiare negli appunti, tieni premuto per cercare informazioni):</string>
     <string name="barcode_detector_fail">-> Ops! Non &#232; stato possibile identificare alcun codice a barre.</string>
     <string name="barcode_error">"-> Errore di lettura codice: %1$s"</string>
@@ -265,7 +275,7 @@
 
     <!-- Colorimeter section -->
     <string name="colorimeter">Colorimetro</string>
-    <string name="colorimeter_description">Il colorimetro ti permette d\'identificare tutti i colori all\'interno di un\'immagine e vedere la loro rappresentazione in notazione RGB, HSB o HEX. L\'App ti dir&#224; il nome dei colori o, nel caso di colori non comuni che non hanno nome, il nome dei colori pi&#249; simili.\n\nUsa il pulsante in basso per selezionare un\'immagine.</string>
+    <string name="colorimeter_description">Il colorimetro ti permette d\'identificare tutti i colori all\'interno di un\'immagine e vedere la loro rappresentazione in notazione RGB, HSB o HEX. L\'App ti dir&#224; il nome dei colori o, nel caso di colori non comuni che non hanno nome, il nome dei colori pi&#249; simili.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
     <string name="color_analysis_success">Risultati analisi colorimetrica (clicca per copiare negli appunti):</string>
     <string name="color_analysis_result_name">Nome colore:</string>
     <string name="color_analysis_result_fail">-> Ops! Non &#232; stato possibile identificare i colori.</string>
@@ -274,7 +284,7 @@
 
     <!-- Censorship meter section -->
     <string name="censorship_meter">Analisi di rischio censura</string>
-    <string name="censorship_meter_description">Questo strumento ti permette di analizzare un\'immagine, per determinare se il suo contenuto potrebbe portare a sospensioni o ban automatici in social network e community, che spesso hanno strumenti di analisi automatica delle immagini, che nel caso individuassero fattori di rischio, potrebbero rimuovere l\'immagine o sanzionare l\'utente che la ha caricata.\n\nUsa il pulsante in basso per selezionare un\'immagine.</string>
+    <string name="censorship_meter_description">Questo strumento ti permette di analizzare un\'immagine, per determinare se il suo contenuto potrebbe portare a sospensioni o ban automatici in social network e community, che spesso hanno strumenti di analisi automatica delle immagini, che nel caso individuassero fattori di rischio, potrebbero rimuovere l\'immagine o sanzionare l\'utente che la ha caricata.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
     <string name="censorship_analysis_success">Risultati analisi (clicca per copiare negli appunti):</string>
     <string name="porn">-> PORNO:</string>
     <string name="racy">-> OS&#200;:</string>
@@ -288,7 +298,7 @@
 
     <!-- EXIF info section -->
     <string name="exif_info">EXIF Info</string>
-    <string name="exif_info_description">Questa funzione ti permette di leggere ed estrapolare le informazioni EXIF dal file d\'immagine, qualora fossero presenti.\nEXIF &#232; uno standard per metadati che possono contenere molte informazioni quali: i dati di copyright dell\'immagine, il dispositivo usato per scattare la foto, l\'ora d\'acquisizione dell\'immagine, il programma di fotoritocco utilizzato, il tipo di sensore della fotocamera, le coordinate dei tag GPS, l\'orientamento, l\'apertura, la velocit&#224; dello scatto, la lunghezza focale, il bilanciamento del bianco, le informazioni di velocit&#224; ISO impostate ecc.\nNota:\nI dati EXIF spesso vengono omessi nei servizi web che applicano riprocessamenti all\'immagine, quindi potresti trovare dati inconsistenti o nulli se usi questa funzione su un\'immagine scaricata ad esempio da Facebook, Whatsapp, Instagram e similari.\n\nUsa il pulsante in basso per selezionare un\'immagine.</string>
+    <string name="exif_info_description">Questa funzione ti permette di leggere ed estrapolare le informazioni EXIF dal file d\'immagine, qualora fossero presenti.\nEXIF &#232; uno standard per metadati che possono contenere molte informazioni quali: i dati di copyright dell\'immagine, il dispositivo usato per scattare la foto, l\'ora d\'acquisizione dell\'immagine, il programma di fotoritocco utilizzato, il tipo di sensore della fotocamera, le coordinate dei tag GPS, l\'orientamento, l\'apertura, la velocit&#224; dello scatto, la lunghezza focale, il bilanciamento del bianco, le informazioni di velocit&#224; ISO impostate ecc.\nNota:\nI dati EXIF spesso vengono omessi nei servizi web che applicano riprocessamenti all\'immagine, quindi potresti trovare dati inconsistenti o nulli se usi questa funzione su un\'immagine scaricata ad esempio da Facebook, Whatsapp, Instagram e similari.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
     <string name="exif_info_result_success">Metadati EXIF trovati (clicca per copiare negli appunti):</string>
     <string name="exif_info_result_fail">-> Ops! Non &#232; stato possibile identificare le informazioni EXIF.</string>
     <string name="exif_info_result_error">-> Ops! Non &#232; stato possibile identificare le informazioni EXIF. A causa di un errore inatteso.</string>

@@ -22,7 +22,7 @@
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permission">Permissions not enough. Give to the App the needed permission.</string>
-    <string name="info_text">Version 0.2.8 SR 97\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.2.9 SR 98\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -132,8 +132,8 @@
 
     <!-- Element detection section -->
     <string name="element_detector">Element Detector</string>
-    <string name="element_detector_description">Element detector allows you to identify elements within an image, to find information about them. It supports broad sets of categories ranging from inanimate objects to plants and animals.\n\nUse action button to load an image.</string>
-    <string name="identification_mode">Identification mode</string>
+    <string name="element_detector_description">Element detector allows you to identify elements within an image, to find information about them. It supports broad sets of categories ranging from inanimate objects to plants and animals.\n\nUse the red button at the bottom to load an image.</string>
+    <string name="element_identification_mode">Identification mode</string>
     <string name="detection_success">Detected elements (tap to search info, long tap to copy to clipboard):</string>
     <string name="detection_fail">-> Ops! Cannot identify any element in this picture.</string>
     <string name="detection_offline_success">Detected elements in offline mode (tap to copy to clipboard):</string>
@@ -142,7 +142,7 @@
 
     <!-- Web detection section -->
     <string name="web_detector">Web Image Detector</string>
-    <string name="web_detector_description">Web image detector allows you to find info about the image, searching the Internet for similar images and related web pages, and guessing the content according the grabbed information. This feature provides you the related labels, links of the involved web pages, showing matching and visually similar images (if available), allowing you to save also the respective links or the image files.\n\nUse action button to load an image.</string>
+    <string name="web_detector_description">Web image detector allows you to find info about the image, searching the Internet for similar images and related web pages, and guessing the content according the grabbed information. This feature provides you the related labels, links of the involved web pages, showing matching and visually similar images (if available), allowing you to save also the respective links or the image files.\n\nUse the red button at the bottom to load an image.</string>
     <string name="detection_web_success">Matches found (tap to search info, long tap to copy to clipboard):</string>
     <string name="detection_web_links">&#9668; Webpages with matched images (click to open): &#9658;</string>
     <string name="matching_images_links">&#9668; Matching images (click to open): &#9658;</string>
@@ -158,7 +158,7 @@
 
     <!-- OCR section -->
     <string name="ocr">Optical Text Recognition</string>
-    <string name="ocr_description">Optical Text Recognition allows you to digitize the text content of an image.\n\nUse action button to load an image and start detection.\n\nOptionally you can specify the mode and the language of the text to identify if known (in some circumstances this improves the results avoiding errors due to incorrect interpretation of the text language autodetection).</string>
+    <string name="ocr_description">Optical Text Recognition allows you to digitize the text content of an image.\n\nUse the red button at the bottom to load an image and start detection.\n\nOptionally you can specify the mode and the language of the text to identify if known (in some circumstances this improves the results avoiding errors due to incorrect interpretation of the text language autodetection).</string>
     <string name="detection_ocr_success">Detected text (tap to copy to clipboard, long tap to search content on web):</string>
     <string name="detection_ocr_offline_success">Detected text in offline mode (tap to copy to clipboard):</string>
     <string name="detection_ocr_fail">-> Ops! Cannot identify any text in this picture.</string>
@@ -172,23 +172,30 @@
 
     <!-- Logo detection section -->
     <string name="logo_detector">Logo Detector</string>
-    <string name="logo_detector_description">Logo detector allows you to identify logos, to find information about brands and products.\n\nUse action button to load an image.</string>
+    <string name="logo_detector_description">Logo detector allows you to identify logos, to find information about brands and products.\n\nUse the red button at the bottom to load an image.</string>
     <string name="detection_logo_fail">-> Ops! Cannot identify any logo in this picture.</string>
     <!-- End Logo detection section -->
 
     <!-- Landmark detection section -->
     <string name="landmark_detector">Landmark Detector</string>
-    <string name="landmark_detector_description">Landmark detector allows you to identify popular natural and man-made structures, to search info about them or their locality.\n\nUse action button to load an image.</string>
+    <string name="landmark_detector_description">Landmark detector allows you to identify popular natural and man-made structures, to search info about them or their locality.\n\nUse the red button at the bottom to load an image.</string>
     <string name="detection_landmark_success">Detected landmarks (tap to search info, long tap to copy to clipboard):</string>
     <string name="detection_landmark_fail">-> Ops! Cannot identify any landmark in this picture.</string>
     <!-- End Landmark detection section -->
 
     <!-- Face Insight section -->
     <string name="face_insight">Face Insight</string>
-    <string name="face_insight_description">Detect multiple faces within an image, along with the associated facial attributes. This function is also able to perform an emotional analysis to determine the emotional state plus It can tell you if the person is wearing headwear.\n\nUse action button to load an image.</string>
+    <string name="face_detection_description">Detect multiple faces within an image, along with the associated facial attributes. This function is also able to perform an emotional analysis to determine the emotional state plus It can tell you if the person is wearing headwear.\n\nUse the red button at the bottom to load an image.</string>
+    <string name="face_comparison_description">This function allows you to compare resemblance between 2 persons. You have to load 2 different images. In order to get a valid result, each photo must contain a single face where all elements (nose, eyes, mouth etc.) are well visible.\n\nUse the red button at the bottom to load the first image.</string>
+    <string name="face_celebrity_description">This function allows you to identify a celebrity.\n\nUse the red button at the bottom to load an image.</string>
+    <string name="face_analysis_mode">Analysis mode</string>
     <string name="face">FACE</string>
-    <string name="detection_face_success">Faces detected (tap to copy to clipboard):</string>
-    <string name="detection_face_fail">-> Ops! Cannot identify any face in this picture.</string>
+    <string name="face_detection_success">Faces detected (tap to copy to clipboard):</string>
+    <string name="face_detection_fail">-> Ops! Cannot identify any face in this picture.</string>
+    <string name="face_celebrity_success">Detected high facial similarity with a celebrity (tap to search info, long tap to copy to clipboard):</string>
+    <string name="face_celebrity_fail">-> Ops! Cannot identify any celebrity in this picture.</string>
+    <string name="face_comparison_success">Faces compared (tap to copy to clipboard):</string>
+    <string name="face_comparison_fail">-> Ops! One of the picture provided isn\'t good enough.</string>
     <string name="detection_face_success_offline">Faces detected in offline mode (tap to copy to clipboard):</string>
     <string name="detection_face_fail_offline">-> Ops! Cannot identify any face in this picture.\n\nYou are in local mode, with an internet connection active you can get better results.</string>
     <string name="emotional_analysis">Emotional analysis</string>
@@ -205,6 +212,7 @@
     <string name="roll_angle">Roll Angle</string>
     <string name="tilt_angle">Tilt Angle</string>
     <string name="detection_confidence">Detection confidence</string>
+    <string name="comparison_confidence">Comparison confidence</string>
     <string name="landmarking_confidence">Landmarking confidence</string>
     <string name="blurred_likelihood">Blurred likelihood</string>
     <string name="under_exposed_likelihood">Underexposed likelihood</string>
@@ -222,7 +230,7 @@
     <string name="right_eye_bottom_boundary">Right eye bottom boundary</string>
     <string name="midpoint_between_eyes">Midpoint between eyes</string>
     <string name="left_of_left_eyebrow">Left of left eyebrow</string>
-    <string name="right_of_left_eyebrow">Right of right eyebrow</string>
+    <string name="right_of_left_eyebrow">Right of left eyebrow</string>
     <string name="left_of_right_eyebrow">Left of right eyebrow</string>
     <string name="right_of_right_eyebrow">Right of right eyebrow</string>
     <string name="left_eyebrow_upper_midpoint">Left eyebrow upper midpoint</string>
@@ -255,11 +263,13 @@
     <string name="is_smiling_probability">Is smiling probability</string>
     <string name="is_left_eye_open_probability">Is left eye opened probability</string>
     <string name="is_right_eye_open_probability">Is right eye opened probability</string>
+    <string name="resemblance_level">Resemblance level</string>
+    <string name="first_image_loaded">-> First image loaded!\n\nPlease load a second image for comparison.</string>
     <!-- End Face Insight section -->
 
     <!-- Barcode detector section -->
     <string name="barcode_detector">Barcode Detector</string>
-    <string name="barcode_detector_description">Barcode detector can detect almost all types of barcodes.\n1D barcodes:\nEAN-13, EAN-8, UPC-A, UPC-E, Code-39, Code-93, Code-128, ITF, Codabar.\n2D barcodes:\nQR Code, Data Matrix, PDF-417, AZTEC.\n\nUse action button to load an image or enter in camera scan mode.</string>
+    <string name="barcode_detector_description">Barcode detector can detect almost all types of barcodes.\n1D barcodes:\nEAN-13, EAN-8, UPC-A, UPC-E, Code-39, Code-93, Code-128, ITF, Codabar.\n2D barcodes:\nQR Code, Data Matrix, PDF-417, AZTEC.\n\nUse the red buttons at the bottom to load an image or enter in camera scan mode.</string>
     <string name="barcode_detector_success">Barcode data detected (tap to copy to clipboard, long tap to search info):</string>
     <string name="barcode_detector_fail">-> Ops! Cannot identify any barcode in this picture.</string>
     <string name="barcode_error">"-> Error reading barcode:"</string>
@@ -267,7 +277,7 @@
 
     <!-- Colorimeter section -->
     <string name="colorimeter">Colorimeter</string>
-    <string name="colorimeter_description">With colorimeter you can identify all colors within an image and see their representation in RGB, HSB and HEX notation. For each detected color, the app will tell you the name of the color or the name of the most similar color, in case the color tone is uncommon and has no name.\n\nUse action button to load an image.</string>
+    <string name="colorimeter_description">With colorimeter you can identify all colors within an image and see their representation in RGB, HSB and HEX notation. For each detected color, the app will tell you the name of the color or the name of the most similar color, in case the color tone is uncommon and has no name.\n\nUse the red button at the bottom to load an image.</string>
     <string name="color_analysis_success">Color analysis result (tap to copy to clipboard):</string>
     <string name="color_analysis_result_name">Nearest color name:</string>
     <string name="color_analysis_result_fail">-> Ops! Cannot identify colors.</string>
@@ -276,7 +286,7 @@
 
     <!-- Censorship meter section -->
     <string name="censorship_meter">Censorship Risk Meter</string>
-    <string name="censorship_meter_description">This tool allows you to check an image to determine if its content could be censored by automatic system or lead to ban. This feature is useful since many social networks and websites perform automatic checks of the uploaded pictures and could take actions against the user if a critical content is detected.\n\nUse action button to load an image.</string>
+    <string name="censorship_meter_description">This tool allows you to check an image to determine if its content could be censored by automatic system or lead to ban. This feature is useful since many social networks and websites perform automatic checks of the uploaded pictures and could take actions against the user if a critical content is detected.\n\nUse the red button at the bottom to load an image.</string>
     <string name="censorship_analysis_success">Analysis result (tap to copy to clipboard):</string>
     <string name="porn">-> PORN:</string>
     <string name="racy">-> RACY:</string>
@@ -290,7 +300,7 @@
 
     <!-- EXIF info section -->
     <string name="exif_info">EXIF Info</string>
-    <string name="exif_info_description">This feature allows you to load and extract EXIF info from picture files, if available.\nEXIF is a standard for metadata that can include a lot of information as image copyright, the device used, acquisition timestamp, GPS tag data, photo manipulation software used, camera sensor, aperture, focal length, shutter speed, white balance, ISO level etc.\nNote:\nEXIF data often are removed by services that reprocess the image, so you could find null or inconsistent data if you use this function with images downloaded, for example, from Facebook, Whatsapp, Instagram and similar.\n\nUse action button to load an image.</string>
+    <string name="exif_info_description">This feature allows you to load and extract EXIF info from picture files, if available.\nEXIF is a standard for metadata that can include a lot of information as image copyright, the device used, acquisition timestamp, GPS tag data, photo manipulation software used, camera sensor, aperture, focal length, shutter speed, white balance, ISO level etc.\nNote:\nEXIF data often are removed by services that reprocess the images, so you could find null or inconsistent data if you use this function with images downloaded, for example, from Facebook, Whatsapp, Instagram and similar.\n\nUse the red button at the bottom to load an image.</string>
     <string name="exif_info_result_success">EXIF metadata found (tap to copy to clipboard):</string>
     <string name="exif_info_result_fail">-> Ops! Cannot identify any EXIF in this picture.</string>
     <string name="exif_info_result_error">-> Ops! Cannot identify any EXIF due to an unexpected error.</string>
@@ -322,4 +332,5 @@
     <string name="premium_gold_content">Gold Subscription Button</string>
     <string name="premium_gold_description">Yearly premium subscription allows you to disable all ads and limitations for the best user experience possible. Yearly Gold subscription is cheaper than 12 months of Silver subscription.</string>
     <!-- End Billing section -->
+
 </resources>

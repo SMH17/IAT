@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="identification_mode">
+    <string-array name="element_identification_mode">
         <item>MODO AUTO</item>
         <item>Identificazione</item>
         <item>Localizzazione multipla</item>
+    </string-array>
+
+    <string-array name="face_analysis_mode">
+        <item>Rilevamento</item>
+        <item>Confronto</item>
+        <item>Identifica VIP</item>
+    </string-array>
+
+    <string-array name="ocr_mode_hints">
+        <item>MODO AUTO</item>
+        <item>Testo generico</item>
+        <item>Documento denso</item>
+        <item>Manoscritto</item>
     </string-array>
 
     <string-array name="language_hints">
@@ -65,13 +78,6 @@
         <item>Urdu</item>
         <item>Uzbeko</item>
         <item>Vietnamita</item>
-    </string-array>
-
-    <string-array name="ocr_mode_hints">
-        <item>MODO AUTO</item>
-        <item>Testo generico</item>
-        <item>Documento denso</item>
-        <item>Manoscritto</item>
     </string-array>
 
     <string-array name="model_type">
