@@ -22,11 +22,11 @@
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permission">Permissions not enough. Give to the App the needed permission.</string>
-    <string name="info_text">Version 0.2.9 SR 98\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.2.9 SR 101\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
-    <string name="report_bug_subject">Bug Report Image Analysis Toolset</string>
+    <string name="report_bug_subject">Bug Report IAT</string>
     <string name="please_wait">Loading. Please wait&#8230;</string>
     <string name="faq_url">https://sites.google.com/view/iat-app/home/faq</string>
 
@@ -104,7 +104,7 @@
     <string name="stop">Stop</string>
     <string name="downloaded_file">Downloaded file</string>
     <string name="download_file_error">Download file error</string>
-    <string name="detection_recovery_mode_error">[The detection switched automatically to local mode due to an error during the attempt to use the Cloud.]</string>
+    <string name="detection_recovery_mode_error">[The detection switched automatically to local mode due to an error during the attempt to use the Cloud. If the problem persists, make sure to update the App to latest official version available on Google Play.]</string>
     <string name="detection_recovery_mode_fail">[The detection switched automatically to local mode because Cloud based detection failed.]</string>
     <!-- End General messages and warning section -->
 
@@ -136,7 +136,7 @@
     <string name="element_identification_mode">Identification mode</string>
     <string name="detection_success">Detected elements (tap to search info, long tap to copy to clipboard):</string>
     <string name="detection_fail">-> Ops! Cannot identify any element in this picture.</string>
-    <string name="detection_offline_success">Detected elements in offline mode (tap to copy to clipboard):</string>
+    <string name="detection_offline_success">Detected elements in offline mode (tap to search info, long tap to copy to clipboard):</string>
     <string name="detection_offline_fail">-> Ops! Cannot identify any element in this picture.\n\nYou are in local mode, with an internet connection active you can get better results.</string>
     <!-- End Element detection section -->
 
