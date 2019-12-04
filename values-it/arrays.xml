@@ -10,6 +10,7 @@
     <string-array name="face_analysis_mode">
         <item>Rilevamento</item>
         <item>Confronto</item>
+        <item>Stima Et&#224;</item>
         <item>Identifica VIP</item>
     </string-array>
 

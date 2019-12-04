@@ -20,7 +20,7 @@
     <string name="current_value">Valore corrente:</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permission">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.2.9 SR 101\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
+    <string name="info_text">Versione 0.2.9 SR 105\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="problem_description">DESCRIZIONE PROBLEMA</string>
     <string name="error">ERRORE</string>
@@ -64,6 +64,7 @@
     <!-- End Setting section -->
 
     <!-- General messages and warning section -->
+    <string name="identification_mode">Tipo d\'identificazione</string>
     <string name="choose_image">Scegli immagine</string>
     <string name="camera_scan">Modo Scansione</string>
     <string name="edit_image">Edita Immagine</string>
@@ -131,7 +132,6 @@
     <!-- Element detection section -->
     <string name="element_detector">Identificatore Elementi</string>
     <string name="element_detector_description">L\'identificatore elementi ti permette d\'identificare gli elementi presenti in un\'immagine, per consentirti di trovare informazioni a riguardo. Le categorie supportate sono molto ampie e spaziano da oggetti inanimati a piante ed animali.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
-    <string name="element_identification_mode">Tipo d\'identificazione</string>
     <string name="detection_success">Elementi identificati (clicca per cercare informazioni, tieni premuto per copiare negli appunti):</string>
     <string name="detection_fail">-> Ops! Non &#232; stato possibile identificare alcun elemento.</string>
     <string name="detection_offline_success">Elementi identificati in modalit&#224; locale (clicca per cercare informazioni, tieni premuto per copiare negli appunti):</string>
@@ -185,22 +185,27 @@
     <string name="face_insight">Analisi Facciale</string>
     <string name="face_detection_description">Consente di rilevare volti all\'interno di un\'immagine, e gli attributi facciali associati. Questa funzione effettua inoltre un\'analisi emotiva per determinare lo stato emotivo del soggetto e in aggiunta &#232; in grado di determinare se il soggetto indossa un copricapo.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
     <string name="face_comparison_description">Compara la somiglianza di 2 volti. Per ottenere un risultato valido, ogni foto deve contenere una sola persona dove tutte le parti del volto (naso, occhi, bocca ecc.) sono ben visibili.\n\nUsa il pulsante rosso in basso per selezionare la prima immagine.</string>
-    <string name="face_celebrity_description">Questa funzione ti permette d\'identificare un volto famoso.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
+    <string name="face_age_description">Questa funzione prova a fare una stima approssimata dell\'et&#224;, la foto deve contenere una sola persona dove tutte le parti del volto (naso, occhi, bocca ecc.) sono ben visibili.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
+    <string name="face_celebrity_description">Questa funzione ti permette d\'identificare i volti famosi.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
     <string name="face_analysis_mode">Tipo d\'analisi</string>
     <string name="face">VOLTO</string>
     <string name="face_detection_success">Volti individuati (clicca per copiare negli appunti):</string>
     <string name="face_detection_fail">-> Ops! Non &#232; stato possibile individuare alcun volto.</string>
-    <string name="face_celebrity_success">Individuata elevata similarit&#224; facciale con una celebrit&#224; (clicca per cercare informazioni, tieni premuto per copiare negli appunti):</string>
-    <string name="face_celebrity_fail">-> Non &#232; stato possibile indentificare celebrit&#224; nell\'immagine.</string>
-    <string name="face_comparison_success">Volti comparati (clicca per copiare negli appunti):</string>
-    <string name="face_comparison_fail">-> Ops! Una delle immagini caricate non &#232; abbastanza buona.</string>
     <string name="detection_face_success_offline">Volti individuati in modalit&#224; locale (clicca per copiare negli appunti):</string>
     <string name="detection_face_fail_offline">-> Ops! Non &#232; stato possibile individuare alcun volto.\n\nAdesso sei in modalit&#224; locale, con una connessione internet attiva puoi ottenere risultati migliori.</string>
+    <string name="face_comparison_success">Volti comparati (clicca per copiare negli appunti):</string>
+    <string name="face_comparison_fail">-> Ops! Una delle immagini caricate non &#232; abbastanza buona.</string>
+    <string name="face_age_success">Stima del range d\'et&#224; completata (clicca per copiare negli appunti):</string>
+    <string name="face_celebrity_success">Individuata elevata similarit&#224; facciale con una o pi&#249; celebrit&#224; (clicca per cercare informazioni, tieni premuto per copiare negli appunti):</string>
+    <string name="face_celebrity_fail">-> Non &#232; stato possibile indentificare celebrit&#224; nell\'immagine.</string>
     <string name="emotional_analysis">Analisi emotiva</string>
     <string name="face_structure_analysis">Analisi struttura facciale</string>
     <string name="face_elements_coordinates">Coordinate elementi facciali</string>
     <string name="detection_quality_stats">Statistiche qualit&#224; analisi</string>
     <string name="other">Altro</string>
+    <string name="min_age">Et&#224; minima</string>
+    <string name="max_age">Et&#224; massima</string>
+    <string name="years">anni</string>
     <string name="anger">Rabbia</string>
     <string name="joy">Gioia</string>
     <string name="sorrow">Tristezza</string>

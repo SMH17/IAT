@@ -10,6 +10,7 @@
     <string-array name="face_analysis_mode">
         <item>Detection</item>
         <item>Comparison</item>
+        <item>Age Estimation</item>
         <item>Identify VIP</item>
     </string-array>
 

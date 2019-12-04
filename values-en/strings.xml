@@ -22,7 +22,7 @@
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permission">Permissions not enough. Give to the App the needed permission.</string>
-    <string name="info_text">Version 0.2.9 SR 101\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.2.9 SR 105\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -66,6 +66,7 @@
     <!-- End Setting section -->
 
     <!-- General messages and warning section -->
+    <string name="identification_mode">Identification mode</string>
     <string name="choose_image">Choose image</string>
     <string name="camera_scan">Scan Mode</string>
     <string name="edit_image">Edit Picture</string>
@@ -133,7 +134,6 @@
     <!-- Element detection section -->
     <string name="element_detector">Element Detector</string>
     <string name="element_detector_description">Element detector allows you to identify elements within an image, to find information about them. It supports broad sets of categories ranging from inanimate objects to plants and animals.\n\nUse the red button at the bottom to load an image.</string>
-    <string name="element_identification_mode">Identification mode</string>
     <string name="detection_success">Detected elements (tap to search info, long tap to copy to clipboard):</string>
     <string name="detection_fail">-> Ops! Cannot identify any element in this picture.</string>
     <string name="detection_offline_success">Detected elements in offline mode (tap to search info, long tap to copy to clipboard):</string>
@@ -187,22 +187,27 @@
     <string name="face_insight">Face Insight</string>
     <string name="face_detection_description">Detect multiple faces within an image, along with the associated facial attributes. This function is also able to perform an emotional analysis to determine the emotional state plus It can tell you if the person is wearing headwear.\n\nUse the red button at the bottom to load an image.</string>
     <string name="face_comparison_description">This function allows you to compare resemblance between 2 persons. You have to load 2 different images. In order to get a valid result, each photo must contain a single face where all elements (nose, eyes, mouth etc.) are well visible.\n\nUse the red button at the bottom to load the first image.</string>
-    <string name="face_celebrity_description">This function allows you to identify a celebrity.\n\nUse the red button at the bottom to load an image.</string>
+    <string name="face_age_description">This function returns a raw estimation of the likely age range. In order to get a valid result, the photo must contain a single face where all elements (nose, eyes, mouth etc.) are well visible.\n\nUse the red button at the bottom to load an image.</string>
+    <string name="face_celebrity_description">This function allows you to identify celebrities.\n\nUse the red button at the bottom to load an image.</string>
     <string name="face_analysis_mode">Analysis mode</string>
     <string name="face">FACE</string>
     <string name="face_detection_success">Faces detected (tap to copy to clipboard):</string>
     <string name="face_detection_fail">-> Ops! Cannot identify any face in this picture.</string>
-    <string name="face_celebrity_success">Detected high facial similarity with a celebrity (tap to search info, long tap to copy to clipboard):</string>
-    <string name="face_celebrity_fail">-> Ops! Cannot identify any celebrity in this picture.</string>
-    <string name="face_comparison_success">Faces compared (tap to copy to clipboard):</string>
-    <string name="face_comparison_fail">-> Ops! One of the picture provided isn\'t good enough.</string>
     <string name="detection_face_success_offline">Faces detected in offline mode (tap to copy to clipboard):</string>
     <string name="detection_face_fail_offline">-> Ops! Cannot identify any face in this picture.\n\nYou are in local mode, with an internet connection active you can get better results.</string>
+    <string name="face_age_success">Age range estimation completed (tap to copy to clipboard):</string>
+    <string name="face_comparison_success">Faces compared (tap to copy to clipboard):</string>
+    <string name="face_comparison_fail">-> Ops! One of the picture provided isn\'t good enough.</string>
+    <string name="face_celebrity_success">Detected high facial similarity with one or more celebrities (tap to search info, long tap to copy to clipboard):</string>
+    <string name="face_celebrity_fail">-> Ops! Cannot identify any celebrity in this picture.</string>
     <string name="emotional_analysis">Emotional analysis</string>
     <string name="face_structure_analysis">Face structure analysis</string>
     <string name="face_elements_coordinates">Face elements coordinates</string>
     <string name="detection_quality_stats">Detection quality statistics</string>
     <string name="other">Other</string>
+    <string name="min_age">Minimum age</string>
+    <string name="max_age">Maximum age</string>
+    <string name="years">years</string>
     <string name="anger">Anger</string>
     <string name="joy">Joy</string>
     <string name="sorrow">Sorrow</string>
