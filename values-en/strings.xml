@@ -9,6 +9,7 @@
     <string name="bug_report">Bug report</string>
     <string name="share_text">link</string>
     <string name="warning">Warning</string>
+    <string name="hint">Hint</string>
     <string name="close">Close</string>
     <string name="done">Done</string>
     <string name="yes">Yes</string>
@@ -22,7 +23,7 @@
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permission">Permissions not enough. Give to the App the needed permission.</string>
-    <string name="info_text">Version 0.2.9 SR 105\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.2.9 SR 107\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -138,6 +139,7 @@
     <string name="detection_fail">-> Ops! Cannot identify any element in this picture.</string>
     <string name="detection_offline_success">Detected elements in offline mode (tap to search info, long tap to copy to clipboard):</string>
     <string name="detection_offline_fail">-> Ops! Cannot identify any element in this picture.\n\nYou are in local mode, with an internet connection active you can get better results.</string>
+    <string name="element_detector_translation_tip">Element Detector engine is in English, however you can enable the translation of its results to a target language of your choice in the settings.</string>
     <!-- End Element detection section -->
 
     <!-- Web detection section -->
@@ -154,6 +156,7 @@
     <string name="detection_web_fail">-> Ops! Cannot identify any match for this picture.</string>
     <string name="images_download">Images download.</string>
     <string name="categories_to_download">Select categories to download.</string>
+    <string name="web_detector_res_tip">To see similar and matching images (if present), swipe the title of link area section (where you can see left-right arrows).</string>
     <!-- End Web detection section -->
 
     <!-- OCR section -->
