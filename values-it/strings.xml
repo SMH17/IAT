@@ -21,7 +21,7 @@
     <string name="current_value">Valore corrente:</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permission">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.2.9 SR 107\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
+    <string name="info_text">Versione 0.2.9 SR 113\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="problem_description">DESCRIZIONE PROBLEMA</string>
     <string name="error">ERRORE</string>
@@ -310,7 +310,6 @@
     <string name="exif_info_result_success">Metadati EXIF trovati (clicca per copiare negli appunti):</string>
     <string name="exif_info_result_fail">-> Ops! Non &#232; stato possibile identificare le informazioni EXIF.</string>
     <string name="exif_info_result_error">-> Ops! Non &#232; stato possibile identificare le informazioni EXIF. A causa di un errore inatteso.</string>
-    <string name="exif_info_not_supported">-> Ops! Il tuo sistema operativo non supporta la nuove API EXIF, hai bisogno di una versione di Android almeno pari alla 4.4 o pi&#249; recente per usare questa funzione.</string>
     <!-- End EXIF info section -->
 
     <!-- Likelihood levels -->

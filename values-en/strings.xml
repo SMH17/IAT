@@ -23,7 +23,7 @@
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permission">Permissions not enough. Give to the App the needed permission.</string>
-    <string name="info_text">Version 0.2.9 SR 107\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.2.9 SR 113\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -312,7 +312,6 @@
     <string name="exif_info_result_success">EXIF metadata found (tap to copy to clipboard):</string>
     <string name="exif_info_result_fail">-> Ops! Cannot identify any EXIF in this picture.</string>
     <string name="exif_info_result_error">-> Ops! Cannot identify any EXIF due to an unexpected error.</string>
-    <string name="exif_info_not_supported">-> Ops! Your device OS is too old to support latest EXIF API, you need at least Android 4.4 or newer.</string>
     <!-- End EXIF info section -->
 
     <!-- Likelihood levels -->
