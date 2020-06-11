@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string-array name="theme_mode">
+        <item>Standard</item>
+        <item>Chiaro</item>
+        <item>Scuro</item>
+        <item>Automatico</item>
+    </string-array>
+
     <string-array name="element_identification_mode">
         <item>MODO AUTO</item>
         <item>Identificazione</item>

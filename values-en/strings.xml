@@ -12,8 +12,6 @@
     <string name="hint">Hint</string>
     <string name="close">Close</string>
     <string name="done">Done</string>
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
     <string name="next">Continue</string>
     <string name="undo">Undo</string>
     <string name="communicate">Communicate</string>
@@ -23,12 +21,11 @@
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permission">Permissions not enough. Give to the App the needed permission.</string>
-    <string name="info_text">Version 0.2.9 SR 113\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.3.0 SR 116\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
     <string name="report_bug_subject">Bug Report IAT</string>
-    <string name="please_wait">Loading. Please wait&#8230;</string>
     <string name="faq_url">https://sites.google.com/view/iat-app/home/faq</string>
 
     <!-- Action bar section -->
@@ -36,12 +33,14 @@
     <string name="action_save">Save</string>
     <string name="action_download">Download</string>
     <string name="action_tts">Start-Stop Listen Result</string>
+    <string name="action_batch">Batch</string>
     <string name="action_settings">Settings</string>
     <string name="action_info">Info</string>
     <string name="action_unlock">License</string>
     <!-- Action bar section -->
 
     <!-- Setting section -->
+    <string name="app_theme">App Theme</string>
     <string name="alert_setting_title">Settings</string>
     <string name="alert_setting_text">Input the max number of elements, an higher number will allow you to see more results, however the additional results have a less likely match ratio.\nDefault value: 10,</string>
     <string name="alert_setting_quality">Set the detection quality level (default value: 1200). An higher value could produce more accurate results but is slower.\nQuality value:</string>
@@ -49,6 +48,7 @@
     <string name="use_ocr_cloud">Use Cloud for accurate text detection</string>
     <string name="use_face_detection_cloud">Use Cloud for accurate face detection</string>
     <string name="enable_detector_localization">Enable detector translation</string>
+    <string name="batch_results_in_source_dir">Output batch results in source directory</string>
     <string name="alert_setting_realtime">Options for real time detection:</string>
     <string name="use_filtering">Use Interpolation Filter</string>
     <string name="show_detection_markers">Show Detection Markers</string>
@@ -77,7 +77,7 @@
     <string name="tts_error">Cannot use Text to Speech function</string>
     <string name="alert_copied_values">Copied to clipboard!</string>
     <string name="alert_saved_values">Results saved to a local txt file!</string>
-    <string name="detector_not_ready">Local detector not yet ready.</string>
+    <!--    <string name="detector_not_ready">Local detector not yet ready.</string>-->
     <string name="alert_not_again">Don\'t show again.</string>
     <string name="alert_adblocker">In your device has been detected a global AdBlocker. Developing and maintaining this App requires resources, time and expenses. We cannot provide all this for free if you block even the Ads. The commands of the App are now disabled. Disable AdBlocker (or whitelist this App) if you want to use the free mode, or alternatively, purchase a Premium subscription.</string>
     <string name="alert_no_web_search">Result copied to clipboard.\nNo supported search assistants found on your device. Install a supported search assistant (e.g. Google Search) to enable integrated search feature.</string>
@@ -94,8 +94,7 @@
     <string name="dialog_select_gallery">Gallery</string>
     <string name="image_picker_error">Cannot load this image. Invalid image or insufficient permissions.</string>
     <string name="select_photo">"Select a photo</string>
-    <string name="image_details_header">Details:</string>
-    <string name="image_preview_header">Preview:</string>
+    <string name="image_preview">Image preview</string>
     <string name="loading_message">Analysis in progress&#8230; Please wait.</string>
     <string name="nothing_to_speech">Analyze a picture before using this function.</string>
     <string name="cannot_analyze_now">Something has gone wrong. Some features require an internet connection. Make sure your connection is active and image isn\'t corrupted or try again later.</string>
@@ -107,8 +106,29 @@
     <string name="downloaded_file">Downloaded file</string>
     <string name="download_file_error">Download file error</string>
     <string name="detection_recovery_mode_error">[The detection switched automatically to local mode due to an error during the attempt to use the Cloud. If the problem persists, make sure to update the App to latest official version available on Google Play.]</string>
-    <string name="detection_recovery_mode_fail">[The detection switched automatically to local mode because Cloud based detection failed.]</string>
     <!-- End General messages and warning section -->
+
+    <!-- Batch section -->
+    <string name="batch">Batch</string>
+    <string name="batch_description">Process multiple images at same time.\nThis feature works using only local engine, so some features are less accurate than image analysis assisted by cloud available for certain feature set when you use the single image analysis.\n\nChose the feature you want to use then select the directory you want to process using the red button at the bottom.</string>
+    <string name="select_folder">Select folder</string>
+    <string name="invalid_path">Invalid or empty path.</string>
+    <string name="file_name">File name</string>
+    <string name="files_number">Total files number</string>
+    <string name="images_number">Detected images</string>
+    <string name="images_correctly_analized">Correctly analyzed images</string>
+    <string name="images_not_correctly_analized">Not correctly analyzed images</string>
+    <string name="copy">Copy</string>
+    <string name="output_path_tip">If you click save button on top, results will be saved in default IAT path, however, in settings you can configure the batch results saving, in order to output results txt in the source directory.</string>
+    <string name="batch_success">Batch analysis completed.\nClick on each element to see results, long press to copy results on clipboard.</string>
+    <string name="batch_fail">Batch procedure fail.\nMake sure the selected path contains valid image files, or send a bug report using navigation drawer menu if you think it\'s an App error.</string>
+    <string name="analysis_type">Analysis type:</string>
+    <string name="analysis_result">Analysis results:</string>
+    <string name="search">Search</string>
+    <string name="blank_string" translatable="false">…</string>
+    <string name="play_symbol" translatable="false">&#9658;</string>
+    <string name="stop_symbol" translatable="false">&#9632;</string>
+    <!-- End Batch section -->
 
     <!-- Realtime section -->
     <string name="realtime_detector">Realtime Detector</string>
@@ -119,14 +139,14 @@
     <string name="feature_spinner_description">Select the desired identification feature</string>
     <string name="custom">Custom</string>
     <string name="elements">Elements</string>
-    <string name="elements_cloud">Elements [Cloud]</string>
+    <!--    <string name="elements_cloud">Elements [Cloud]</string>-->
     <string name="text">Text</string>
-    <string name="text_cloud">Text [Cloud]</string>
-    <string name="documents">Documents [Cloud]</string>
+    <!--    <string name="text_cloud">Text [Cloud]</string>-->
+    <!--    <string name="documents">Documents [Cloud]</string>-->
     <string name="faces">Faces</string>
-    <string name="faces_cloud">Faces [Cloud]</string>
+    <!--    <string name="faces_cloud">Faces [Cloud]</string>-->
     <string name="barcode">Barcode</string>
-    <string name="landmarks">Landmarks [Cloud]</string>
+    <!--    <string name="landmarks">Landmarks [Cloud]</string>-->
     <string name="alart_custom_models_info">This function allows advanced users to use a custom detection model to detect elements. The supported models must be in TensorFlow Lite compatible format and consist of two files with the same name but extension .tflite (for the model) and .txt (for the related labels). The custom models must be placed in TFModel folder and then configured in the setting menu. If no custom model has been configured, IAT will use a default model. Read documentation for details.</string>
     <string name="alert_cannot_load_model">The configured model for the Custom detector cannot be used, detection has been switched to default model.</string>
     <string name="realtime_engine_error">Realtime Engine Error</string>
@@ -192,7 +212,6 @@
     <string name="face_comparison_description">This function allows you to compare resemblance between 2 persons. You have to load 2 different images. In order to get a valid result, each photo must contain a single face where all elements (nose, eyes, mouth etc.) are well visible.\n\nUse the red button at the bottom to load the first image.</string>
     <string name="face_age_description">This function returns a raw estimation of the likely age range. In order to get a valid result, the photo must contain a single face where all elements (nose, eyes, mouth etc.) are well visible.\n\nUse the red button at the bottom to load an image.</string>
     <string name="face_celebrity_description">This function allows you to identify celebrities.\n\nUse the red button at the bottom to load an image.</string>
-    <string name="face_analysis_mode">Analysis mode</string>
     <string name="face">FACE</string>
     <string name="face_detection_success">Faces detected (tap to copy to clipboard):</string>
     <string name="face_detection_fail">-> Ops! Cannot identify any face in this picture.</string>
@@ -200,7 +219,7 @@
     <string name="detection_face_fail_offline">-> Ops! Cannot identify any face in this picture.\n\nYou are in local mode, with an internet connection active you can get better results.</string>
     <string name="face_age_success">Age range estimation completed (tap to copy to clipboard):</string>
     <string name="face_comparison_success">Faces compared (tap to copy to clipboard):</string>
-    <string name="face_comparison_fail">-> Ops! One of the picture provided isn\'t good enough.</string>
+    <string name="face_comparison_fail">-> Ops! Cannot compare faces.\nMaybe one of the picture provided isn\'t good enough.\n\nIf you think this is an error, use bug report command in the drawer menu.</string>
     <string name="face_celebrity_success">Detected high facial similarity with one or more celebrities (tap to search info, long tap to copy to clipboard):</string>
     <string name="face_celebrity_fail">-> Ops! Cannot identify any celebrity in this picture.</string>
     <string name="emotional_analysis">Emotional analysis</string>
@@ -261,10 +280,8 @@
     <string name="mouth_center">Mouth center</string>
     <string name="chin_gnathion">Chin gnation</string>
     <string name="chin_left_gonion">Chin left gonion</string>
-    <string name="chin_right_gonion">Chin right gonion</string>
+    <!--    <string name="chin_right_gonion">Chin right gonion</string>-->
     <string name="face_status">Face status</string>
-    <string name="width">Width</string>
-    <string name="height">Height</string>
     <string name="rotation">Rotation</string>
     <string name="maxillofacial_armony_score">Maxillofacial harmony</string>
     <string name="happiness">Happiness</string>

@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string-array name="theme_mode">
+        <item>Default</item>
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Automatic</item>
+    </string-array>
+
+    <string-array name="analysis_mode">
+        <item>Element Detection</item>
+        <item>Text Detection</item>
+        <item>Face Detection</item>
+        <item>Barcode Detection</item>
+        <item>Exif Extraction</item>
+    </string-array>
+
     <string-array name="element_identification_mode">
         <item>AUTO MODE</item>
         <item>Identification</item>
