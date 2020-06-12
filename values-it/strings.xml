@@ -19,7 +19,7 @@
     <string name="current_value">Valore corrente:</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permission">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.3.0 SR 116\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
+    <string name="info_text">Versione 0.3.0 SR 117\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="problem_description">DESCRIZIONE PROBLEMA</string>
     <string name="error">ERRORE</string>
@@ -104,6 +104,7 @@
     <string name="downloaded_file">Scaricato file</string>
     <string name="download_file_error">Errore scaricamento file</string>
     <string name="detection_recovery_mode_error">[L\'identificazione &#232; passata in automatico in modalit&#224; offline a causa di un errore durante il tentativo di contattare il Cloud. Se il problema persiste, assicurati di aggiornare l\'App all\'ultima versione ufficiale disponibile su Google Play.]</string>
+    <string name="mode_not_available_on_local">Questa modalit&#224; necessita del motore d\'analisi assistito da cloud.\nAbilita il cloud d\'analisi per questo set di funzioni.</string>
     <!-- End General messages and warning section -->
 
     <!-- Batch section -->
@@ -197,7 +198,7 @@
     <!-- Landmark detection section -->
     <string name="landmark_detector">Identificatore Landmark</string>
     <string name="landmark_detector_description">L\'identificazione landmark ti permette d\'individuare strutture naturali o artificiali famose, per cercare informazioni su di esse o sul luogo d\'interesse ad esse correlato.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
-    <string name="detection_landmark_success">Landmarks identificati (clicca per cercare informazioni, tieni premuto per copiare negli appunti):</string>
+    <string name="detection_landmark_success">Landmark identificati (clicca per cercare informazioni, tieni premuto per copiare negli appunti):</string>
     <string name="detection_landmark_fail">-> Ops! Non &#232; stato possibile identificare alcun landmark.</string>
     <!-- End Landmark detection section -->
 
