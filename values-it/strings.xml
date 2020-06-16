@@ -10,6 +10,7 @@
     <string name="hint">Suggerimento</string>
     <string name="close">Chiudi</string>
     <string name="done">Fatto</string>
+    <string name="wait_and_retry">Riprova dopo che ho terminato.</string>
     <string name="next">Continua</string>
     <string name="undo">Annulla</string>
     <string name="communicate">Comunica</string>
@@ -19,7 +20,7 @@
     <string name="current_value">Valore corrente:</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permission">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.3.0 SR 117\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
+    <string name="info_text">Versione 0.3.0 SR 118\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="problem_description">DESCRIZIONE PROBLEMA</string>
     <string name="error">ERRORE</string>
@@ -91,7 +92,12 @@
     <string name="dialog_select_camera">Fotocamera</string>
     <string name="dialog_select_gallery">Galleria</string>
     <string name="image_picker_error">Impossibile leggere immagine. Immagine non valida o permessi insufficienti.</string>
+    <string name="path">Percorso</string>
     <string name="select_photo">Seleziona una foto</string>
+    <string name="select_directory">Seleziona un percorso</string>
+    <string name="select_file">Seleziona file</string>
+    <string name="save_file_error">Errore durante il salvataggio!</string>
+    <string name="storage_manager_error">Storage manager error!</string>
     <string name="image_preview">Anteprima immagine</string>
     <string name="loading_message">Analisi in corso&#8230; Attendere prego.</string>
     <string name="nothing_to_speech">Analizza un\'immagine prima di usare questa funzione.</string>
@@ -123,7 +129,9 @@
     <string name="batch_fail">Procedura di analisi fallita.\nAssicurati che il path selezionato contenga file d\'immagine validi, oppure segnala il problema cliccando sulla relativa opzione nel menu di navigazione se ritieni sia un errore dell\'App.</string>
     <string name="analysis_type">Tipo di analisi:</string>
     <string name="analysis_result">Risultati analisi:</string>
+    <string name="save">Salva</string>
     <string name="search">Cerca</string>
+    <string name="translate">Traduci</string>
     <!-- End Batch section -->
 
     <!-- Realtime section -->

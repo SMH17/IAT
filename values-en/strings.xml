@@ -12,6 +12,7 @@
     <string name="hint">Hint</string>
     <string name="close">Close</string>
     <string name="done">Done</string>
+    <string name="wait_and_retry">Try again after I\'m done.</string>
     <string name="next">Continue</string>
     <string name="undo">Undo</string>
     <string name="communicate">Communicate</string>
@@ -21,7 +22,7 @@
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permission">Permissions not enough. Give to the App the needed permission.</string>
-    <string name="info_text">Version 0.3.0 SR 117\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.3.0 SR 118\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -93,7 +94,12 @@
     <string name="dialog_select_camera">Camera</string>
     <string name="dialog_select_gallery">Gallery</string>
     <string name="image_picker_error">Cannot load this image. Invalid image or insufficient permissions.</string>
-    <string name="select_photo">"Select a photo</string>
+    <string name="path">Path</string>
+    <string name="select_photo">Select a photo</string>
+    <string name="select_directory">Select a directory</string>
+    <string name="select_file">Select file</string>
+    <string name="save_file_error">Error during file saving!</string>
+    <string name="storage_manager_error">Storage manager error!</string>
     <string name="image_preview">Image preview</string>
     <string name="loading_message">Analysis in progress&#8230; Please wait.</string>
     <string name="nothing_to_speech">Analyze a picture before using this function.</string>
@@ -125,7 +131,9 @@
     <string name="batch_fail">Batch procedure fail.\nMake sure the selected path contains valid image files, or send a bug report using navigation drawer menu if you think it\'s an App error.</string>
     <string name="analysis_type">Analysis type:</string>
     <string name="analysis_result">Analysis results:</string>
+    <string name="save">Save</string>
     <string name="search">Search</string>
+    <string name="translate">Translate</string>
     <string name="blank_string" translatable="false">…</string>
     <string name="play_symbol" translatable="false">&#9658;</string>
     <string name="stop_symbol" translatable="false">&#9632;</string>
