@@ -22,7 +22,7 @@
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permission">Permissions not enough. Give to the App the needed permission.</string>
-    <string name="info_text">Version 0.3.0 SR 119\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.3.0 SR 121\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -34,6 +34,7 @@
     <string name="action_save">Save</string>
     <string name="action_download">Download</string>
     <string name="action_tts">Start-Stop Listen Result</string>
+    <string name="action_search">Search</string>
     <string name="action_batch">Batch</string>
     <string name="action_settings">Settings</string>
     <string name="action_info">Info</string>
@@ -126,6 +127,9 @@
     <string name="images_correctly_analized">Correctly analyzed images</string>
     <string name="images_not_correctly_analized">Not correctly analyzed images</string>
     <string name="copy">Copy</string>
+    <string name="complete_analysis_before">Complete an analysis before.</string>
+    <string name="keyword_not_found">Keyword not found!</string>
+    <string name="batch_search_description">This function allows you to search contents of interest leaving only elements whose results match a keyword.\nEnter the keyword.</string>
     <string name="output_path_tip">If you click save button on top, results will be saved in default IAT path, however, in settings you can configure the batch results saving, in order to output results txt in the source directory.</string>
     <string name="batch_success">Batch analysis completed.\nClick on each element to see results, long press to copy results on clipboard.</string>
     <string name="batch_fail">Batch procedure fail.\nMake sure the selected path contains valid image files, or send a bug report using navigation drawer menu if you think it\'s an App error.</string>
