@@ -8,6 +8,7 @@
     <string name="share_title">Tell to friends</string>
     <string name="bug_report">Bug report</string>
     <string name="share_text">link</string>
+    <string name="note">Note</string>
     <string name="warning">Warning</string>
     <string name="hint">Hint</string>
     <string name="close">Close</string>
@@ -18,11 +19,11 @@
     <string name="communicate">Communicate</string>
     <string name="contact_us">Contact Us</string>
     <string name="share">Share</string>
-    <string name="type">Type</string>
+
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permission">Permissions not enough. Give to the App the needed permission.</string>
-    <string name="info_text">Version 0.3.0 SR 121\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.3.1 SR 124\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -43,7 +44,7 @@
 
     <!-- Setting section -->
     <string name="app_theme">App Theme</string>
-    <string name="alert_setting_title">Settings</string>
+    <string name="setting_title">Settings</string>
     <string name="alert_setting_text">Input the max number of elements, an higher number will allow you to see more results, however the additional results have a less likely match ratio.\nDefault value: 10,</string>
     <string name="alert_setting_quality">Set the detection quality level (default value: 1200). An higher value could produce more accurate results but is slower.\nQuality value:</string>
     <string name="use_element_detection_cloud">Use Cloud for accurate element detection</string>
@@ -54,21 +55,48 @@
     <string name="alert_setting_realtime">Options for real time detection:</string>
     <string name="use_filtering">Use Interpolation Filter</string>
     <string name="show_detection_markers">Show Detection Markers</string>
-    <string name="use_auto_focus">Auto Focus</string>
-    <string name="use_flash">Use Flash</string>
-    <string name="autoreturn_barcode">Auto-return barcode in scan mode</string>
     <string name="enable_tts">Speak out loud results</string>
+    <!-- ## Realtime Detector Settings-->
+    <string name="extra_realtime_settings_note">NOTES:\nCustom models must be placed in TFModels folder located in default app folder.\nIn realtime section you can find additional settings about this feature set tapping on top right button.</string>
+    <string name="pref_screen_title_realtime_settings">Realtime Advanced Settings</string>
     <string name="enable_rtm_output_file">Output results on file</string>
+    <string name="enable_rtm_output_file_summary">All results will be logged on a file saved in default folder</string>
+    <string name="pref_category_title_realtime_general">General</string>
     <string name="speak_best">Speak out loud best results only</string>
-    <string name="custom_model_name">Specify the name of a valid TF-Lite model in TFModels folder configuring type and parameters, to use as Custom detection.</string>
-    <string name="model_name">Model name</string>
-    <string name="model_batch_size">Batch size</string>
-    <string name="model_dim_x">Image size X</string>
-    <string name="model_dim_y">Image size Y</string>
-    <string name="model_pixel_size">Pixel size</string>
+    <string name="speak_best_summary">The vocal output will ignore lower confidence results.</string>
+    <string name="show_bench_osd">Show performances OSD</string>
+    <string name="show_bench_osd_summary">It shows detection performances statistics</string>
+    <string name="rear_camera_preview_size">Rear camera preview size</string>
+    <string name="front_camera_preview_size">Front camera preview size</string>
+    <string name="realtime_target_analysis_size">Target analysis resolution</string>
+    <string name="realtime_live_viewport">Continuous stream</string>
+    <string name="realtime_live_viewport_summary">Camera flow doesn\'t wait detection frame synchronization</string>
+    <string name="pref_category_object_detection">Element Identification / Localization</string>
+    <string name="custom_model_name">Custom TF-Lite model</string>
+    <string name="object_detector_enable_multiple_objects">Enable multiple objects</string>
+    <string name="object_detector_enable_classification">Enable classification</string>
+    <string name="autoreturn_barcode">Auto-return barcode in scan mode</string>
+    <string name="pref_category_face_detection">Face Detection</string>
+    <string name="face_detector_landmark_mode">Landmark mode</string>
+    <string name="pref_entries_face_detector_landmark_mode_no_landmarks">No landmarks</string>
+    <string name="pref_entries_face_detector_landmark_mode_all_landmarks">All landmarks</string>
+    <string name="face_detector_contour_mode">Contour mode</string>
+    <string name="pref_entries_face_detector_contour_mode_no_contours">No contours</string>
+    <string name="pref_entries_face_detector_contour_mode_all_contours">All contours</string>
+    <string name="face_detector_classification_mode">Classification mode</string>
+    <string name="pref_entries_face_detector_classification_mode_no_classifications">No classifications</string>
+    <string name="pref_entries_face_detector_classification_mode_all_classifications">All classifications</string>
+    <string name="face_detector_performance_mode">Performance mode</string>
+    <string name="pref_entries_face_detector_performance_mode_fast">Fast</string>
+    <string name="pref_entries_face_detector_performance_mode_accurate">Accurate</string>
+    <string name="face_detector_face_tracking">Face tracking</string>
+    <string name="face_detector_min_face_size">Minimum face size</string>
+    <string name="alert_face_detector_min_face_size">Proportion of the head width to the image width, and the valid value range is [0.0, 1.0]</string>
+    <string name="alert_invalid_min_face_size">Minimum face size must be a float value and in the range [0.0, 1.0]</string>
     <!-- End Setting section -->
 
     <!-- General messages and warning section -->
+    <string name="app_path_configuration_message">Now you have to choose the path where you want to allow the creation of default App folder.\nIn this folder will be saved results, and custom analysis models.\nThis operation must be done only in first configuration, if in future you want to choose a different path, you can reset it from settings menu.</string>
     <string name="identification_mode">Identification mode</string>
     <string name="choose_image">Choose image</string>
     <string name="camera_scan">Scan Mode</string>
@@ -81,6 +109,7 @@
     <string name="alert_saved_values">Results saved to a local txt file!</string>
     <!--    <string name="detector_not_ready">Local detector not yet ready.</string>-->
     <string name="alert_not_again">Don\'t show again.</string>
+    <string name="alert_unexpected_error">Unexpected error. If problem persists send a bug report.</string>
     <string name="alert_adblocker">In your device has been detected a global AdBlocker. Developing and maintaining this App requires resources, time and expenses. We cannot provide all this for free if you block even the Ads. The commands of the App are now disabled. Disable AdBlocker (or whitelist this App) if you want to use the free mode, or alternatively, purchase a Premium subscription.</string>
     <string name="alert_no_web_search">Result copied to clipboard.\nNo supported search assistants found on your device. Install a supported search assistant (e.g. Google Search) to enable integrated search feature.</string>
     <string name="alert_no_open_url">Result copied to clipboard.\nNo supported web browsers found on your device. Install a supported web browser(e.g. Chrome or Firefox) to enable direct url opening feature.</string>
@@ -126,7 +155,7 @@
     <string name="images_number">Detected images</string>
     <string name="images_correctly_analized">Correctly analyzed images</string>
     <string name="images_not_correctly_analized">Not correctly analyzed images</string>
-    <string name="copy">Copy</string>
+    <string name="copy_to_clipboard">Copy</string>
     <string name="complete_analysis_before">Complete an analysis before.</string>
     <string name="keyword_not_found">Keyword not found!</string>
     <string name="batch_search_description">This function allows you to search contents of interest leaving only elements whose results match a keyword.\nEnter the keyword.</string>
@@ -145,23 +174,21 @@
 
     <!-- Realtime section -->
     <string name="realtime_detector">Realtime Detector</string>
-    <string name="realtime_detector_description">The Realtime Detector allows you to detect elements on fly without internet connection. Since this feature uses much simpler neural network models to run with the limited capabilities of mobile devices, the accuracy cannot be in any way comparable to the Cloud based detection. If you need more accuracy, use the others dedicated features.</string>
+    <string name="realtime_detector_description">The Realtime Detector allows you to detect elements on fly without internet connection. Since this feature uses much simpler neural network models to run with the limited capabilities of mobile devices, the accuracy cannot be in any way comparable to the Cloud based detection. If you need more accuracy, use the others dedicated features.\nIf you use it for the first time, in some case the App needs to configure some device specific dependencies, if you see a blank screen wait and try again later.</string>
     <string name="toggle_camera_description">Toggle Front-Back Camera</string>
     <string name="toggle_flash_description">Start-Stop Flash Light</string>
     <string name="toggle_vocal_output_description">Start-Stop Listen Result</string>
     <string name="feature_spinner_description">Select the desired identification feature</string>
     <string name="custom">Custom</string>
-    <string name="elements">Elements</string>
-    <!--    <string name="elements_cloud">Elements [Cloud]</string>-->
+    <string name="elements">Identify</string>
+    <string name="localize">Localize</string>
     <string name="text">Text</string>
-    <!--    <string name="text_cloud">Text [Cloud]</string>-->
-    <!--    <string name="documents">Documents [Cloud]</string>-->
     <string name="faces">Faces</string>
-    <!--    <string name="faces_cloud">Faces [Cloud]</string>-->
     <string name="barcode">Barcode</string>
-    <!--    <string name="landmarks">Landmarks [Cloud]</string>-->
-    <string name="alart_custom_models_info">This function allows advanced users to use a custom detection model to detect elements. The supported models must be in TensorFlow Lite compatible format and consist of two files with the same name but extension .tflite (for the model) and .txt (for the related labels). The custom models must be placed in TFModel folder and then configured in the setting menu. If no custom model has been configured, IAT will use a default model. Read documentation for details.</string>
-    <string name="alert_cannot_load_model">The configured model for the Custom detector cannot be used, detection has been switched to default model.</string>
+    <string name="input_size">Input size</string>
+    <string name="latency">Latency</string>
+    <string name="alert_custom_models_info">This function allows advanced users to use a custom inference model to detect elements in identification mode [I] or localization mode [L]. The supported models must be in TensorFlow Lite compatible format with .tflite extension. The custom models must be placed in TFModel folder and then configured in the setting menu. If no custom model has been configured, IAT will ignore the selection, remaining on a default model. Read documentation for details.</string>
+    <string name="alert_cannot_load_model">The configured model for the Custom detector cannot be used.</string>
     <string name="realtime_engine_error">Realtime Engine Error</string>
     <!-- Realtime section -->
 
@@ -183,8 +210,8 @@
     <string name="matching_images_links">&#9668; Matching images (click to open): &#9658;</string>
     <string name="similar_images_links">&#9668; Similar images (click to open): &#9658;</string>
     <string name="matching_web_pages">Web pages with matched images:</string>
-    <string name="matching_images">Matching images:</string>
-    <string name="similar_images">Similar images:</string>
+    <string name="matching_images">Matching images</string>
+    <string name="similar_images">Similar images</string>
     <string name="toggle_links_details">Toggle links details.</string>
     <string name="detection_web_fail">-> Ops! Cannot identify any match for this picture.</string>
     <string name="images_download">Images download.</string>
@@ -297,7 +324,7 @@
     <string name="face_status">Face status</string>
     <string name="rotation">Rotation</string>
     <string name="maxillofacial_armony_score">Maxillofacial harmony</string>
-    <string name="happiness">Happiness</string>
+    <string name="happiness_probability">Happiness probability</string>
     <string name="is_smiling_probability">Is smiling probability</string>
     <string name="is_left_eye_open_probability">Is left eye opened probability</string>
     <string name="is_right_eye_open_probability">Is right eye opened probability</string>
