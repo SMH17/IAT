@@ -19,11 +19,10 @@
     <string name="communicate">Communicate</string>
     <string name="contact_us">Contact Us</string>
     <string name="share">Share</string>
-
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permission">Permissions not enough. Give to the App the needed permission.</string>
-    <string name="info_text">Version 0.3.1 SR 125\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.3.1 SR 126\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -155,7 +154,6 @@
     <string name="images_number">Detected images</string>
     <string name="images_correctly_analized">Correctly analyzed images</string>
     <string name="images_not_correctly_analized">Not correctly analyzed images</string>
-    <string name="copy_to_clipboard">Copy</string>
     <string name="complete_analysis_before">Complete an analysis before.</string>
     <string name="keyword_not_found">Keyword not found!</string>
     <string name="batch_search_description">This function allows you to search contents of interest leaving only elements whose results match a keyword.\nEnter the keyword.</string>
@@ -164,6 +162,7 @@
     <string name="batch_fail">Batch procedure fail.\nMake sure the selected path contains valid image files, or send a bug report using navigation drawer menu if you think it\'s an App error.</string>
     <string name="analysis_type">Analysis type:</string>
     <string name="analysis_result">Analysis results:</string>
+    <string name="copy_b">Copy</string>
     <string name="save">Save</string>
     <string name="search">Search</string>
     <string name="translate">Translate</string>
@@ -337,7 +336,7 @@
     <string name="barcode_detector_description">Barcode detector can detect almost all types of barcodes.\n1D barcodes:\nEAN-13, EAN-8, UPC-A, UPC-E, Code-39, Code-93, Code-128, ITF, Codabar.\n2D barcodes:\nQR Code, Data Matrix, PDF-417, AZTEC.\n\nUse the red buttons at the bottom to load an image or enter in camera scan mode.</string>
     <string name="barcode_detector_success">Barcode data detected (tap to copy to clipboard, long tap to search info):</string>
     <string name="barcode_detector_fail">-> Ops! Cannot identify any barcode in this picture.</string>
-    <string name="barcode_error">"-> Error reading barcode:"</string>
+    <string name="barcode_error">"-> Error reading barcode: %1$s"</string>
     <!-- End Barcode detector section -->
 
     <!-- Colorimeter section -->
@@ -383,18 +382,20 @@
     <string name="licensing_options">Licensing Options</string>
     <string name="bm_error">Cannot check the license status.</string>
     <string name="error_code">ERROR CODE:</string>
-    <string name="faq">FAQ:\n\nWhy subscription instead of one time purchase?\n-> Because one time purchase cannot be sustainable on long run, each user adds workload to our servers and we have to cover monthly costs.\n\nThere are Apps that use servers with no ads and no subscriptions, why your App is different?\n-> For some companies is enough to have their app installed to get money, because profile users reselling their data. We respect privacy of the users and haven\'t any opaque monetization system. This not mentioning the more expensive than average servers needed for the complex neural network based computer vision tasks performed by this app. The price is very low compared to the value this app adds to your device\'s feature set, however if you don\'t want to pay subscription, don\'t worry, the ads in this app are the very least to maintain the service, they aren\'t spammy and bothering.\n\nCould I cancel subscription if I change my mind in future?\n-> Yes! You can cancel your subscription at any time from Play Store returning to the full free mode with ads.\n\nWill the subscription price remain the same?\n-> The subscription price cannot be changed once a subscription has been activated. It could be changed only for new users that haven\'t any subscription active. This is the reason why subscribing now at promotional launch price (the lowest possible) It\'s a bargain.\n\nIf I have many devices can I use premium on them all with only one subscription?\n-> Of course! The license is linked to your Google Play account and will be automatically applied to all your devices linked to It or that will be linked in future, without any needs of further subscriptions for each device.</string>
+    <string name="faq">FAQ</string>
+    <string name="faq_description">FAQ:\n\nWhy subscription instead of one time purchase?\n-> Because one time purchase cannot be sustainable on long run, each user adds workload to our servers and we have to cover monthly costs.\n\nThere are Apps that use servers with no ads and no subscriptions, why your App is different?\n-> For some companies is enough to have their app installed to get money, because profile users reselling their data. We respect privacy of the users and haven\'t any opaque monetization system. This not mentioning the more expensive than average servers needed for the complex neural network based computer vision tasks performed by this app. The price is very low compared to the value this app adds to your device\'s feature set, however if you don\'t want to pay subscription, don\'t worry, the ads in this app are the very least to maintain the service, they aren\'t spammy and bothering.\n\nCould I cancel subscription if I change my mind in future?\n-> Yes! You can cancel your subscription at any time from Play Store returning to the full free mode with ads.\n\nWill the subscription price remain the same?\n-> The subscription price cannot be changed once a subscription has been activated. It could be changed only for new users that haven\'t any subscription active. This is the reason why subscribing now at promotional launch price (the lowest possible) It\'s a bargain.\n\nIf I have many devices can I use premium on them all with only one subscription?\n-> Of course! The license is linked to your Google Play account and will be automatically applied to all your devices linked to It or that will be linked in future, without any needs of further subscriptions for each device.</string>
     <string name="active">ACTIVE</string>
+    <string name="pending">PENDING</string>
     <string name="disabled">DISABLED</string>
     <string name="ads_mode_click">Ads mode will be automatically disabled if you purchase a Silver or Gold subscription, and It is enabled if there isn\'t any subscription active.</string>
     <string name="ads_mode">Ads Mode</string>
     <string name="ads_mode_description">All features enabled but you will see some ads randomly when you access a new section of this App from the home. (The default free mode)</string>
     <string name="premium_silver">Silver Subscription</string>
     <string name="premium_silver_content">Silver Subscription Button</string>
-    <string name="premium_silver_description">Monthly premium subscription allows you to disable all ads and limitations for the best user experience possible.</string>
+    <string name="premium_silver_description">Monthly premium subscription disables all ads and limitations for the best user experience possible.</string>
     <string name="premium_gold">Gold Subscription</string>
     <string name="premium_gold_content">Gold Subscription Button</string>
-    <string name="premium_gold_description">Yearly premium subscription allows you to disable all ads and limitations for the best user experience possible. Yearly Gold subscription is cheaper than 12 months of Silver subscription.</string>
+    <string name="premium_gold_description">Yearly premium subscription disables all ads and limitations for the best user experience possible. Yearly Gold subscription is cheaper than 12 months of Silver subscription.</string>
     <!-- End Billing section -->
 
 </resources>

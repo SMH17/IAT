@@ -96,9 +96,4 @@
         <item>Vietnamese</item>
     </string-array>
 
-    <string-array name="model_type">
-        <item>Float</item>
-        <item>Quantized</item>
-    </string-array>
-
 </resources>

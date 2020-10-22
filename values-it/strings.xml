@@ -20,7 +20,7 @@
     <string name="current_value">Valore corrente:</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permission">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.3.1 SR 125\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
+    <string name="info_text">Versione 0.3.1 SR 126\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="problem_description">DESCRIZIONE PROBLEMA</string>
     <string name="error">ERRORE</string>
@@ -152,7 +152,6 @@
     <string name="images_number">Immagini trovate</string>
     <string name="images_correctly_analized">Immagini correttamente analizzate</string>
     <string name="images_not_correctly_analized">Immagini non analizzate correttamente</string>
-    <string name="copy_to_clipboard">Copia</string>
     <string name="complete_analysis_before">Completa prima un\'analisi.</string>
     <string name="keyword_not_found">Parola chiave non trovata!</string>
     <string name="batch_search_description">Questa funzione consente di cercare i contenuti d\'interesse lasciando solo elementi i cui risultati corrispondono a una parola chiave.\nImmetti la parola chiave.</string>
@@ -161,6 +160,7 @@
     <string name="batch_fail">Procedura di analisi fallita.\nAssicurati che il path selezionato contenga file d\'immagine validi, oppure segnala il problema cliccando sulla relativa opzione nel menu di navigazione se ritieni sia un errore dell\'App.</string>
     <string name="analysis_type">Tipo di analisi:</string>
     <string name="analysis_result">Risultati analisi:</string>
+    <string name="copy_b">Copia</string>
     <string name="save">Salva</string>
     <string name="search">Cerca</string>
     <string name="translate">Traduci</string>
@@ -377,18 +377,20 @@
     <string name="licensing_options">Sottoscrizione Licenza</string>
     <string name="bm_error">Impossibile verificare lo stato della licenza.</string>
     <string name="error_code">CODICE ERRORE:</string>
-    <string name="faq">FAQ:\n\nPerch&#233; un abbonamento e non un acquisto singolo?\n-> Perch&#233; un acquisto singolo non sarebbe sostenibile sul lungo periodo, ciascun utente aggiunge un carico di lavoro ai server e dobbiamo sostenere costi mensili.\n\nCi sono App che usano server senza pubblicit&#224; e abbonamenti, perch&#233; con la vostra App sarebbe diverso?\n-> Per alcune compagnie &#233; sufficiente la sola installazione delle loro app per fargli guadagnare soldi, perch&#233; profilano gli utenti in modo invasivo, rivendendo i dati raccolti. Noi rispettiamo la privacy degli utenti e perci&#242; non abbiamo sistemi di monetizzazione nascosti basati su attivit&#224; di questo genere. Questo senza considerare che i server necessari per complessi sistemi di visione artificiale basati su reti neurali, come quelli usati in questa app, sono molto più costosi della media. Il costo &#232; davvero basso comparato al valore aggiunto da questa app al set di funzioni del vostro dispositivo, comunque se non intendete pagare un abbonamento non preoccupatevi, la pubblicit&#224; in questa app &#232; davvero il minimo indispensabile per sostenere il servizio, non verrette infastiditi con spam aggressivo.\n\nPosso annullare la sottoscrizione se cambio idea in futuro?\n-> Certamente! Poi cancellare la tua sottoscrizione in qualsiasi momento dal Play Store e tornare alla modalit&#224; gratuita con pubblicit&#224;.\n\nIl prezzo della sottoscrizione rester&#224; invariato?\n-> Il prezzo per chi ha una sottoscrizione attiva non pu&#242; essere cambiato. Il prezzo potrebbe cambiare solo per chi non ha alcuna sottoscrizione attiva. Questo &#232; uno dei motivi per cui attivare una sottoscrizione adesso a prezzo di lancio promozionale (il pi&#249; basso possibile) &#232; un affare.\n\nSe ho pi&#249; dispositivi la licenza vale per tutti?\n-> Certamente! La licenza &#232; collegata al tuo account Google Play e verr&#224; applicata automaticamente a tutti i dispositivi ad esso collegati o che verranno collegati in futuro, senza necessit&#224; d\'ulteriori sottoscrizioni per ogni singolo dispositivo.</string>
+    <string name="faq">FAQ</string>
+    <string name="faq_description">FAQ:\n\nPerch&#233; un abbonamento e non un acquisto singolo?\n-> Perch&#233; un acquisto singolo non sarebbe sostenibile sul lungo periodo, ciascun utente aggiunge un carico di lavoro ai server e dobbiamo sostenere costi mensili.\n\nCi sono App che usano server senza pubblicit&#224; e abbonamenti, perch&#233; con la vostra App sarebbe diverso?\n-> Per alcune compagnie &#233; sufficiente la sola installazione delle loro app per fargli guadagnare soldi, perch&#233; profilano gli utenti in modo invasivo, rivendendo i dati raccolti. Noi rispettiamo la privacy degli utenti e perci&#242; non abbiamo sistemi di monetizzazione nascosti basati su attivit&#224; di questo genere. Questo senza considerare che i server necessari per complessi sistemi di visione artificiale basati su reti neurali, come quelli usati in questa app, sono molto più costosi della media. Il costo &#232; davvero basso comparato al valore aggiunto da questa app al set di funzioni del vostro dispositivo, comunque se non intendete pagare un abbonamento non preoccupatevi, la pubblicit&#224; in questa app &#232; davvero il minimo indispensabile per sostenere il servizio, non verrette infastiditi con spam aggressivo.\n\nPosso annullare la sottoscrizione se cambio idea in futuro?\n-> Certamente! Poi cancellare la tua sottoscrizione in qualsiasi momento dal Play Store e tornare alla modalit&#224; gratuita con pubblicit&#224;.\n\nIl prezzo della sottoscrizione rester&#224; invariato?\n-> Il prezzo per chi ha una sottoscrizione attiva non pu&#242; essere cambiato. Il prezzo potrebbe cambiare solo per chi non ha alcuna sottoscrizione attiva. Questo &#232; uno dei motivi per cui attivare una sottoscrizione adesso a prezzo di lancio promozionale (il pi&#249; basso possibile) &#232; un affare.\n\nSe ho pi&#249; dispositivi la licenza vale per tutti?\n-> Certamente! La licenza &#232; collegata al tuo account Google Play e verr&#224; applicata automaticamente a tutti i dispositivi ad esso collegati o che verranno collegati in futuro, senza necessit&#224; d\'ulteriori sottoscrizioni per ogni singolo dispositivo.</string>
     <string name="active">ATTIVO</string>
+    <string name="pending">IN CORSO</string>
     <string name="disabled">INATTIVO</string>
     <string name="ads_mode_click">La modalit&#224; ads si disattiva automaticamente se si attiva un abbonamento premium Silver o Gold, e si attiva se non c\'&#232; alcun abbonamento attivo.</string>
     <string name="ads_mode">Modalit&#224; Ads</string>
     <string name="ads_mode_description">Tutte le funzioni abilitate ma vedrete qualche pubblicit&#224; quando accederete a una nuova sezione di questa app dalla home. (La modalit&#224; standard)</string>
     <string name="premium_silver">Abbonamento Silver</string>
     <string name="premium_silver_content">Bottone Abbonamento Silver</string>
-    <string name="premium_silver_description">L\'abbonamento premium mensile ti permette di disabilitare tutta la pubblicit&#224; e le limitazioni per la migliore esperienza utente possibile.</string>
+    <string name="premium_silver_description">L\'abbonamento premium mensile disabilita tutta la pubblicit&#224; e le limitazioni per la migliore esperienza utente possibile.</string>
     <string name="premium_gold">Abbonamento Gold</string>
     <string name="premium_gold_content">Bottone Abbonamento Gold</string>
-    <string name="premium_gold_description">L\'abbonamento premium annuale ti permette di disabilitare tutta la pubblicit&#224; e le limitazioni per la migliore esperienza utente possibile. L\'abbonamento Gold annuale &#232; più economico rispetto a 12 mesi di abbonamento Silver.</string>
+    <string name="premium_gold_description">L\'abbonamento premium annuale disabilita tutta la pubblicit&#224; e le limitazioni per la migliore esperienza utente possibile. L\'abbonamento Gold annuale &#232; più economico rispetto a 12 mesi di abbonamento Silver.</string>
     <!-- End Billing section -->
 
 </resources>
