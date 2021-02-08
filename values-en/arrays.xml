@@ -10,16 +10,21 @@
 
     <string-array name="analysis_mode">
         <item>Element Detection</item>
+        <item>Multi Localization</item>
         <item>Text Detection</item>
         <item>Face Detection</item>
         <item>Barcode Detection</item>
         <item>Exif Extraction</item>
+        <item>Custom [I]</item>
+        <item>Custom [L]</item>
     </string-array>
 
     <string-array name="element_identification_mode">
         <item>AUTO MODE</item>
         <item>Identification</item>
         <item>Multi Localization</item>
+        <item>Custom [I]</item>
+        <item>Custom [L]</item>
     </string-array>
 
     <string-array name="face_analysis_mode">

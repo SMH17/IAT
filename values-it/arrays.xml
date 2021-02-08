@@ -10,16 +10,21 @@
 
     <string-array name="analysis_mode">
         <item>Identificazione Elementi</item>
+        <item>Localizzazione multipla</item>
         <item>Riconoscimento Testo</item>
         <item>Rilevamento Facciale</item>
         <item>Identificazione Codici a Barre</item>
         <item>Estrazione Exif</item>
+        <item>Personalizzato [I]</item>
+        <item>Personalizzato [L]</item>
     </string-array>
 
     <string-array name="element_identification_mode">
         <item>MODO AUTO</item>
         <item>Identificazione</item>
         <item>Localizzazione multipla</item>
+        <item>Personalizzato [I]</item>
+        <item>Personalizzato [L]</item>
     </string-array>
 
     <string-array name="face_analysis_mode">

@@ -20,7 +20,7 @@
     <string name="current_value">Valore corrente:</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permissions">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.3.1 SR 134\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
+    <string name="info_text">Versione 0.3.1 SR 135\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="problem_description">DESCRIZIONE PROBLEMA</string>
     <string name="error">ERRORE</string>
@@ -70,6 +70,7 @@
     <string name="realtime_live_viewport_summary">Il flusso della camera non attende la sincronizzazione con i frame identificati</string>
     <string name="pref_category_object_detection">Identificatore / Localizzatore Elementi</string>
     <string name="custom_model_name">Modello TF-Lite personalizzato</string>
+    <string name="filter_unlabeled_output">Filtra output non etichettato</string>
     <string name="object_detector_enable_multiple_objects">Abilita elementi multipli</string>
     <string name="object_detector_enable_classification">Abilita classificazione</string>
     <string name="autoreturn_barcode">Auto-ritorno in scansione barcode</string>
