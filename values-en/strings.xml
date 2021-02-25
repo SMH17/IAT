@@ -23,7 +23,7 @@
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permissions">Permissions not enough. Give to the App the needed permissions.</string>
-    <string name="info_text">Version 0.3.1 SR 135\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.3.1 SR 136\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -144,6 +144,7 @@
     <string name="download_file_error">Download file error</string>
     <string name="detection_recovery_mode_error">[The detection switched automatically to local mode due to an error during the attempt to use the Cloud. If the problem persists, make sure to update the App to latest official version available on Google Play.]</string>
     <string name="mode_not_available_on_local">This mode requires cloud assisted detection.\nPlease enable cloud mode for this feature set.</string>
+    <string name="alert_custom_models_info">This function allows advanced users to use custom inference models to detect elements in identification mode [I] or localization mode [L]. The models must be in TensorFlow Lite compatible format with .tflite extension. Custom models must be placed in TFModel folder and then configured in the settings menu. If no custom model has been configured, IAT will ignore the selection, remaining on a default model. Read documentation for details.</string>
     <!-- End General messages and warning section -->
 
     <!-- Batch section -->
@@ -188,7 +189,6 @@
     <string name="barcode">Barcode</string>
     <string name="input_size">Input size</string>
     <string name="latency">Latency</string>
-    <string name="alert_custom_models_info">This function allows advanced users to use a custom inference model to detect elements in identification mode [I] or localization mode [L]. The supported models must be in TensorFlow Lite compatible format with .tflite extension. The custom models must be placed in TFModel folder and then configured in the setting menu. If no custom model has been configured, IAT will ignore the selection, remaining on a default model. Read documentation for details.</string>
     <string name="alert_cannot_load_model">The configured model for the Custom detector cannot be used.</string>
     <string name="realtime_engine_error">Realtime Engine Error</string>
     <!-- Realtime section -->
