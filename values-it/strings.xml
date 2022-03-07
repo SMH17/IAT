@@ -20,7 +20,7 @@
     <string name="current_value">Valore corrente:</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permissions">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.3.1 SR 141\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
+    <string name="info_text">Versione 0.3.2 SR 143\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="problem_description">DESCRIZIONE PROBLEMA</string>
     <string name="error">ERRORE</string>
@@ -50,7 +50,6 @@
     <string name="enable_detector_localization">Abilita traduzione risultati</string>
     <string name="batch_results_in_source_dir">Salva risultati analisi batch nella cartella d\'origine</string>
     <string name="alert_setting_realtime">Opzioni Identificatore in tempo reale:</string>
-    <string name="use_filtering">Usa Filtro Interpolante</string>
     <string name="show_detection_markers">Mostra marcatori d\'identificazione</string>
     <string name="enable_tts">Lettura vocale dei risultati</string>
     <!-- ## Realtime Detector Settings-->
@@ -346,7 +345,7 @@
 
     <!-- Censorship meter section -->
     <string name="censorship_meter">Analisi di rischio censura</string>
-    <string name="censorship_meter_description">Questo strumento ti permette di analizzare un\'immagine, per determinare se il suo contenuto potrebbe portare a sospensioni o ban automatici in social network e community, che spesso hanno strumenti di analisi automatica delle immagini, che nel caso individuassero fattori di rischio, potrebbero rimuovere l\'immagine o sanzionare l\'utente che la ha caricata.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
+    <string name="censorship_meter_description">Questo strumento ti permette di analizzare un\'immagine, per determinare se il suo contenuto potrebbe portare a sospensioni o ban automatici in social network e community, che spesso hanno strumenti di analisi automatica delle immagini, che nel caso individuassero fattori di rischio, potrebbero rimuovere l\'immagine o sanzionare l\'utente che la ha caricata, spesso erroneamente, specie se a un sospetto falso positivo si sovrappongono segnalazioni umane.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
     <string name="censorship_analysis_success">Risultati analisi (clicca per copiare negli appunti):</string>
     <string name="porn">-> PORNO:</string>
     <string name="racy">-> OS&#200;:</string>
@@ -356,6 +355,7 @@
     <string name="risk_analysis_summary">Riepilogo probabilit&#224; di rischio:</string>
     <string name="risk_detected">ATTENZIONE! Un fattore di rischio &#232; stato identificato. Caricare questa immagine potrebbe innescare misure di censura o anche causare la chiusura dell\'account in molti social e siti web.</string>
     <string name="no_risk_detected">L\'analisi automatica non ha identificato fattori di rischio.</string>
+    <string name="no_risk_detected_almost">L\'analisi automatica non ha identificato fattori di rischio ma l\'immagine potrebbe essere soggetta a moderazione automatizzata nei network pi&#249; puritani.</string>
     <!-- End Censorship meter section -->
 
     <!-- EXIF info section -->
