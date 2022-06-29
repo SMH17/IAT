@@ -19,11 +19,10 @@
     <string name="communicate">Communicate</string>
     <string name="contact_us">Contact Us</string>
     <string name="share">Share</string>
-
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permissions">Permissions not enough. Give to the App the needed permissions.</string>
-    <string name="info_text">Version 0.3.2 SR 143\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.3.3 SR 148\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -52,10 +51,11 @@
     <string name="use_face_detection_cloud">Use Cloud for accurate face detection</string>
     <string name="enable_detector_localization">Enable detector translation</string>
     <string name="batch_results_in_source_dir">Output batch results in source directory</string>
-    <string name="alert_setting_realtime">Options for real time detection:</string>
+    <string name="open_last_path">Open last path</string>
     <string name="show_detection_markers">Show Detection Markers</string>
     <string name="enable_tts">Speak out loud results</string>
     <!-- ## Realtime Detector Settings-->
+    <string name="setting_realtime_label">Options for real time detection:</string>
     <string name="extra_realtime_settings_note">NOTES:\nCustom models must be placed in TFModels folder located in default app folder.\nIn realtime section you can find additional settings about this feature set tapping on top right button.</string>
     <string name="pref_screen_title_realtime_settings">Realtime Advanced Settings</string>
     <string name="enable_rtm_output_file">Output results on file</string>
@@ -106,7 +106,7 @@
     <string name="stop_tts">Stop vocal output</string>
     <string name="tts_error">Cannot use Text to Speech function</string>
     <string name="alert_copied_values">Copied to clipboard!</string>
-    <string name="alert_saved_values">Results saved to a local txt file!</string>
+    <string name="alert_saved">Results saved to a local file!</string>
     <string name="detector_not_ready">Local detector not yet ready. Try again later if problem persist restart device.</string>
     <string name="alert_not_again">Don\'t show again.</string>
     <string name="alert_unexpected_error">Unexpected error. If problem persists send a bug report.</string>
@@ -249,7 +249,7 @@
     <!-- Face Insight section -->
     <string name="face_insight">Face Insight</string>
     <string name="face_detection_description">Detect multiple faces within an image, along with the associated facial attributes. This function is also able to perform an emotional analysis to determine the emotional state plus It can tell you if the person is wearing headwear.\n\nUse the red button at the bottom to load an image.</string>
-    <string name="face_comparison_description">This function allows you to compare resemblance between 2 persons. You have to load 2 different images. In order to get a valid result, each photo must contain a single face where all elements (nose, eyes, mouth etc.) are well visible.\n\nUse the red button at the bottom to load the first image.</string>
+    <string name="face_comparison_description">This function allows you to compare resemblance between 2 persons for forensic level identity matching. You have to load 2 different images. In order to get a valid result, each photo must contain a single face where all elements (nose, eyes, mouth etc.) are well visible.\n\nUse the red button at the bottom to load the first image.</string>
     <string name="face_age_description">This function returns a raw estimation of the likely age range. In order to get a valid result, the photo must contain a single face where all elements (nose, eyes, mouth etc.) are well visible.\n\nUse the red button at the bottom to load an image.</string>
     <string name="face_celebrity_description">This function allows you to identify celebrities.\n\nUse the red button at the bottom to load an image.</string>
     <string name="face">FACE</string>
@@ -372,6 +372,13 @@
     <string name="exif_info_result_error">-> Ops! Cannot identify any EXIF due to an unexpected error.</string>
     <!-- End EXIF info section -->
 
+    <!-- ELA section -->
+    <string name="ela">ELA</string>
+    <string name="ela_description">This feature generates an error mask, to allow you to spot more easily tampered sections in an image, according the inhomogeneity in the distribution of the error compared to the local pattern.\n(A very easy way to familiarize with the tool is to try to alter some images and see how the error mask looks in the altered points.)\n\nUse the red button at the bottom to load an image.</string>
+    <string name="ela_success">Slide left and right to show analysis mask and original picture. Incoherent error distribution pattern in a specific area indicates the area has been tampered. Use the bar to set threshold.</string>
+    <string name="ela_error">Ops! An error occurred during the analysis mask generation.\nMake sure the image selected is valid.</string>
+    <!-- End ELA section -->
+
     <!-- Likelihood levels -->
     <string name="likely">likely</string>
     <string name="very_likely">very likely</string>
@@ -399,5 +406,6 @@
     <string name="premium_gold_content">Gold Subscription Button</string>
     <string name="premium_gold_description">Yearly premium subscription disables all ads and limitations for the best user experience possible. Yearly Gold subscription is cheaper than 12 months of Silver subscription.</string>
     <!-- End Billing section -->
+
 
 </resources>

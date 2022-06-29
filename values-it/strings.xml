@@ -20,7 +20,7 @@
     <string name="current_value">Valore corrente:</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permissions">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.3.2 SR 143\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
+    <string name="info_text">Versione 0.3.3 SR 148\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="problem_description">DESCRIZIONE PROBLEMA</string>
     <string name="error">ERRORE</string>
@@ -49,10 +49,11 @@
     <string name="use_face_detection_cloud">Usa Cloud per rilevamento accurato volti</string>
     <string name="enable_detector_localization">Abilita traduzione risultati</string>
     <string name="batch_results_in_source_dir">Salva risultati analisi batch nella cartella d\'origine</string>
-    <string name="alert_setting_realtime">Opzioni Identificatore in tempo reale:</string>
+    <string name="open_last_path">Apri ultimo percorso</string>
     <string name="show_detection_markers">Mostra marcatori d\'identificazione</string>
     <string name="enable_tts">Lettura vocale dei risultati</string>
     <!-- ## Realtime Detector Settings-->
+    <string name="setting_realtime_label">Opzioni Identificatore in tempo reale:</string>
     <string name="extra_realtime_settings_note">NOTE:\nI modelli personalizzati devono essere posizionati nella cartella TFModels all\'interno del percoso predefinito dell\'app.\nNella sezione realtime puoi trovare ulteriori impostazioni dedicate a questo set di funzioni, cliccando sul bottone in alto a destra.</string>
     <string name="pref_screen_title_realtime_settings">Realtime Advanced Settings</string>
     <string name="enable_rtm_output_file">Scrivi risultati su file</string>
@@ -103,7 +104,7 @@
     <string name="stop_tts">Lettura vocale fermata</string>
     <string name="tts_error">Impossibile utilizzare funzione TTS</string>
     <string name="alert_copied_values">Copiato negli appunti!</string>
-    <string name="alert_saved_values">Risultati salvati su file txt!</string>
+    <string name="alert_saved">Risultati salvati su file!</string>
     <string name="detector_not_ready">L\'identificatore locale non &#232; pronto. Riprova dopo, se il problema persiste, riavvia il dispositivo.</string>
     <string name="alert_not_again">Non mostrare pi&#249;.</string>
     <string name="alert_unexpected_error">Errore inatteso! Se persiste, segnala il problema dal menu a lato</string>
@@ -243,7 +244,7 @@
     <!-- Face Insight section -->
     <string name="face_insight">Analisi Facciale</string>
     <string name="face_detection_description">Consente di rilevare volti all\'interno di un\'immagine, e gli attributi facciali associati. Questa funzione effettua inoltre un\'analisi emotiva per determinare lo stato emotivo del soggetto e in aggiunta &#232; in grado di determinare se il soggetto indossa un copricapo.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
-    <string name="face_comparison_description">Compara la somiglianza di 2 volti. Per ottenere un risultato valido, ogni foto deve contenere una sola persona dove tutte le parti del volto (naso, occhi, bocca ecc.) sono ben visibili.\n\nUsa il pulsante rosso in basso per selezionare la prima immagine.</string>
+    <string name="face_comparison_description">Compara la somiglianza di 2 volti per comparazioni d\'identit&#224; di livello forense. Per ottenere un risultato valido, ogni foto deve contenere una sola persona dove tutte le parti del volto (naso, occhi, bocca ecc.) sono ben visibili.\n\nUsa il pulsante rosso in basso per selezionare la prima immagine.</string>
     <string name="face_age_description">Questa funzione prova a fare una stima approssimata dell\'et&#224;, la foto deve contenere una sola persona dove tutte le parti del volto (naso, occhi, bocca ecc.) sono ben visibili.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
     <string name="face_celebrity_description">Questa funzione ti permette d\'identificare i volti famosi.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
     <string name="face">VOLTO</string>
@@ -365,6 +366,13 @@
     <string name="exif_info_result_fail">-> Ops! Non &#232; stato possibile identificare le informazioni EXIF.</string>
     <string name="exif_info_result_error">-> Ops! Non &#232; stato possibile identificare le informazioni EXIF. A causa di un errore inatteso.</string>
     <!-- End EXIF info section -->
+
+    <!-- ELA section -->
+    <string name="ela">ELA</string>
+    <string name="ela_description">Questa funzione genera una maschera d\'errore dell\'immagine, per consentirti d\'individuare pi&#249; facilmente le aree alterate, in base alle disomogeneit&#224; della distribuzione d\'errore rispetto al pattern locale.\n(Un modo molto semplice per prendere familiarit&#224; con lo strumento &#232; provare ad alterare qualche immagine e vedere come la maschera d\'errore appare nei punti alterati.)\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
+    <string name="ela_success">Trascina da sinistra a destra per mostrare o nascondere la maschera di distribuzione d\'errore. Un pattern incoerente in una specifica area indica che l\'area &#232; stata manomessa. Puoi aggiustare la soglia con la barra di regolazione.</string>
+    <string name="ela_error">Ops! Si &#232; verificato un errore durante la generazione della maschera di analisi.\nAssicurati che l\'imagine selezionata sia valida.</string>
+    <!-- End ELA section -->
 
     <!-- Likelihood levels -->
     <string name="likely">probabile</string>
