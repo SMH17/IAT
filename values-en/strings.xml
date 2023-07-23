@@ -22,7 +22,7 @@
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permissions">Permissions not enough. Give to the App the needed permissions.</string>
-    <string name="info_text">Version 0.3.3 SR 166\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.3.3 SR 172\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -111,6 +111,8 @@
     <string name="alert_not_again">Don\'t show again.</string>
     <string name="alert_unexpected_error">Unexpected error. If problem persists send a bug report.</string>
     <string name="alert_adblocker">In your device has been detected a global AdBlocker. Developing and maintaining this App requires resources, time and expenses. We cannot provide all this for free if you block even the Ads. The commands of the App are now disabled. Disable AdBlocker (or whitelist this App) if you want to use the free mode, or alternatively, purchase a Premium subscription.</string>
+    <string name="alert_noadsconsent">You have denied the consent to show ads. Ads are needed to cover expenses in free mode.\nGive the consent or get a premium subscription.</string>
+    <string name="give_consent">Give Consent</string>
     <string name="alert_no_web_search">Result copied to clipboard.\nNo supported search assistants found on your device. Install a supported search assistant (e.g. Google Search) to enable integrated search feature.</string>
     <string name="alert_no_open_url">Result copied to clipboard.\nNo supported web browsers found on your device. Install a supported web browser(e.g. Chrome or Firefox) to enable direct url opening feature.</string>
     <string name="alert_camera_intent_error">Your device cannot handle Camera Intent correctly.\nUpdate your Android version to a newer release or install a camera app with a newer Camera Intent support.</string>
@@ -406,6 +408,7 @@
     <string name="premium_gold_content">Gold Subscription Button</string>
     <string name="premium_gold_description">Yearly premium subscription disables all ads and limitations for the best user experience possible. Yearly Gold subscription is cheaper than 12 months of Silver subscription.</string>
     <!-- End Billing section -->
+
 
 
 </resources>
