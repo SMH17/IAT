@@ -22,7 +22,7 @@
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permissions">Permissions not enough. Give to the App the needed permissions.</string>
-    <string name="info_text">Version 0.3.3 SR 173\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.3.3 SR 178\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -200,6 +200,8 @@
     <string name="detection_success">Detected elements (tap to search info, long tap to copy to clipboard):</string>
     <string name="detection_fail">-> Ops! Cannot identify any element in this picture.</string>
     <string name="detection_offline_success">Detected elements in offline mode (tap to search info, long tap to copy to clipboard):</string>
+    <string name="model_error">-> Ops! Unspecified error during model initialization.</string>
+    <string name="analysis_error">-> Ops! Error during analysis.</string>   
     <string name="detection_offline_fail">-> Ops! Cannot identify any element in this picture.\n\nYou are in local mode, with an internet connection active you can get better results.</string>
     <string name="element_detector_translation_tip">Element Detector engine is in English, however you can enable the translation of its results to a target language of your choice in the settings.</string>
     <!-- End Element detection section -->

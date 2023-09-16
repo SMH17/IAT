@@ -20,7 +20,7 @@
     <string name="current_value">Valore corrente:</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permissions">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.3.3 SR 172\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
+    <string name="info_text">Versione 0.3.3 SR 178\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="problem_description">DESCRIZIONE PROBLEMA</string>
     <string name="error">ERRORE</string>
@@ -194,6 +194,8 @@
     <string name="element_detector_description">L\'identificatore elementi ti permette d\'identificare gli elementi presenti in un\'immagine, per consentirti di trovare informazioni a riguardo. Le categorie supportate sono molto ampie e spaziano da oggetti inanimati a piante ed animali.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
     <string name="detection_success">Elementi identificati (clicca per cercare informazioni, tieni premuto per copiare negli appunti):</string>
     <string name="detection_fail">-> Ops! Non &#232; stato possibile identificare alcun elemento.</string>
+    <string name="model_error">-> Ops! Errore sconosciuto nell\'inizializzazione del modello.</string>
+    <string name="analysis_error">-> Ops! Errore durante l\'analisi.</string>
     <string name="detection_offline_success">Elementi identificati in modalit&#224; locale (clicca per cercare informazioni, tieni premuto per copiare negli appunti):</string>
     <string name="detection_offline_fail">-> Ops! Non &#232; stato possibile identificare alcun elemento.\n\nAdesso sei in modalit&#224; locale, con una connessione internet attiva puoi ottenere risultati migliori.</string>
     <string name="element_detector_translation_tip">Il motore di rilevamento elementi &#232; in inglese, tuttavia &#232; possibile abilitare la traduzione dei suoi risultati in una lingua di destinazione a scelta nelle impostazioni.</string>
