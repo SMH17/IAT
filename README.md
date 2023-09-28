@@ -1,5 +1,5 @@
 # IAT
-This is the contribute section of [Image Analysis Toolset](https://smh17.tk/en/home/image-analysis-toolset) also known as [IAT](https://play.google.com/store/apps/details?id=tk.silviomarano.imageanalysistoolset) a powerful and versatile image analysis app. 
+This is the contribute section of [Image Analysis Toolset](https://smh17.tk/en/home/image-analysis-toolset) also known as [IAT](https://play.google.com/store/apps/details?id=tk.silviomarano.imageanalysistoolset), a powerful and versatile image analysis app. 
 
 ## Image Analysis Toolset Translation
 
@@ -17,6 +17,8 @@ Already translated languages:
 - Generic English
 - Italy Italian
 
-[IAT FAQ Link](https://sites.google.com/view/iat-app/home/faq)
+**LINKS**:
 
-[Google Play Link](https://play.google.com/store/apps/details?id=tk.silviomarano.imageanalysistoolset)
+[IAT FAQ](https://sites.google.com/view/iat-app/home/faq)
+
+[Google Play](https://play.google.com/store/apps/details?id=tk.silviomarano.imageanalysistoolset)
