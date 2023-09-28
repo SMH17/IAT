@@ -1,7 +1,7 @@
 # IAT
-Image Analysis Toolset contribute section
+This is the contribute section of [Image Analysis Toolset](https://smh17.tk/en/home/image-analysis-toolset) also known as [IAT](https://play.google.com/store/apps/details?id=tk.silviomarano.imageanalysistoolset) a powerful and versatile image analysis app. 
 
-## Image Analysis Toolset GUI
+## Image Analysis Toolset Translation
 
 Here you can contribute to localization of IAT in your language.
 
@@ -16,3 +16,7 @@ You can find the strings that must be translated to compile also the non-transla
 Already translated languages:
 - Generic English
 - Italy Italian
+
+[IAT FAQ Link](https://sites.google.com/view/iat-app/home/faq)
+
+[Google Play Link](https://play.google.com/store/apps/details?id=tk.silviomarano.imageanalysistoolset)
