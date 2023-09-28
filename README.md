@@ -19,6 +19,6 @@ Already translated languages:
 
 **LINKS**:
 
-[IAT FAQ](https://sites.google.com/view/iat-app/home/faq)
+[IAT FAQs](https://sites.google.com/view/iat-app/home/faq)
 
 [Google Play](https://play.google.com/store/apps/details?id=tk.silviomarano.imageanalysistoolset)
