@@ -22,7 +22,7 @@
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permissions">Permissions not enough. Give to the App the needed permissions.</string>
-    <string name="info_text">Version 0.3.3 SR 184\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.3.3 SR 186\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -38,6 +38,7 @@
     <string name="action_batch">Batch</string>
     <string name="action_settings">Settings</string>
     <string name="action_info">Info</string>
+    <string name="action_consent">Consent</string>
     <string name="action_unlock">License</string>
     <!-- Action bar section -->
 
@@ -111,8 +112,9 @@
     <string name="alert_not_again">Don\'t show again.</string>
     <string name="alert_unexpected_error">Unexpected error. If problem persists send a bug report.</string>
     <string name="alert_adblocker">In your device has been detected a global AdBlocker. Developing and maintaining this App requires resources, time and expenses. We cannot provide all this for free if you block even the Ads. The commands of the App are now disabled. Disable AdBlocker (or whitelist this App) if you want to use the free mode, or alternatively, purchase a Premium subscription.</string>
+    <string name="alert_consent_info">From here you can manage privacy consent. A proper consent is needed only to show ads. It isn\'t needed in premium mode.\nGive the consent or get a premium subscription.</string>
     <string name="alert_noadsconsent">You have denied the consent to show ads. Ads are needed to cover expenses in free mode.\nGive the consent or get a premium subscription.</string>
-    <string name="give_consent">Give Consent</string>
+    <string name="set_consent">Set Consent</string>
     <string name="alert_no_web_search">Result copied to clipboard.\nNo supported search assistants found on your device. Install a supported search assistant (e.g. Google Search) to enable integrated search feature.</string>
     <string name="alert_no_open_url">Result copied to clipboard.\nNo supported web browsers found on your device. Install a supported web browser(e.g. Chrome or Firefox) to enable direct url opening feature.</string>
     <string name="alert_camera_intent_error">Your device cannot handle Camera Intent correctly.\nUpdate your Android version to a newer release or install a camera app with a newer Camera Intent support.</string>
@@ -156,8 +158,8 @@
     <string name="file_name">File name</string>
     <string name="files_number">Total files number</string>
     <string name="images_number">Detected images</string>
-    <string name="images_correctly_analized">Correctly analyzed images</string>
-    <string name="images_not_correctly_analized">Not correctly analyzed images</string>
+    <string name="images_correctly_analyzed">Correctly analyzed images</string>
+    <string name="images_not_correctly_analyzed">Not correctly analyzed images</string>
     <string name="complete_analysis_before">Complete an analysis before.</string>
     <string name="keyword_not_found">Keyword not found!</string>
     <string name="batch_search_description">This function allows you to search contents of interest leaving only elements whose results match a keyword.\nEnter the keyword.</string>
@@ -199,9 +201,9 @@
     <string name="element_detector_description">Element detector allows you to identify elements within an image, to find information about them. It supports broad sets of categories ranging from inanimate objects to plants and animals.\n\nUse the red button at the bottom to load an image.</string>
     <string name="detection_success">Detected elements (tap to search info, long tap to copy to clipboard):</string>
     <string name="detection_fail">-> Ops! Cannot identify any element in this picture.</string>
-    <string name="detection_offline_success">Detected elements in offline mode (tap to search info, long tap to copy to clipboard):</string>
     <string name="model_error">-> Ops! Unspecified error during model initialization.</string>
-    <string name="analysis_error">-> Ops! Error during analysis.</string>   
+    <string name="analysis_error">-> Ops! Error during analysis.</string>
+    <string name="detection_offline_success">Detected elements in offline mode (tap to search info, long tap to copy to clipboard):</string>
     <string name="detection_offline_fail">-> Ops! Cannot identify any element in this picture.\n\nYou are in local mode, with an internet connection active you can get better results.</string>
     <string name="element_detector_translation_tip">Element Detector engine is in English, however you can enable the translation of its results to a target language of your choice in the settings.</string>
     <!-- End Element detection section -->

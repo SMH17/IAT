@@ -20,7 +20,7 @@
     <string name="current_value">Valore corrente:</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permissions">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.3.3 SR 184\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
+    <string name="info_text">Versione 0.3.3 SR 186\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="problem_description">DESCRIZIONE PROBLEMA</string>
     <string name="error">ERRORE</string>
@@ -36,6 +36,7 @@
     <string name="action_batch">Batch</string>
     <string name="action_settings">Impostazioni</string>
     <string name="action_info">Info</string>
+    <string name="action_consent">Consenso</string>
     <string name="action_unlock">Licenza</string>
     <!-- End Action bar section -->
 
@@ -109,8 +110,9 @@
     <string name="alert_not_again">Non mostrare pi&#249;.</string>
     <string name="alert_unexpected_error">Errore inatteso! Se persiste, segnala il problema dal menu a lato</string>
     <string name="alert_adblocker">Sul tuo dispositivo &#232; stato rilevato un AdBlocker globale. Sviluppare e mantenere questa App ha richiesto e richiede risorse, tempo e denaro. Non possiamo fornire tutto questo totalmente gratis se gli utenti bloccano pure gli sponsor. I comandi dell\'App adesso sono disabilitati. Disabilita l\'AdBlocker (o aggiungi l\'App alle eccezioni di blocco) se vuoi usare la modalit&#224; gratuita, o in alternativa, acquista una sottoscrizione Premium.</string>
+    <string name="alert_consent_info">Da puoi gestire il consenso per la privacy. Abilitare le opzioni di consenso &#232; necessario solo per gli annunci. Non &#232; richiesto in modalit&#224; premium.\nDai il consenso oppure ottieni una sottoscrizione premium.</string>
     <string name="alert_noadsconsent">Hai negato il consenso alla pubblicazione degli annunci. Gli annunci sono necessari per coprire le spese in modalit&#224; gratuita.\nDai il consenso oppure ottieni una sottoscrizione premium.</string>
-    <string name="give_consent">Dai Consenso</string>
+    <string name="set_consent">Imposta Consenso</string>
     <string name="alert_no_web_search">Risultato copiato negli appunti\nSul tuo dispositivo non sono stati rilevati assistenti di ricerca supportati. Installa un assistente di ricerca supportato (come ad esempio Ricerca Google) per abilitare la funzione di ricerca integrata.</string>
     <string name="alert_no_open_url">Risultato copiato negli appunti\nSul tuo dispositivo non sono stati rilevati web browser supportati. Installa un web browser supportato(come ad esempio Chrome, Firefox) per abilitare l\'apertura diretta dei link.</string>
     <string name="alert_camera_intent_error">Il tuo dispositivo non sembra in grado di gestire la funzione Camera Intent correttamente.\nAggiorna il sistema a una versione pi&#249; recente di Android o installa dallo store un\'app camera con supporto migliore alle funzioni Camera Intent.</string>
@@ -154,8 +156,8 @@
     <string name="file_name">Nome file</string>
     <string name="files_number">Totale file</string>
     <string name="images_number">Immagini trovate</string>
-    <string name="images_correctly_analized">Immagini correttamente analizzate</string>
-    <string name="images_not_correctly_analized">Immagini non analizzate correttamente</string>
+    <string name="images_correctly_analyzed">Immagini correttamente analizzate</string>
+    <string name="images_not_correctly_analyzed">Immagini non analizzate correttamente</string>
     <string name="complete_analysis_before">Completa prima un\'analisi.</string>
     <string name="keyword_not_found">Parola chiave non trovata!</string>
     <string name="batch_search_description">Questa funzione consente di cercare i contenuti d\'interesse lasciando solo elementi i cui risultati corrispondono a una parola chiave.\nImmetti la parola chiave.</string>
