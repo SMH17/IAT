@@ -22,7 +22,7 @@
     <string name="current_value">Current value:</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permissions">Permissions not enough. Give to the App the needed permissions.</string>
-    <string name="info_text">Version 0.3.3 SR 190\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.3.4 SR 192\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -35,12 +35,13 @@
     <string name="action_download">Download</string>
     <string name="action_tts">Start-Stop Listen Result</string>
     <string name="action_search">Search</string>
+    <string name="action_smart_sort">Smart Sort</string>
     <string name="action_batch">Batch</string>
     <string name="action_settings">Settings</string>
     <string name="action_info">Info</string>
     <string name="action_consent">Consent</string>
     <string name="action_unlock">License</string>
-    <!-- Action bar section -->
+    <!-- End Action bar section -->
 
     <!-- Setting section -->
     <string name="app_theme">App Theme</string>
@@ -112,6 +113,7 @@
     <string name="alert_not_again">Don\'t show again.</string>
     <string name="alert_unexpected_error">Unexpected error. If problem persists send a bug report.</string>
     <string name="alert_adblocker">In your device has been detected a global AdBlocker. Developing and maintaining this App requires resources, time and expenses. We cannot provide all this for free if you block even the Ads. The commands of the App are now disabled. Disable AdBlocker (or whitelist this App) if you want to use the free mode, or alternatively, purchase a Premium subscription.</string>
+    <string name="alert_disabled_network">In your device has been detected airplane mode or all connectivity features disabled. Only premium users can use the app in offline mode because free version is maintained by Ads. To overcome this limit, purchase a Premium subscription.</string>
     <string name="alert_consent_info">From here you can manage privacy consent. A proper consent is needed only to show ads. It isn\'t needed in premium mode.\nGive the consent or get a premium subscription.</string>
     <string name="alert_noadsconsent">You have denied the consent to show ads. Ads are needed to cover expenses in free mode.\nGive the consent or get a premium subscription.</string>
     <string name="set_consent">Set Consent</string>
@@ -152,7 +154,7 @@
 
     <!-- Batch section -->
     <string name="batch">Batch</string>
-    <string name="batch_description">Process multiple images at same time.\nThis feature works using only local engine, so some features are less accurate than image analysis assisted by cloud available for certain feature set when you use the single image analysis.\n\nChose the feature you want to use then select the directory you want to process using the red button at the bottom.</string>
+    <string name="batch_description">Process multiple images at same time.\nThis feature works using only local engine, so some features are less accurate than image analysis assisted by cloud available for certain feature set when you use the single image analysis.\n\nChoose the feature you want to use then select the directory you want to process using the red button at the bottom.</string>
     <string name="select_folder">Select folder</string>
     <string name="invalid_path">Invalid or empty path.</string>
     <string name="file_name">File name</string>
@@ -172,6 +174,9 @@
     <string name="save">Save</string>
     <string name="search">Search</string>
     <string name="translate">Translate</string>
+    <string name="smart_sort_alert">This function automatically sorts the images in selected path, according the detected content, moving or coping them in an appropriate folder if already exists in the path, or in a new subfolder with the classification category name.\n\n</string>
+    <string name="smart_sort_completed">Smart Sort task completed. Number of sorted files: </string>
+    <string name="threshold">Minimum classification threshold:</string>
     <string name="blank_string" translatable="false">…</string>
     <string name="play_symbol" translatable="false">&#9658;</string>
     <string name="stop_symbol" translatable="false">&#9632;</string>
@@ -200,11 +205,11 @@
     <string name="element_detector">Element Detector</string>
     <string name="element_detector_description">Element detector allows you to identify elements within an image, to find information about them. It supports broad sets of categories ranging from inanimate objects to plants and animals.\n\nUse the red button at the bottom to load an image.</string>
     <string name="detection_success">Detected elements (tap to search info, long tap to copy to clipboard):</string>
-    <string name="detection_fail">-> Ops! Cannot identify any element in this picture.</string>
-    <string name="model_error">-> Ops! Unspecified error during model initialization.</string>
-    <string name="analysis_error">-> Ops! Error during analysis.</string>
+    <string name="detection_fail">-> Oops! Cannot identify any element in this picture.</string>
+    <string name="model_error">-> Oops! Unspecified error during model initialization.\nMake sure to use models in a suitable format with embedded labels metadata and that model doesn\'t exceed your device resources limits.</string>
+    <string name="analysis_error">-> Oops! Error during analysis.</string>
     <string name="detection_offline_success">Detected elements in offline mode (tap to search info, long tap to copy to clipboard):</string>
-    <string name="detection_offline_fail">-> Ops! Cannot identify any element in this picture.\n\nYou are in local mode, with an internet connection active you can get better results.</string>
+    <string name="detection_offline_fail">-> Oops! Cannot identify any element in this picture.\n\nYou are in local mode, with an internet connection active you can get better results.</string>
     <string name="element_detector_translation_tip">Element Detector engine is in English, however you can enable the translation of its results to a target language of your choice in the settings.</string>
     <!-- End Element detection section -->
 
@@ -219,7 +224,7 @@
     <string name="matching_images">Matching images</string>
     <string name="similar_images">Similar images</string>
     <string name="toggle_links_details">Toggle links details.</string>
-    <string name="detection_web_fail">-> Ops! Cannot identify any match for this picture.</string>
+    <string name="detection_web_fail">-> Oops! Cannot identify any match for this picture.</string>
     <string name="images_download">Images download.</string>
     <string name="categories_to_download">Select categories to download.</string>
     <string name="web_detector_res_tip">To see similar and matching images (if present), swipe the title of link area section (where you can see left-right arrows).</string>
@@ -230,8 +235,8 @@
     <string name="ocr_description">Optical Text Recognition allows you to digitize the text content of an image.\n\nUse the red button at the bottom to load an image and start detection.\n\nOptionally you can specify the mode and the language of the text to identify if known (in some circumstances this improves the results avoiding errors due to incorrect interpretation of the text language autodetection).</string>
     <string name="detection_ocr_success">Detected text (tap to copy to clipboard, long tap to search content on web):</string>
     <string name="detection_ocr_offline_success">Detected text in offline mode (tap to copy to clipboard):</string>
-    <string name="detection_ocr_fail">-> Ops! Cannot identify any text in this picture.</string>
-    <string name="detection_ocr_fail_offline">-> Ops! Cannot identify any text in this picture.\n\nYou are in local mode, with an internet connection active you can get better results.</string>
+    <string name="detection_ocr_fail">-> Oops! Cannot identify any text in this picture.</string>
+    <string name="detection_ocr_fail_offline">-> Oops! Cannot identify any text in this picture.\n\nYou are in local mode, with an internet connection active you can get better results.</string>
     <string name="ocr_mode">Ocr mode</string>
     <string name="target_language">Target language</string>
     <string name="language">Language:</string>
@@ -242,14 +247,14 @@
     <!-- Logo detection section -->
     <string name="logo_detector">Logo Detector</string>
     <string name="logo_detector_description">Logo detector allows you to identify logos, to find information about brands and products.\n\nUse the red button at the bottom to load an image.</string>
-    <string name="detection_logo_fail">-> Ops! Cannot identify any logo in this picture.</string>
+    <string name="detection_logo_fail">-> Oops! Cannot identify any logo in this picture.</string>
     <!-- End Logo detection section -->
 
     <!-- Landmark detection section -->
     <string name="landmark_detector">Landmark Detector</string>
     <string name="landmark_detector_description">Landmark detector allows you to identify popular natural and man-made structures, to search info about them or their locality.\n\nUse the red button at the bottom to load an image.</string>
     <string name="detection_landmark_success">Detected landmarks (tap to search info, long tap to copy to clipboard):</string>
-    <string name="detection_landmark_fail">-> Ops! Cannot identify any landmark in this picture.</string>
+    <string name="detection_landmark_fail">-> Oops! Cannot identify any landmark in this picture.</string>
     <!-- End Landmark detection section -->
 
     <!-- Face Insight section -->
@@ -260,14 +265,14 @@
     <string name="face_celebrity_description">This function allows you to identify celebrities.\n\nUse the red button at the bottom to load an image.</string>
     <string name="face">FACE</string>
     <string name="face_detection_success">Faces detected (tap to copy to clipboard):</string>
-    <string name="face_detection_fail">-> Ops! Cannot identify any face in this picture.</string>
+    <string name="face_detection_fail">-> Oops! Cannot identify any face in this picture.</string>
     <string name="detection_face_success_offline">Faces detected in offline mode (tap to copy to clipboard):</string>
-    <string name="detection_face_fail_offline">-> Ops! Cannot identify any face in this picture.\n\nYou are in local mode, with an internet connection active you can get better results.</string>
+    <string name="detection_face_fail_offline">-> Oops! Cannot identify any face in this picture.\n\nYou are in local mode, with an internet connection active you can get better results.</string>
     <string name="face_age_success">Age range estimation completed (tap to copy to clipboard):</string>
     <string name="face_comparison_success">Faces compared (tap to copy to clipboard):</string>
-    <string name="face_comparison_fail">-> Ops! Cannot compare faces.\nMaybe one of the picture provided isn\'t good enough.\n\nIf you think this is an error, use bug report command in the drawer menu.</string>
+    <string name="face_comparison_fail">-> Oops! Cannot compare faces.\nMaybe one of the picture provided isn\'t good enough.\n\nIf you think this is an error, use bug report command in the drawer menu.</string>
     <string name="face_celebrity_success">Detected high facial similarity with one or more celebrities (tap to search info, long tap to copy to clipboard):</string>
-    <string name="face_celebrity_fail">-> Ops! Cannot identify any celebrity in this picture.</string>
+    <string name="face_celebrity_fail">-> Oops! Cannot identify any celebrity in this picture.</string>
     <string name="emotional_analysis">Emotional analysis</string>
     <string name="face_structure_analysis">Face structure analysis</string>
     <string name="face_elements_coordinates">Face elements coordinates</string>
@@ -308,8 +313,8 @@
     <string name="right_of_right_eyebrow">Right of right eyebrow</string>
     <string name="left_eyebrow_upper_midpoint">Left eyebrow upper midpoint</string>
     <string name="right_eyebrow_upper_midpoint">Right eyebrow upper midpoint</string>
-    <string name="left_ear_tragion">Left ear tragus</string>
-    <string name="right_ear_tragion">Right ear tragus</string>
+    <string name="left_ear_tragus">Left ear tragus</string>
+    <string name="right_ear_tragus">Right ear tragus</string>
     <string name="left_ear_tip">Left ear tip</string>
     <string name="right_ear_tip">Right ear tip</string>
     <string name="nose_tip">Nose tip</string>
@@ -342,7 +347,7 @@
     <string name="barcode_detector">Barcode Detector</string>
     <string name="barcode_detector_description">Barcode detector can detect almost all types of barcodes.\n1D barcodes:\nEAN-13, EAN-8, UPC-A, UPC-E, Code-39, Code-93, Code-128, ITF, Codabar.\n2D barcodes:\nQR Code, Data Matrix, PDF-417, AZTEC.\n\nUse the red buttons at the bottom to load an image or enter in camera scan mode.</string>
     <string name="barcode_detector_success">Barcode data detected (tap to copy to clipboard, long tap to search info):</string>
-    <string name="barcode_detector_fail">-> Ops! Cannot identify any barcode in this picture.</string>
+    <string name="barcode_detector_fail">-> Oops! Cannot identify any barcode in this picture.</string>
     <string name="barcode_error">"-> Error reading barcode: %1$s"</string>
     <!-- End Barcode detector section -->
 
@@ -351,7 +356,7 @@
     <string name="colorimeter_description">With colorimeter you can identify all colors within an image and see their representation in RGB, HSB and HEX notation. For each detected color, the app will tell you the name of the color or the name of the most similar color, in case the color tone is uncommon and has no name.\n\nUse the red button at the bottom to load an image.</string>
     <string name="color_analysis_success">Color analysis result (tap to copy to clipboard):</string>
     <string name="color_analysis_result_name">Nearest color name:</string>
-    <string name="color_analysis_result_fail">-> Ops! Cannot identify colors.</string>
+    <string name="color_analysis_result_fail">-> Oops! Cannot identify colors.</string>
     <string name="color">color</string>
     <!-- End Colorimeter section -->
 
@@ -374,15 +379,15 @@
     <string name="exif_info">EXIF Info</string>
     <string name="exif_info_description">This feature allows you to load and extract EXIF info from picture files, if available.\nEXIF is a standard for metadata that can include a lot of information as image copyright, the device used, acquisition timestamp, GPS tag data, photo manipulation software used, camera sensor, aperture, focal length, shutter speed, white balance, ISO level etc.\nNote:\nEXIF data often are removed by services that reprocess the images, so you could find null or inconsistent data if you use this function with images downloaded, for example, from Facebook, Whatsapp, Instagram and similar.\n\nUse the red button at the bottom to load an image.</string>
     <string name="exif_info_result_success">EXIF metadata found (tap to copy to clipboard):</string>
-    <string name="exif_info_result_fail">-> Ops! Cannot identify any EXIF in this picture.</string>
-    <string name="exif_info_result_error">-> Ops! Cannot identify any EXIF due to an unexpected error.</string>
+    <string name="exif_info_result_fail">-> Oops! Cannot identify any EXIF in this picture.</string>
+    <string name="exif_info_result_error">-> Oops! Cannot identify any EXIF due to an unexpected error.</string>
     <!-- End EXIF info section -->
 
     <!-- ELA section -->
     <string name="ela">ELA</string>
     <string name="ela_description">This feature generates an error mask, to allow you to spot more easily tampered sections in an image, according the inhomogeneity in the distribution of the error compared to the local pattern.\n(A very easy way to familiarize with the tool is to try to alter some images and see how the error mask looks in the altered points.)\n\nUse the red button at the bottom to load an image.</string>
     <string name="ela_success">Slide left and right to show analysis mask and original picture. Incoherent error distribution pattern in a specific area indicates the area has been tampered. Use the bar to set threshold.</string>
-    <string name="ela_error">Ops! An error occurred during the analysis mask generation.\nMake sure the image selected is valid.</string>
+    <string name="ela_error">Oops! An error occurred during the analysis mask generation.\nMake sure the image selected is valid.</string>
     <!-- End ELA section -->
 
     <!-- Likelihood levels -->
@@ -412,7 +417,6 @@
     <string name="premium_gold_content">Gold Subscription Button</string>
     <string name="premium_gold_description">Yearly premium subscription disables all ads and limitations for the best user experience possible. Yearly Gold subscription is cheaper than 12 months of Silver subscription.</string>
     <!-- End Billing section -->
-
 
 
 </resources>

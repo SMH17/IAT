@@ -1,6 +1,416 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <!-- To do -->
-    <!-- Placeholder aimed to make more comfortable pushing contributes-->
-    <!-- All the strings that must be translated are located in the folder values-en -->
+    <string name="app_description">Tu ojo cibernético</string>
+    <string name="locale_language">es</string>
+    <string name="navigation_drawer_open">Cajón de navegación abierto</string>
+    <string name="navigation_drawer_close">Cerrar cajón de navegación</string>
+    <string name="share_title">Decirle a sus amigos</string>
+    <string name="bug_report">Informe de error</string>
+    <string name="share_text">enlace</string>
+    <string name="note">Nota</string>
+    <string name="warning">Advertencia</string>
+    <string name="hint">Pista</string>
+    <string name="close">Cerrar</string>
+    <string name="done">Hecho</string>
+    <string name="wait_and_retry">Inténtalo de nuevo después de que termine.</string>
+    <string name="next">Continuar</string>
+    <string name="undo">Deshacer</string>
+    <string name="communicate">Comunicar</string>
+    <string name="contact_us">Contáctenos</string>
+    <string name="share">Compartir</string>
+    <string name="current_value">Valor actual:</string>
+    <string name="invalid_setting">Configuración no válida</string>
+    <string name="insufficient_permissions">Permisos no suficientes.Dé a la aplicación los permisos necesarios.</string>
+    <string name="info_text">Versión 0.3.4 SR 192\nDesarrollado por S. Marano, SMH17 Todos los derechos reservados.Cualquier replicación, modificación, reutilización del código o elementos gráficos, incluso parcial, está estrictamente prohibido sin un permiso explícito del autor.\nAdmob, Play, TensorFlow y todas las tecnologías de Google relacionadas son propiedad de Google LLC y están sujetos a los términos de la licencia de Google LLC.\nPara obtener información adicional sobre los derechos de autor y los términos de la licencia, contáctenos.</string>
+    <string name="choose_email_client">Elija un cliente de correo electrónico</string>
+    <string name="problem_description">DESCRIPCIÓN DEL PROBLEMA</string>
+    <string name="error">ERROR</string>
+    <string name="report_bug_subject">Informe de error IAT</string>
+    <string name="faq_url">https://sites.google.com/view/iat-app/home/faq</string>
+	
+	<!-- Action bar section -->
+    <string name="action_home">Inicio</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_download">Descargar</string>
+    <string name="action_tts">Iniciar-Detener a escuchar el resultado</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_smart_sort">Smart Sort</string>
+    <string name="action_batch">Lote</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_info">Información</string>
+    <string name="action_consent">Consentir</string>
+    <string name="action_unlock">Licencia</string>
+	<!-- End Action bar section -->
+	
+	<!-- Setting section -->
+    <string name="app_theme">Tema de la aplicación</string>
+    <string name="setting_title">Ajustes</string>
+    <string name="alert_setting_text">Ingrese el número máximo de elementos, un número más alto le permitirá ver más resultados, sin embargo, los resultados adicionales tienen una relación de coincidencia menos probable.\nValor predeterminado: 10,</string>
+    <string name="alert_setting_quality">Establezca el nivel de calidad de detección (valor predeterminado: 1200).Un valor más alto podría producir resultados más precisos, pero es más lento.\nValor de calidad:</string>
+    <string name="use_element_detection_cloud">Use la nube para la detección de elementos precisos</string>
+    <string name="use_ocr_cloud">Use la nube para una detección de texto precisa</string>
+    <string name="use_face_detection_cloud">Use la nube para una detección de cara precisa</string>
+    <string name="enable_detector_localization">Habilitar la traducción del detector</string>
+    <string name="batch_results_in_source_dir">Resultados por lotes de salida en el directorio de origen</string>
+    <string name="open_last_path">Abrir el último camino</string>
+    <string name="show_detection_markers">Mostrar marcadores de detección</string>
+    <string name="enable_tts">Habla en voz alta resultados</string>
+	<!-- ## Realtime Detector Settings-->
+    <string name="setting_realtime_label">Opciones para la detección en tiempo real:</string>
+    <string name="extra_realtime_settings_note">Notas:\nLos modelos personalizados deben colocarse en la carpeta TFModels ubicada en la carpeta de aplicaciones predeterminada.\nEn la sección en tiempo real, puede encontrar configuraciones adicionales sobre este conjunto de características para tocar el botón superior derecha.</string>
+    <string name="pref_screen_title_realtime_settings">Configuración avanzada en tiempo real</string>
+    <string name="enable_rtm_output_file">Resultados de salida en el archivo</string>
+    <string name="enable_rtm_output_file_summary">Todos los resultados se registrarán en un archivo guardado en la carpeta predeterminada</string>
+    <string name="pref_category_title_realtime_general">General</string>
+    <string name="speak_best">Habla en voz alta solo los mejores resultados</string>
+    <string name="speak_best_summary">La salida vocal ignorará los resultados de confianza más bajos.</string>
+    <string name="show_bench_osd">Mostrar actuaciones OSD</string>
+    <string name="show_bench_osd_summary">Muestra estadísticas de velocidad de detección</string>
+    <string name="rear_camera_preview_size">Tamaño de vista previa de la cámara trasera</string>
+    <string name="front_camera_preview_size">Tamaño de vista previa de la cámara frontal</string>
+    <string name="realtime_target_analysis_size">Resolución de análisis de objetivos</string>
+	<string name="realtime_live_viewport">Corriente continua</string>
+    <string name="realtime_live_viewport_summary">El flujo de la cámara no espera sincronización del marco de detección</string>
+    <string name="pref_category_object_detection">Identificación / localización de elementos</string>
+    <string name="custom_model_name">Modelo TF-lite personalizado</string>
+    <string name="filter_unlabeled_output">Filtrar Salida sin etiqueta</string>
+    <string name="object_detector_enable_multiple_objects">Habilitar múltiples objetos</string>
+    <string name="object_detector_enable_classification">Habilitar clasificación</string>
+    <string name="autoreturn_barcode">Código de barras de retorno automático en modo de escaneo</string>
+    <string name="pref_category_face_detection">Detección de rostro</string>
+    <string name="face_detector_landmark_mode">Modo de referencia</string>
+    <string name="pref_entries_face_detector_landmark_mode_no_landmarks">Sin puntos de referencia</string>
+    <string name="pref_entries_face_detector_landmark_mode_all_landmarks">Todos los puntos de referencia</string>
+    <string name="face_detector_contour_mode">Modo de contorno</string>
+	<string name="pref_entries_face_detector_contour_mode_no_contours">Sin contornos</string>
+    <string name="pref_entries_face_detector_contour_mode_all_contours">Todos los contornos</string>
+    <string name="face_detector_classification_mode">Modo de clasificación</string>
+	<string name="pref_entries_face_detector_classification_mode_no_classifications">Sin clasificaciones</string>
+    <string name="pref_entries_face_detector_classification_mode_all_classifications">Todas las clasificaciones</string>
+    <string name="face_detector_performance_mode">Modo de desempeño</string>
+    <string name="pref_entries_face_detector_performance_mode_fast">Rápido</string>
+    <string name="pref_entries_face_detector_performance_mode_accurate">Preciso</string>
+    <string name="face_detector_face_tracking">Seguimiento de la cara</string>
+    <string name="face_detector_min_face_size">Tamaño mínimo de la cara</string>
+    <string name="alert_face_detector_min_face_size">Proporción del ancho de la cabeza al ancho de la imagen, y el rango de valor válido es [0.0, 1.0]</string>
+    <string name="alert_invalid_min_face_size">El tamaño mínimo de la cara debe ser un valor flotante y en el rango [0.0, 1.0]</string>
+    <!-- End Setting section -->
+
+    <!-- General messages and warning section -->
+    <string name="app_path_configuration_message">Ahora debe elegir la ruta donde desea permitir la creación de la carpeta de aplicaciones predeterminada.\nEn esta carpeta se guardarán resultados y modelos de análisis personalizados.\nEsta operación debe realizarse solo en la primera configuración, si en el futuro desea elegir una ruta diferente, puede restablecerla desde el menú Configuración.</string>
+    <string name="identification_mode">Modo de identificación</string>
+    <string name="choose_image">Elija imagen</string>
+    <string name="camera_scan">Modo de escaneo</string>
+    <string name="edit_image">Editar foto</string>
+    <string name="edit_image_before_analysis">Editar imagen antes del análisis</string>
+    <string name="start_tts">Iniciar salida vocal</string>
+    <string name="stop_tts">Detener la salida vocal</string>
+    <string name="tts_error">No se puede usar la función de texto a voz</string>
+    <string name="alert_copied_values">Copiada al portapapeles!</string>
+    <string name="alert_saved">¡Resultados guardados en un archivo local!</string>
+    <string name="detector_not_ready">El detector local aún no está listo.Vuelva a intentarlo más tarde si el problema persiste el dispositivo de reinicio.</string>
+    <string name="alert_not_again">No vuelvas a mostrar.</string>
+    <string name="alert_unexpected_error">Error inesperado.Si el problema persiste, envíe un informe de error.</string>
+    <string name="alert_adblocker">En su dispositivo se ha detectado un AdBlocker global.Desarrollar y mantener esta aplicación requiere recursos, tiempo y gastos.No podemos proporcionar todo esto gratis si bloquea incluso los anuncios.Los comandos de la aplicación ahora están deshabilitados.Deshabilite AdBlocker (o Whitelist esta aplicación) si desea utilizar el modo gratuito, o alternativamente, compre una suscripción premium.</string>
+    <string name="alert_disabled_network">En su dispositivo se ha detectado el modo avión o todas las funciones de conectividad están desactivadas. Solo los usuarios premium pueden usar la aplicación en modo fuera de línea porque Ads mantiene la versión gratuita. Para superar este límite, compre una suscripción Premium.</string>
+    <string name="alert_consent_info">Desde aquí puede administrar el consentimiento de privacidad.Se necesita un consentimiento adecuado solo para mostrar anuncios.No es necesario en modo premium.\nDé el consentimiento o obtenga una suscripción premium.</string>
+    <string name="alert_noadsconsent">Has negado el consentimiento para mostrar anuncios.Se necesitan anuncios para cubrir los gastos en modo gratuito.\nDé el consentimiento o obtenga una suscripción premium.</string>
+    <string name="set_consent">Establecer el consentimiento</string>
+    <string name="alert_no_web_search">Resultado copiado al portapapeles.\nNo hay asistentes de búsqueda compatibles que se encuentren en su dispositivo.Instale un asistente de búsqueda compatible (por ejemplo, búsqueda de Google) para habilitar la función de búsqueda integrada.</string>
+    <string name="alert_no_open_url">Resultado copiado al portapapeles.\nNo se encuentran navegadores web compatibles en su dispositivo.Instale un navegador web compatible (por ejemplo, Chrome o Firefox) para habilitar la función de apertura directa de URL.</string>
+    <string name="alert_camera_intent_error">Su dispositivo no puede manejar la intención de la cámara correctamente.\nActualice su versión de Android a una versión más nueva o instale una aplicación de cámara con un nuevo soporte de intención de cámara.</string>
+    <string name="alert_gallery_intent_error">Su dispositivo no puede manejar la intención de la galería correctamente.\nActualice su versión de Android a una versión más nueva o instale una aplicación de la galería con un nuevo soporte de intención de la galería.</string>
+    <string name="alert_imurl_title">Introducir URL</string>
+    <string name="alert_imurl_text">Ingrese la URL de la imagen.\n\nNOTA:\nLa URL debe ser un enlace directo al archivo de imagen, no una URL dinámica de la galería web.</string>
+    <string name="alert_imurl_error">¡URL no válida!\n\nLa URL debe ser un enlace directo válido al archivo de imagen, no una URL de galería web dinámica.\nAsegúrese de que la URL sea accesible y termine con una extensión de imagen (por ejemplo, .jpg, .png, .bmp, .webp, .gif).</string>
+    <string name="alert_nothing_to_save">No hay nada que salvar.</string>
+    <string name="alert_nothing_to_download">No hay nada para descargar.</string>
+    <string name="dialog_select_prompt">Elija una imagen de la cámara o la galería, o ingrese una URL de imagen.</string>
+	<string name="dialog_select_camera">Cámara</string>
+    <string name="dialog_select_gallery">Galería</string>
+    <string name="image_picker_error">No puedo cargar esta imagen.Imagen no válida o permisos insuficientes.</string>
+    <string name="path">Ruta</string>
+    <string name="select_photo">Seleccione una foto</string>
+    <string name="select_directory">Seleccione un directorio</string>
+    <string name="select_file">Seleccione Archivo</string>
+	<string name="save_file_error">¡Error durante el ahorro de archivo!</string>
+    <string name="storage_manager_error">¡Error al administrador de almacenamiento!</string>
+    <string name="image_preview">Vista previa de imagen</string>
+    <string name="loading_message">Análisis en progreso… por favor espere.</string>
+	<string name="nothing_to_speech">Analice una imagen antes de usar esta función.</string>
+    <string name="cannot_analyze_now">Algo ha salido mal.Algunas características requieren una conexión a Internet.Asegúrese de que su conexión esté activa y que la imagen no esté dañada o vuelva a intentarlo más tarde.</string>
+    <string name="api_request_failed">La solicitud de API falló.Si el problema persiste, asegúrese de actualizar la aplicación a la última versión oficial disponible en Google Play.</string>
+	<string name="translation_fail">Motor de traducción no listo.</string>
+    <string name="num_download_files">Números de archivos para descargar:</string>
+    <string name="hide">Esconder</string>
+	<string name="stop">Detener</string>
+	<string name="downloaded_file">Archivo descargado</string>
+    <string name="download_file_error">Descargar error de archivo</string>
+    <string name="detection_recovery_mode_error">[La detección cambió automáticamente al modo local debido a un error durante el intento de usar la nube.Si el problema persiste, asegúrese de actualizar la aplicación a la última versión oficial disponible en Google Play.]</string>
+    <string name="mode_not_available_on_local">Este modo requiere una detección asistida por la nube.\nHabilite el modo de nube para este conjunto de características.</string>
+    <string name="alert_custom_models_info">Esta función permite a los usuarios avanzados usar modelos de inferencia personalizados para detectar elementos en modo de identificación [i] o modo de localización [L].Los modelos deben estar en formato compatible con tensorflow lite con extensión .tflite.Los modelos personalizados deben colocarse en la carpeta TFModel y luego configurarse en el menú Configuración.Si no se ha configurado ningún modelo personalizado, IAT ignorará la selección, permaneciendo en un modelo predeterminado.Lea la documentación para más detalles.</string>
+    <!-- End General messages and warning section -->
+
+    <!-- Batch section -->
+    <string name="batch">Lote</string>
+	<string name="batch_description">Procesar múltiples imágenes al mismo tiempo.\nEsta característica funciona con solo motor local, por lo que algunas características son menos precisas que el análisis de imágenes asistido por la\nube disponible para un conjunto de características cierta cuando usa el análisis de imágenes individuales.\nElija la función que desea usar y luego seleccione el directorio que desea procesar usando el botón rojo en la parte inferior.</string>
+    <string name="select_folder">Seleccione la carpeta</string>
+    <string name="invalid_path">Ruta no válida o vacía.</string>
+    <string name="file_name">Nombre del archivo</string>
+    <string name="files_number">Número de archivos totales</string>
+    <string name="images_number">Imágenes detectadas</string>
+    <string name="images_correctly_analyzed">Imágenes analizadas correctamente</string>
+    <string name="images_not_correctly_analyzed">No analizadas correctamente las imágenes</string>
+    <string name="complete_analysis_before">Complete un análisis antes.</string>
+    <string name="keyword_not_found">Palabra clave no encontrada!</string>
+    <string name="batch_search_description">Esta función le permite buscar contenidos de interés, dejando solo elementos cuyos resultados coinciden con una palabra clave.\nIngrese la palabra clave.</string>
+    <string name="output_path_tip">Si hace clic en el botón Guardar en la parte superior, los resultados se guardarán en la ruta IAT predeterminada, sin embargo, en la configuración puede configurar el ahorro de resultados de lotes, para obtener los resultados de TXT en el directorio de origen.</string>
+    <string name="batch_success">Análisis por lotes completado.\nHaga clic en cada elemento para ver los resultados, presione Long para copiar resultados en el portapapeles.</string>
+    <string name="batch_fail">Procedimiento por lotes Fall.\nAsegúrese de que la ruta seleccionada contenga archivos de imagen válidos o envíe un informe de errores utilizando el menú de cajón de navegación si cree que es un error de aplicación.</string>
+    <string name="analysis_type">Tipo de análisis:</string>
+    <string name="analysis_result">Resultados de analisis:</string>
+    <string name="copy_b">Copiar</string>
+    <string name="save">Guardar</string>
+    <string name="search">Buscar</string>
+    <string name="translate">Traducir</string>
+    <string name="smart_sort_alert">Esta función ordena automáticamente las imágenes en la ruta seleccionada, según el contenido detectado, moviéndolas o copiándolas a una carpeta adecuada si ya existe en la ruta, o en una nueva subcarpeta con el nombre de la categoría de clasificación.\n\n</string>
+    <string name="smart_sort_completed">Tarea de Ordenación Inteligente completada. Número de archivos ordenados: </string>
+    <string name="threshold">Umbral mínimo de clasificación:</string>
+    <!-- End Batch section -->
+	
+	<!-- Realtime section -->
+    <string name="realtime_detector">Detector de tiempo real</string>
+    <string name="realtime_detector_description">El detector de tiempo real le permite detectar elementos en la marcha sin conexión a Internet.Dado que esta característica utiliza modelos de red neuronales mucho más simples para ejecutarse con las capacidades limitadas de los dispositivos móviles, la precisión no puede ser comparable de ninguna manera a la detección basada en la nube.Si necesita más precisión, use las otras funciones dedicadas.\nSi lo usa por primera vez, en algún caso la aplicación necesita configurar algunas dependencias específicas del dispositivo, si ve una pantalla en blanco, espera e intente nuevamente más tarde.</string>
+    <string name="toggle_camera_description">Cambiar Cámara</string>
+    <string name="toggle_flash_description">Luz flash iniciar-detener</string>
+    <string name="toggle_vocal_output_description">Iniciar-Detener a escuchar el resultado</string>
+    <string name="feature_spinner_description">Seleccione la función de identificación deseada</string>
+    <string name="custom">Personalizado</string>
+    <string name="elements">Identificar</string>
+    <string name="localize">Localizar</string>
+    <string name="text">Texto</string>
+    <string name="faces">Caras</string>
+    <string name="barcode">Código de barras</string>
+    <string name="input_size">Tamaño de entrada</string>
+    <string name="latency">Latencia</string>
+    <string name="alert_cannot_load_model">No se puede utilizar el modelo configurado para el detector personalizado.</string>
+    <string name="realtime_engine_error">Error de motor en tiempo real</string>
+    <!-- Realtime section -->
+
+    <!-- Element detection section -->
+    <string name="element_detector">Detector de elementos</string>
+    <string name="element_detector_description">El detector de elementos le permite identificar elementos dentro de una imagen, para encontrar información sobre ellos.Admite amplios conjuntos de categorías que van desde objetos inanimados hasta plantas y animales.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
+    <string name="detection_success">Elementos detectados (toque para buscar información, toque largo para copiar en el portapapeles):</string>
+    <string name="detection_fail">-&gt; ¡Uy! No se puede identificar ningún elemento en esta imagen.</string>
+    <string name="model_error">-&gt; ¡Uy! Error no especificado durante la inicialización del modelo.\nAsegúrese de usar modelos en un formato adecuado con metadatos de etiquetas integradas y ese modelo no excede los límites de recursos de su dispositivo.</string>
+    <string name="analysis_error">-&gt; ¡Uy! Error durante el análisis.</string>
+    <string name="detection_offline_success">Elementos detectados en modo fuera de línea (toque para buscar información, toque largo para copiar en el portapapeles):</string>
+    <string name="detection_offline_fail">-&gt; ¡Uy! No se puede identificar ningún elemento en esta imagen.\nEstá en modo local, con una conexión a Internet activa, puede obtener mejores resultados.</string>
+	<string name="element_detector_translation_tip">Element Detector Engine está en inglés, sin embargo, puede habilitar la traducción de sus resultados a un idioma de destino de su elección en la configuración.</string>
+    <!-- End Element detection section -->
+
+    <!-- Web detection section -->
+    <string name="web_detector">Detector de imágenes web</string>
+    <string name="web_detector_description">El detector de imágenes web le permite encontrar información sobre la imagen, buscar en Internet imágenes similares y páginas web relacionadas, y adivinar el contenido según la información captada.Esta característica le proporciona las etiquetas relacionadas, los enlaces de las páginas web involucradas, que muestran imágenes coincidentes y visualmente similares (si están disponibles), lo que le permite guardar también los enlaces respectivos o los archivos de imagen.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
+    <string name="detection_web_success">Coincidencias encontradas (toque para buscar información, toque largo para copiar al portapapeles):</string>
+    <string name="detection_web_links">◄ Enlaces imágenes coincidentes (clic para abrir): ►</string>
+    <string name="matching_images_links">◄ Imágenes coincidentes (clic para abrir): ►</string>
+    <string name="similar_images_links">◄ Imágenes similares (clic para abrir): ►</string>
+    <string name="matching_web_pages">Páginas web con imágenes coincidentes:</string>
+    <string name="matching_images">Imágenes coincidentes</string>
+    <string name="similar_images">Imágenes similares</string>
+    <string name="toggle_links_details">Activar o desactivar la sección de detalles.</string>
+    <string name="detection_web_fail">-&gt; ¡Uy! No se puede identificar ninguna coincidencia para esta imagen.</string>
+    <string name="images_download">Descargar imágenes.</string>
+    <string name="categories_to_download">Seleccione categorías para descargar.</string>
+    <string name="web_detector_res_tip">Para ver imágenes similares y coincidentes (si está presente), deslice el título de la sección del área del enlace (donde puede ver flechas izquierda-derecha).</string>
+    <!-- End Web detection section -->
+
+    <!-- OCR section -->
+    <string name="ocr">Reconocimiento de texto óptico</string>
+    <string name="ocr_description">El reconocimiento de texto óptico le permite digitalizar el contenido de texto de una imagen.\n\nUse el botón rojo en la parte inferior para cargar una imagen e iniciar la detección.\n\nOpcionalmente, puede especificar el modo y el lenguaje del texto para identificar si se conoce (en algunas circunstancias, esto mejora los resultados evitando errores debido a la interpretación incorrecta de la autodetección del lenguaje de texto).</string>
+    <string name="detection_ocr_success">Texto detectado (toque para copiar al portapapeles, toque prolongado para buscar contenido en la web):</string>
+    <string name="detection_ocr_offline_success">Texto detectado en modo fuera de línea (toque para copiar en el portapapeles):</string>
+    <string name="detection_ocr_fail">-&gt; ¡Uy! No se puede identificar ningún texto en esta imagen.</string>
+    <string name="detection_ocr_fail_offline">-&gt; ¡Uy! No se puede identificar ningún texto en esta imagen.\n\nEstá en modo local, con una conexión a Internet activa, puede obtener mejores resultados.</string>
+    <string name="ocr_mode">Modo OCR</string>
+    <string name="target_language">Lengua de llegada</string>
+    <string name="language">Idioma:</string>
+    <string name="translate_to_my_language">Traducir el resultado a mi idioma</string>
+    <string name="original_text">TEXTO ORIGINAL:</string>
+    <!-- End OCR section -->
+
+    <!-- Logo detection section -->
+    <string name="logo_detector">Logo Detector</string>
+    <string name="logo_detector_description">El detector de logotipos le permite identificar logotipos, encontrar información sobre marcas y productos.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
+    <string name="detection_logo_fail">-&gt; ¡Uy! No se puede identificar ningún logotipo en esta imagen.</string>
+    <!-- End Logo detection section -->
+
+    <!-- Landmark detection section -->
+    <string name="landmark_detector">Landmark Detector</string>
+    <string name="landmark_detector_description">Landmark Detector le permite identificar estructuras populares naturales y hechas por el hombre, buscar información sobre ellas o su localidad.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
+    <string name="detection_landmark_success">Puntos de referencia detectados (toque para buscar información, toque largo para copiar en el portapapeles):</string>
+    <string name="detection_landmark_fail">-&gt; ¡Uy! No se puede identificar ningún punto de referencia en esta imagen.</string>
+    <!-- End Landmark detection section -->
+
+    <!-- Face Insight section -->
+    <string name="face_insight">Análisis Facial</string>
+    <string name="face_detection_description">Detectar múltiples caras dentro de una imagen, junto con los atributos faciales asociados.Esta función también puede realizar un análisis emocional para determinar el estado emocional, además, puede decirle si la persona lleva ropa de cabeza.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
+    <string name="face_comparison_description">Esta función le permite comparar la semejanza entre 2 personas para la coincidencia de identidad de nivel forense.Tienes que cargar 2 imágenes diferentes.Para obtener un resultado válido, cada foto debe contener una sola cara donde todos los elementos (nariz, ojos, boca, etc.) son bien visibles.\n\nUse el botón rojo en la parte inferior para cargar la primera imagen.</string>
+    <string name="face_age_description">Esta función devuelve una estimación sin procesar del rango de edad probable.Para obtener un resultado válido, la foto debe contener una sola cara donde todos los elementos (nariz, ojos, boca, etc.) son bien visibles.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
+    <string name="face_celebrity_description">Esta función le permite identificar a las celebridades.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
+    <string name="face">ROSTRO</string>
+    <string name="face_detection_success">Caras detectadas (toque para copiar en el portapapeles):</string>
+    <string name="face_detection_fail">-&gt; ¡Uy! No se puede identificar ninguna cara en esta imagen.</string>
+    <string name="detection_face_success_offline">Caras detectadas en modo fuera de línea (toque para copiar en el portapapeles):</string>
+    <string name="detection_face_fail_offline">-&gt; ¡Uy! No se puede identificar ninguna cara en esta imagen.\n\nEstá en modo local, con una conexión a Internet activa, puede obtener mejores resultados.</string>
+    <string name="face_age_success">Estimación de rango de edad completada (toque para copiar en el portapapeles):</string>
+    <string name="face_comparison_success">Caras comparadas (toque para copiar al portapapeles):</string>
+    <string name="face_comparison_fail">-&gt; ¡Uy! No se puede comparar caras.\nTal vez una de las imágenes proporcionadas no es lo suficientemente buena.\n\nSi cree que este es un error, use el comando de informe de errores en el menú del cajón.</string>
+    <string name="face_celebrity_success">Detectado alta similitud facial con una o más celebridades (toque para buscar información, toque largo para copiar al portapapeles):</string>
+    <string name="face_celebrity_fail">-&gt; ¡Uy! No se puede identificar ninguna celebridad en esta imagen.</string>
+    <string name="emotional_analysis">Análisis emocional</string>
+    <string name="face_structure_analysis">Análisis de la estructura facial</string>
+    <string name="face_elements_coordinates">Coordenadas de elementos faciales</string>
+    <string name="detection_quality_stats">Estadísticas de calidad de detección</string>
+    <string name="other">Otro</string>
+    <string name="min_age">Edad mínima</string>
+	<string name="max_age">Edad máxima</string>
+    <string name="years">años</string>
+    <string name="anger">Enojo</string>
+    <string name="joy">Alegría</string>
+    <string name="sorrow">Pena</string>
+	<string name="surprise">Sorpresa</string>
+    <string name="headwear">Prendas de cabeza</string>
+    <string name="pan_angle">Ángulo de la sartén</string>
+    <string name="roll_angle">Ángulo de inclinación</string>
+    <string name="tilt_angle">Ángulo de inclinación</string>
+    <string name="detection_confidence">Detección de confianza</string>
+    <string name="comparison_confidence">Confianza de comparación</string>
+	<string name="landmarking_confidence">Confianza de marcas de tierra</string>
+    <string name="blurred_likelihood">Probabilidad borrosa</string>
+    <string name="under_exposed_likelihood">Probabilidad subexpuesta</string>
+    <string name="left_eye">Ojo izquierdo</string>
+	<string name="right_eye_pupil">Pupila del ojo derecho</string>
+    <string name="left_eye_pupil">Pupila del ojo izquierdo</string>
+    <string name="left_eye_right_corner">Ojo izquierdo esquina derecha</string>
+    <string name="left_eye_left_corner">Ojo izquierdo esquina izquierda</string>
+    <string name="left_eye_top_boundary">Límite superior del ojo izquierdo</string>
+    <string name="left_eye_bottom_boundary">Límite inferior del ojo izquierdo</string>
+    <string name="right_eye">Ojo derecho</string>
+    <string name="right_eye_right_corner">Ojo derecho esquina derecha</string>
+    <string name="right_eye_left_corner">Ojo derecho esquina izquierda</string>
+    <string name="right_eye_top_boundary">Límite superior del ojo derecho</string>
+    <string name="right_eye_bottom_boundary">Límite inferior de ojo derecho</string>
+    <string name="midpoint_between_eyes">Punto medio entre ojos</string>
+    <string name="left_of_left_eyebrow">Izquierda de la ceja izquierda</string>
+    <string name="right_of_left_eyebrow">Ceja derecha de la izquierda</string>
+    <string name="left_of_right_eyebrow">Cada de la izquierda de la derecha</string>
+    <string name="right_of_right_eyebrow">Derecho de la ceja derecha</string>
+    <string name="left_eyebrow_upper_midpoint">Punto medio superior de la ceja izquierda</string>
+    <string name="right_eyebrow_upper_midpoint">Punto medio superior de la ceja derecha</string>
+    <string name="left_ear_tragus">Tragus del oído izquierdo</string>
+    <string name="right_ear_tragus">Tragus de la oreja derecha</string>
+    <string name="left_ear_tip">Punta del oído izquierdo</string>
+    <string name="right_ear_tip">Punta de oreja derecha</string>
+    <string name="nose_tip">Punta de la nariz</string>
+    <string name="nose_bottom_left">Nariz abajo a la izquierda</string>
+    <string name="nose_bottom_right">Nariz del fondo a la derecha</string>
+    <string name="nose_bottom_center">Centro de fondo de la nariz</string>
+    <string name="forehead_glabella">Glabella de la frente</string>
+    <string name="left_cheek">Mejilla a la izquierda</string>
+    <string name="right_cheek">Mejilla a la derecha</string>
+    <string name="upper_lip">Labio superior</string>
+    <string name="lower_lip">Labio inferior</string>
+    <string name="mouth_left">Boca a la izquierda</string>
+    <string name="mouth_right">Boca a la derecha</string>
+    <string name="mouth_center">Centro bucal</string>
+    <string name="chin_gnathion">Gnación de la barbilla</string>
+    <string name="chin_left_gonion">Chin Left Gonion</string>
+    
+    <string name="face_status">Estatus de cara</string>
+    <string name="rotation">Rotación</string>
+    <string name="maxillofacial_armony_score">Armonía maxilofacial</string>
+    <string name="happiness_probability">Probabilidad de felicidad</string>
+    <string name="is_smiling_probability">Probabilidad sonriente</string>
+    <string name="is_left_eye_open_probability">Probabilidad de ojo izquierdo abierto</string>
+    <string name="is_right_eye_open_probability">Probabilidad de ojo derecho</string>
+    <string name="resemblance_level">Nivel de semejanza</string>
+    <string name="first_image_loaded">-&gt; ¡Primera imagen cargada!\n\nCargue una segunda imagen para comparar.</string>
+    <!-- End Face Insight section -->
+
+    <!-- Barcode detector section -->
+    <string name="barcode_detector">Detector de código de barras</string>
+    <string name="barcode_detector_description">El detector de códigos de barras puede detectar casi todos los tipos de códigos de barras.\nCódigos de barras 1D:\nEan-13, Ean-8, UPC-A, UPC-E, Code-39, Code-93, Code-128, ITF, Codabar.\nCódigos de barras 2d:\nCódigo QR, Matriz de datos, PDF-417, AZTEC.\n\nUse los botones rojos en la parte inferior para cargar una imagen o ingrese en el modo de escaneo de la cámara.</string>
+    <string name="barcode_detector_success">Datos de código de barras detectados (toque para copiar en el portapapeles, toque largo para buscar información):</string>
+    <string name="barcode_detector_fail">-&gt; ¡Uy! No se puede identificar ningún código de barras en esta imagen.</string>
+    <string name="barcode_error">"-&gt; Error de lectura de código de barras: %1$s"</string>
+    <!-- End Barcode detector section -->
+
+    <!-- Colorimeter section -->
+    <string name="colorimeter">Colorímetro</string>
+    <string name="colorimeter_description">Con Colorimeter, puede identificar todos los colores dentro de una imagen y ver su representación en RGB, HSB y notación hexadecimal.Para cada color detectado, la aplicación le dirá el nombre del color o el nombre del color más similar, en caso de que el tono de color sea poco común y no tenga nombre.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
+    <string name="color_analysis_success">Resultado de análisis de color (toque para copiar en el portapapeles):</string>
+    <string name="color_analysis_result_name">Nombre del color más cercano:</string>
+    <string name="color_analysis_result_fail">-&gt; ¡Uy! No se puede identificar los colores.</string>
+    <string name="color">color</string>
+    <!-- End Colorimeter section -->
+
+    <!-- Censorship meter section -->
+    <string name="censorship_meter">Medidor de riesgo de censura</string>
+    <string name="censorship_meter_description">Esta herramienta le permite verificar una imagen para determinar si su contenido podría ser censurado por un sistema automático o conducir a la prohibición.Esta característica es útil ya que muchas redes sociales y sitios web realizan verificaciones automáticas de las imágenes cargadas y podrían tomar medidas contra el usuario si se detecta un contenido crítico, y esto a menudo erróneamente, especialmente si también hay informes humanos además de falsos positivos sospechosos.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
+    <string name="censorship_analysis_success">Resultado del análisis (toque para copiar en el portapapeles):</string>
+    <string name="porn">-&gt; Porno:</string>
+    <string name="racy">-&gt; Racy:</string>
+    <string name="medical_explicit">-&gt; Contenido explícito médico:</string>
+    <string name="violence">-&gt; Violencia:</string>
+	<string name="spoof">-&gt; Falsification:</string>
+    <string name="risk_analysis_summary">Resumen de probabilidad de riesgo:</string>
+    <string name="risk_detected">¡ADVERTENCIA!Se ha detectado un factor de riesgo.La carga de esta imagen podría causar prohibición y censura en muchas redes y comunidades sociales.Prestar atención.</string>
+    <string name="no_risk_detected">El análisis automático no ha detectado riesgos.</string>
+    <string name="no_risk_detected_almost">El análisis automático no ha detectado riesgos, pero aún puede estar sujeto a moderación automatizada en las redes más puritanas.</string>
+    <!-- End Censorship meter section -->
+
+    <!-- EXIF info section -->
+    <string name="exif_info">Información EXIF</string>
+    <string name="exif_info_description">Esta característica le permite cargar y extraer información exif de archivos de imagen, si está disponible.\nEXIF es un estándar para metadatos que pueden incluir mucha información como copyright de imagen, el dispositivo utilizado, marca de tiempo de adquisición, datos de etiquetas GPS, software de manipulación de fotos utilizado, sensor de cámara, apertura, distancia focal, velocidad de obturación, balance de blancos, nivel de ISO, etc..\nNota:\nLos datos de EXIF ​​a menudo se eliminan por servicios que reprocesan las imágenes, por lo que puede encontrar datos nulos o inconsistentes si usa esta función con imágenes descargadas, por ejemplo, de Facebook, WhatsApp, Instagram y similares.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
+    <string name="exif_info_result_success">EXIF metadatos encontrados (toque para copiar en el portapapeles):</string>
+    <string name="exif_info_result_fail">-&gt; ¡Uy! No puede identificar ningún exif en esta imagen.</string>
+    <string name="exif_info_result_error">-&gt; ¡Uy! No se puede identificar ningún exif debido a un error inesperado.</string>
+    
+    <!-- ELA section -->
+    <string name="ela">ELA</string>
+    <string name="ela_description">Esta característica genera una máscara de error, para permitirle detectar secciones más fácilmente manipuladas en una imagen, según la inhomogeneidad en la distribución del error en comparación con el patrón local.\n(Una manera muy fácil de familiarizarse con la herramienta es intentar alterar algunas imágenes y ver cómo se ve la máscara de error en los puntos alterados).\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
+    <string name="ela_success">Deslice a la izquierda y a la derecha para mostrar la máscara de análisis y la imagen original.El patrón de distribución de errores incoherentes en un área específica indica que el área ha sido manipulado.Use la barra para establecer el umbral.</string>
+    <string name="ela_error">¡¡Uy! Se produjo un error durante la generación de máscara de análisis.\nAsegúrese de que la imagen seleccionada sea válida.</string>
+    <!-- End ELA section -->
+
+    <!-- Likelihood levels -->
+    <string name="likely">probable</string>
+    <string name="very_likely">muy probable</string>
+    <string name="unlikely">improbable</string>
+    <string name="very_unlikely">muy improbable</string>
+    <string name="possible">posible</string>
+    <!-- End Likelihood levels -->
+
+    <!-- Billing section -->
+    <string name="licensing_options">Opciones de licencia</string>
+    <string name="bm_error">No se puede verificar el estado de la licencia.</string>
+    <string name="error_code">CÓDIGO DE ERROR:</string>
+    <string name="faq">Preguntas más frecuentes</string>
+    <string name="faq_description">PREGUNTAS MÁS FRECUENTES:\n\n¿Por qué la suscripción en lugar de la compra única?\n-&gt; Debido a que la compra de una vez no puede ser sostenible a largo plazo, cada usuario agrega carga de trabajo a nuestros servidores y tenemos que cubrir los costos mensuales.\n\nHay aplicaciones que usan servidores sin anuncios y sin suscripciones, ¿por qué su aplicación es diferente?\n-&gt; Para algunas empresas es suficiente para que su aplicación se instale para obtener dinero, porque los usuarios de perfil revenden sus datos. En cambio, respetamos la privacidad del usuario y no tenemos ningún sistema de monetización opaco. Esto no menciona los servidores más caros que el promedio necesarios para las complejas tareas de visión por computadora basadas en la red neuronal realizadas por esta aplicación. El precio es muy bajo en comparación con el valor que esta aplicación agrega al conjunto de funciones de su dispositivo. Sin embargo, si no desea pagar la suscripción, no se preocupe, los anuncios en esta aplicación son lo menos para mantener el servicio, no son invasivos y molestos.\n\n¿Podría cancelar la suscripción si cambio de opinión en el futuro?\n-&gt; ¡Sí!Puede cancelar su suscripción en cualquier momento desde Play Store regresando al modo gratuito completo con anuncios.\n\n¿El precio de suscripción seguirá siendo el mismo?\n-&gt; El precio de suscripción no se puede cambiar una vez que se ha activado una suscripción.Solo podría cambiarse para nuevos usuarios que no tienen ninguna suscripción activa.Esta es la razón por la cual suscribirse ahora al precio de lanzamiento promocional (lo más bajo posible) es una ganga.\n\nSi tengo muchos dispositivos, ¿puedo usar premium en todos con solo una suscripción?\n-&gt; ¡Por supuesto!La licencia está vinculada a su cuenta de Google Play y se aplicará automáticamente a todos sus dispositivos vinculados a ella o que estarán vinculados en el futuro, sin ninguna necesidad de nuevas suscripciones para cada dispositivo.</string>
+	<string name="active">ACTIVO</string>
+	<string name="pending">PENDIENTE</string>
+	<string name="disabled">DESHABILITADO</string>
+    <string name="ads_mode_click">El modo con anuncios se deshabilitará automáticamente si compra una suscripción de plata u oro, y está habilitado si no hay ninguna suscripción activa.</string>
+    <string name="ads_mode">Modo con anuncios</string>
+    <string name="ads_mode_description">Todas las funciones habilitadas, pero verá algunos anuncios al azar cuando accede a una nueva sección de esta aplicación desde el hogar.(El modo gratuito predeterminado)</string>
+    <string name="premium_silver">Suscripción de plata</string>
+    <string name="premium_silver_content">Botón de suscripción de plata</string>
+    <string name="premium_silver_description">La suscripción mensual premium deshabilita todos los anuncios y limitaciones para la mejor experiencia de usuario posible.</string>
+    <string name="premium_gold">Suscripción de oro</string>
+    <string name="premium_gold_content">Botón de suscripción de oro</string>
+    <string name="premium_gold_description">La suscripción premium anual deshabilita todos los anuncios y limitaciones para la mejor experiencia de usuario posible.La suscripción anual de oro es más barata que 12 meses de suscripción de plata.</string>
+    <!-- End Billing section -->
+
 </resources>

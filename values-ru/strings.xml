@@ -1,6 +1,418 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <!-- To do -->
-    <!-- Placeholder aimed to make more comfortable pushing contributes-->
-    <!-- All the strings that must be translated are located in the folder values-en -->
+    <string name="app_description">Ваш кибернетический глаз</string>
+    <string name="locale_language">ru</string>
+    <string name="navigation_drawer_open">Открытый навигационный ящик</string>
+    <string name="navigation_drawer_close">Близкий навигационный ящик</string>
+    <string name="share_title">Расскажи друзьям</string>
+    <string name="bug_report">Отчет об ошибке</string>
+    <string name="share_text">связь</string>
+    <string name="note">Примечание</string>
+    <string name="warning">Предупреждение</string>
+    <string name="hint">Намекать</string>
+    <string name="close">Закрывать</string>
+    <string name="done">Сделанный</string>
+    <string name="wait_and_retry">Попробуйте еще раз после того, как я закончу.</string>
+    <string name="next">Продолжать</string>
+    <string name="undo">Отменить</string>
+    <string name="communicate">Общаться</string>
+    <string name="contact_us">Связаться с нами</string>
+    <string name="share">Делиться</string>
+    <string name="current_value">Текущая стоимость:</string>
+    <string name="invalid_setting">Неверная настройка</string>
+    <string name="insufficient_permissions">Разрешений недостаточно.Дайте приложению необходимые разрешения.</string>
+    <string name="info_text">Версия 0.3.4 SR 192\nРазработано С. Марано, SMH17 Все права защищены.Любая репликация, модификация, повторное использование кода или графических элементов, даже частичные, строго запрещено без явного разрешения автора.\nAdmob, Play, Tensorflow и все связанные с ними Google Technologies принадлежат Google LLC и подвержены условиям лицензии Google LLC.\nДля получения дополнительной информации об авторских правах и условиях лицензии, свяжитесь с нами.</string>
+    <string name="choose_email_client">Выберите почтовый клиент</string>
+    <string name="problem_description">ОПИСАНИЕ ПРОБЛЕМЫ</string>
+    <string name="error">ОШИБКА</string>
+    <string name="report_bug_subject">Отчет об ошибках IAT</string>
+		
+    <!-- Action bar section -->
+    <string name="action_home">Дом</string>
+    <string name="action_save">Сохранять</string>
+    <string name="action_download">Скачать</string>
+    <string name="action_tts">Результат прослушивания начала стоп</string>
+    <string name="action_search">Поиск</string>
+	<string name="action_smart_sort">Умная сортировка</string>
+    <string name="action_batch">Партия</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_info">Информация</string>
+    <string name="action_consent">Согласие</string>
+    <string name="action_unlock">Лицензия</string>
+    <!-- End Action bar section -->
+
+    <!-- Setting section -->
+    <string name="app_theme">Тема приложения</string>
+    <string name="setting_title">Настройки</string>
+    <string name="alert_setting_text">Введите максимальное количество элементов, более высокое число позволит вам увидеть больше результатов, однако дополнительные результаты имеют менее вероятное соотношение совпадения.\nЗначение по умолчанию: 10,</string>
+    <string name="alert_setting_quality">Установите уровень качества обнаружения (значение по умолчанию: 1200).Более высокое значение может привести к более точным результатам, но медленнее.\nКачественная ценность:</string>
+    <string name="use_element_detection_cloud">Используйте облако для точного обнаружения элементов</string>
+    <string name="use_ocr_cloud">Используйте облако для точного обнаружения текста</string>
+    <string name="use_face_detection_cloud">Используйте облако для точного обнаружения лица</string>
+    <string name="enable_detector_localization">Включить перевод детектора</string>
+    <string name="batch_results_in_source_dir">Выходная партия приводит к исходному каталогу</string>
+    <string name="open_last_path">Открыть последний путь</string>
+    <string name="show_detection_markers">Показать маркеры обнаружения</string>
+    <string name="enable_tts">Говорить вслух</string>
+    <!-- ## Realtime Detector Settings-->
+    <string name="setting_realtime_label">Варианты обнаружения в реальном времени:</string>
+    <string name="extra_realtime_settings_note">ПРИМЕЧАНИЯ:\nПользовательские модели должны быть размещены в папке TFModels, расположенной в папке приложений по умолчанию.\nВ разделе в реальном времени вы можете найти дополнительные настройки об этом наборе набора функций вверху правой кнопкой.</string>
+    <string name="pref_screen_title_realtime_settings">В реальном времени расширенные настройки</string>
+    <string name="enable_rtm_output_file">Выходные результаты в файле</string>
+    <string name="enable_rtm_output_file_summary">Все результаты будут зарегистрированы в файле, сохраненном в папке по умолчанию</string>
+    <string name="pref_category_title_realtime_general">Общий</string>
+    <string name="speak_best">Говорите только громко лучшие результаты</string>
+    <string name="speak_best_summary">Вокальный выход игнорирует более низкие результаты доверия.</string>
+    <string name="show_bench_osd">Показать представления OSD</string>
+    <string name="show_bench_osd_summary">Он показывает статистику выявления выявления</string>
+    <string name="rear_camera_preview_size">Размер предварительного просмотра камеры</string>
+    <string name="front_camera_preview_size">Размер предварительного просмотра фронтальной камеры</string>
+    <string name="realtime_target_analysis_size">Разрешение целевого анализа</string>
+    <string name="realtime_live_viewport">Непрерывный поток</string>
+    <string name="realtime_live_viewport_summary">Поток камеры не ждет синхронизацию рамки обнаружения</string>
+    <string name="pref_category_object_detection">Идентификация / локализация элемента</string>
+    <string name="custom_model_name">Пользовательская модель TF-Lite</string>
+    <string name="filter_unlabeled_output">Фильтруйте немеченые выводы</string>
+    <string name="object_detector_enable_multiple_objects">Включить несколько объектов</string>
+    <string name="object_detector_enable_classification">Включить классификацию</string>
+    <string name="autoreturn_barcode">Автоматический штрих-код в режиме сканирования</string>
+    <string name="pref_category_face_detection">Обнаружение лица</string>
+    <string name="face_detector_landmark_mode">Landmark Mode</string>
+    <string name="pref_entries_face_detector_landmark_mode_no_landmarks">Нет достопримечательностей</string>
+    <string name="pref_entries_face_detector_landmark_mode_all_landmarks">Все достопримечательности</string>
+    <string name="face_detector_contour_mode">Контурный режим</string>
+    <string name="pref_entries_face_detector_contour_mode_no_contours">Нет контуров</string>
+    <string name="pref_entries_face_detector_contour_mode_all_contours">Все контуры</string>
+    <string name="face_detector_classification_mode">Режим классификации</string>
+    <string name="pref_entries_face_detector_classification_mode_no_classifications">Нет классификаций</string>
+    <string name="pref_entries_face_detector_classification_mode_all_classifications">Все классификации</string>
+    <string name="face_detector_performance_mode">Режим производительности</string>
+    <string name="pref_entries_face_detector_performance_mode_fast">Быстрый</string>
+    <string name="pref_entries_face_detector_performance_mode_accurate">Точный</string>
+    <string name="face_detector_face_tracking">Отслеживание лица</string>
+    <string name="face_detector_min_face_size">Минимальный размер лица</string>
+    <string name="alert_face_detector_min_face_size">Доля ширины головки ширины изображения, а диапазон допустимого значения составляет [0,0, 1,0]</string>
+    <string name="alert_invalid_min_face_size">Минимальный размер лица должен быть поплавковым значением и в диапазоне [0,0, 1,0]</string>
+    <!-- End Setting section -->
+
+    <!-- General messages and warning section -->
+    <string name="app_path_configuration_message">Теперь вы должны выбрать путь, по которому вы хотите разрешить создание папки приложений по умолчанию.\nВ этой папке будут сохраненные результаты и модели пользовательского анализа.\nЭта операция должна быть выполнена только в первой конфигурации, если в будущем вы хотите выбрать другой путь, вы можете сбросить его из меню настроек.</string>
+    <string name="identification_mode">Идентификационный режим</string>
+    <string name="choose_image">Выберите изображение</string>
+    <string name="camera_scan">Режим сканирования</string>
+    <string name="edit_image">Редактировать картину</string>
+    <string name="edit_image_before_analysis">Изменить изображение перед анализом</string>
+    <string name="start_tts">Начать вокальный вывод</string>
+    <string name="stop_tts">Остановите вокальный вывод</string>
+    <string name="tts_error">Не может использовать текст для функции речи</string>
+    <string name="alert_copied_values">Скопировано в буфер обмена!</string>
+    <string name="alert_saved">Результаты сохранены в локальном файле!</string>
+    <string name="detector_not_ready">Местный детектор еще не готов.Попробуйте еще раз, если проблема сохраняет устройство перезагрузки.</string>
+    <string name="alert_not_again">Не показывай снова.</string>
+    <string name="alert_unexpected_error">Неожиданная ошибка.Если проблема продолжается отправить отчет об ошибке.</string>
+    <string name="alert_adblocker">В вашем устройстве был обнаружен глобальный Adblocker.Разработка и поддержание этого приложения требует ресурсов, времени и расходов.Мы не можем предоставить все это бесплатно, если вы блокируете даже рекламу.Команды приложения теперь отключены.Отключите Adblocker (или WhiteList Это приложение), если вы хотите использовать бесплатный режим, или, в качестве альтернативы, приобрести премиум -подписку.</string>
+    <string name="alert_disabled_network">В вашем устройстве был обнаружен режим самолета или все функции подключения отключены.Только премиальные пользователи могут использовать приложение в автономном режиме, потому что реклама поддерживается бесплатной версией.Чтобы преодолеть этот лимит, приобретите подписку премиум -класса.</string>
+	<string name="alert_consent_info">Отсюда вы можете управлять согласием на конфиденциальность.Правильное согласие необходимо, чтобы показать рекламу.Это не нужно в режиме премиум -класса.\nДайте согласие или получите премиальную подписку.</string>
+    <string name="alert_noadsconsent">Вы отрицали согласие на показания рекламы.Объявления необходимы для покрытия расходов в бесплатном режиме.\nДайте согласие или получите премиальную подписку.</string>
+    <string name="set_consent">Установить согласие</string>
+    <string name="alert_no_web_search">Результат скопирован в буфер обмена.\nНа вашем устройстве не было найдено поддерживаемых поисковых помощников.Установите поддерживаемый поисковый помощник (например, поиск Google), чтобы включить интегрированный поиск.</string>
+    <string name="alert_no_open_url">Результат скопирован в буфер обмена.\nНе поддерживаемые веб -браузеры на вашем устройстве.Установите поддерживаемый веб -браузер (например, Chrome или Firefox), чтобы включить функцию прямого открытия URL.</string>
+    <string name="alert_camera_intent_error">Ваше устройство не может правильно обработать намерения камеры.\nОбновите свою версию Android для более нового выпуска или установите приложение камеры с более новой поддержкой намерения камеры.</string>
+    <string name="alert_gallery_intent_error">Ваше устройство не может правильно справиться с намерениями.\nОбновите свою версию Android для более нового выпуска или установите приложение галереи с более новой поддержкой намерения галереи.</string>
+    <string name="alert_imurl_title">Введите URL</string>
+    <string name="alert_imurl_text">Введите URL -адрес изображения.\n\nПРИМЕЧАНИЕ:\nURL должен быть прямой ссылкой на файл изображения, а не на какой -то динамический URL -адрес веб -галереи.</string>
+    <string name="alert_imurl_error">Неверная ссылка!\n\nURL должен быть действительной прямой ссылкой на файл изображения, а не на какой -то динамический URL -адрес веб -галереи.\nУбедитесь, что URL -адрес достижимый и заканчивается расширением изображения (например, .jpg, .png, .bmp, .webp, .gif).</string>
+    <string name="alert_nothing_to_save">Там нечего спасти.</string>
+    <string name="alert_nothing_to_download">Там нечего скачать.</string>
+    <string name="dialog_select_prompt">Выберите изображение из камеры или галереи или введите URL -адрес изображения.</string>
+    <string name="dialog_select_camera">Камера</string>
+    <string name="dialog_select_gallery">Галерея</string>
+    <string name="image_picker_error">Не может загрузить это изображение.Неверное изображение или недостаточные разрешения.</string>
+    <string name="path">Путь</string>
+    <string name="select_photo">Выберите фото</string>
+    <string name="select_directory">Выберите каталог</string>
+    <string name="select_file">Выберите файл</string>
+    <string name="save_file_error">Ошибка во время сохранения файлов!</string>
+    <string name="storage_manager_error">Ошибка диспетчера хранилища!</string>
+    <string name="image_preview">Предварительный просмотр изображения</string>
+    <string name="loading_message">Анализ в процессе… пожалуйста, подождите.</string>
+    <string name="nothing_to_speech">Проанализируйте изображение перед использованием этой функции.</string>
+    <string name="cannot_analyze_now">Что -то пошло не так.Некоторые функции требуют подключения к Интернету.Убедитесь, что ваше соединение активно, а изображение не повреждено или попробуйте еще раз позже.</string>
+    <string name="api_request_failed">Запрос API не удался.Если проблема сохраняется, обязательно обновите приложение до последней официальной версии, доступной в Google Play.</string>
+    <string name="translation_fail">Двигатель перевода не готов.</string>
+    <string name="num_download_files">Номера файлов для загрузки:</string>
+    <string name="hide">Скрывать</string>
+    <string name="stop">Останавливаться</string>
+    <string name="downloaded_file">Загруженный файл</string>
+    <string name="download_file_error">Загрузите ошибку файла</string>
+    <string name="detection_recovery_mode_error">[Обнаружение автоматически переключается в локальный режим из -за ошибки во время попытки использовать облако.Если проблема не настойчиво, обязательно обновите приложение до последней официальной версии, доступной в Google Play.]</string>
+    <string name="mode_not_available_on_local">В этом режиме требуется обнаружение облачной помощи.\nПожалуйста, включите облачный режим для этого набора функций.</string>
+    <string name="alert_custom_models_info">Эта функция позволяет передовым пользователям использовать пользовательские модели вывода для обнаружения элементов в режиме идентификации [I] или в режиме локализации [L].Модели должны быть в совместимом формате Tensorflow Lite с расширением .tflite.Пользовательские модели должны быть размещены в папке TFModel, а затем настроены в меню «Настройки».Если не была настроена настраиваемую модель, IAT будет игнорировать выбор, оставаясь на модели по умолчанию.Прочитайте документацию для деталей.</string>
+    <!-- End General messages and warning section -->
+
+    <!-- Batch section -->
+    <string name="batch">Партия</string>
+    <string name="batch_description">Обработайте несколько изображений одновременно.\nЭта функция работает с использованием только локального двигателя, поэтому некоторые функции менее точны, чем анализ изображений, которым помогает облако, доступный для определенного набора функций при использовании анализа одного изображения.\n\nВыберите функцию, которую вы хотите использовать, затем выберите каталог, который вы хотите обработать, используя красную кнопку внизу.</string>
+    <string name="select_folder">Выберите папку</string>
+    <string name="invalid_path">Неверный или пустой путь.</string>
+    <string name="file_name">Имя файла</string>
+    <string name="files_number">Общий номер файлов</string>
+    <string name="images_number">Обнаруженные изображения</string>
+    <string name="images_correctly_analyzed">Правильно проанализированы изображения</string>
+    <string name="images_not_correctly_analyzed">Не правильно проанализированные изображения</string>
+    <string name="complete_analysis_before">Завершите анализ раньше.</string>
+    <string name="keyword_not_found">Ключевое слово не найдено!</string>
+    <string name="batch_search_description">Эта функция позволяет вам искать контент, представляющий интерес, оставляя только элементы, результаты которых соответствуют ключевому слову.\nВведите ключевое слово.</string>
+    <string name="output_path_tip">Если вы нажмете кнопку «Сохранить» сверху, результаты будут сохранены в пути IAT по умолчанию, однако в настройках вы можете настроить сохранение результатов партии, чтобы вывести результаты TXT в каталоге Source.</string>
+    <string name="batch_success">Пакетный анализ завершен.\nНажмите на каждый элемент, чтобы увидеть результаты, давно нажмите, чтобы скопировать результаты в буфер обмена.</string>
+    <string name="batch_fail">Пакетная процедура не удастся.\nУбедитесь, что выбранный путь содержит допустимые файлы изображений или отправьте отчет об ошибке с помощью меню навигационных ящиков, если вы думаете, что это ошибка приложения.</string>
+    <string name="analysis_type">Тип анализа:</string>
+    <string name="analysis_result">Результаты анализа:</string>
+    <string name="copy_b">Копия</string>
+    <string name="save">Сохранять</string>
+    <string name="search">Поиск</string>
+    <string name="translate">Переводить</string>
+	<string name="smart_sort_alert">Эта функция автоматически сортирует изображения в выбранном пути в соответствии с обнаруженным содержимым, перемещая или копируя их в подходящую папку, если она уже существует в пути, или в новую подпапку с именем категории классификации.\n\n</string>
+    <string name="smart_sort_completed">Задача интеллектуальной сортировки завершена. Количество отсортированных файлов: </string>
+    <string name="threshold">Минимальный порог классификации:</string>
+    <!-- End Batch section -->
+
+    <!-- Realtime section -->
+    <string name="realtime_detector">Детектор в реальном времени</string>
+    <string name="realtime_detector_description">Детектор в реальном времени позволяет вам обнаружить элементы на лету без подключения к Интернету.Поскольку эта функция использует гораздо более простые модели нейронной сети для работы с ограниченными возможностями мобильных устройств, точность не может быть каким -либо образом сопоставима с обнаружением на основе облаков.Если вам нужно больше точности, используйте другие выделенные функции.\nЕсли вы используете его в первый раз, в некотором случае приложение должно настроить определенные зависимости, если вы видите пустой экран, и попробуйте снова позже.</string>
+    <string name="toggle_camera_description">Переключить переднюю камеру</string>
+    <string name="toggle_flash_description">START-STOP FLASH LIGHT</string>
+    <string name="toggle_vocal_output_description">Результат прослушивания начала стоп</string>
+    <string name="feature_spinner_description">Выберите нужную функцию идентификации</string>
+    <string name="custom">Обычай</string>
+    <string name="elements">Идентифицировать</string>
+    <string name="localize">Локализовать</string>
+    <string name="text">Текст</string>
+    <string name="faces">Лица</string>
+    <string name="barcode">Штрих -код</string>
+    <string name="input_size">Входной размер</string>
+    <string name="latency">Задержка</string>
+    <string name="alert_cannot_load_model">Настройка модели для пользовательского детектора не может быть использована.</string>
+    <string name="realtime_engine_error">Ошибка двигателя в реальном времени</string>
+    <!-- Realtime section -->
+
+    <!-- Element detection section -->
+    <string name="element_detector">Детектор элемента</string>
+    <string name="element_detector_description">Детектор элемента позволяет вам идентифицировать элементы в изображении, чтобы найти информацию о них.Он поддерживает широкие наборы категорий от неодушевленных объектов до растений и животных.\n\nИспользуйте красную кнопку внизу, чтобы загрузить изображение.</string>
+    <string name="detection_success">Обнаруженные элементы (нажмите на поиск, длинная нажмите, чтобы скопировать в буфер обмена):</string>
+    <string name="detection_fail">-&gt; Ой! Не могу идентифицировать какой -либо элемент на этой картине.</string>
+    <string name="model_error">-&gt; Ой! Неопределенная ошибка во время инициализации модели.\nУбедитесь, что используйте модели в подходящем формате с встроенными метаданными метками, и эта модель не превышает ограничения ресурсов вашего устройства.</string>
+    <string name="analysis_error">-&gt; Ой! Ошибка во время анализа.</string>
+    <string name="detection_offline_success">Обнаруженные элементы в автономном режиме (нажмите на поиск информации, длинные нажмите, чтобы скопировать в буфер обмена):</string>
+    <string name="detection_offline_fail">-&gt; Ой! Не могу идентифицировать какой -либо элемент на этой картине.\n\nВы находитесь в локальном режиме, с активным подключением к Интернету вы можете получить лучшие результаты.</string>
+    <string name="element_detector_translation_tip">Двигатель детектора элементов находится на английском языке, однако вы можете включить перевод его результатов на целевой язык по вашему выбору в настройках.</string>
+    <!-- End Element detection section -->
+
+    <!-- Web detection section -->
+    <string name="web_detector">Детектор веб -изображений</string>
+    <string name="web_detector_description">Детектор веб -изображений позволяет вам найти информацию о изображении, поиск в Интернете для аналогичных изображений и связанных с ними веб -страниц и угадывать контент в соответствии с полученной информацией.Эта функция предоставляет вам соответствующие этикетки, ссылки задействованных веб -страниц, отображаемые сопоставления и визуально похожие изображения (если доступны), что позволяет сохранить также соответствующие ссылки или файлы изображений.\n\nИспользуйте красную кнопку внизу, чтобы загрузить изображение.</string>
+    <string name="detection_web_success">Сопоставления найдены (нажмите на поиск информации, длинные нажмите, чтобы скопировать в буфер обмена):</string>
+    <string name="detection_web_links">◄ Веб -страницы с соответствующими изображениями (нажмите, чтобы открыть): ►</string>
+    <string name="matching_images_links">◄ Соответствующие изображения (нажмите, чтобы открыть): ►</string>
+    <string name="similar_images_links">◄ Аналогичные изображения (нажмите, чтобы открыть): ►</string>
+    <string name="matching_web_pages">Веб -страницы с соответствующими изображениями:</string>
+    <string name="matching_images">Соответствующие изображения</string>
+    <string name="similar_images">Подобные изображения</string>
+    <string name="toggle_links_details">Переключить ссылки детали.</string>
+    <string name="detection_web_fail">-&gt; Ой! Не могу определить какое -либо совпадение для этой картинки.</string>
+    <string name="images_download">Изображения скачать.</string>
+    <string name="categories_to_download">Выберите категории для скачивания.</string>
+    <string name="web_detector_res_tip">Чтобы увидеть аналогичные и соответствующие изображения (если они присутствуют), проведите заголовок секции области связей (где вы можете увидеть стрелки влево-правой).</string>
+    <!-- End Web detection section -->
+
+    <!-- OCR section -->
+    <string name="ocr">Оптическое распознавание текста</string>
+    <string name="ocr_description">Оптическое распознавание текста позволяет оцифровать текстовое содержание изображения.\n\nИспользуйте красную кнопку внизу, чтобы загрузить изображение и начать обнаружение.\n\nПри желании вы можете указать режим и язык текста, чтобы идентифицировать, если известно (в некоторых случаях это улучшает результаты, избегая ошибок из -за неправильной интерпретации автодатирования текстового языка).</string>
+    <string name="detection_ocr_success">Обнаруженный текст (нажмите, чтобы скопировать в буфер обмена, длинные нажмите, чтобы найти контент в Интернете):</string>
+    <string name="detection_ocr_offline_success">Обнаруженный текст в автономном режиме (нажмите, чтобы скопировать в буфер обмена):</string>
+    <string name="detection_ocr_fail">-&gt; Ой! Не могу идентифицировать какой -либо текст на этой картинке.</string>
+    <string name="detection_ocr_fail_offline">-&gt; Ой! Не могу идентифицировать какой -либо текст на этой картинке.\n\nВы находитесь в локальном режиме, с активным подключением к Интернету вы можете получить лучшие результаты.</string>
+    <string name="ocr_mode">Режим OCR</string>
+    <string name="target_language">Язык перевода</string>
+    <string name="language">Язык:</string>
+    <string name="translate_to_my_language">Перевести результат на мой язык</string>
+    <string name="original_text">ОРИГИНАЛЬНЫЙ ТЕКСТ:</string>
+    <!-- End OCR section -->
+
+    <!-- Logo detection section -->
+    <string name="logo_detector">Детектор логотипа</string>
+    <string name="logo_detector_description">Детектор логотипа позволяет идентифицировать логотипы, чтобы найти информацию о брендах и продуктах.\n\nИспользуйте красную кнопку внизу, чтобы загрузить изображение.</string>
+    <string name="detection_logo_fail">-&gt; Ой! Не могу идентифицировать какой -либо логотип на этой картинке.</string>
+    <!-- End Logo detection section -->
+
+    <!-- Landmark detection section -->
+    <string name="landmark_detector">Детектор</string>
+    <string name="landmark_detector_description">Детектор Landmark позволяет идентифицировать популярные естественные и искусственные сооружения, поиск информации о них или их местности.\n\nИспользуйте красную кнопку внизу, чтобы загрузить изображение.</string>
+    <string name="detection_landmark_success">Обнаруженные достопримечательности (нажмите на поиск информации, длинные нажмите, чтобы скопировать в буфер обмена):</string>
+    <string name="detection_landmark_fail">-&gt; Ой! Не могу определить какую -либо ориентир на этой картине.</string>
+    <!-- End Landmark detection section -->
+
+    <!-- Face Insight section -->
+    <string name="face_insight">Постижение лица</string>
+    <string name="face_detection_description">Обнаруйте несколько грани в изображении, а также связанные атрибуты лица.Эта функция также способна провести эмоциональный анализ, чтобы определить эмоциональное состояние, плюс она может сказать вам, если человек носит головную одежду.\n\nИспользуйте красную кнопку внизу, чтобы загрузить изображение.</string>
+    <string name="face_comparison_description">Эта функция позволяет сравнивать сходство между 2 лицами для сопоставления идентификации криминалистического уровня.Вы должны загрузить 2 разных изображения.Чтобы получить достоверный результат, каждая фотография должна содержать одно лицо, где все элементы (нос, глаза, рот и т. Д.) хорошо видны.\n\nИспользуйте красную кнопку внизу, чтобы загрузить первое изображение.</string>
+    <string name="face_age_description">Эта функция возвращает необработанную оценку вероятного возрастного диапазона.Чтобы получить достоверный результат, фотография должна содержать одно лицо, где все элементы (нос, глаза, рот и т. Д.) хорошо видны.\n\nИспользуйте красную кнопку внизу, чтобы загрузить изображение.</string>
+    <string name="face_celebrity_description">Эта функция позволяет вам идентифицировать знаменитостей.\n\nИспользуйте красную кнопку внизу, чтобы загрузить изображение.</string>
+    <string name="face">ЛИЦО</string>
+    <string name="face_detection_success">Обнаружены лица (нажмите, чтобы копировать в буфер обмена):</string>
+    <string name="face_detection_fail">-&gt; Ой! Не могу определить какое -либо лицо на этой картинке.</string>
+    <string name="detection_face_success_offline">Лица, обнаруженные в автономном режиме (нажмите для копирования в буфер обмена):</string>
+    <string name="detection_face_fail_offline">-&gt; Ой! Не могу определить какое -либо лицо на этой картинке.\n\nВы находитесь в локальном режиме, с активным подключением к Интернету вы можете получить лучшие результаты.</string>
+    <string name="face_age_success">Оценка возрастного диапазона завершена (нажмите на копию в буфер обмена):</string>
+    <string name="face_comparison_success">Лица сравнивали (нажмите, чтобы копировать в буфер обмена):</string>
+    <string name="face_comparison_fail">-&gt; Ой! Не может сравнить лица.\nМожет быть, одна из предоставленных изображений недостаточно.\n\nЕсли вы думаете, что это ошибка, используйте команду отчета об ошибках в меню ящика.</string>
+    <string name="face_celebrity_success">Обнаружено высокое сходство лица с одним или несколькими знаменитостями (нажмите на поиск, длинная нажмите, чтобы копировать в буфер обмена):</string>
+    <string name="face_celebrity_fail">-&gt; Ой! Не могу идентифицировать какую -либо знаменитость на этой картине.</string>
+    <string name="emotional_analysis">Эмоциональный анализ</string>
+    <string name="face_structure_analysis">Анализ структуры лица</string>
+    <string name="face_elements_coordinates">Координаты элементов лица</string>
+    <string name="detection_quality_stats">Статистика качества обнаружения</string>
+    <string name="other">Другой</string>
+    <string name="min_age">Минимальный возраст</string>
+    <string name="max_age">Максимальный возраст</string>
+    <string name="years">годы</string>
+    <string name="anger">Злость</string>
+    <string name="joy">Радость</string>
+    <string name="sorrow">Печаль</string>
+    <string name="surprise">Сюрприз</string>
+    <string name="headwear">Головной убор</string>
+    <string name="pan_angle">Кастрюля угол</string>
+    <string name="roll_angle">Угол рулона</string>
+    <string name="tilt_angle">Угол наклона</string>
+    <string name="detection_confidence">Обнаружение уверенности</string>
+    <string name="comparison_confidence">Сравнение уверенности</string>
+    <string name="landmarking_confidence">Достопримечательность уверенности</string>
+    <string name="blurred_likelihood">Размытая вероятность</string>
+    <string name="under_exposed_likelihood">Недоэкспонированная вероятность</string>
+    <string name="left_eye">Левый глаз</string>
+    <string name="left_eye_pupil">Ученик левого глаз</string>
+    <string name="left_eye_right_corner">Левый глаз правый угол</string>
+    <string name="left_eye_left_corner">Левый левый глаз</string>
+    <string name="left_eye_top_boundary">Граница верхней части левого глаза</string>
+    <string name="left_eye_bottom_boundary">Нижняя граница левого глаза</string>
+    <string name="right_eye">Правый глаз</string>
+    <string name="right_eye_pupil">Ученик правого глаз</string>
+    <string name="right_eye_right_corner">Правый глаз правый угол</string>
+    <string name="right_eye_left_corner">Правый глаз левый угол</string>
+    <string name="right_eye_top_boundary">Граница верхней части правого глаза</string>
+    <string name="right_eye_bottom_boundary">Граница нижней части правого глаза</string>
+    <string name="midpoint_between_eyes">Средняя точка между глазами</string>
+    <string name="left_of_left_eyebrow">Левая от левой бровь</string>
+    <string name="right_of_left_eyebrow">Справа от левой бровь</string>
+    <string name="left_of_right_eyebrow">Слева от правой бровей</string>
+    <string name="right_of_right_eyebrow">Правый бровь</string>
+    <string name="left_eyebrow_upper_midpoint">Верхняя средняя точка левой бровей</string>
+    <string name="right_eyebrow_upper_midpoint">Верхняя средняя точка правой бровей</string>
+    <string name="left_ear_tragion">Левое ухо траг</string>
+    <string name="right_ear_tragion">Правое ухо траг</string>
+    <string name="left_ear_tip">Левый конец уха</string>
+    <string name="right_ear_tip">Правый кончик уха</string>
+    <string name="nose_tip">Наконечник носа</string>
+    <string name="nose_bottom_left">Нос слева</string>
+    <string name="nose_bottom_right">Нос дно справа</string>
+    <string name="nose_bottom_center">Центр носа</string>
+    <string name="forehead_glabella">Лоб Глабелла</string>
+    <string name="left_cheek">Щека осталась</string>
+    <string name="right_cheek">Щека справа</string>
+    <string name="upper_lip">Верхняя губа</string>
+    <string name="lower_lip">Нижняя губа</string>
+    <string name="mouth_left">Рт остался</string>
+    <string name="mouth_right">Рот вправо</string>
+    <string name="mouth_center">Центр рта</string>
+    <string name="chin_gnathion">Подбородочное гнездо</string>
+    <string name="chin_left_gonion">Подбородок покинул Гонион</string>
+    
+    <string name="face_status">Статус лица</string>
+    <string name="rotation">Ротация</string>
+    <string name="maxillofacial_armony_score">Челюстно -лицевая гармония</string>
+    <string name="happiness_probability">Вероятность счастья</string>
+    <string name="is_smiling_probability">Улыбает вероятность</string>
+    <string name="is_left_eye_open_probability">Является ли левая вероятность открыта</string>
+    <string name="is_right_eye_open_probability">Вероятность открыта правой глаз</string>
+    <string name="resemblance_level">Уровень сходства</string>
+    <string name="first_image_loaded">-&gt; Загружено первое изображение!\n\nПожалуйста, загрузите второе изображение для сравнения.</string>
+    <!-- End Face Insight section -->
+
+    <!-- Barcode detector section -->
+    <string name="barcode_detector">Детектор штрих -кода</string>
+    <string name="barcode_detector_description">Детектор штрих -кода может обнаружить почти все типы штрих -кодов.\n1D штрих -коды:\nEAN-13, EAN-8, UPC-A, UPC-E, CODE-39, CODE-93, CODE-128, ITF, CODABAR.\n2D штрих -коды:\nQR-код, матрица данных, PDF-417, Aztec.\n\nИспользуйте красные кнопки внизу, чтобы загрузить изображение или ввести в режим сканирования камеры.</string>
+    <string name="barcode_detector_success">Обнаружены данные штрих -кода (нажмите, чтобы скопировать в буфер обмена, длинные нажмите, чтобы поиск информации):</string>
+    <string name="barcode_detector_fail">-&gt; Ой! Не могу определить какой -либо штрих -код на этой картине.</string>
+    <string name="barcode_error">"-&gt; Ошибка чтения штрих-код: %1$s"</string>
+    <!-- End Barcode detector section -->
+
+    <!-- Colorimeter section -->
+    <string name="colorimeter">Колориметр</string>
+    <string name="colorimeter_description">С помощью колориметра вы можете идентифицировать все цвета в изображении и увидеть их представление в RGB, HSB и шестнадцатеричной нотации.Для каждого обнаруженного цвета приложение сообщает вам название цвета или название самого похожих цветов, на случай, если цветовой тон является необычным и не имеет имени.\n\nИспользуйте красную кнопку внизу, чтобы загрузить изображение.</string>
+    <string name="color_analysis_success">Результат анализа цвета (нажмите для копирования в буфер обмена):</string>
+    <string name="color_analysis_result_name">Ближайший цвет название:</string>
+    <string name="color_analysis_result_fail">-&gt; Ой! Не может идентифицировать цвета.</string>
+    <string name="color">цвет</string>
+    <!-- End Colorimeter section -->
+
+    <!-- Censorship meter section -->
+    <string name="censorship_meter">Счетчик риска цензуры</string>
+    <string name="censorship_meter_description">Этот инструмент позволяет проверить изображение, чтобы определить, может ли его контент подвергнуться цензуре автоматической системой или привести к запрету.Эта функция полезна, так как многие социальные сети и веб -сайты выполняют автоматические проверки загруженных изображений и могут предпринять действия против пользователя, если будет обнаружен критический контент, и это часто ошибочно, особенно если есть также отчеты о человеческих, в дополнение к подозрительным ложным положительным данным.\n\nИспользуйте красную кнопку внизу, чтобы загрузить изображение.</string>
+    <string name="censorship_analysis_success">Результат анализа (нажмите для копирования в буфер обмена):</string>
+    <string name="porn">-&gt; порно:</string>
+    <string name="racy">-&gt; Racy:</string>
+    <string name="medical_explicit">-&gt; Медицинское явное содержание:</string>
+    <string name="violence">-&gt; насилие:</string>
+    <string name="spoof">-&gt; Ссыпка:</string>
+    <string name="risk_analysis_summary">Резюме вероятности риска:</string>
+    <string name="risk_detected">ПРЕДУПРЕЖДЕНИЕ!Фактор риска был обнаружен.Загрузка этой картины может привести к запрету и цензуре во многих социальных сетях и сообществах.Обращать внимание.</string>
+    <string name="no_risk_detected">Автоматический анализ не обнаружил риски.</string>
+    <string name="no_risk_detected_almost">Автоматический анализ не обнаружил рисков, но он все равно может быть подвергнут автоматизированной модерации в самых пуританских сетях.</string>
+    <!-- End Censorship meter section -->
+
+    <!-- EXIF info section -->
+    <string name="exif_info">Информация EXIF</string>
+    <string name="exif_info_description">Эта функция позволяет загружать и извлекать информацию ESIF из файлов изображений, если таковые имеются.\nExif - это стандарт для метаданных, который может включать в себя много информации в качестве авторского права на изображение, используемое устройство, метка времени сбора, данные тегов GPS, используется программное обеспечение для манипуляций с фото, датчик камеры, апертуру, фокусное расстояние, скорость затвора, баланс белого, уровень ISO и т. Д.Полем\nПримечание:\nДанные ESIF часто удаляются службами, которые перерабатывают изображения, поэтому вы можете найти нулевые или непоследовательные данные, если вы используете эту функцию с загруженными изображениями, например, из Facebook, WhatsApp, Instagram и аналогичных.\n\nИспользуйте красную кнопку внизу, чтобы загрузить изображение.</string>
+    <string name="exif_info_result_success">Exif Metadata найдены (нажмите для копирования в буфер обмена):</string>
+    <string name="exif_info_result_fail">-&gt; Ой! Не могу идентифицировать какого -либо ESIF на этой картине.</string>
+    <string name="exif_info_result_error">-&gt; Ой! Не могу идентифицировать какой -либо ESIF из -за неожиданной ошибки.</string>
+    <!-- End EXIF info section -->
+
+    <!-- ELA section -->
+    <string name="ela">ELA</string>
+    <string name="ela_description">Эта функция генерирует маску ошибок, чтобы позволить вам более легко подделать разделы в изображении в соответствии с неоднородностью в распределении ошибки по сравнению с локальным шаблоном.\n(Очень простой способ ознакомиться с инструментом - попытаться изменить некоторые изображения и посмотреть, как смотрится маска ошибок в измененных точках.)\n\nИспользуйте красную кнопку внизу, чтобы загрузить изображение.</string>
+    <string name="ela_success">Слажите влево и вправо, чтобы показать аналитическую маску и оригинальную картинку.Непоследовательная схема распределения ошибок в определенной области указывает, что область была подделана.Используйте планку, чтобы установить порог.</string>
+    <string name="ela_error">ВЫСОБИТЕ!Ошибка произошла во время генерации анализа маски.\nУбедитесь, что выбранное изображение действительно.</string>
+    <!-- End ELA section -->
+
+    <!-- Likelihood levels -->
+    <string name="likely">вероятный</string>
+    <string name="very_likely">скорее всего</string>
+    <string name="unlikely">вряд ли</string>
+    <string name="very_unlikely">маловероятно</string>
+    <string name="possible">возможный</string>
+    <!-- End Likelihood levels -->
+
+    <!-- Billing section -->
+    <string name="licensing_options">Варианты лицензирования</string>
+    <string name="bm_error">Не могу проверить статус лицензии.</string>
+    <string name="error_code">КОД ОШИБКИ:</string>
+    <string name="faq">Часто задаваемые вопросы</string>
+    <string name="faq_description">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ:\n\nЗачем подписки вместо одной покупки?\n-&gt; Поскольку однажды покупка не может быть устойчивой в долгосрочной перспективе, каждый пользователь добавляет рабочую нагрузку на наши серверы, и мы должны покрывать ежемесячные затраты.\n\nЕсть приложения, которые используют серверы без рекламы и без подписок, почему ваше приложение отличается?\n-&gt; Для некоторых компаний достаточно, чтобы их приложение было установлено, чтобы получить деньги, потому что пользователи профиля перепродали свои данные.Мы уважаем конфиденциальность пользователей и не имеем никакой непрозрачной системы монетизации.Это не упоминает более дорогие, чем средние серверы, необходимые для сложных задач компьютерного зрения на основе нейронной сети, выполняемых этим приложением.Цена очень низкая по сравнению со значением, которое это приложение добавляет к набору функций вашего устройства, однако, если вы не хотите платить подписку, не волнуйтесь, реклама в этом приложении, по крайней мере, для поддержания услуги, они арендуют«Спомируй и беспокоится.\n\nМогу ли я отменить подписку, если я передумаю в будущем?\n-&gt; Да!Вы можете отменить свою подписку в любое время от Play Store, возвращающегося в полный бесплатный режим с помощью рекламы.\n\nОстанется ли цена подписки прежней?\n-&gt; Цена подписки не может быть изменена после активации подписки.Это может быть изменено только для новых пользователей, которые не активны подписки.Это причина, по которой сейчас подписывается на рекламную цену запуска (самая низкая), это выгодная сделка.\n\nЕсли у меня есть много устройств, могу ли я использовать премию на них всех с одной подпиской?\n-&gt; Конечно!Лицензия связана с вашей учетной записью Google Play и будет автоматически применяться ко всем вашим устройствам, связанным с ней, или которые будут связаны в будущем, без каких -либо потребностей дальнейших подписок для каждого устройства.</string>
+    <string name="active">Активный</string>
+    <string name="pending">В ОЖИДАНИИ</string>
+    <string name="disabled">НЕПОЛНОЦЕННЫЙ</string>
+    <string name="ads_mode_click">Режим рекламы будет автоматически отключен, если вы приобретете подписку с серебряной или золотой, и он включен, если нет никакой активной подписки.</string>
+    <string name="ads_mode">Режим рекламы</string>
+    <string name="ads_mode_description">Все функции включены, но вы увидите некоторые объявления случайным образом, когда вы получаете доступ к новому разделу этого приложения из дома.(Бесплатный режим по умолчанию)</string>
+    <string name="premium_silver">Серебряная подписка</string>
+    <string name="premium_silver_content">Серебряная кнопка подписки</string>
+    <string name="premium_silver_description">Ежемесячная подписка премиум -класса отключает все объявления и ограничения для наилучшего возможного пользовательского опыта.</string>
+    <string name="premium_gold">Золотая подписка</string>
+    <string name="premium_gold_content">Кнопка подписки на золотую</string>
+    <string name="premium_gold_description">Ежегодная подписка премиум -класса отключает все объявления и ограничения для наилучшего возможного опыта пользователя.Годовая подписка на золото дешевле, чем 12 месяцев серебряной подписки.</string>
+    <!-- End Billing section --> 
+
+
+
 </resources>

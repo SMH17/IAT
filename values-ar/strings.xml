@@ -1,6 +1,418 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <!-- To do -->
-    <!-- Placeholder aimed to make more comfortable pushing contributes-->
-    <!-- All the strings that must be translated are located in the folder values-en -->
+    <string name="app_description">عينك الإلكترونية</string>
+    <string name="locale_language">ar</string>
+    <string name="navigation_drawer_open">درج الملاحة المفتوح</string>
+    <string name="navigation_drawer_close">أغلق درج الملاحة</string>
+    <string name="share_title">أخبر للأصدقاء</string>
+    <string name="bug_report">تقرير الشوائب</string>
+    <string name="share_text">وصلة</string>
+    <string name="note">ملحوظة</string>
+    <string name="warning">تحذير</string>
+    <string name="hint">تَلمِيح</string>
+    <string name="close">يغلق</string>
+    <string name="done">منتهي</string>
+    <string name="wait_and_retry">حاول مرة أخرى بعد الانتهاء.</string>
+    <string name="next">يكمل</string>
+    <string name="undo">الغاء التحميل</string>
+    <string name="communicate">يتواصل</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="share">يشارك</string>
+    <string name="current_value">القيمة الحالية:</string>
+    <string name="invalid_setting">إعداد غير صالح</string>
+    <string name="insufficient_permissions">أذونات لا يكفي.إعطاء للتطبيق الأذونات المطلوبة.</string>
+    <string name="info_text">الإصدار 0.3.4 SR 192\nتم تطويره بواسطة S. Marano ، SMH17 جميع الحقوق محفوظة.أي تكرار أو تعديل أو إعادة استخدام الكود أو العناصر الرسومية حتى جزئيًا ممنوع تمامًا دون إذن صريح للمؤلف.\nAdmob و Play و TensorFlow وجميع تقنيات Google ذات الصلة مملوكة لشركة Google LLC وتخضع لشروط ترخيص Google LLC.\nللحصول على معلومات إضافية حول حقوق الطبع والنشر وشروط الترخيص ، اتصل بنا.</string>
+    <string name="choose_email_client">اختر عميل البريد الإلكتروني</string>
+    <string name="problem_description">وصف المشكلة</string>
+    <string name="error">خطأ</string>
+    <string name="report_bug_subject">تقرير الأخطاء IAT</string>
+		
+    <!-- Action bar section -->
+    <string name="action_home">بيت</string>
+    <string name="action_save">يحفظ</string>
+    <string name="action_download">تحميل</string>
+    <string name="action_tts">بدء التشغيل نتيجة الاستماع</string>
+    <string name="action_search">يبحث</string>
+	<string name="action_smart_sort">الفرز الذكي</string>
+    <string name="action_batch">حزمة</string>
+    <string name="action_settings">إعدادات</string>
+    <string name="action_info">معلومات</string>
+    <string name="action_consent">موافقة</string>
+    <string name="action_unlock">رخصة</string>
+    <!-- End Action bar section -->
+
+    <!-- Setting section -->
+    <string name="app_theme">موضوع التطبيق</string>
+    <string name="setting_title">إعدادات</string>
+    <string name="alert_setting_text">إدخال عدد الأقصى للعناصر ، سيسمح لك عدد أعلى برؤية المزيد من النتائج ، ومع ذلك فإن النتائج الإضافية لها نسبة مطابقة أقل احتمالًا.\nالقيمة الافتراضية: 10 ،</string>
+    <string name="alert_setting_quality">اضبط مستوى جودة الكشف (القيمة الافتراضية: 1200).يمكن أن تؤدي القيمة الأعلى إلى نتائج أكثر دقة ولكنها أبطأ.\nقيمة الجودة:</string>
+    <string name="use_element_detection_cloud">استخدم السحابة لاكتشاف العناصر الدقيقة</string>
+    <string name="use_ocr_cloud">استخدم السحابة لاكتشاف النص الدقيق</string>
+    <string name="use_face_detection_cloud">استخدم السحابة للكشف الدقيق للوجه</string>
+    <string name="enable_detector_localization">تمكين ترجمة الكاشف</string>
+    <string name="batch_results_in_source_dir">نتائج الدفعة الإخراج في دليل المصدر</string>
+    <string name="open_last_path">افتح الطريق الأخير</string>
+    <string name="show_detection_markers">عرض علامات الكشف</string>
+    <string name="enable_tts">تحدث بصوت عال</string>
+    <!-- ## Realtime Detector Settings-->
+    <string name="setting_realtime_label">خيارات للكشف في الوقت الحقيقي:</string>
+    <string name="extra_realtime_settings_note">ملحوظات:\nيجب وضع النماذج المخصصة في مجلد TFModels الموجود في مجلد التطبيق الافتراضي.\nفي قسم الوقت الفعلي ، يمكنك العثور على إعدادات إضافية حول مجموعة الميزات التي تنقر على الزر الأيمن العلوي.</string>
+    <string name="pref_screen_title_realtime_settings">الإعدادات المتقدمة في الوقت الفعلي</string>
+    <string name="enable_rtm_output_file">نتائج الإخراج في الملف</string>
+    <string name="enable_rtm_output_file_summary">سيتم تسجيل جميع النتائج على ملف تم حفظه في المجلد الافتراضي</string>
+    <string name="pref_category_title_realtime_general">عام</string>
+    <string name="speak_best">تحدث بصوت عالٍ أفضل النتائج فقط</string>
+    <string name="speak_best_summary">سوف الناتج الصوتي يتجاهل نتائج الثقة المنخفضة.</string>
+    <string name="show_bench_osd">عرض العروض OSD</string>
+    <string name="show_bench_osd_summary">إنه يظهر إحصائيات العروض الكشف</string>
+    <string name="rear_camera_preview_size">حجم معاينة الكاميرا الخلفية</string>
+    <string name="front_camera_preview_size">حجم معاينة الكاميرا الأمامية</string>
+    <string name="realtime_target_analysis_size">قرار التحليل الهدف</string>
+    <string name="realtime_live_viewport">تيار مستمر</string>
+    <string name="realtime_live_viewport_summary">تدفق الكاميرا لا تنتظر التزامن إطار الكشف</string>
+    <string name="pref_category_object_detection">تحديد العناصر / التوطين</string>
+    <string name="custom_model_name">نموذج TF-Lite مخصص</string>
+    <string name="filter_unlabeled_output">تصفية الإخراج غير المسماة</string>
+    <string name="object_detector_enable_multiple_objects">تمكين كائنات متعددة</string>
+    <string name="object_detector_enable_classification">تمكين التصنيف</string>
+    <string name="autoreturn_barcode">الباركود العائد التلقائي في وضع المسح الضوئي</string>
+    <string name="pref_category_face_detection">الكشف عن الوجه</string>
+    <string name="face_detector_landmark_mode">وضع التصاريح</string>
+    <string name="pref_entries_face_detector_landmark_mode_no_landmarks">لا معالم</string>
+    <string name="pref_entries_face_detector_landmark_mode_all_landmarks">جميع المعالم</string>
+    <string name="face_detector_contour_mode">وضع الكفاف</string>
+    <string name="pref_entries_face_detector_contour_mode_no_contours">لا ملامح</string>
+    <string name="pref_entries_face_detector_contour_mode_all_contours">جميع المعالم</string>
+    <string name="face_detector_classification_mode">وضع التصنيف</string>
+    <string name="pref_entries_face_detector_classification_mode_no_classifications">لا تصنيفات</string>
+    <string name="pref_entries_face_detector_classification_mode_all_classifications">جميع التصنيفات</string>
+    <string name="face_detector_performance_mode">وضع الأداء</string>
+    <string name="pref_entries_face_detector_performance_mode_fast">سريع</string>
+    <string name="pref_entries_face_detector_performance_mode_accurate">دقيق</string>
+    <string name="face_detector_face_tracking">تقنية التعرف على الوجة</string>
+    <string name="face_detector_min_face_size">الحد الأدنى لحجم الوجه</string>
+    <string name="alert_face_detector_min_face_size">نسبة عرض الرأس إلى عرض الصورة ، ونطاق القيمة الصالحة هو [0.0 ، 1.0]</string>
+    <string name="alert_invalid_min_face_size">يجب أن يكون الحد الأدنى لحجم الوجه قيمة تعويم وفي النطاق [0.0 ، 1.0]</string>
+    <!-- End Setting section -->
+
+    <!-- General messages and warning section -->
+    <string name="app_path_configuration_message">الآن عليك اختيار المسار الذي تريد السماح بإنشاء مجلد التطبيق الافتراضي.\nفي هذا المجلد سيتم حفظ النتائج ، ونماذج التحليل المخصص.\nيجب أن تتم هذه العملية فقط في التكوين الأول ، إذا كنت تريد اختيار مسار مختلف في المستقبل ، يمكنك إعادة تعيينه من قائمة الإعدادات.</string>
+    <string name="identification_mode">وضع التعريف</string>
+    <string name="choose_image">اختر صورة</string>
+    <string name="camera_scan">وضع المسح</string>
+    <string name="edit_image">تحرير الصورة</string>
+    <string name="edit_image_before_analysis">تحرير الصورة قبل التحليل</string>
+    <string name="start_tts">ابدأ الإخراج الصوتي</string>
+    <string name="stop_tts">وقف الإخراج الصوتي</string>
+    <string name="tts_error">لا يمكن استخدام النص إلى وظيفة الكلام</string>
+    <string name="alert_copied_values">نسخ إلى الحافظة!</string>
+    <string name="alert_saved">النتائج المحفوظة لملف محلي!</string>
+    <string name="detector_not_ready">الكاشف المحلي ليس جاهزًا بعد.حاول مرة أخرى لاحقًا إذا استمرت المشكلة في إعادة تشغيل الجهاز.</string>
+    <string name="alert_not_again">لا تظهر مرة أخرى.</string>
+    <string name="alert_unexpected_error">خطأ غير متوقع.إذا استمرت مشكلة في إرسال تقرير الأخطاء.</string>
+    <string name="alert_adblocker">في جهازك تم اكتشاف Adblocker عالمي.يتطلب تطوير هذا التطبيق والحفاظ عليه الموارد والوقت والنفقات.لا يمكننا توفير كل هذا مجانًا إذا قمت بحظر حتى الإعلانات.تم تعطيل أوامر التطبيق الآن.تعطيل AdBlocker (أو القائمة البيضاء هذا التطبيق) إذا كنت ترغب في استخدام الوضع الحر ، أو بدلاً من ذلك ، شراء اشتراك متميز.</string>
+    <string name="alert_disabled_network">في جهازك تم اكتشاف وضع الطائرة أو معطل جميع ميزات الاتصال.يمكن للمستخدمين الممتازين فقط استخدام التطبيق في الوضع غير المتصل لأنه يتم الحفاظ على الإصدار المجاني بواسطة الإعلانات.للتغلب على هذا الحد ، شراء اشتراك متميز.</string>
+	<string name="alert_consent_info">من هنا يمكنك إدارة موافقة الخصوصية.هناك حاجة إلى موافقة مناسبة فقط لإظهار الإعلانات.ليس من الضروري في وضع قسط.\nإعطاء الموافقة أو الحصول على اشتراك متميز.</string>
+    <string name="alert_noadsconsent">لقد أنكرت الموافقة على إظهار الإعلانات.هناك حاجة إلى إعلانات لتغطية النفقات في الوضع الحر.\nإعطاء الموافقة أو الحصول على اشتراك متميز.</string>
+    <string name="set_consent">حدد موافقة</string>
+    <string name="alert_no_web_search">نتيجة نسخها إلى الحافظة.\nلم يتم العثور على مساعدي البحث المدعومة على جهازك.قم بتثبيت مساعد بحث مدعوم (مثل بحث Google) لتمكين ميزة البحث المتكاملة.</string>
+    <string name="alert_no_open_url">نتيجة نسخها إلى الحافظة.\nلا توجد متصفحات ويب مدعومة موجودة على جهازك.قم بتثبيت متصفح الويب المدعوم (على سبيل المثال ، Chrome أو Firefox) لتمكين ميزة فتح عنوان URL المباشر.</string>
+    <string name="alert_camera_intent_error">لا يمكن لجهازك التعامل مع نية الكاميرا بشكل صحيح.\nقم بتحديث إصدار Android الخاص بك إلى إصدار أحدث أو تثبيت تطبيق كاميرا مع دعم نية الكاميرا الأحدث.</string>
+    <string name="alert_gallery_intent_error">لا يمكن لجهازك التعامل مع نية المعرض بشكل صحيح.\nقم بتحديث إصدار Android الخاص بك إلى إصدار جديد أو تثبيت تطبيق معرض مع دعم نية المعرض الأحدث.</string>
+    <string name="alert_imurl_title">إدخال عنوان الموقع</string>
+    <string name="alert_imurl_text">أدخل عنوان URL للصورة.\n\nملحوظة:\nيجب أن يكون عنوان URL رابطًا مباشرًا لملف الصورة ، وليس بعض عنوان URL للمعرض الديناميكي.</string>
+    <string name="alert_imurl_error">URL غير صالح!\n\nيجب أن يكون عنوان URL رابطًا مباشرًا صالحًا لملف الصورة ، وليس بعض عنوان URL الديناميكي معرض الويب.\nتأكد من الوصول إلى عنوان URL وينتهي بامتداد صورة (على سبيل المثال .jpg ، .png ، .bmp ، .webp ، .gif).</string>
+    <string name="alert_nothing_to_save">لا يوجد شيء لإنقاذه.</string>
+    <string name="alert_nothing_to_download">ليس هناك شئ للتحميل.</string>
+    <string name="dialog_select_prompt">اختر صورة من الكاميرا أو المعرض ، أو أدخل عنوان URL صورة.</string>
+    <string name="dialog_select_camera">آلة تصوير</string>
+    <string name="dialog_select_gallery">صالة عرض</string>
+    <string name="image_picker_error">لا يمكن تحميل هذه الصورة.صورة غير صالحة أو أذونات غير كافية.</string>
+    <string name="path">طريق</string>
+    <string name="select_photo">حدد صورة</string>
+    <string name="select_directory">حدد دليلًا</string>
+    <string name="select_file">حدد الملف</string>
+    <string name="save_file_error">خطأ أثناء حفظ الملف!</string>
+    <string name="storage_manager_error">خطأ مدير التخزين!</string>
+    <string name="image_preview">معاينة الصورة</string>
+    <string name="loading_message">التحليل قيد التقدم… من فضلك انتظر.</string>
+    <string name="nothing_to_speech">تحليل صورة قبل استخدام هذه الوظيفة.</string>
+    <string name="cannot_analyze_now">لقد حدث خطأ ما.تتطلب بعض الميزات اتصال إنترنت.تأكد من أن اتصالك نشط وأن الصورة غير تالفة أو حاول مرة أخرى لاحقًا.</string>
+    <string name="api_request_failed">فشل طلب API.إذا استمرت المشكلة ، فتأكد من تحديث التطبيق إلى أحدث الإصدار الرسمي المتاح على Google Play.</string>
+    <string name="translation_fail">محرك الترجمة غير جاهز.</string>
+    <string name="num_download_files">أرقام الملفات للتنزيل:</string>
+    <string name="hide">يخفي</string>
+    <string name="stop">قف</string>
+    <string name="downloaded_file">الملف الذي تم تنزيله</string>
+    <string name="download_file_error">تنزيل خطأ الملف</string>
+    <string name="detection_recovery_mode_error">[تم تحويل الكشف تلقائيًا إلى الوضع المحلي بسبب خطأ أثناء محاولة استخدام السحابة.إذا استمرت المشكلة ، فتأكد من تحديث التطبيق إلى أحدث إصدار رسمي متاح على Google Play.]</string>
+    <string name="mode_not_available_on_local">هذا الوضع يتطلب الكشف بمساعدة السحابة.\nيرجى تمكين وضع السحابة لمجموعة الميزات هذه.</string>
+    <string name="alert_custom_models_info">تتيح هذه الوظيفة للمستخدمين المتقدمين استخدام نماذج الاستدلال المخصصة للكشف عن العناصر في وضع التعريف [I] أو وضع التوطين [L].يجب أن تكون النماذج بتنسيق متوافق مع TensorFlow Lite مع امتداد .tflite.يجب وضع النماذج المخصصة في مجلد TFModel ثم تكوينها في قائمة الإعدادات.إذا لم يتم تكوين نموذج مخصص ، فسيتجاهل IAT التحديد ، وتبقى على نموذج افتراضي.اقرأ الوثائق للحصول على التفاصيل.</string>
+    <!-- End General messages and warning section -->
+
+    <!-- Batch section -->
+    <string name="batch">حزمة</string>
+    <string name="batch_description">معالجة صور متعددة في نفس الوقت.\nتعمل هذه الميزة باستخدام المحرك المحلي فقط ، لذلك تكون بعض الميزات أقل دقة من تحليل الصور الذي يساعده السحابة المتاحة لمجموعة ميزة معينة عند استخدام تحليل الصورة المفردة.\n\nاختر الميزة التي تريد استخدامها ثم حدد الدليل الذي تريد معالجته باستخدام الزر الأحمر في الأسفل.</string>
+    <string name="select_folder">اختر مجلد</string>
+    <string name="invalid_path">مسار غير صالح أو فارغ.</string>
+    <string name="file_name">اسم الملف</string>
+    <string name="files_number">إجمالي عدد الملفات</string>
+    <string name="images_number">الصور المكتشفة</string>
+    <string name="images_correctly_analyzed">صور تم تحليلها بشكل صحيح</string>
+    <string name="images_not_correctly_analyzed">لم يتم تحليل الصور بشكل صحيح</string>
+    <string name="complete_analysis_before">أكمل تحليلًا من قبل.</string>
+    <string name="keyword_not_found">الكلمة الرئيسية لم يتم العثور عليها!</string>
+    <string name="batch_search_description">تتيح لك هذه الوظيفة البحث عن محتويات ذات أهمية تاركة عناصر فقط تتطابق نتائجها في كلمة رئيسية.\nأدخل الكلمة الرئيسية.</string>
+    <string name="output_path_tip">إذا قمت بالنقر فوق الزر "حفظ"في الأعلى ، فسيتم حفظ النتائج في مسار IAT الافتراضي ، ومع ذلك ، في الإعدادات ، يمكنك تكوين نتائج الدُفعات ، من أجل إخراج النتائج في الدليل المصدر.</string>
+    <string name="batch_success">الانتهاء من تحليل الدُفعات.\nانقر على كل عنصر لرؤية النتائج ، اضغط لفترة طويلة لنسخ النتائج على الحافظة.</string>
+    <string name="batch_fail">فشل إجراء الدُفعات.\nتأكد من أن المسار المحدد يحتوي على ملفات صور صالحة ، أو إرسال تقرير خطأ باستخدام قائمة درج التنقل إذا كنت تعتقد أنه خطأ في التطبيق.</string>
+    <string name="analysis_type">نوع التحليل:</string>
+    <string name="analysis_result">تحليل النتائج:</string>
+    <string name="copy_b">ينسخ</string>
+    <string name="save">يحفظ</string>
+    <string name="search">يبحث</string>
+    <string name="translate">يترجم</string>
+    <string name="smart_sort_alert">تقوم هذه الوظيفة بفرز الصور تلقائيًا في المسار المحدد، وفقًا للمحتوى المكتشف، عن طريق نقلها أو نسخها إلى مجلد مناسب إذا كان موجودًا بالفعل في المسار، أو في مجلد فرعي جديد يحمل اسم فئة التصنيف.\n\n</string>
+    <string name="smart_sort_completed">تم إكمال مهمة الفرز الذكي. عدد الملفات التي تم فرزها: </string>
+    <string name="threshold">الحد الأدنى لتصنيف العتبة:</string>
+    <!-- End Batch section -->
+
+    <!-- Realtime section -->
+    <string name="realtime_detector">كاشف الوقت الحقيقي</string>
+    <string name="realtime_detector_description">يتيح لك كاشف الوقت الحقيقي اكتشاف العناصر أثناء التوصيل دون اتصال بالإنترنت.نظرًا لأن هذه الميزة تستخدم نماذج شبكة عصبية أبسط بكثير لتشغيلها مع إمكانات محدودة للأجهزة المحمولة ، فإن الدقة لا يمكن أن تكون مقارنة بأي شكل من الأشكال للكشف القائم على السحابة.إذا كنت بحاجة إلى مزيد من الدقة ، فاستخدم ميزات أخرى مخصصة.\nإذا كنت تستخدمه لأول مرة ، في بعض الحالات ، يحتاج التطبيق إلى تكوين بعض التبعيات الخاصة بالجهاز ، إذا رأيت شاشة فارغة الانتظار وحاول مرة أخرى لاحقًا.</string>
+    <string name="toggle_camera_description">تبديل الكاميرا الخلفية الأمامية</string>
+    <string name="toggle_flash_description">بدء تشغيل Light Flash Light</string>
+    <string name="toggle_vocal_output_description">بدء التشغيل نتيجة الاستماع</string>
+    <string name="feature_spinner_description">حدد ميزة التعريف المطلوبة</string>
+    <string name="custom">مخصص</string>
+    <string name="elements">تعريف</string>
+    <string name="localize">توطين</string>
+    <string name="text">نص</string>
+    <string name="faces">الوجوه</string>
+    <string name="barcode">الباركود</string>
+    <string name="input_size">حجم الإدخال</string>
+    <string name="latency">وقت الإستجابة</string>
+    <string name="alert_cannot_load_model">لا يمكن استخدام النموذج الذي تم تكوينه للكشف المخصص.</string>
+    <string name="realtime_engine_error">خطأ في المحرك الحقيقي</string>
+    <!-- Realtime section -->
+
+    <!-- Element detection section -->
+    <string name="element_detector">كاشف العناصر</string>
+    <string name="element_detector_description">يتيح لك كاشف العناصر تحديد العناصر داخل الصورة ، للعثور على معلومات عنها.وهو يدعم مجموعات واسعة من الفئات التي تتراوح من الأشياء غير الحية إلى النباتات والحيوانات.\n\nاستخدم الزر الأحمر في الأسفل لتحميل صورة.</string>
+    <string name="detection_success">العناصر المكتشفة (انقر للبحث عن معلومات ، انقر طويلًا للنسخ إلى الحافظة):</string>
+    <string name="detection_fail">-&gt; OPS!لا يمكن تحديد أي عنصر في هذه الصورة.</string>
+    <string name="model_error">-&gt; OPS!خطأ غير محدد أثناء تهيئة النموذج.\nتأكد من استخدام النماذج بتنسيق مناسب مع بيانات تعريف الملصقات المدمجة وأن هذا النموذج لا يتجاوز حدود موارد جهازك.</string>
+    <string name="analysis_error">-&gt; OPS!خطأ أثناء التحليل.</string>
+    <string name="detection_offline_success">العناصر المكتشفة في الوضع غير المتصل (انقر للبحث عن المعلومات ، انقر طويلًا للنسخ إلى الحافظة):</string>
+    <string name="detection_offline_fail">-&gt; OPS!لا يمكن تحديد أي عنصر في هذه الصورة.\n\nأنت في الوضع المحلي ، مع اتصال بالإنترنت نشط يمكنك الحصول على نتائج أفضل.</string>
+    <string name="element_detector_translation_tip">محرك كاشف العناصر باللغة الإنجليزية ، ومع ذلك يمكنك تمكين ترجمة نتائجه إلى لغة مستهدفة من اختيارك في الإعدادات.</string>
+    <!-- End Element detection section -->
+
+    <!-- Web detection section -->
+    <string name="web_detector">كاشف صورة الويب</string>
+    <string name="web_detector_description">يتيح لك كاشف صور الويب العثور على معلومات حول الصورة ، والبحث في الإنترنت للحصول على صور مماثلة وصفحات الويب ذات الصلة ، وتخمين المحتوى وفقًا للمعلومات التي تم الحصول عليها.توفر لك هذه الميزة الملصقات ذات الصلة ، وروابط صفحات الويب المعنية ، والتي تُظهر صورًا مطابقة ومماثلة بصريًا (إن وجدت) ، مما يتيح لك أيضًا حفظ الروابط المعنية أو ملفات الصور.\n\nاستخدم الزر الأحمر في الأسفل لتحميل صورة.</string>
+    <string name="detection_web_success">المباريات التي تم العثور عليها (انقر للبحث عن معلومات ، انقر طويلًا لنسخ إلى الحافظة):</string>
+    <string name="detection_web_links">◄ صفحات الويب مع صور متطابقة (انقر لفتح): ►</string>
+    <string name="matching_images_links">◄ مطابقة الصور (انقر لفتح): ►</string>
+    <string name="similar_images_links">◄ صور مماثلة (انقر لفتح): ►</string>
+    <string name="matching_web_pages">صفحات الويب مع صور متطابقة:</string>
+    <string name="matching_images">مطابقة الصور</string>
+    <string name="similar_images">صور مماثلة</string>
+    <string name="toggle_links_details">تبديل الروابط التفاصيل.</string>
+    <string name="detection_web_fail">-&gt; OPS!لا يمكن تحديد أي تطابق لهذه الصورة.</string>
+    <string name="images_download">تحميل الصور.</string>
+    <string name="categories_to_download">حدد فئات للتنزيل.</string>
+    <string name="web_detector_res_tip">للاطلاع على صور مماثلة ومطابقة (إذا كانت موجودة) ، اسحب عنوان قسم منطقة الارتباط (حيث يمكنك رؤية الأسهم اليسارية).</string>
+    <!-- End Web detection section -->
+
+    <!-- OCR section -->
+    <string name="ocr">التعرف على النص البصري</string>
+    <string name="ocr_description">يتيح لك التعرف على النص البصري رقمنة محتوى النص لصورة ما.\n\nاستخدم الزر الأحمر في الأسفل لتحميل صورة وبدء الكشف.\n\nاختياريًا ، يمكنك تحديد الوضع ولغة النص لتحديد ما إذا كان معروفًا (في بعض الحالات ، هذا يحسن النتائج التي تتجنب الأخطاء بسبب التفسير غير الصحيح للكشف التلقائي في لغة النص).</string>
+    <string name="detection_ocr_success">النص المكتشف (انقر للنسخ إلى الحافظة ، انقر طويلًا للبحث في المحتوى على الويب):</string>
+    <string name="detection_ocr_offline_success">تم اكتشاف النص في وضع عدم الاتصال (انقر لنسخ إلى الحافظة):</string>
+    <string name="detection_ocr_fail">-&gt; OPS!لا يمكن تحديد أي نص في هذه الصورة.</string>
+    <string name="detection_ocr_fail_offline">-&gt; OPS!لا يمكن تحديد أي نص في هذه الصورة.\n\nأنت في الوضع المحلي ، مع اتصال بالإنترنت نشط يمكنك الحصول على نتائج أفضل.</string>
+    <string name="ocr_mode">وضع OCR</string>
+    <string name="target_language">اللغة المستهدفة</string>
+    <string name="language">لغة:</string>
+    <string name="translate_to_my_language">ترجمة النتيجة إلى لغتي</string>
+    <string name="original_text">النص الأصلي:</string>
+    <!-- End OCR section -->
+
+    <!-- Logo detection section -->
+    <string name="logo_detector">كاشف الشعار</string>
+    <string name="logo_detector_description">يتيح لك كاشف الشعار تحديد الشعارات ، للعثور على معلومات حول العلامات التجارية والمنتجات.\n\nاستخدم الزر الأحمر في الأسفل لتحميل صورة.</string>
+    <string name="detection_logo_fail">-&gt; OPS!لا يمكن تحديد أي شعار في هذه الصورة.</string>
+    <!-- End Logo detection section -->
+
+    <!-- Landmark detection section -->
+    <string name="landmark_detector">كاشف التصاريح</string>
+    <string name="landmark_detector_description">يتيح لك Detector Landmark تحديد الهياكل الطبيعية والشهيرة التي من صنع الإنسان ، للبحث عن معلومات عنها أو في مكانها.\n\nاستخدم الزر الأحمر في الأسفل لتحميل صورة.</string>
+    <string name="detection_landmark_success">المعالم المكتشفة (اضغط على معلومات البحث ، انقر طويلًا لنسخ إلى الحافظة):</string>
+    <string name="detection_landmark_fail">-&gt; OPS!لا يمكن تحديد أي معلم في هذه الصورة.</string>
+    <!-- End Landmark detection section -->
+
+    <!-- Face Insight section -->
+    <string name="face_insight">وجهات الوجه</string>
+    <string name="face_detection_description">اكتشف الوجوه المتعددة داخل الصورة ، إلى جانب سمات الوجه المرتبطة بها.هذه الوظيفة قادرة أيضًا على إجراء تحليل عاطفي لتحديد الحالة العاطفية بالإضافة إلى أنها يمكن أن تخبرك ما إذا كان الشخص يرتدي ملابس رئيسية.\n\nاستخدم الزر الأحمر في الأسفل لتحميل صورة.</string>
+    <string name="face_comparison_description">تتيح لك هذه الوظيفة مقارنة التشابه بين شخصين لمطابقة هوية مستوى الطب الشرعي.يجب عليك تحميل صورتين مختلفتين.من أجل الحصول على نتيجة صالحة ، يجب أن تحتوي كل صورة على وجه واحد تكون فيه جميع العناصر (الأنف والعينين والفم وما إلى ذلك) واضحة جيدًا.\n\nاستخدم الزر الأحمر في الأسفل لتحميل الصورة الأولى.</string>
+    <string name="face_age_description">هذه الوظيفة تُرجع تقديرًا خامًا للنطاق العمري المحتمل.من أجل الحصول على نتيجة صالحة ، يجب أن تحتوي الصورة على وجه واحد تكون فيه جميع العناصر (الأنف والعينين والفم وما إلى ذلك) واضحة جيدًا.\n\nاستخدم الزر الأحمر في الأسفل لتحميل صورة.</string>
+    <string name="face_celebrity_description">تتيح لك هذه الوظيفة تحديد المشاهير.\n\nاستخدم الزر الأحمر في الأسفل لتحميل صورة.</string>
+    <string name="face">وجه</string>
+    <string name="face_detection_success">الوجوه المكتشفة (انقر لنسخ إلى الحافظة):</string>
+    <string name="face_detection_fail">-&gt; OPS!لا يمكن تحديد أي وجه في هذه الصورة.</string>
+    <string name="detection_face_success_offline">الوجوه المكتشفة في وضع عدم الاتصال (انقر للنسخ إلى الحافظة):</string>
+    <string name="detection_face_fail_offline">-&gt; OPS!لا يمكن تحديد أي وجه في هذه الصورة.\n\nأنت في الوضع المحلي ، مع اتصال بالإنترنت نشط يمكنك الحصول على نتائج أفضل.</string>
+    <string name="face_age_success">اكتمال تقدير نطاق العمر (انقر للنسخ إلى الحافظة):</string>
+    <string name="face_comparison_success">الوجوه المقارنة (اضغط على نسخ إلى الحافظة):</string>
+    <string name="face_comparison_fail">-&gt; OPS!لا يمكن مقارنة الوجوه.\nربما واحدة من الصورة المقدمة ليست جيدة بما فيه الكفاية.\n\nإذا كنت تعتقد أن هذا خطأ ، فاستخدم أمر تقرير الأخطاء في قائمة الدرج.</string>
+    <string name="face_celebrity_success">تم اكتشاف تشابه عالي الوجه مع واحد أو أكثر من المشاهير (انقر للبحث عن المعلومات ، انقر طويلًا لنسخه إلى الحافظة):</string>
+    <string name="face_celebrity_fail">-&gt; OPS!لا يمكن تحديد أي مشاهير في هذه الصورة.</string>
+    <string name="emotional_analysis">التحليل العاطفي</string>
+    <string name="face_structure_analysis">تحليل هيكل الوجه</string>
+    <string name="face_elements_coordinates">الإحداثيات عناصر الوجه</string>
+    <string name="detection_quality_stats">إحصائيات جودة الكشف</string>
+    <string name="other">آخر</string>
+    <string name="min_age">الحد الإدنى للعمر</string>
+    <string name="max_age">الحد الأقصى للسن</string>
+    <string name="years">سنين</string>
+    <string name="anger">الغضب</string>
+    <string name="joy">مرح</string>
+    <string name="sorrow">حزن</string>
+    <string name="surprise">مفاجأة</string>
+    <string name="headwear">أغطية رأس</string>
+    <string name="pan_angle">زاوية عموم</string>
+    <string name="roll_angle">لفة زاوية</string>
+    <string name="tilt_angle">زاوية الميل</string>
+    <string name="detection_confidence">الكشف عن الثقة</string>
+    <string name="comparison_confidence">مقارنة الثقة</string>
+    <string name="landmarking_confidence">الثقة المعنية</string>
+    <string name="blurred_likelihood">احتمال وضوح</string>
+    <string name="under_exposed_likelihood">احتمالية غير معنية</string>
+    <string name="left_eye">عين اليسار</string>
+    <string name="left_eye_pupil">تلميذ العين اليسرى</string>
+    <string name="left_eye_right_corner">الزاوية اليمنى اليسرى</string>
+    <string name="left_eye_left_corner">الزاوية اليسرى العين اليسرى</string>
+    <string name="left_eye_top_boundary">حدود أعلى العين اليسرى</string>
+    <string name="left_eye_bottom_boundary">حدود أسفل العين اليسرى</string>
+    <string name="right_eye">العين اليمنى</string>
+    <string name="right_eye_pupil">تلميذ العين اليمنى</string>
+    <string name="right_eye_right_corner">الزاوية اليمنى اليمنى</string>
+    <string name="right_eye_left_corner">الزاوية اليسرى العين اليمنى</string>
+    <string name="right_eye_top_boundary">الحدود العليا للعين اليمنى</string>
+    <string name="right_eye_bottom_boundary">الحدود السفلية للعين اليمنى</string>
+    <string name="midpoint_between_eyes">نقطة الوسط بين العيون</string>
+    <string name="left_of_left_eyebrow">يسار الحاجب الأيسر</string>
+    <string name="right_of_left_eyebrow">يمين الحاجب الأيسر</string>
+    <string name="left_of_right_eyebrow">يسار الحاجب الأيمن</string>
+    <string name="right_of_right_eyebrow">حق الحاجب الأيمن</string>
+    <string name="left_eyebrow_upper_midpoint">نقطة الوسط العلوية الحاجب اليسرى</string>
+    <string name="right_eyebrow_upper_midpoint">نقطة الوسط العلوية الحاجب اليمنى</string>
+    <string name="left_ear_tragion">اليسار تراغوس</string>
+    <string name="right_ear_tragion">الأذن اليمنى tragus</string>
+    <string name="left_ear_tip">نصيحة الأذن اليسرى</string>
+    <string name="right_ear_tip">نصيحة الأذن اليمنى</string>
+    <string name="nose_tip">الأنف غيض</string>
+    <string name="nose_bottom_left">قاع الأنف اليسار</string>
+    <string name="nose_bottom_right">قاع الأنف اليمين</string>
+    <string name="nose_bottom_center">مركز أنف أسفل</string>
+    <string name="forehead_glabella">جبين الجبهة</string>
+    <string name="left_cheek">غادر الخد</string>
+    <string name="right_cheek">الخد الصحيح</string>
+    <string name="upper_lip">الشفة العلوية</string>
+    <string name="lower_lip">الشفة السفلى</string>
+    <string name="mouth_left">الفم اليسار</string>
+    <string name="mouth_right">الفم الحق</string>
+    <string name="mouth_center">مركز الفم</string>
+    <string name="chin_gnathion">الذقن ننشن</string>
+    <string name="chin_left_gonion">غادر الذقن غونيون</string>
+    
+    <string name="face_status">حالة الوجه</string>
+    <string name="rotation">دوران</string>
+    <string name="maxillofacial_armony_score">وئام الوجه الوجه</string>
+    <string name="happiness_probability">احتمال السعادة</string>
+    <string name="is_smiling_probability">هو احتمال الابتسام</string>
+    <string name="is_left_eye_open_probability">هل يتم فتح العين اليسرى</string>
+    <string name="is_right_eye_open_probability">هو احتمال فتح العين اليمنى</string>
+    <string name="resemblance_level">مستوى التشابه</string>
+    <string name="first_image_loaded">-&gt; الصورة الأولى المحملة!\n\nيرجى تحميل صورة ثانية للمقارنة.</string>
+    <!-- End Face Insight section -->
+
+    <!-- Barcode detector section -->
+    <string name="barcode_detector">كاشف الباركود</string>
+    <string name="barcode_detector_description">يمكن للكشف عن الباركود اكتشاف جميع أنواع الرموز الباركدية تقريبًا.\n1D barcodes:\nEAN-13 ، EAN-8 ، UPC-A ، UPC-E ، CODE-39 ، CODE-93 ، CODE-128 ، ITF ، CODABAR.\nالرموز الباركودية 2D:\nرمز الاستجابة السريعة ، مصفوفة البيانات ، PDF-417 ، Aztec.\n\nاستخدم الأزرار الحمراء في الأسفل لتحميل صورة أو إدخال في وضع مسح الكاميرا.</string>
+    <string name="barcode_detector_success">تم اكتشاف بيانات الباركود (انقر للنسخ إلى الحافظة ، انقر فوق "معلومات"للبحث):</string>
+    <string name="barcode_detector_fail">-&gt; OPS!لا يمكن تحديد أي رمز باركي في هذه الصورة.</string>
+    <string name="barcode_error">"-&gt; خطأ في قراءة الباركود: %1$s"</string>
+    <!-- End Barcode detector section -->
+
+    <!-- Colorimeter section -->
+    <string name="colorimeter">مقياس اللون</string>
+    <string name="colorimeter_description">مع Colorimeter ، يمكنك تحديد جميع الألوان داخل صورة ما ورؤية تمثيلها في RGB و HSB و hex.بالنسبة لكل لون تم اكتشافه ، سيخبرك التطبيق باسم اللون أو اسم اللون الأكثر تشابهًا ، في حالة عدم شائع نغمة اللون وليس له اسم.\n\nاستخدم الزر الأحمر في الأسفل لتحميل صورة.</string>
+    <string name="color_analysis_success">نتيجة تحليل الألوان (انقر لنسخ إلى الحافظة):</string>
+    <string name="color_analysis_result_name">أقرب اسم لون:</string>
+    <string name="color_analysis_result_fail">-&gt; OPS!لا يمكن تحديد الألوان.</string>
+    <string name="color">لون</string>
+    <!-- End Colorimeter section -->
+
+    <!-- Censorship meter section -->
+    <string name="censorship_meter">مقياس خطر الرقابة</string>
+    <string name="censorship_meter_description">تتيح لك هذه الأداة التحقق من صورة لتحديد ما إذا كان يمكن للرقابة على محتوىها بواسطة نظام أوتوماتيكي أو يؤدي إلى حظر.هذه الميزة مفيدة لأن العديد من الشبكات الاجتماعية ومواقع الويب تقوم بإجراء فحوصات تلقائية للصور التي تم تحميلها ويمكن أن تتخذ إجراءات ضد المستخدم إذا تم اكتشاف محتوى حاسم ، وهذا غالبًا ما يكون خطأً ، خاصةً إذا كانت هناك تقارير بشرية بالإضافة إلى إيجابيات خاطئة مشبوهة.\n\nاستخدم الزر الأحمر في الأسفل لتحميل صورة.</string>
+    <string name="censorship_analysis_success">نتيجة التحليل (انقر لنسخ إلى الحافظة):</string>
+    <string name="porn">-&gt; الاباحية:</string>
+    <string name="racy">-&gt; المفعول:</string>
+    <string name="medical_explicit">-&gt; المحتوى الطبي الصريح:</string>
+    <string name="violence">-&gt; العنف:</string>
+    <string name="spoof">-&gt; محاكاة ساخرة:</string>
+    <string name="risk_analysis_summary">ملخص احتمال المخاطر:</string>
+    <string name="risk_detected">تحذير!تم اكتشاف عامل الخطر.يمكن أن يسبب تحميل هذه الصورة الحظر والرقابة في العديد من الشبكات الاجتماعية والمجتمعات.انتبه.</string>
+    <string name="no_risk_detected">التحليل التلقائي لم يكتشف المخاطر.</string>
+    <string name="no_risk_detected_almost">لم يكتشف التحليل التلقائي المخاطر ، لكنه قد لا يزال خاضعًا للاعتدال الآلي في الشبكات الأكثر ريتوية.</string>
+    <!-- End Censorship meter section -->
+
+    <!-- EXIF info section -->
+    <string name="exif_info">معلومات EXIF</string>
+    <string name="exif_info_description">تتيح لك هذه الميزة تحميل معلومات EXIF ​​واستخراجها من ملفات الصور ، إن وجدت.\nEXIF هو معيار للبيانات الوصفية التي يمكن أن تشمل الكثير من المعلومات مثل حقوق الطبع والنشر للصورة ، والجهاز المستخدم ، والطابع الزمني للاستحواذ ، وبيانات علامة GPS ، وبرنامج معالجة الصور المستخدم.\nملحوظة:\nغالبًا ما تتم إزالة بيانات EXIF ​​من خلال الخدمات التي تعيد معالجة الصور ، بحيث يمكنك العثور على بيانات خالية أو غير متناسقة إذا كنت تستخدم هذه الوظيفة مع الصور التي تم تنزيلها ، على سبيل المثال ، من Facebook و WhatsApp و Instagram وما شابه ذلك.\n\nاستخدم الزر الأحمر في الأسفل لتحميل صورة.</string>
+    <string name="exif_info_result_success">تم العثور على بيانات التعريف الخارجية (انقر لنسخ إلى الحافظة):</string>
+    <string name="exif_info_result_fail">-&gt; OPS!لا يمكن تحديد أي مفضل في هذه الصورة.</string>
+    <string name="exif_info_result_error">-&gt; OPS!لا يمكن تحديد أي exif بسبب خطأ غير متوقع.</string>
+    <!-- End EXIF info section -->
+
+    <!-- ELA section -->
+    <string name="ela">ELA</string>
+    <string name="ela_description">تقوم هذه الميزة بإنشاء قناع خطأ ، للسماح لك باكتشاف الأقسام بسهولة أكبر في صورة ما ، وفقًا للاختطاف في توزيع الخطأ مقارنة بالنمط المحلي.\n(طريقة سهلة للغاية للتعرف على الأداة هي محاولة تغيير بعض الصور ومعرفة كيف يبدو قناع الخطأ في النقاط التي تم تغييرها.)\n\nاستخدم الزر الأحمر في الأسفل لتحميل صورة.</string>
+    <string name="ela_success">شريحة اليسار واليمين لإظهار قناع التحليل والصورة الأصلية.يشير نمط توزيع الخطأ غير المتماسك في منطقة معينة إلى أن المنطقة قد تم العبث بها.استخدم الشريط لتعيين العتبة.</string>
+    <string name="ela_error">فرط!حدث خطأ أثناء توليد قناع التحليل.\nتأكد من أن الصورة المحددة صالحة.</string>
+    <!-- End ELA section -->
+
+    <!-- Likelihood levels -->
+    <string name="likely">محتمل</string>
+    <string name="very_likely">من المحتمل جدا</string>
+    <string name="unlikely">من غير المرجح</string>
+    <string name="very_unlikely">من المستبعد جدا</string>
+    <string name="possible">ممكن</string>
+    <!-- End Likelihood levels -->
+
+    <!-- Billing section -->
+    <string name="licensing_options">خيارات الترخيص</string>
+    <string name="bm_error">لا يمكن التحقق من حالة الترخيص.</string>
+    <string name="error_code">خطا بالكود:</string>
+    <string name="faq">التعليمات</string>
+    <string name="faq_description">التعليمات:\n\nلماذا الاشتراك بدلا من الشراء لمرة واحدة؟\n-&gt; لأنه لا يمكن أن يكون الشراء لمرة واحدة مستدامًا على المدى الطويل ، يضيف كل مستخدم عبء عمل إلى خوادمنا وعلينا أن نغطي التكاليف الشهرية.\n\nهناك تطبيقات تستخدم الخوادم بدون إعلانات ولا اشتراكات ، لماذا يختلف تطبيقك؟\n-&gt; بالنسبة لبعض الشركات ، يكفي تثبيت تطبيقها للحصول على المال ، لأن مستخدمي الملف الشخصي يقومون بإعادة بيع بياناتهم.نحن نحترم خصوصية المستخدمين وليس لدينا أي نظام تسييل غير شفاف.هذا لا يذكر الخوادم الأكثر تكلفة من المتوسط ​​المطلوب لمهام رؤية الكمبيوتر المعقدة على الشبكة العصبية التي يؤديها هذا التطبيق.السعر منخفض للغاية مقارنة بالقيمة التي يضيفها هذا التطبيق إلى مجموعة ميزات جهازك ، ولكن إذا كنت لا ترغب في دفع الاشتراك ، فلا تقلق ، فإن الإعلانات في هذا التطبيق هي أقل ما تبقى من الخدمة ، فهي aren"ر اس أن إزعاجًا.\n\nهل يمكنني إلغاء الاشتراك إذا غيرت رأيي في المستقبل؟\n-&gt; نعم!يمكنك إلغاء اشتراكك في أي وقت من متجر Play Store إلى الوضع المجاني الكامل مع الإعلانات.\n\nهل سيبقى سعر الاشتراك كما هو؟\n-&gt; لا يمكن تغيير سعر الاشتراك بمجرد تنشيط الاشتراك.يمكن تغييره فقط للمستخدمين الجدد الذين ليس لديهم أي اشتراك نشط.هذا هو السبب في أن الاشتراك الآن في سعر الإطلاق الترويجي (أدنى مستوى ممكن) هو صفقة.\n\nإذا كان لدي العديد من الأجهزة ، فهل يمكنني استخدام Premium عليها جميعًا باشتراك واحد فقط؟\n-&gt; بالطبع!يرتبط الترخيص بحساب Google Play الخاص بك وسيتم تطبيقه تلقائيًا على جميع أجهزتك المرتبطة به أو سيتم ربطه في المستقبل ، دون أي احتياجات من الاشتراكات الإضافية لكل جهاز.</string>
+    <string name="active">نشيط</string>
+    <string name="pending">قيد الانتظار</string>
+    <string name="disabled">عاجز</string>
+    <string name="ads_mode_click">سيتم تعطيل وضع الإعلانات تلقائيًا إذا قمت بشراء اشتراك فضية أو ذهبي ، ويتم تمكينه إذا لم يكن هناك أي اشتراك نشط.</string>
+    <string name="ads_mode">وضع الإعلانات</string>
+    <string name="ads_mode_description">تم تمكين جميع الميزات ولكن سترى بعض الإعلانات بشكل عشوائي عند الوصول إلى قسم جديد من هذا التطبيق من المنزل.(الوضع الحر الافتراضي)</string>
+    <string name="premium_silver">الاشتراك الفضي</string>
+    <string name="premium_silver_content">زر الاشتراك الفضي</string>
+    <string name="premium_silver_description">يعطل الاشتراك الشهري المتميز جميع الإعلانات والقيود على أفضل تجربة مستخدم ممكنة.</string>
+    <string name="premium_gold">اشتراك الذهب</string>
+    <string name="premium_gold_content">زر الاشتراك الذهب</string>
+    <string name="premium_gold_description">يعطل الاشتراك الممتاز السنوي جميع الإعلانات والقيود على أفضل تجربة مستخدم ممكنة.الاشتراك الذهبي السنوي أرخص من 12 شهرًا من الاشتراك الفضي.</string>
+    <!-- End Billing section --> 
+
+
+
 </resources>

@@ -14,7 +14,7 @@
         <item>Riconoscimento Testo</item>
         <item>Rilevamento Facciale</item>
         <item>Identificazione Codici a Barre</item>
-        <item>Estrazione Exif</item>
+        <item>Estrazione EXIF</item>
         <item>Personalizzato [I]</item>
         <item>Personalizzato [L]</item>
     </string-array>

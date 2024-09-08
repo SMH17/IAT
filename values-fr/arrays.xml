@@ -1,6 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- To do -->
-    <!-- Placeholder aimed to make more comfortable pushing contributes-->
-    <!-- All the strings that must be translated are located in the folder values-en -->
+
+    <string-array name="theme_mode">
+        <item>Par défaut</item>
+        <item>Clair</item>
+        <item>Sombre</item>
+        <item>Automatique</item>
+    </string-array>
+
+    <string-array name="analysis_mode">
+        <item>Détection d\'éléments</item>
+        <item>Multilocalisation</item>
+        <item>Détection de texte</item>
+        <item>Détection de visage</item>
+        <item>Détection de codes</item>
+        <item>Extraction EXIF</item>
+        <item>Personnalisé [I]</item>
+        <item>Personnalisé [L]</item>
+    </string-array>
+
+    <string-array name="element_identification_mode">
+        <item>MODE AUTO</item>
+        <item>Identification</item>
+        <item>Multi-localisation</item>
+        <item>Personnalisé [I]</item>
+        <item>Personnalisé [L]</item>
+    </string-array>
+
+    <string-array name="face_analysis_mode">
+        <item>Détection</item>
+        <item>Comparaison</item>
+        <item>Estimation de l\'âge</item>
+        <item>Identifier les VIP</item>
+    </string-array>
+
+    <string-array name="ocr_mode_hints">
+        <item>MODE AUTO</item>
+        <item>Texte générique</item>
+        <item>Document dense</item>
+        <item>Manuscrit</item>
+    </string-array>
+
+    <string-array name="language_hints">
+        <item>AUTO LANG</item>
+        <item>Afrikaans</item>
+        <item>Arabe</item>
+        <item>Assamais</item>
+        <item>Azerbaïdjanais</item>
+        <item>Biélorusse</item>
+        <item>Bengali</item>
+        <item>Bulgare</item>
+        <item>Catalan</item>
+        <item>Chinois</item>
+        <item>Croate</item>
+        <item>Tchèque</item>
+        <item>Danois</item>
+        <item>Néerlandais</item>
+        <item>Anglais</item>
+        <item>Estonien</item>
+        <item>Philippin</item>
+        <item>Finnois</item>
+        <item>Français</item>
+        <item>Allemand</item>
+        <item>Grec</item>
+        <item>Hébreu</item>
+        <item>Hindi</item>
+        <item>Hongrois</item>
+        <item>Islandais</item>
+        <item>Indonésien</item>
+        <item>Italien</item>
+        <item>Japonais</item>
+        <item>Kazakh</item>
+        <item>Coréen</item>
+        <item>Kirghize</item>
+        <item>Letton</item>
+        <item>Lituanien</item>
+        <item>Macédonien</item>
+        <item>Marathi</item>
+        <item>Mongol</item>
+        <item>Népalais</item>
+        <item>Norvégien</item>
+        <item>Pachtou</item>
+        <item>Persan</item>
+        <item>Polonais</item>
+        <item>Portugais</item>
+        <item>Roumain</item>
+        <item>Russe</item>
+        <item>Sanskrit</item>
+        <item>Serbe</item>
+        <item>Slovaque</item>
+        <item>Slovène</item>
+        <item>Espagnol</item>
+        <item>Suédois</item>
+        <item>Tamoul</item>
+        <item>Thaïlandais</item>
+        <item>Turc</item>
+        <item>Ukrainien</item>
+        <item>Ourdou</item>
+        <item>Ouzbek</item>
+        <item>Vietnamien</item>
+    </string-array>
+
 </resources>

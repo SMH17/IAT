@@ -1,6 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- To do -->
-    <!-- Placeholder aimed to make more comfortable pushing contributes-->
-    <!-- All the strings that must be translated are located in the folder values-en -->
+
+    <string-array name="theme_mode">
+        <item>افتراضي</item>
+        <item>فاتح</item>
+        <item>غامق</item>
+        <item>تلقائي</item>
+    </string-array>
+
+    <string-array name="analysis_mode">
+        <item>اكتشاف العناصر</item>
+        <item>التوطين المتعدد</item>
+        <item>اكتشاف النص</item>
+        <item>اكتشاف الوجه</item>
+        <item>اكتشاف الرمز الشريطي</item>
+        <item>استخراج Exif</item>
+        <item>مخصص [I]</item>
+        <item>مخصص [L]</item>
+    </string-array>
+
+    <string-array name="element_identification_mode">
+        <item>الوضع التلقائي</item>
+        <item>التعريف</item>
+        <item>التوطين المتعدد</item>
+        <item>مخصص [I]</item>
+        <item>مخصص [L]</item>
+    </string-array>
+
+    <string-array name="face_analysis_mode">
+        <item>الكشف</item>
+        <item>المقارنة</item>
+        <item>تقدير العمر</item>
+        <item>تحديد هوية الشخص المهم</item>
+    </string-array>
+
+    <string-array name="ocr_mode_hints">
+        <item>الوضع التلقائي</item>
+        <item>نص عام</item>
+        <item>مستند كثيف</item>
+        <item>مكتوب بخط اليد</item>
+    </string-array>
+
+    <string-array name="language_hints">
+        <item>اللغة التلقائية</item>
+        <item>الأفريقانية</item>
+        <item>العربية</item>
+        <item>الآسامية</item>
+        <item>الأذربيجانية</item>
+        <item>البيلاروسية</item>
+        <item>البنغالية</item>
+        <item>البلغارية</item>
+        <item>الكتالونية</item>
+        <item>الصينية</item>
+        <item>الكرواتية</item>
+        <item>التشيكية</item>
+        <item>الدنماركية</item>
+        <item>الهولندية</item>
+        <item>الإنجليزية</item>
+        <item>الإستونية</item>
+        <item>الفلبينية</item>
+        <item>الفنلندية</item>
+        <item>الفرنسية</item>
+        <item>الألمانية</item>
+        <item>اليونانية</item>
+        <item>العبرية</item>
+        <item>الهندية</item>
+        <item>المجرية</item>
+        <item>الأيسلندية</item>
+        <item>الإندونيسية</item>
+        <item>الإيطالية</item>
+        <item>اليابانية</item>
+        <item>الكازاخية</item>
+        <item>الكورية</item>
+        <item>القيرغيزية</item>
+        <item>اللاتفية</item>
+        <item>الليتوانية</item>
+        <item>المقدونية</item>
+        <item>الماراثية</item>
+        <item>المنغولية</item>
+        <item>النيبالية</item>
+        <item>النرويجية</item>
+        <item>البشتون</item>
+        <item>فارسية</item>
+        <item>بولندية</item>
+        <item>برتغالية</item>
+        <item>رومانية</item>
+        <item>روسية</item>
+        <item>سنسكريتية</item>
+        <item>صربية</item>
+        <item>سلوفاكية</item>
+        <item>سلوفينية</item>
+        <item>إسبانية</item>
+        <item>سويدي</item>
+        <item>تاميلية</item>
+        <item>تايلاندية</item>
+        <item>تركية</item>
+        <item>أوكرانية</item>
+        <item>أردية</item>
+        <item>أوزبكية</item>
+        <item>فيتنامية</item>
+    </string-array>
+
 </resources>

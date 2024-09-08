@@ -1,6 +1,416 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <!-- To do -->
-    <!-- Placeholder aimed to make more comfortable pushing contributes-->
-    <!-- All the strings that must be translated are located in the folder values-en -->
+    <string name="app_description">Your cybernetic eye</string>
+    <string name="locale_language">ja</string>
+    <string name="navigation_drawer_open">ナビゲーションドロワーを開きます</string>
+    <string name="navigation_drawer_close">ナビゲーション引き出しを閉じます</string>
+    <string name="share_title">友達に教えてください</string>
+    <string name="bug_report">バグレポート</string>
+    <string name="share_text">リンク</string>
+    <string name="note">注記</string>
+    <string name="warning">警告</string>
+    <string name="hint">ヒント</string>
+    <string name="close">近い</string>
+    <string name="done">終わり</string>
+    <string name="wait_and_retry">終了したらもう一度やり直してください。</string>
+    <string name="next">続く</string>
+    <string name="undo">元に戻します</string>
+    <string name="communicate">通信する</string>
+    <string name="contact_us">お問い合わせ</string>
+    <string name="share">共有</string>
+    <string name="current_value">現在の価値：</string>
+    <string name="invalid_setting">無効な設定</string>
+    <string name="insufficient_permissions">許可は十分ではありません。必要な権限をアプリに与えます。</string>
+    <string name="info_text">バージョン0.3.4 SR 192\nS. Marano、SMH17 All Rights Reservedによって開発されました。著者の明示的な許可なしに、部分的でさえも、コードまたはグラフィック要素の複製、変更、再利用は厳密に禁止されています。\nADMOB、PLAY、TENSORFLOW、および関連するすべてのGoogleテクノロジーは、Google LLCが所有し、Google LLCライセンス条件の対象となります。\n著作権とライセンス条件に関する詳細については、お問い合わせください。</string>
+    <string name="choose_email_client">電子メールクライアントを選択してください</string>
+    <string name="problem_description">問題の説明</string>
+    <string name="error">エラー</string>
+    <string name="report_bug_subject">バグレポートIAT</string>
+	
+    <!-- Action bar section -->
+    <string name="action_home">家</string>
+    <string name="action_save">保存</string>
+    <string name="action_download">ダウンロード</string>
+    <string name="action_tts">スタートストップのリッスン結果</string>
+    <string name="action_search">検索</string>
+	<string name="action_smart_sort">スマートソート</string>
+    <string name="action_batch">バッチ</string>
+    <string name="action_settings">設定</string>
+    <string name="action_info">情報</string>
+    <string name="action_consent">同意</string>
+    <string name="action_unlock">ライセンス</string>
+    <!-- End Action bar section -->
+
+    <!-- Setting section -->
+    <string name="app_theme">アプリテーマ</string>
+    <string name="setting_title">設定</string>
+    <string name="alert_setting_text">最大数の要素数を入力すると、数値が多いと結果が増えますが、追加の結果は一致比が少なくなります。\nデフォルト値：10、</string>
+    <string name="alert_setting_quality">検出品質レベルを設定します（デフォルト値：1200）。値が高いと、より正確な結果が生じる可能性がありますが、遅くなります。\n品質価値：</string>
+    <string name="use_element_detection_cloud">正確な要素検出にはクラウドを使用します</string>
+    <string name="use_ocr_cloud">正確なテキスト検出にはクラウドを使用します</string>
+    <string name="use_face_detection_cloud">正確な顔検出にはクラウドを使用します</string>
+    <string name="enable_detector_localization">検出器の翻訳を有効にします</string>
+    <string name="batch_results_in_source_dir">出力バッチは、ソースディレクトリになります</string>
+    <string name="open_last_path">最後のパスを開きます</string>
+    <string name="show_detection_markers">検出マーカーを表示します</string>
+    <string name="enable_tts">大声で発言してください</string>
+    <!-- ## Realtime Detector Settings-->
+    <string name="setting_realtime_label">リアルタイム検出のオプション：</string>
+    <string name="extra_realtime_settings_note">ノート：\nカスタムモデルは、デフォルトのアプリフォルダーにあるTFModelsフォルダーに配置する必要があります。\nリアルタイムセクションでは、右上のボタンをタップするこの機能セットに関する追加の設定を見つけることができます。</string>
+    <string name="pref_screen_title_realtime_settings">リアルタイムの高度な設定</string>
+    <string name="enable_rtm_output_file">ファイル上の出力結果</string>
+    <string name="enable_rtm_output_file_summary">すべての結果は、デフォルトフォルダーに保存されたファイルにログインします</string>
+    <string name="pref_category_title_realtime_general">一般的な</string>
+    <string name="speak_best">大声で最高の結果のみを発言してください</string>
+    <string name="speak_best_summary">ボーカル出力は、より低い信頼の結果を無視します。</string>
+    <string name="show_bench_osd">パフォーマンスOSDを表示します</string>
+    <string name="show_bench_osd_summary">検出パフォーマンスの統計を示します</string>
+    <string name="rear_camera_preview_size">背面カメラのプレビューサイズ</string>
+    <string name="front_camera_preview_size">フロントカメラのプレビューサイズ</string>
+    <string name="realtime_target_analysis_size">ターゲット分析解決策</string>
+    <string name="realtime_live_viewport">連続ストリーム</string>
+    <string name="realtime_live_viewport_summary">カメラのフローは、検出フレームの同期を待ちません</string>
+    <string name="pref_category_object_detection">要素の識別 /ローカリゼーション</string>
+    <string name="custom_model_name">カスタムTF-LITEモデル</string>
+    <string name="filter_unlabeled_output">フィルター非ベール済みの出力</string>
+    <string name="object_detector_enable_multiple_objects">複数のオブジェクトを有効にします</string>
+    <string name="object_detector_enable_classification">分類を有効にします</string>
+    <string name="autoreturn_barcode">スキャンモードのバーコードを自動リターンします</string>
+    <string name="pref_category_face_detection">顔検出</string>
+    <string name="face_detector_landmark_mode">ランドマークモード</string>
+    <string name="pref_entries_face_detector_landmark_mode_no_landmarks">ランドマークはありません</string>
+    <string name="pref_entries_face_detector_landmark_mode_all_landmarks">すべてのランドマーク</string>
+    <string name="face_detector_contour_mode">輪郭モード</string>
+    <string name="pref_entries_face_detector_contour_mode_no_contours">輪郭はありません</string>
+    <string name="pref_entries_face_detector_contour_mode_all_contours">すべての輪郭</string>
+    <string name="face_detector_classification_mode">分類モード</string>
+    <string name="pref_entries_face_detector_classification_mode_no_classifications">分類はありません</string>
+    <string name="pref_entries_face_detector_classification_mode_all_classifications">すべての分類</string>
+    <string name="face_detector_performance_mode">パフォーマンスモード</string>
+    <string name="pref_entries_face_detector_performance_mode_fast">速い</string>
+    <string name="pref_entries_face_detector_performance_mode_accurate">正確な</string>
+    <string name="face_detector_face_tracking">フェイストラッキング</string>
+    <string name="face_detector_min_face_size">最小フェイスサイズ</string>
+    <string name="alert_face_detector_min_face_size">イメージ幅に対する頭の幅の割合、および有効な値範囲は[0.0、1.0]です</string>
+    <string name="alert_invalid_min_face_size">最小フェイスサイズはフロート値であり、範囲内[0.0、1.0]でなければなりません</string>
+    <!-- End Setting section -->
+
+    <!-- General messages and warning section -->
+    <string name="app_path_configuration_message">これで、デフォルトのアプリフォルダーの作成を許可するパスを選択する必要があります。\nこのフォルダーでは、結果とカスタム分析モデルが保存されます。\nこの操作は、最初の構成でのみ実行する必要があります。将来、別のパスを選択する場合は、[設定]メニューからリセットできます。</string>
+    <string name="identification_mode">識別モード</string>
+    <string name="choose_image">画像を選択します</string>
+    <string name="camera_scan">スキャンモード</string>
+    <string name="edit_image">画像を編集します</string>
+    <string name="edit_image_before_analysis">分析前に画像を編集します</string>
+    <string name="start_tts">ボーカル出力を開始します</string>
+    <string name="stop_tts">ボーカル出力を停止します</string>
+    <string name="tts_error">テキストから音声関数を使用できません</string>
+    <string name="alert_copied_values">クリップボードにコピーされました！</string>
+    <string name="alert_saved">結果がローカルファイルに保存されました！</string>
+    <string name="detector_not_ready">まだ準備ができていないローカル検出器。問題が再起動している場合は、後で再試行してください。</string>
+    <string name="alert_not_again">二度と見せないでください。</string>
+    <string name="alert_unexpected_error">予期しないエラー。問題が続く場合は、バグレポートを送信します。</string>
+    <string name="alert_adblocker">お使いのデバイスでは、グローバルアドブロッカーが検出されました。このアプリの開発と維持には、リソース、時間、費用が必要です。広告をブロックしても、これらすべてを無料で提供することはできません。アプリのコマンドが無効になりました。Free Modeを使用する場合、またはプレミアムサブスクリプションを購入する場合は、Adblocker（またはこのアプリのホワイトリスト）を無効にします。</string>
+    <string name="alert_disabled_network">デバイスで機内モードが検出されたか、すべての接続機能が無効になっています。無料版は広告によって維持されているため、オフライン モードでアプリを使用できるのはプレミアム ユーザーのみです。この制限を克服するには、プレミアム サブスクリプションを購入してください。</string>
+	<string name="alert_consent_info">ここから、プライバシーの同意を管理できます。広告を表示するためにのみ適切な同意が必要です。プレミアムモードでは必要ありません。\n同意を与えるか、プレミアムサブスクリプションを取得します。</string>
+    <string name="alert_noadsconsent">あなたは広告を表示するという同意を否定しました。無料モードで費用をカバーするには、広告が必要です。\n同意を与えるか、プレミアムサブスクリプションを取得します。</string>
+    <string name="set_consent">同意を設定します</string>
+    <string name="alert_no_web_search">結果はクリップボードにコピーされました。\nデバイスにサポートされている検索アシスタントは見つかりませんでした。統合された検索機能を有効にするために、サポートされている検索アシスタント（Google Searchなど）をインストールします。</string>
+    <string name="alert_no_open_url">結果はクリップボードにコピーされました。\nデバイスにサポートされているWebブラウザは見つかりませんでした。サポートされているWebブラウザー（ChromeやFirefoxなど）をインストールして、直接URL開く機能を有効にします。</string>
+    <string name="alert_camera_intent_error">デバイスはカメラの意図を正しく処理できません。\nAndroidバージョンを新しいリリースに更新するか、新しいカメラの意図サポートを備えたカメラアプリをインストールします。</string>
+    <string name="alert_gallery_intent_error">デバイスはギャラリーの意図を正しく処理できません。\nAndroidバージョンを新しいリリースに更新するか、新しいギャラリーの意図サポートを備えたギャラリーアプリをインストールします。</string>
+    <string name="alert_imurl_title">URLを入力</string>
+    <string name="alert_imurl_text">画像のURLを入力します。\n\n注記：\nURLは、動的なWebギャラリーURLではなく、画像ファイルへの直接リンクである必要があります。</string>
+    <string name="alert_imurl_error">無効なURL！\n\nURLは、動的なWebギャラリーURLではなく、画像ファイルへの有効な直接リンクである必要があります。\nURLに到達可能であり、画像拡張子（.jpg、.png、.bmp、.webp、.gifなど）で終了することを確認してください。</string>
+    <string name="alert_nothing_to_save">保存するものは何もありません。</string>
+    <string name="alert_nothing_to_download">ダウンロードするものは何もありません。</string>
+    <string name="dialog_select_prompt">カメラまたはギャラリーから画像を選択するか、画像URLを入力します。</string>
+    <string name="dialog_select_camera">カメラ</string>
+    <string name="dialog_select_gallery">ギャラリー</string>
+    <string name="image_picker_error">この画像をロードできません。無効な画像または不十分な権限。</string>
+    <string name="path">パス</string>
+    <string name="select_photo">写真を選択します</string>
+    <string name="select_directory">ディレクトリを選択します</string>
+    <string name="select_file">ファイルを選ぶ</string>
+    <string name="save_file_error">ファイル保存中のエラー！</string>
+    <string name="storage_manager_error">ストレージマネージャーエラー！</string>
+    <string name="image_preview">画像プレビュー</string>
+    <string name="loading_message">進行中の分析…待ってください。</string>
+    <string name="nothing_to_speech">この関数を使用する前に写真を分析します。</string>
+    <string name="cannot_analyze_now">何かがうまくいかなかった。一部の機能には、インターネット接続が必要です。接続がアクティブであり、画像が破損していないことを確認してください。または、後で再試行してください。</string>
+    <string name="api_request_failed">APIリクエストは失敗しました。問題が続く場合は、Google Playで利用可能な最新の公式バージョンにアプリを更新してください。</string>
+    <string name="translation_fail">翻訳エンジンは準備ができていません。</string>
+    <string name="num_download_files">ダウンロードするファイルの数：</string>
+    <string name="hide">隠れる</string>
+    <string name="stop">停止</string>
+    <string name="downloaded_file">ダウンロードされたファイル</string>
+    <string name="download_file_error">ファイルエラーをダウンロードします</string>
+    <string name="detection_recovery_mode_error">[クラウドを使用しようとする試行中のエラーにより、検出はローカルモードに自動的に切り替えられました。問題が続く場合は、Google Playで利用可能な最新の公式バージョンにアプリを更新してください。]</string>
+    <string name="mode_not_available_on_local">このモードには、クラウド支援検出が必要です。\nこの機能セットのクラウドモードを有効にしてください。</string>
+    <string name="alert_custom_models_info">この関数により、高度なユーザーはカスタム推論モデルを使用して、識別モード[i]またはローカリゼーションモード[L]の要素を検出できます。モデルは、.tflite拡張機能を備えたTensorflow Lite互換形式でなければなりません。カスタムモデルは、tfmodelフォルダーに配置し、[設定]メニューで構成する必要があります。カスタムモデルが構成されていない場合、IATは選択を無視し、デフォルトモデルに残ります。詳細については、ドキュメントを読んでください。</string>
+    <!-- End General messages and warning section -->
+
+    <!-- Batch section -->
+    <string name="batch">バッチ</string>
+    <string name="batch_description">複数の画像を同時に処理します。\nこの機能はローカルエンジンのみを使用して機能するため、単一の画像分析を使用すると、特定の機能セットで利用可能なクラウドが支援する画像分析よりも正確ではありません。\n\n使用する機能を選択し、下部の赤いボタンを使用して処理するディレクトリを選択します。</string>
+    <string name="select_folder">フォルダーを選択</string>
+    <string name="invalid_path">無効または空のパス。</string>
+    <string name="file_name">ファイル名</string>
+    <string name="files_number">合計ファイル番号</string>
+    <string name="images_number">検出された画像</string>
+    <string name="images_correctly_analyzed">正しく分析された画像</string>
+    <string name="images_not_correctly_analyzed">画像を正しく分析していません</string>
+    <string name="complete_analysis_before">以前に分析を完了してください。</string>
+    <string name="keyword_not_found">キーワードが見つかりません！</string>
+    <string name="batch_search_description">この関数を使用すると、結果がキーワードと一致する要素のみを残す関心のあるコンテンツを検索できます。\nキーワードを入力します。</string>
+    <string name="output_path_tip">上部の[保存]ボタンをクリックすると、デフォルトIATパスで結果が保存されますが、設定では、ソースディレクトリに結果を出力するために、バッチ結果保存を構成できます。</string>
+    <string name="batch_success">バッチ分析が完了しました。\n各要素をクリックして結果を表示し、Long Pressにクリップボードに結果をコピーします。</string>
+    <string name="batch_fail">バッチ手順失敗。\n選択したパスに有効な画像ファイルが含まれていることを確認するか、アプリエラーだと思われる場合は、ナビゲーションドロワーメニューを使用してバグレポートを送信してください。</string>
+    <string name="analysis_type">分析タイプ：</string>
+    <string name="analysis_result">分析結果：</string>
+    <string name="copy_b">コピー</string>
+    <string name="save">保存</string>
+    <string name="search">検索</string>
+    <string name="translate">翻訳する</string>
+    <string name="smart_sort_alert">この機能は、選択されたパス内の画像を検出されたコンテンツに従って自動的に整理し、パス内にすでに存在する適切なフォルダに移動またはコピーするか、分類カテゴリの名前を持つ新しいサブフォルダに整理します。\n\n</string>
+    <string name="smart_sort_completed">スマートソートのタスクが完了しました。整理されたファイルの数: </string>
+    <string name="threshold">最小分類しきい値:</string>
+    <!-- End Batch section -->
+
+    <!-- Realtime section -->
+    <string name="realtime_detector">リアルタイム検出器</string>
+    <string name="realtime_detector_description">リアルタイム検出器を使用すると、インターネット接続なしでフライの要素を検出できます。この機能は、よりシンプルなニューラルネットワークモデルを使用して、モバイルデバイスの限られた機能を使用して実行されるため、クラウドベースの検出に匹敵する精度は決してありません。より正確な精度が必要な場合は、他の専用機能を使用してください。\n初めて使用する場合は、いくつかの場合のデバイス固有の依存関係を構成する必要があります。空白の画面が見られ、後でもう一度やり直す必要があります。</string>
+    <string name="toggle_camera_description">フロントバックカメラを切り替えます</string>
+    <string name="toggle_flash_description">スタートストップフラッシュライト</string>
+    <string name="toggle_vocal_output_description">スタートストップのリッスン結果</string>
+    <string name="feature_spinner_description">目的の識別機能を選択します</string>
+    <string name="custom">カスタム</string>
+    <string name="elements">識別する</string>
+    <string name="localize">ローカライズ</string>
+    <string name="text">文章</string>
+    <string name="faces">顔</string>
+    <string name="barcode">バーコード</string>
+    <string name="input_size">入力サイズ</string>
+    <string name="latency">遅延</string>
+    <string name="alert_cannot_load_model">カスタム検出器の構成モデルは使用できません。</string>
+    <string name="realtime_engine_error">リアルタイムエンジンエラー</string>
+    <!-- Realtime section -->
+
+    <!-- Element detection section -->
+    <string name="element_detector">要素検出器</string>
+    <string name="element_detector_description">要素検出器を使用すると、画像内の要素を識別し、それらに関する情報を見つけることができます。それは、無生物から植物や動物に至るまでの幅広いカテゴリをサポートしています。\n\n下部の赤いボタンを使用して画像を読み込みます。</string>
+    <string name="detection_success">検出された要素（タップして情報をタップし、長いタップしてクリップボードにコピー）：</string>
+    <string name="detection_fail">- &gt; ops！この写真の要素を識別できません。</string>
+    <string name="model_error">- &gt; ops！モデルの初期化中の不特定のエラー。\n埋め込まれたラベルメタデータを備えた適切な形式でモデルを使用してください。そのモデルはデバイスリソースの制限を超えていません。</string>
+    <string name="analysis_error">- &gt; ops！分析中のエラー。</string>
+    <string name="detection_offline_success">オフラインモードで検出された要素（情報を検索するためにタップし、長いタップしてクリップボードにコピー）：</string>
+    <string name="detection_offline_fail">- &gt; ops！この写真の要素を識別できません。\n\nあなたはローカルモードであり、インターネット接続がアクティブになると、より良い結果を得ることができます。</string>
+    <string name="element_detector_translation_tip">Element Detector Engineは英語ですが、その結果を設定で選択したターゲット言語に変換することができます。</string>
+    <!-- End Element detection section -->
+
+    <!-- Web detection section -->
+    <string name="web_detector">Web画像検出器</string>
+    <string name="web_detector_description">Web画像検出器を使用すると、画像に関する情報を見つけたり、インターネットを検索して類似の画像や関連するWebページを検索したり、取得した情報に応じてコンテンツを推測できます。この機能は、関連するラベル、関係するWebページのリンクを提供し、一致した視覚的に類似した画像（利用可能な場合）を表示し、それぞれのリンクまたは画像ファイルも保存できます。\n\n下部の赤いボタンを使用して画像を読み込みます。</string>
+    <string name="detection_web_success">見つかった一致（タップして情報を検索し、長いタップしてクリップボードにコピーします）：</string>
+    <string name="detection_web_links">matched画像付きのWebページ（クリックして開く）：►</string>
+    <string name="matching_images_links">◄マッチング画像（クリックして開く）：►</string>
+    <string name="similar_images_links">◄同様の画像（クリックして開く）：►</string>
+    <string name="matching_web_pages">一致した画像を備えたWebページ：</string>
+    <string name="matching_images">一致する画像</string>
+    <string name="similar_images">同様の画像</string>
+    <string name="toggle_links_details">リンクの詳細を切り替えます。</string>
+    <string name="detection_web_fail">- &gt; ops！この写真の一致を特定することはできません。</string>
+    <string name="images_download">画像のダウンロード。</string>
+    <string name="categories_to_download">ダウンロードするカテゴリを選択します。</string>
+    <string name="web_detector_res_tip">同様の一致する画像（存在する場合）を表示するには、リンクエリアセクションのタイトルをスワイプします（左右矢印が表示されます）。</string>
+    <!-- End Web detection section -->
+
+    <!-- OCR section -->
+    <string name="ocr">光学テキスト認識</string>
+    <string name="ocr_description">光学テキスト認識を使用すると、画像のテキストコンテンツをデジタル化できます。\n\n下部の赤いボタンを使用して画像を読み込み、検出を開始します。\n\nオプションで、テキストのモードと言語を指定して既知の場合を識別できます（状況によっては、テキスト言語の自動検出の誤った解釈によりエラーを回避する結果が向上します）。</string>
+    <string name="detection_ocr_success">検出されたテキスト（タップしてクリップボードにコピーし、長いタップしてWebでコンテンツを検索します）：</string>
+    <string name="detection_ocr_offline_success">オフラインモードで検出されたテキスト（タップしてクリップボードにコピー）：</string>
+    <string name="detection_ocr_fail">- &gt; ops！この写真のテキストを識別できません。</string>
+    <string name="detection_ocr_fail_offline">- &gt; ops！この写真のテキストを識別できません。\n\nあなたはローカルモードであり、インターネット接続がアクティブになると、より良い結果を得ることができます。</string>
+    <string name="ocr_mode">OCRモード</string>
+    <string name="target_language">目標とする言語</string>
+    <string name="language">言語：</string>
+    <string name="translate_to_my_language">結果を私の言語に翻訳します</string>
+    <string name="original_text">オリジナルテキスト：</string>
+    <!-- End OCR section -->
+
+    <!-- Logo detection section -->
+    <string name="logo_detector">ロゴ検出器</string>
+    <string name="logo_detector_description">ロゴ検出器を使用すると、ロゴを特定して、ブランドと製品に関する情報を見つけることができます。\n\n下部の赤いボタンを使用して画像を読み込みます。</string>
+    <string name="detection_logo_fail">- &gt; ops！この写真のロゴを識別できません。</string>
+    <!-- End Logo detection section -->
+
+    <!-- Landmark detection section -->
+    <string name="landmark_detector">ランドマーク検出器</string>
+    <string name="landmark_detector_description">ランドマーク検出器を使用すると、一般的な自然と人工構造を特定して、それらまたはその地域に関する情報を検索できます。\n\n下部の赤いボタンを使用して画像を読み込みます。</string>
+    <string name="detection_landmark_success">検出されたランドマーク（タップして情報をタップし、長いタップしてクリップボードにコピー）：</string>
+    <string name="detection_landmark_fail">- &gt; ops！この写真のランドマークを特定することはできません。</string>
+    <!-- End Landmark detection section -->
+
+    <!-- Face Insight section -->
+    <string name="face_insight">顔の洞察</string>
+    <string name="face_detection_description">関連する顔の属性とともに、画像内の複数の顔を検出します。この機能は、感情的な分析を実行して感情的な状態を決定することもできます。\n\n下部の赤いボタンを使用して画像を読み込みます。</string>
+    <string name="face_comparison_description">この関数を使用すると、法医学レベルのアイデンティティマッチングと2人の間の類似性を比較できます。2つの異なる画像をロードする必要があります。有効な結果を得るためには、各写真には、すべての要素（鼻、目、口など）がよく見える単一の顔を含める必要があります。\n\n下部の赤いボタンを使用して、最初の画像をロードします。</string>
+    <string name="face_age_description">この関数は、可能性のある年齢範囲の生の推定を返します。有効な結果を得るために、写真には、すべての要素（鼻、目、口など）がよく見えている単一の顔が含まれている必要があります。\n\n下部の赤いボタンを使用して画像を読み込みます。</string>
+    <string name="face_celebrity_description">この関数を使用すると、有名人を特定できます。\n\n下部の赤いボタンを使用して画像を読み込みます。</string>
+    <string name="face">顔</string>
+    <string name="face_detection_success">顔が検出されました（タップしてクリップボードにコピー）：</string>
+    <string name="face_detection_fail">- &gt; ops！この写真の顔を識別できません。</string>
+    <string name="detection_face_success_offline">オフラインモードで検出された顔（タップしてクリップボードにコピー）：</string>
+    <string name="detection_face_fail_offline">- &gt; ops！この写真の顔を識別できません。\n\nあなたはローカルモードであり、インターネット接続がアクティブになると、より良い結果を得ることができます。</string>
+    <string name="face_age_success">年齢範囲の推定が完了しました（タップしてクリップボードにコピー）：</string>
+    <string name="face_comparison_success">顔が比較されます（タップしてコピーしてクリップボード）：</string>
+    <string name="face_comparison_fail">- &gt; ops！顔を比較できません。\nたぶん、提供された写真の1つは十分ではありません。\n\nこれがエラーだと思われる場合は、ドロワーメニューでバグレポートコマンドを使用してください。</string>
+    <string name="face_celebrity_success">1人以上の有名人との高い顔の類似性が検出されました（タップして情報を検索し、長いタップしてクリップボードにコピーします）：</string>
+    <string name="face_celebrity_fail">- &gt; ops！この写真で有名人を特定することはできません。</string>
+    <string name="emotional_analysis">感情分析</string>
+    <string name="face_structure_analysis">顔構造分析</string>
+    <string name="face_elements_coordinates">フェイス要素の座標</string>
+    <string name="detection_quality_stats">検出品質統計</string>
+    <string name="other">他の</string>
+    <string name="min_age">最低年齢</string>
+    <string name="max_age">最大年齢</string>
+    <string name="years">年</string>
+    <string name="anger">怒り</string>
+    <string name="joy">喜び</string>
+    <string name="sorrow">悲しみ</string>
+    <string name="surprise">驚き</string>
+    <string name="headwear">帽子</string>
+    <string name="pan_angle">パン角</string>
+    <string name="roll_angle">ロールアングル</string>
+    <string name="tilt_angle">傾斜角</string>
+    <string name="detection_confidence">検出信頼性</string>
+    <string name="comparison_confidence">比較自信</string>
+    <string name="landmarking_confidence">ランドマークの自信</string>
+    <string name="blurred_likelihood">ぼやけた可能性</string>
+    <string name="under_exposed_likelihood">露出度の低い可能性</string>
+    <string name="left_eye">左目</string>
+    <string name="left_eye_pupil">左目の瞳</string>
+    <string name="left_eye_right_corner">左目の右隅</string>
+    <string name="left_eye_left_corner">左目の左隅</string>
+    <string name="left_eye_top_boundary">左目上部の境界</string>
+    <string name="left_eye_bottom_boundary">左眼の底境界</string>
+    <string name="right_eye">右目</string>
+    <string name="right_eye_pupil">右目の瞳</string>
+    <string name="right_eye_right_corner">右目の右隅</string>
+    <string name="right_eye_left_corner">右目の左隅</string>
+    <string name="right_eye_top_boundary">右目の上部の境界</string>
+    <string name="right_eye_bottom_boundary">右目の境界</string>
+    <string name="midpoint_between_eyes">目の間の中間点</string>
+    <string name="left_of_left_eyebrow">左眉の左</string>
+    <string name="right_of_left_eyebrow">左眉の右</string>
+    <string name="left_of_right_eyebrow">右眉の左</string>
+    <string name="right_of_right_eyebrow">右眉の右</string>
+    <string name="left_eyebrow_upper_midpoint">左眉の上部の中間点</string>
+    <string name="right_eyebrow_upper_midpoint">右眉の上部中点</string>
+    <string name="left_ear_tragion">左耳の悲しみ</string>
+    <string name="right_ear_tragion">右耳の傷</string>
+    <string name="left_ear_tip">左耳の先端</string>
+    <string name="right_ear_tip">右耳の先端</string>
+    <string name="nose_tip">鼻の先端</string>
+    <string name="nose_bottom_left">左下</string>
+    <string name="nose_bottom_right">右下</string>
+    <string name="nose_bottom_center">ノーズボトムセンター</string>
+    <string name="forehead_glabella">額のグラベラ</string>
+    <string name="left_cheek">頬が左</string>
+    <string name="right_cheek">頬が右</string>
+    <string name="upper_lip">上唇</string>
+    <string name="lower_lip">下唇</string>
+    <string name="mouth_left">左口</string>
+    <string name="mouth_right">口を右</string>
+    <string name="mouth_center">マウスセンター</string>
+    <string name="chin_gnathion">あごのgnation</string>
+    <string name="chin_left_gonion">チンはゴニオンを去った</string>
+    
+    <string name="face_status">顔のステータス</string>
+    <string name="rotation">回転</string>
+    <string name="maxillofacial_armony_score">顎顔面調和</string>
+    <string name="happiness_probability">幸福の確率</string>
+    <string name="is_smiling_probability">笑顔です</string>
+    <string name="is_left_eye_open_probability">左目が開いた確率です</string>
+    <string name="is_right_eye_open_probability">右目が開いた確率です</string>
+    <string name="resemblance_level">類似レベル</string>
+    <string name="first_image_loaded">- &gt;最初の画像が読み込まれました！\n\n比較のために2番目の画像をロードしてください。</string>
+    <!-- End Face Insight section -->
+
+    <!-- Barcode detector section -->
+    <string name="barcode_detector">バーコード検出器</string>
+    <string name="barcode_detector_description">バーコード検出器は、ほぼすべてのタイプのバーコードを検出できます。\n1Dバーコード：\nEAN-13、EAN-8、UPC-A、UPC-E、Code-39、Code-93、Code-128、ITF、Codabar。\n2Dバーコード：\nQRコード、データマトリックス、PDF-417、AZTEC。\n\n下部の赤いボタンを使用して画像を読み込むか、カメラスキャンモードに入ります。</string>
+    <string name="barcode_detector_success">検出されたバーコードデータ（クリップボードにコピーしてタップし、長いタップから検索情報）：</string>
+    <string name="barcode_detector_fail">- &gt; ops！この写真でバーコードを識別できません。</string>
+    <string name="barcode_error">「 - &gt;バーコードの読み取りエラー：%1$s」</string>
+    <!-- End Barcode detector section -->
+
+    <!-- Colorimeter section -->
+    <string name="colorimeter">色計</string>
+    <string name="colorimeter_description">色計を使用すると、画像内のすべての色を識別し、RGB、HSB、およびHEX表記の表現を確認できます。検出された各色について、アプリは色の名前または最も似た色の名前を教えてくれます。\n\n下部の赤いボタンを使用して画像を読み込みます。</string>
+    <string name="color_analysis_success">カラー分析結果（クリップボードにコピーするためにタップする）：</string>
+    <string name="color_analysis_result_name">最寄りのカラー名：</string>
+    <string name="color_analysis_result_fail">- &gt; ops！色を識別できません。</string>
+    <string name="color">色</string>
+    <!-- End Colorimeter section -->
+
+    <!-- Censorship meter section -->
+    <string name="censorship_meter">検閲リスクメーター</string>
+    <string name="censorship_meter_description">このツールを使用すると、画像をチェックして、コンテンツが自動システムによって検閲されるか、禁止につながるかを判断できます。多くのソーシャルネットワークやウェブサイトがアップロードされた写真の自動チェックを実行し、重要なコンテンツが検出された場合にユーザーに対してアクションを実行できるため、この機能は便利です。\n\n下部の赤いボタンを使用して画像を読み込みます。</string>
+    <string name="censorship_analysis_success">分析結果（タップしてクリップボードにコピー）：</string>
+    <string name="porn">- &gt;ポルノ：</string>
+    <string name="racy">- &gt; racy：</string>
+    <string name="medical_explicit">- &gt;医療明示的なコンテンツ：</string>
+    <string name="violence">- &gt;暴力：</string>
+    <string name="spoof">- &gt;スプーフィング：</string>
+    <string name="risk_analysis_summary">リスク尤度の概要：</string>
+    <string name="risk_detected">警告！危険因子が検出されました。この写真のアップロードは、多くのソーシャルネットワークやコミュニティで禁止と検閲を引き起こす可能性があります。注意してください。</string>
+    <string name="no_risk_detected">自動分析はリスクを検出していません。</string>
+    <string name="no_risk_detected_almost">自動分析ではリスクは検出されていませんが、最も純粋なネットワークで自動化された節度の影響を受ける可能性があります。</string>
+    <!-- End Censorship meter section -->
+
+    <!-- EXIF info section -->
+    <string name="exif_info">EXIF情報</string>
+    <string name="exif_info_description">この機能を使用すると、利用可能な場合は、画像ファイルからExif情報をロードおよび抽出できます。\nEXIFは、画像著作権、使用済みのデバイス、取得タイムスタンプ、GPSタグデータ、カメラセンサー、カメラセンサー、焦点、焦点距離、シャッター速度、ホワイトバランス、ISOレベルなどとして多くの情報を含めることができるメタデータの標準です。。\n注記：\n多くの場合、Exifデータは画像を再処理するサービスによって削除されることが多いため、Facebook、WhatsApp、Instagramなどからダウンロードされた画像でこの関数を使用すると、nullまたは一貫性のないデータを見つけることができます。\n\n下部の赤いボタンを使用して画像を読み込みます。</string>
+    <string name="exif_info_result_success">発見されたexifメタデータ（タップしてクリップボードにコピー）：</string>
+    <string name="exif_info_result_fail">- &gt; ops！この写真のexifを識別できません。</string>
+    <string name="exif_info_result_error">- &gt; ops！予期しないエラーのためにEXIFを識別できません。</string>
+    <!-- End EXIF info section -->
+
+    <!-- ELA section -->
+    <string name="ela">ELA</string>
+    <string name="ela_description">この機能により、エラーマスクが生成され、ローカルパターンと比較してエラーの分布の不均一性に応じて、画像内のセクションをより簡単に改ざんします。\n（ツールに慣れる非常に簡単な方法は、いくつかの画像を変更し、エラーマスクが変更されたポイントでどのように見えるかを確認することです。）\n\n下部の赤いボタンを使用して画像を読み込みます。</string>
+    <string name="ela_success">分析マスクと元の画像を表示するには、左右にスライドします。特定の領域の一貫性のないエラー分布パターンは、領域が改ざんされていることを示しています。バーを使用してしきい値を設定します。</string>
+    <string name="ela_error">ops！分析マスク生成中にエラーが発生しました。\n選択した画像が有効であることを確認してください。</string>
+    <!-- End ELA section -->
+
+    <!-- Likelihood levels -->
+    <string name="likely">おそらく</string>
+    <string name="very_likely">可能性が非常に高い</string>
+    <string name="unlikely">ありそうもない</string>
+    <string name="very_unlikely">非常にありそうもない</string>
+    <string name="possible">可能</string>
+    <!-- End Likelihood levels -->
+
+    <!-- Billing section -->
+    <string name="licensing_options">ライセンスオプション</string>
+    <string name="bm_error">ライセンスステータスを確認できません。</string>
+    <string name="error_code">エラーコード：</string>
+    <string name="faq">よくある質問</string>
+    <string name="faq_description">よくある質問：\n\n一度の購入の代わりにサブスクリプションをする理由\n- &gt; 1回限りの購入は長期的には持続可能ではないため、各ユーザーはサーバーにワークロードを追加し、毎月のコストをカバーする必要があります。\n\n広告もサブスクリプションもないサーバーを使用するアプリがありますが、なぜアプリが違うのですか？\n- &gt;一部の企業は、プロファイルユーザーがデータを再販するため、お金を得るためにアプリをインストールするのに十分です。ユーザーのプライバシーを尊重し、不透明な収益化システムはありません。これには、このアプリが実行する複雑なニューラルネットワークベースのコンピュータービジョンタスクに必要な平均サーバーよりも高価なサーバーが言及されていません。価格は、このアプリがデバイスの機能セットに追加する値に比べて非常に低いですが、サブスクリプションを支払いたくない場合は心配しないでください。このアプリの広告は、サービスを維持するために少なくともそうではありません。\'スパムと迷惑。\n\n将来心を変えた場合、サブスクリプションをキャンセルできますか？\n- &gt;はい！Playストアからいつでもサブスクリプションをキャンセルして、広告でフルフリーモードに戻ります。\n\nサブスクリプション価格は同じままですか？\n- &gt;サブスクリプションがアクティブになったら、サブスクリプション価格を変更できません。サブスクリプションがアクティブでない新しいユーザーのみで変更できます。これが、プロモーションの打ち上げ価格（可能な限り最低）でサブスクライブする理由です。それが掘り出し物です。\n\n多くのデバイスがある場合、1つのサブスクリプションでプレミアムをすべて使用できますか？\n- &gt;もちろん！ライセンスはGoogle Playアカウントにリンクされており、各デバイスのさらなるサブスクリプションのニーズなしに、リンクされたすべてのデバイスまたはリンクされたすべてのデバイスに自動的に適用されます。</string>
+    <string name="active">アクティブ</string>
+    <string name="pending">保留中</string>
+    <string name="disabled">無効</string>
+    <string name="ads_mode_click">ADSモードは、シルバーまたはゴールドのサブスクリプションを購入すると自動的に無効になり、サブスクリプションがアクティブでない場合に有効になります。</string>
+    <string name="ads_mode">広告モード</string>
+    <string name="ads_mode_description">すべての機能が有効になっていますが、自宅からこのアプリの新しいセクションにアクセスすると、いくつかの広告がランダムに表示されます。（デフォルトのフリーモード）</string>
+    <string name="premium_silver">シルバーサブスクリプション</string>
+    <string name="premium_silver_content">シルバーサブスクリプションボタン</string>
+    <string name="premium_silver_description">毎月のプレミアムサブスクリプションは、可能な限り最高のユーザーエクスペリエンスのためにすべての広告と制限を無効にします。</string>
+    <string name="premium_gold">ゴールドサブスクリプション</string>
+    <string name="premium_gold_content">ゴールドサブスクリプションボタン</string>
+    <string name="premium_gold_description">毎年のプレミアムサブスクリプションは、可能な限り最高のユーザーエクスペリエンスのためにすべての広告と制限を無効にします。毎年のゴールドサブスクリプションは、12か月のシルバーサブスクリプションよりも安いです。</string>
+    <!-- End Billing section --> 
+
 </resources>

@@ -1,6 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- To do -->
-    <!-- Placeholder aimed to make more comfortable pushing contributes-->
-    <!-- All the strings that must be translated are located in the folder values-en -->
+
+    <string-array name="theme_mode">
+        <item>По умолчанию</item>
+        <item>Светлый</item>
+        <item>Темный</item>
+        <item>Автоматически</item>
+    </string-array>
+
+    <string-array name="analysis_mode">
+        <item>Обнаружение элементов</item>
+        <item>Мультилокализация</item>
+        <item>Обнаружение текста</item>
+        <item>Обнаружение лиц</item>
+        <item>Обнаружение штрихкода</item>
+        <item>Извлечение Exif</item>
+        <item>Пользовательский [I]</item>
+        <item>Пользовательский [L]</item>
+    </string-array>
+
+    <string-array name="element_identification_mode">
+        <item>АВТОМАТИЧЕСКИЙ РЕЖИМ</item>
+        <item>Идентификация</item>
+        <item>Мультилокализация</item>
+        <item>Пользовательский [I]</item>
+        <item>Пользовательский [L]</item>
+    </string-array>
+
+    <string-array name="face_analysis_mode">
+        <item>Обнаружение</item>
+        <item>Сравнение</item>
+        <item>Оценка возраста</item>
+        <item>Определение VIP</item>
+    </string-array>
+
+    <string-array name="ocr_mode_hints">
+        <item>АВТОМАТИЧЕСКИЙ РЕЖИМ</item>
+        <item>Обычный текст</item>
+        <item>Плотный документ</item>
+        <item>Рукописный</item>
+    </string-array>
+
+    <string-array name="language_hints">
+        <item>АВТО ЯЗЫК</item>
+        <item>Африкаанс</item>
+        <item>Арабский</item>
+        <item>Ассамский</item>
+        <item>Азербайджанский</item>
+        <item>Белорусский</item>
+        <item>Бенгальский</item>
+        <item>Болгарский</item>
+        <item>Каталанский</item>
+        <item>Китайский</item>
+        <item>Хорватский</item>
+        <item>Чешский</item>
+        <item>Датский</item>
+        <item>Голландский</item>
+        <item>Английский</item>
+        <item>Эстонский</item>
+        <item>Филиппинский</item>
+        <item>Финский</item>
+        <item>Французский</item>
+        <item>Немецкий</item>
+        <item>Греческий</item>
+        <item>Иврит</item>
+        <item>Хинди</item>
+        <item>Венгерский</item>
+        <item>Исландский</item>
+        <item>Индонезийский</item>
+        <item>Итальянский</item>
+        <item>Японский</item>
+        <item>Казахский</item>
+        <item>Корейский</item>
+        <item>Киргизский</item>
+        <item>Латышский</item>
+        <item>Литовский</item>
+        <item>Македонский</item>
+        <item>Маратхи</item>
+        <item>Монгольский</item>
+        <item>Непальский</item>
+        <item>Норвежский</item>
+        <item>Пушту</item>
+        <item>Персидский</item>
+        <item>Польский</item>
+        <item>Португальский</item>
+        <item>Румынский</item>
+        <item>Русский</item>
+        <item>Санскрит</item>
+        <item>Сербский</item>
+        <item>Словацкий</item>
+        <item>Словенский</item>
+        <item>Испанский</item>
+        <item>Шведский</item>
+        <item>Тамильский</item>
+        <item>Тайский</item>
+        <item>Турецкий</item>
+        <item>Украинский</item>
+        <item>Урду</item>
+        <item>Узбекский</item>
+        <item>Вьетнамский</item>
+    </string-array>
+
 </resources>

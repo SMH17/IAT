@@ -1,6 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- To do -->
-    <!-- Placeholder aimed to make more comfortable pushing contributes-->
-    <!-- All the strings that must be translated are located in the folder values-en -->
+
+    <string-array name="theme_mode">
+        <item>デフォルト</item>
+        <item>明るい</item>
+        <item>暗い</item>
+        <item>自動</item>
+    </string-array>
+
+    <string-array name="analysis_mode">
+        <item>要素検出</item>
+        <item>マルチローカリゼーション</item>
+        <item>テキスト検出</item>
+        <item>顔検出</item>
+        <item>バーコード検出</item>
+        <item>Exif 抽出</item>
+        <item>カスタム [I]</item>
+        <item>カスタム [L]</item>
+    </string-array>
+
+    <string-array name="element_identification_mode">
+        <item>自動モード</item>
+        <item>識別</item>
+        <item>マルチローカリゼーション</item>
+        <item>カスタム [I]</item>
+        <item>カスタム [L]</item>
+    </string-array>
+
+    <string-array name="face_analysis_mode">
+        <item>検出</item>
+        <item>比較</item>
+        <item>年齢推定</item>
+        <item>VIP の識別</item>
+    </string-array>
+
+    <string-array name="ocr_mode_hints">
+       <item>自動モード</item>
+       <item>一般的なテキスト</item>
+       <item>高密度文書</item>
+       <item>手書き</item>
+    </string-array>
+
+    <string-array name="language_hints">
+       <item>自動言語</item>
+       <item>アフリカーンス語</item>
+       <item>アラビア語</item>
+       <item>アッサム語</item>
+       <item>アゼルバイジャン語</item>
+       <item>ベラルーシ語</item>
+       <item>ベンガル語</item>
+       <item>ブルガリア語</item>
+       <item>カタロニア語</item>
+       <item>中国語</item>
+       <item>クロアチア語</item>
+       <item>チェコ語</item>
+       <item>デンマーク語</item>
+       <item>オランダ語</item>
+       <item>英語</item>
+       <item>エストニア語</item>
+       <item>フィリピン語</item>
+       <item>フィンランド語</item>
+       <item>フランス語</item>
+       <item>ドイツ語</item>
+       <item>ギリシャ語</item>
+       <item>ヘブライ語</item>
+       <item>ヒンディー語</item>
+       <item>ハンガリー語</item>
+       <item>アイスランド語</item>
+       <item>インドネシア語</item>
+       <item>イタリア語</item>
+       <item>日本語</item>
+       <item>カザフ語</item>
+       <item>韓国語</item>
+       <item>キルギス語</item>
+       <item>ラトビア語</item>
+       <item>リトアニア語</item>
+       <item>マケドニア語</item>
+       <item>マラーティー語</item>
+       <item>モンゴル語</item>
+       <item>ネパール語</item>
+       <item>ノルウェー語</item> 
+       <item>パシュトゥー語</item>
+       <item>ペルシャ語</item>
+       <item>ポーランド語</item>
+       <item>ポルトガル語</item>
+       <item>ルーマニア語</item>
+       <item>ロシア語</item>
+       <item>サンスクリット語</item>
+       <item>セルビア語</item>
+       <item>スロバキア語</item>
+       <item>スロベニア語</item>
+       <item>スペイン語</item>
+       <item>スウェーデン語</item>
+       <item>タミル語</item>
+       <item>タイ語</item>
+       <item>トルコ語</item>
+       <item>ウクライナ語</item>
+       <item>ウルドゥー語</item>
+       <item>ウズベク語</item>
+       <item>ベトナム語</item>
+    </string-array>
+
 </resources>
