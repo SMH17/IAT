@@ -174,7 +174,7 @@
     <string name="save">Save</string>
     <string name="search">Search</string>
     <string name="translate">Translate</string>
-    <string name="smart_sort_alert">This function automatically sorts the images in selected path, according the detected content, moving or coping them in an appropriate folder if already exists in the path, or in a new subfolder with the classification category name.\n\n</string>
+    <string name="smart_sort_alert">This function automatically sorts the images in selected path, according the detected content, moving or copying them in an appropriate folder if already exists in the path, or in a new subfolder with the classification category name.\n\n</string>
     <string name="smart_sort_completed">Smart Sort task completed. Number of sorted files: </string>
     <string name="threshold">Minimum classification threshold:</string>
     <string name="blank_string" translatable="false">…</string>
