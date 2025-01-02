@@ -20,9 +20,12 @@
     <string name="contact_us">Contact Us</string>
     <string name="share">Share</string>
     <string name="current_value">Current value:</string>
+    <string name="free">Free</string>
+    <string name="month">month</string>
+    <string name="year">year</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permissions">Permissions not enough. Give to the App the needed permissions.</string>
-    <string name="info_text">Version 0.3.4 SR 192\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.3.4 SR 195\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -219,9 +222,11 @@
     <string name="detection_web_success">Matches found (tap to search info, long tap to copy to clipboard):</string>
     <string name="detection_web_links">&#9668; Webpages with matched images (click to open): &#9658;</string>
     <string name="matching_images_links">&#9668; Matching images (click to open): &#9658;</string>
+    <string name="partially_matching_images_links">&#9668; Partially matching (click to open): &#9658;</string>
     <string name="similar_images_links">&#9668; Similar images (click to open): &#9658;</string>
     <string name="matching_web_pages">Web pages with matched images:</string>
     <string name="matching_images">Matching images</string>
+    <string name="partially_matching_images">Partially matching</string>
     <string name="similar_images">Similar images</string>
     <string name="toggle_links_details">Toggle links details.</string>
     <string name="detection_web_fail">-> Oops! Cannot identify any match for this picture.</string>

@@ -19,9 +19,12 @@
     <string name="contact_us">Contate-nos</string>
     <string name="share">Compartilhar</string>
     <string name="current_value">Valor atual:</string>
+    <string name="free">Grátis</string>
+    <string name="month">mês</string>
+    <string name="year">ano</string>
     <string name="invalid_setting">Configuração inválida</string>
     <string name="insufficient_permissions">Permissões não é suficiente. Dê ao aplicativo as permissões necessárias.</string>
-    <string name="info_text">Versão 0.3.4 SR 192\nDesenvolvido por S. Marano, SMH17 Todos os direitos reservados. Qualquer replicação, modificação, reutilização do código ou elementos gráficos até parcial é estritamente proibido sem a permissão explícita do autor.\nAdmob, Play, Tensorflow e todas as tecnologias relacionadas ao Google são de propriedade do Google LLC e sujeitas aos termos da licença do Google LLC.\nPara informações adicionais sobre direitos autorais e termos de licença, entre em contato conosco.</string>
+    <string name="info_text">Versão 0.3.4 SR 195\nDesenvolvido por S. Marano, SMH17 Todos os direitos reservados. Qualquer replicação, modificação, reutilização do código ou elementos gráficos até parcial é estritamente proibido sem a permissão explícita do autor.\nAdmob, Play, Tensorflow e todas as tecnologias relacionadas ao Google são de propriedade do Google LLC e sujeitas aos termos da licença do Google LLC.\nPara informações adicionais sobre direitos autorais e termos de licença, entre em contato conosco.</string>
     <string name="choose_email_client">Escolha o cliente de email</string>
     <string name="problem_description">DESCRIÇÃO DO PROBLEMA</string>
     <string name="error">ERRO</string>
@@ -215,9 +218,11 @@
     <string name="detection_web_success">Matches encontrados (toque para pesquisar informações, toque longo para copiar para a área de transferência):</string>
     <string name="detection_web_links">◄ Link com imagens correspondentes (clique para abrir): ►</string>
     <string name="matching_images_links">◄ Imagens correspondentes (clique para abrir): ►</string>
+    <string name="partially_matching_images_links">◄ Parcialmente correspondentes (clique para abrir): ►</string>
     <string name="similar_images_links">◄ Imagens semelhantes (clique para abrir): ►</string>
     <string name="matching_web_pages">Link com imagens correspondentes:</string>
     <string name="matching_images">Imagens correspondentes</string>
+    <string name="partially_matching_images">Parcialmente correspondentes</string>
     <string name="similar_images">Imagens semelhantes</string>
     <string name="toggle_links_details">Ocultar-mostrar detalhes dos links.</string>
     <string name="detection_web_fail">-&gt; Opa! Não é possível identificar nenhuma correspondência para esta imagem.</string>

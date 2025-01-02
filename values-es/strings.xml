@@ -19,9 +19,12 @@
     <string name="contact_us">Contáctenos</string>
     <string name="share">Compartir</string>
     <string name="current_value">Valor actual:</string>
+    <string name="free">Gratis</string>
+    <string name="month">mes</string>
+    <string name="year">año</string>
     <string name="invalid_setting">Configuración no válida</string>
     <string name="insufficient_permissions">Permisos no suficientes.Dé a la aplicación los permisos necesarios.</string>
-    <string name="info_text">Versión 0.3.4 SR 192\nDesarrollado por S. Marano, SMH17 Todos los derechos reservados.Cualquier replicación, modificación, reutilización del código o elementos gráficos, incluso parcial, está estrictamente prohibido sin un permiso explícito del autor.\nAdmob, Play, TensorFlow y todas las tecnologías de Google relacionadas son propiedad de Google LLC y están sujetos a los términos de la licencia de Google LLC.\nPara obtener información adicional sobre los derechos de autor y los términos de la licencia, contáctenos.</string>
+    <string name="info_text">Versión 0.3.4 SR 195\nDesarrollado por S. Marano, SMH17 Todos los derechos reservados.Cualquier replicación, modificación, reutilización del código o elementos gráficos, incluso parcial, está estrictamente prohibido sin un permiso explícito del autor.\nAdmob, Play, TensorFlow y todas las tecnologías de Google relacionadas son propiedad de Google LLC y están sujetos a los términos de la licencia de Google LLC.\nPara obtener información adicional sobre los derechos de autor y los términos de la licencia, contáctenos.</string>
     <string name="choose_email_client">Elija un cliente de correo electrónico</string>
     <string name="problem_description">DESCRIPCIÓN DEL PROBLEMA</string>
     <string name="error">ERROR</string>
@@ -215,9 +218,11 @@
     <string name="detection_web_success">Coincidencias encontradas (toque para buscar información, toque largo para copiar al portapapeles):</string>
     <string name="detection_web_links">◄ Enlaces imágenes coincidentes (clic para abrir): ►</string>
     <string name="matching_images_links">◄ Imágenes coincidentes (clic para abrir): ►</string>
+    <string name="partially_matching_images_links">◄ Parcialmente coincidentes (clic para abrir): ►</string>
     <string name="similar_images_links">◄ Imágenes similares (clic para abrir): ►</string>
     <string name="matching_web_pages">Páginas web con imágenes coincidentes:</string>
     <string name="matching_images">Imágenes coincidentes</string>
+    <string name="partially_matching_images">Parcialmente coincidentes</string>
     <string name="similar_images">Imágenes similares</string>
     <string name="toggle_links_details">Activar o desactivar la sección de detalles.</string>
     <string name="detection_web_fail">-&gt; ¡Uy! No se puede identificar ninguna coincidencia para esta imagen.</string>

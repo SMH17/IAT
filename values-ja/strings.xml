@@ -19,9 +19,12 @@
     <string name="contact_us">お問い合わせ</string>
     <string name="share">共有</string>
     <string name="current_value">現在の価値：</string>
+    <string name="free">無料</string>
+    <string name="month">月</string>
+    <string name="year">年</string>
     <string name="invalid_setting">無効な設定</string>
     <string name="insufficient_permissions">許可は十分ではありません。必要な権限をアプリに与えます。</string>
-    <string name="info_text">バージョン0.3.4 SR 192\nS. Marano、SMH17 All Rights Reservedによって開発されました。著者の明示的な許可なしに、部分的でさえも、コードまたはグラフィック要素の複製、変更、再利用は厳密に禁止されています。\nADMOB、PLAY、TENSORFLOW、および関連するすべてのGoogleテクノロジーは、Google LLCが所有し、Google LLCライセンス条件の対象となります。\n著作権とライセンス条件に関する詳細については、お問い合わせください。</string>
+    <string name="info_text">バージョン0.3.4 SR 195\nS. Marano、SMH17 All Rights Reservedによって開発されました。著者の明示的な許可なしに、部分的でさえも、コードまたはグラフィック要素の複製、変更、再利用は厳密に禁止されています。\nADMOB、PLAY、TENSORFLOW、および関連するすべてのGoogleテクノロジーは、Google LLCが所有し、Google LLCライセンス条件の対象となります。\n著作権とライセンス条件に関する詳細については、お問い合わせください。</string>
     <string name="choose_email_client">電子メールクライアントを選択してください</string>
     <string name="problem_description">問題の説明</string>
     <string name="error">エラー</string>
@@ -214,9 +217,11 @@
     <string name="detection_web_success">見つかった一致（タップして情報を検索し、長いタップしてクリップボードにコピーします）：</string>
     <string name="detection_web_links">matched画像付きのWebページ（クリックして開く）：►</string>
     <string name="matching_images_links">◄マッチング画像（クリックして開く）：►</string>
+    <string name="partially_matching_images_links">◄ 部分的に一致 (クリックして開く):►</string>
     <string name="similar_images_links">◄同様の画像（クリックして開く）：►</string>
     <string name="matching_web_pages">一致した画像を備えたWebページ：</string>
     <string name="matching_images">一致する画像</string>
+    <string name="partially_matching_images">部分的に一致</string>
     <string name="similar_images">同様の画像</string>
     <string name="toggle_links_details">リンクの詳細を切り替えます。</string>
     <string name="detection_web_fail">- &gt; ops！この写真の一致を特定することはできません。</string>

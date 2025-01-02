@@ -19,9 +19,12 @@
     <string name="contact_us">Связаться с нами</string>
     <string name="share">Делиться</string>
     <string name="current_value">Текущая стоимость:</string>
+    <string name="free">бесплатный</string>
+    <string name="month">месяц</string>
+    <string name="year">год</string>
     <string name="invalid_setting">Неверная настройка</string>
     <string name="insufficient_permissions">Разрешений недостаточно.Дайте приложению необходимые разрешения.</string>
-    <string name="info_text">Версия 0.3.4 SR 192\nРазработано С. Марано, SMH17 Все права защищены.Любая репликация, модификация, повторное использование кода или графических элементов, даже частичные, строго запрещено без явного разрешения автора.\nAdmob, Play, Tensorflow и все связанные с ними Google Technologies принадлежат Google LLC и подвержены условиям лицензии Google LLC.\nДля получения дополнительной информации об авторских правах и условиях лицензии, свяжитесь с нами.</string>
+    <string name="info_text">Версия 0.3.4 SR 195\nРазработано С. Марано, SMH17 Все права защищены.Любая репликация, модификация, повторное использование кода или графических элементов, даже частичные, строго запрещено без явного разрешения автора.\nAdmob, Play, Tensorflow и все связанные с ними Google Technologies принадлежат Google LLC и подвержены условиям лицензии Google LLC.\nДля получения дополнительной информации об авторских правах и условиях лицензии, свяжитесь с нами.</string>
     <string name="choose_email_client">Выберите почтовый клиент</string>
     <string name="problem_description">ОПИСАНИЕ ПРОБЛЕМЫ</string>
     <string name="error">ОШИБКА</string>
@@ -214,9 +217,11 @@
     <string name="detection_web_success">Сопоставления найдены (нажмите на поиск информации, длинные нажмите, чтобы скопировать в буфер обмена):</string>
     <string name="detection_web_links">◄ Веб -страницы с соответствующими изображениями (нажмите, чтобы открыть): ►</string>
     <string name="matching_images_links">◄ Соответствующие изображения (нажмите, чтобы открыть): ►</string>
+    <string name="partially_matching_images_links">◄ Частичное совпадение (нажмите, чтобы открыть): ►</string>
     <string name="similar_images_links">◄ Аналогичные изображения (нажмите, чтобы открыть): ►</string>
     <string name="matching_web_pages">Веб -страницы с соответствующими изображениями:</string>
     <string name="matching_images">Соответствующие изображения</string>
+    <string name="partially_matching_images">Частичное совпадение</string>
     <string name="similar_images">Подобные изображения</string>
     <string name="toggle_links_details">Переключить ссылки детали.</string>
     <string name="detection_web_fail">-&gt; Ой! Не могу определить какое -либо совпадение для этой картинки.</string>

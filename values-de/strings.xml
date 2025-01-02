@@ -1,7 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name_short" translatable="false">&lt;o&gt; IAT &lt;o&gt;</string>
-    <string name="app_name_long" translatable="false">ImageAnalysisToolset (IAT)</string>
     <string name="app_description">Ihr kybernetisches Auge</string>
     <string name="locale_language">de</string>
     <string name="navigation_drawer_open">Offene Navigationsschublade</string>
@@ -21,9 +19,12 @@
     <string name="contact_us">Kontaktiere uns</string>
     <string name="share">Aktie</string>
     <string name="current_value">Aktueller Wert:</string>
+    <string name="free">Kostenlos</string>
+    <string name="month">monat</string>
+    <string name="year">jahr</string>
     <string name="invalid_setting">Ungültige Einstellung</string>
     <string name="insufficient_permissions">Berechtigungen nicht genug.Geben Sie der App die erforderlichen Berechtigungen.</string>
-    <string name="info_text">Version 0.3.4 SR 192\nEntwickelt von S. Marano, SMH17 Alle Rechte vorbehalten.Jede Replikation, Änderung, Wiederverwendung des Codes oder grafischen Elemente, die sogar teilweise ohne ausdrückliche Erlaubnis des Autors streng verboten sind.\nAdmob, Play, TensorFlow und alle verwandten Google-Technologien sind im Besitz von Google LLC und unterliegen den Google LLC Lizenzbedingungen.\nWeitere Informationen zu Urheberrechts- und Lizenzbedingungen erhalten Sie von uns.</string>
+    <string name="info_text">Version 0.3.4 SR 195\nEntwickelt von S. Marano, SMH17 Alle Rechte vorbehalten.Jede Replikation, Änderung, Wiederverwendung des Codes oder grafischen Elemente, die sogar teilweise ohne ausdrückliche Erlaubnis des Autors streng verboten sind.\nAdmob, Play, TensorFlow und alle verwandten Google-Technologien sind im Besitz von Google LLC und unterliegen den Google LLC Lizenzbedingungen.\nWeitere Informationen zu Urheberrechts- und Lizenzbedingungen erhalten Sie von uns.</string>
     <string name="choose_email_client">Wählen Sie E-Mail Client</string>
     <string name="problem_description">PROBLEMBESCHREIBUNG</string>
     <string name="error">FEHLER</string>
@@ -217,9 +218,11 @@
     <string name="detection_web_success">Übereinstimmungen gefunden (tippen Sie auf Suchinformationen, lange tippen, um in die Zwischenablage zu kopieren):</string>
     <string name="detection_web_links">◄ Links mit passenden Bildern (zum Öffnen anklicken): ►</string>
     <string name="matching_images_links">◄ Übereinstimmende Bilder (zum Öffnen anklicken): ►</string>
+    <string name="partially_matching_images_links">◄ Teilweise übereinstimmend (zum Öffnen anklicken): ►</string>
     <string name="similar_images_links">◄ Ähnliche Bilder (zum Öffnen anklicken): ►</string>
     <string name="matching_web_pages">Webseiten mit passenden Bildern:</string>
     <string name="matching_images">Passende Bilder</string>
+    <string name="partially_matching_images">Teilweise übereinstimmend</string>
     <string name="similar_images">Ähnliche Bilder</string>
     <string name="toggle_links_details">Linkdetails ein-aus.</string>
     <string name="detection_web_fail">-&gt; Hoppla! Kann kein Übereinstimmung für dieses Bild identifizieren.</string>
