@@ -25,7 +25,7 @@
     <string name="year">year</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permissions">Permissions not enough. Give to the App the needed permissions.</string>
-    <string name="info_text">Version 0.3.4 SR 195\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.3.4 SR 198\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -276,6 +276,10 @@
     <string name="face_age_success">Age range estimation completed (tap to copy to clipboard):</string>
     <string name="face_comparison_success">Faces compared (tap to copy to clipboard):</string>
     <string name="face_comparison_fail">-> Oops! Cannot compare faces.\nMaybe one of the picture provided isn\'t good enough.\n\nIf you think this is an error, use bug report command in the drawer menu.</string>
+    <string name="face_comparison_matching">Faces compared match.</string>
+    <string name="face_comparison_partial_matching">Faces compared have a high resemblance level.</string>
+    <string name="face_comparison_low_matching">The resemblance level is low.</string>
+    <string name="face_comparison_no_matching">The resemblance level is extremely low.</string>
     <string name="face_celebrity_success">Detected high facial similarity with one or more celebrities (tap to search info, long tap to copy to clipboard):</string>
     <string name="face_celebrity_fail">-> Oops! Cannot identify any celebrity in this picture.</string>
     <string name="emotional_analysis">Emotional analysis</string>

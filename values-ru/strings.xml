@@ -24,7 +24,7 @@
     <string name="year">год</string>
     <string name="invalid_setting">Неверная настройка</string>
     <string name="insufficient_permissions">Разрешений недостаточно.Дайте приложению необходимые разрешения.</string>
-    <string name="info_text">Версия 0.3.4 SR 195\nРазработано С. Марано, SMH17 Все права защищены.Любая репликация, модификация, повторное использование кода или графических элементов, даже частичные, строго запрещено без явного разрешения автора.\nAdmob, Play, Tensorflow и все связанные с ними Google Technologies принадлежат Google LLC и подвержены условиям лицензии Google LLC.\nДля получения дополнительной информации об авторских правах и условиях лицензии, свяжитесь с нами.</string>
+    <string name="info_text">Версия 0.3.4 SR 198\nРазработано С. Марано, SMH17 Все права защищены.Любая репликация, модификация, повторное использование кода или графических элементов, даже частичные, строго запрещено без явного разрешения автора.\nAdmob, Play, Tensorflow и все связанные с ними Google Technologies принадлежат Google LLC и подвержены условиям лицензии Google LLC.\nДля получения дополнительной информации об авторских правах и условиях лицензии, свяжитесь с нами.</string>
     <string name="choose_email_client">Выберите почтовый клиент</string>
     <string name="problem_description">ОПИСАНИЕ ПРОБЛЕМЫ</string>
     <string name="error">ОШИБКА</string>
@@ -271,6 +271,10 @@
     <string name="face_age_success">Оценка возрастного диапазона завершена (нажмите на копию в буфер обмена):</string>
     <string name="face_comparison_success">Лица сравнивали (нажмите, чтобы копировать в буфер обмена):</string>
     <string name="face_comparison_fail">-&gt; Ой! Не может сравнить лица.\nМожет быть, одна из предоставленных изображений недостаточно.\n\nЕсли вы думаете, что это ошибка, используйте команду отчета об ошибках в меню ящика.</string>
+    <string name="face_comparison_matching">Сравниваемые лица совпадают</string>
+    <string name="face_comparison_partial_matching">Сравниваемые лица имеют высокий уровень сходства</string>
+    <string name="face_comparison_low_matching">Уровень сходства низкий</string>
+    <string name="face_comparison_no_matching">Уровень сходства чрезвычайно низкий</string>
     <string name="face_celebrity_success">Обнаружено высокое сходство лица с одним или несколькими знаменитостями (нажмите на поиск, длинная нажмите, чтобы копировать в буфер обмена):</string>
     <string name="face_celebrity_fail">-&gt; Ой! Не могу идентифицировать какую -либо знаменитость на этой картине.</string>
     <string name="emotional_analysis">Эмоциональный анализ</string>

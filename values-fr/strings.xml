@@ -24,7 +24,7 @@
     <string name="year">an</string>
     <string name="invalid_setting">Réglage non valide</string>
     <string name="insufficient_permissions">Les autorisations pas suffisantes.Donnez à l\'application les autorisations nécessaires.</string>
-    <string name="info_text">Version 0.3.4 SR 195\nDéveloppé par S. Marano, SMH17 Tous droits réservés.Toute réplication, modification, réutilisation du code ou des éléments graphiques, même partiel, est strictement interdite sans l\'autorisation explicite de l\'auteur.\nAdmob, Play, TensorFlow et toutes les technologies Google apparentées appartiennent à Google LLC et soumises aux conditions de licence Google LLC.\nPour plus d\'informations sur les conditions d\'auteur et de licence, contactez-nous.</string>
+    <string name="info_text">Version 0.3.4 SR 198\nDéveloppé par S. Marano, SMH17 Tous droits réservés.Toute réplication, modification, réutilisation du code ou des éléments graphiques, même partiel, est strictement interdite sans l\'autorisation explicite de l\'auteur.\nAdmob, Play, TensorFlow et toutes les technologies Google apparentées appartiennent à Google LLC et soumises aux conditions de licence Google LLC.\nPour plus d\'informations sur les conditions d\'auteur et de licence, contactez-nous.</string>
     <string name="choose_email_client">Choisissez le client de messagerie</string>
     <string name="problem_description">DESCRIPTION DU PROBLÈME</string>
     <string name="error">ERREUR</string>
@@ -272,6 +272,10 @@
     <string name="face_age_success">Estimation de la tranche d\'âge terminée (Appuyez pour copier dans le presse-papiers):</string>
     <string name="face_comparison_success">Faces comparées (appuyez sur pour copier dans le presse-papiers):</string>
     <string name="face_comparison_fail">-&gt; Oups! Ne peut pas comparer les visages.\nPeut-être que l\'une des photos fournies n\'est pas assez bonne.\n\nSi vous pensez qu\'il s\'agit d\'une erreur, utilisez la commande de rapport de bogue dans le menu du tiroir.</string>
+    <string name="face_comparison_matching">Les visages comparés correspondent.</string>
+    <string name="face_comparison_partial_matching">Les visages comparés ont un niveau de ressemblance élevé.</string>
+    <string name="face_comparison_low_matching">Le niveau de ressemblance est faible.</string>
+    <string name="face_comparison_no_matching">Le niveau de ressemblance est extrêmement faible.</string>
     <string name="face_celebrity_success">Détecté une similitude faciale élevée avec une ou plusieurs célébrités (appuyez sur les informations de recherche, appuyez longtemps pour copier dans le presse-papiers):</string>
     <string name="face_celebrity_fail">-&gt; Oups! Ne peut identifier aucune célébrité sur cette photo.</string>
     <string name="emotional_analysis">Analyse émotionnelle</string>

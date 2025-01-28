@@ -24,7 +24,7 @@
     <string name="year">سنة</string>
     <string name="invalid_setting">إعداد غير صالح</string>
     <string name="insufficient_permissions">أذونات لا يكفي.إعطاء للتطبيق الأذونات المطلوبة.</string>
-    <string name="info_text">الإصدار 0.3.4 SR 195\nتم تطويره بواسطة S. Marano ، SMH17 جميع الحقوق محفوظة.أي تكرار أو تعديل أو إعادة استخدام الكود أو العناصر الرسومية حتى جزئيًا ممنوع تمامًا دون إذن صريح للمؤلف.\nAdmob و Play و TensorFlow وجميع تقنيات Google ذات الصلة مملوكة لشركة Google LLC وتخضع لشروط ترخيص Google LLC.\nللحصول على معلومات إضافية حول حقوق الطبع والنشر وشروط الترخيص ، اتصل بنا.</string>
+    <string name="info_text">الإصدار 0.3.4 SR 198\nتم تطويره بواسطة S. Marano، SMH17، جميع الحقوق محفوظة. يُحظر تمامًا أي تكرار أو تعديل أو إعادة استخدام للكود أو العناصر الرسومية حتى ولو جزئيًا دون إذن صريح من المؤلف.\nAdMob وPlay وTensorFlow وجميع تقنيات Google ذات الصلة مملوكة لشركة Google LLC وتخضع لشروط ترخيص Google LLC.\nلمزيد من المعلومات حول حقوق النشر وشروط الترخيص، اتصل بنا.</string>
     <string name="choose_email_client">اختر عميل البريد الإلكتروني</string>
     <string name="problem_description">وصف المشكلة</string>
     <string name="error">خطأ</string>
@@ -271,6 +271,10 @@
     <string name="face_age_success">اكتمال تقدير نطاق العمر (انقر للنسخ إلى الحافظة):</string>
     <string name="face_comparison_success">الوجوه المقارنة (اضغط على نسخ إلى الحافظة):</string>
     <string name="face_comparison_fail">-&gt; OPS!لا يمكن مقارنة الوجوه.\nربما واحدة من الصورة المقدمة ليست جيدة بما فيه الكفاية.\n\nإذا كنت تعتقد أن هذا خطأ ، فاستخدم أمر تقرير الأخطاء في قائمة الدرج.</string>
+    <string name="face_comparison_matching">الوجوه التي تمت مقارنتها متطابقة</string>
+    <string name="face_comparison_partial_matching">الوجوه التي تمت مقارنتها لديها مستوى عالٍ من التشابه</string>
+    <string name="face_comparison_low_matching">مستوى التشابه منخفض</string>
+    <string name="face_comparison_no_matching">مستوى التشابه منخفض للغاية</string>
     <string name="face_celebrity_success">تم اكتشاف تشابه عالي الوجه مع واحد أو أكثر من المشاهير (انقر للبحث عن المعلومات ، انقر طويلًا لنسخه إلى الحافظة):</string>
     <string name="face_celebrity_fail">-&gt; OPS!لا يمكن تحديد أي مشاهير في هذه الصورة.</string>
     <string name="emotional_analysis">التحليل العاطفي</string>

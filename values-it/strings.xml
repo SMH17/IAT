@@ -23,7 +23,7 @@
     <string name="year">anno</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permissions">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.3.4 SR 195\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
+    <string name="info_text">Versione 0.3.4 SR 198\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="problem_description">DESCRIZIONE PROBLEMA</string>
     <string name="error">ERRORE</string>
@@ -270,6 +270,10 @@
     <string name="detection_face_fail_offline">-> Ops! Non &#232; stato possibile individuare alcun volto.\n\nAdesso sei in modalit&#224; locale, con una connessione internet attiva puoi ottenere risultati migliori.</string>
     <string name="face_comparison_success">Volti comparati (clicca per copiare negli appunti):</string>
     <string name="face_comparison_fail">-> Ops! Impossibile eseguire comparazione.\nForse una delle immagini caricate non &#232; abbastanza buona.\n\nSe credi sia un errore dell\'App, segnala il problema utilizzando il relativo comando nel menu a lato.</string>
+    <string name="face_comparison_matching">I volti confrontati corrispondono.</string>
+    <string name="face_comparison_partial_matching">I volti confrontati hanno un alto livello di somiglianza.</string>
+    <string name="face_comparison_low_matching">Il livello di somiglianza &#232; basso.</string>
+    <string name="face_comparison_no_matching">Il livello di somiglianza &#232; estremamente basso.</string>
     <string name="face_age_success">Stima del range d\'et&#224; completata (clicca per copiare negli appunti):</string>
     <string name="face_celebrity_success">Individuata elevata similarit&#224; facciale con una o pi&#249; celebrit&#224; (clicca per cercare informazioni, tieni premuto per copiare negli appunti):</string>
     <string name="face_celebrity_fail">-> Non &#232; stato possibile indentificare celebrit&#224; nell\'immagine.</string>

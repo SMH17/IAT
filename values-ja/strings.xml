@@ -24,7 +24,7 @@
     <string name="year">年</string>
     <string name="invalid_setting">無効な設定</string>
     <string name="insufficient_permissions">許可は十分ではありません。必要な権限をアプリに与えます。</string>
-    <string name="info_text">バージョン0.3.4 SR 195\nS. Marano、SMH17 All Rights Reservedによって開発されました。著者の明示的な許可なしに、部分的でさえも、コードまたはグラフィック要素の複製、変更、再利用は厳密に禁止されています。\nADMOB、PLAY、TENSORFLOW、および関連するすべてのGoogleテクノロジーは、Google LLCが所有し、Google LLCライセンス条件の対象となります。\n著作権とライセンス条件に関する詳細については、お問い合わせください。</string>
+    <string name="info_text">バージョン0.3.4 SR 198\nS. Marano、SMH17 All Rights Reservedによって開発されました。著者の明示的な許可なしに、部分的でさえも、コードまたはグラフィック要素の複製、変更、再利用は厳密に禁止されています。\nADMOB、PLAY、TENSORFLOW、および関連するすべてのGoogleテクノロジーは、Google LLCが所有し、Google LLCライセンス条件の対象となります。\n著作権とライセンス条件に関する詳細については、お問い合わせください。</string>
     <string name="choose_email_client">電子メールクライアントを選択してください</string>
     <string name="problem_description">問題の説明</string>
     <string name="error">エラー</string>
@@ -271,6 +271,10 @@
     <string name="face_age_success">年齢範囲の推定が完了しました（タップしてクリップボードにコピー）：</string>
     <string name="face_comparison_success">顔が比較されます（タップしてコピーしてクリップボード）：</string>
     <string name="face_comparison_fail">- &gt; ops！顔を比較できません。\nたぶん、提供された写真の1つは十分ではありません。\n\nこれがエラーだと思われる場合は、ドロワーメニューでバグレポートコマンドを使用してください。</string>
+    <string name="face_comparison_matching">比較された顔は一致しています</string>
+    <string name="face_comparison_partial_matching">比較された顔は高い類似性を持っています</string>
+    <string name="face_comparison_low_matching">類似性のレベルが低いです</string>
+    <string name="face_comparison_no_matching">類似性のレベルが非常に低いです</string>
     <string name="face_celebrity_success">1人以上の有名人との高い顔の類似性が検出されました（タップして情報を検索し、長いタップしてクリップボードにコピーします）：</string>
     <string name="face_celebrity_fail">- &gt; ops！この写真で有名人を特定することはできません。</string>
     <string name="emotional_analysis">感情分析</string>
