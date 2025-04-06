@@ -24,7 +24,7 @@
     <string name="year">jahr</string>
     <string name="invalid_setting">Ungültige Einstellung</string>
     <string name="insufficient_permissions">Berechtigungen nicht genug.Geben Sie der App die erforderlichen Berechtigungen.</string>
-    <string name="info_text">Version 0.3.4 SR 198\nEntwickelt von S. Marano, SMH17 Alle Rechte vorbehalten.Jede Replikation, Änderung, Wiederverwendung des Codes oder grafischen Elemente, die sogar teilweise ohne ausdrückliche Erlaubnis des Autors streng verboten sind.\nAdmob, Play, TensorFlow und alle verwandten Google-Technologien sind im Besitz von Google LLC und unterliegen den Google LLC Lizenzbedingungen.\nWeitere Informationen zu Urheberrechts- und Lizenzbedingungen erhalten Sie von uns.</string>
+    <string name="info_text">Version 0.3.5 SR 199\nEntwickelt von S. Marano, SMH17 Alle Rechte vorbehalten.Jede Replikation, Änderung, Wiederverwendung des Codes oder grafischen Elemente, die sogar teilweise ohne ausdrückliche Erlaubnis des Autors streng verboten sind.\nAdmob, Play, TensorFlow und alle verwandten Google-Technologien sind im Besitz von Google LLC und unterliegen den Google LLC Lizenzbedingungen.\nWeitere Informationen zu Urheberrechts- und Lizenzbedingungen erhalten Sie von uns.</string>
     <string name="choose_email_client">Wählen Sie E-Mail Client</string>
     <string name="problem_description">PROBLEMBESCHREIBUNG</string>
     <string name="error">FEHLER</string>
@@ -143,6 +143,7 @@
     <string name="nothing_to_speech">Analysieren Sie ein Bild, bevor Sie diese Funktion verwenden.</string>
     <string name="cannot_analyze_now">Etwas ist schief gelaufen.Einige Funktionen erfordern eine Internetverbindung.Stellen Sie sicher, dass Ihre Verbindung aktiv ist und das Bild nicht beschädigt ist, oder versuchen Sie es später erneut.</string>
     <string name="api_request_failed">\nDie API-Anfrage ist fehlgeschlagen.Wenn das Problem weiterhin besteht, achten Sie darauf, die App auf die neueste offizielle Version zu aktualisieren, die bei Google Play verfügbar ist.</string>
+    <string name="quota_exceeded">Achtung! Sie haben das temporäre Nutzungslimit für die kostenlose Verwendung dieser Funktion erreicht.\nDas Limit gilt nur für bestimmte cloud-gestützte Funktionen, die ein maximales Nutzungskontingent haben, das je nach Anzahl der Anfragen an den Server variiert und im kostenlosen Modus nicht garantiert ist.\n\nVersuchen Sie es später erneut oder erwerben Sie ein Premium-Abonnement im Lizenzbereich.</string>
     <string name="translation_fail">Übersetzungsmotor nicht bereit.</string>
     <string name="num_download_files">Anzahl der Dateien zum Herunterladen:</string>
     <string name="hide">Verstecken</string>
@@ -203,6 +204,7 @@
     <!-- Element detection section -->
     <string name="element_detector">Elementdetektor</string>
     <string name="element_detector_description">Mit dem Elementdetektor können Sie Elemente in einem Bild identifizieren und Informationen darüber finden.Es unterstützt breite Kategorien, die von leblosen Objekten bis hin zu Pflanzen und Tieren reichen.\n\nVerwenden Sie die rote Taste unten, um ein Bild zu laden.</string>
+    <string name="brief_description">kurze, aber spezifische Identifikation</string>
     <string name="detection_success">Erkennete Elemente (tippen Sie auf Informationen, langen Tippen Sie auf die Zwischenablage):</string>
     <string name="detection_fail">-&gt; Hoppla! In diesem Bild kann kein Element identifiziert werden.</string>
     <string name="model_error">-&gt; Hoppla! Nicht spezifizierter Fehler während der Modellinitialisierung.\nStellen Sie sicher, dass Modelle in einem geeigneten Format mit eingebetteten Etikettenmetadaten verwendet werden, und dieses Modell überschreitet Ihre Ressourcengrenzen der Geräte nicht.</string>

@@ -24,7 +24,7 @@
     <string name="year">سنة</string>
     <string name="invalid_setting">إعداد غير صالح</string>
     <string name="insufficient_permissions">أذونات لا يكفي.إعطاء للتطبيق الأذونات المطلوبة.</string>
-    <string name="info_text">الإصدار 0.3.4 SR 198\nتم تطويره بواسطة S. Marano، SMH17، جميع الحقوق محفوظة. يُحظر تمامًا أي تكرار أو تعديل أو إعادة استخدام للكود أو العناصر الرسومية حتى ولو جزئيًا دون إذن صريح من المؤلف.\nAdMob وPlay وTensorFlow وجميع تقنيات Google ذات الصلة مملوكة لشركة Google LLC وتخضع لشروط ترخيص Google LLC.\nلمزيد من المعلومات حول حقوق النشر وشروط الترخيص، اتصل بنا.</string>
+    <string name="info_text">الإصدار 0.3.5 SR 199\nتم تطويره بواسطة S. Marano، SMH17، جميع الحقوق محفوظة. يُحظر تمامًا أي تكرار أو تعديل أو إعادة استخدام للكود أو العناصر الرسومية حتى ولو جزئيًا دون إذن صريح من المؤلف.\nAdMob وPlay وTensorFlow وجميع تقنيات Google ذات الصلة مملوكة لشركة Google LLC وتخضع لشروط ترخيص Google LLC.\nلمزيد من المعلومات حول حقوق النشر وشروط الترخيص، اتصل بنا.</string>
     <string name="choose_email_client">اختر عميل البريد الإلكتروني</string>
     <string name="problem_description">وصف المشكلة</string>
     <string name="error">خطأ</string>
@@ -142,6 +142,7 @@
     <string name="nothing_to_speech">تحليل صورة قبل استخدام هذه الوظيفة.</string>
     <string name="cannot_analyze_now">لقد حدث خطأ ما.تتطلب بعض الميزات اتصال إنترنت.تأكد من أن اتصالك نشط وأن الصورة غير تالفة أو حاول مرة أخرى لاحقًا.</string>
     <string name="api_request_failed">فشل طلب API.إذا استمرت المشكلة ، فتأكد من تحديث التطبيق إلى أحدث الإصدار الرسمي المتاح على Google Play.</string>
+    <string name="quota_exceeded">تحذير! لقد وصلت إلى الحد المؤقت للاستخدام المجاني لهذه الميزة.\nينطبق هذا الحد فقط على بعض الوظائف المدعومة بالسحابة، والتي تحتوي على حصة استخدام قصوى تختلف حسب عدد الطلبات إلى الخادم ولا يتم ضمانها في الوضع المجاني.\n\nحاول مرة أخرى لاحقًا أو احصل على اشتراك مميز في قسم الترخيص.</string>  
     <string name="translation_fail">محرك الترجمة غير جاهز.</string>
     <string name="num_download_files">أرقام الملفات للتنزيل:</string>
     <string name="hide">يخفي</string>
@@ -202,6 +203,7 @@
     <!-- Element detection section -->
     <string name="element_detector">كاشف العناصر</string>
     <string name="element_detector_description">يتيح لك كاشف العناصر تحديد العناصر داخل الصورة ، للعثور على معلومات عنها.وهو يدعم مجموعات واسعة من الفئات التي تتراوح من الأشياء غير الحية إلى النباتات والحيوانات.\n\nاستخدم الزر الأحمر في الأسفل لتحميل صورة.</string>
+    <string name="brief_description">تحديد مختصر لكنه دقيق</string>  
     <string name="detection_success">العناصر المكتشفة (انقر للبحث عن معلومات ، انقر طويلًا للنسخ إلى الحافظة):</string>
     <string name="detection_fail">-&gt; OPS!لا يمكن تحديد أي عنصر في هذه الصورة.</string>
     <string name="model_error">-&gt; OPS!خطأ غير محدد أثناء تهيئة النموذج.\nتأكد من استخدام النماذج بتنسيق مناسب مع بيانات تعريف الملصقات المدمجة وأن هذا النموذج لا يتجاوز حدود موارد جهازك.</string>

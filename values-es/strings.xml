@@ -24,7 +24,7 @@
     <string name="year">año</string>
     <string name="invalid_setting">Configuración no válida</string>
     <string name="insufficient_permissions">Permisos no suficientes.Dé a la aplicación los permisos necesarios.</string>
-    <string name="info_text">Versión 0.3.4 SR 198\nDesarrollado por S. Marano, SMH17 Todos los derechos reservados.Cualquier replicación, modificación, reutilización del código o elementos gráficos, incluso parcial, está estrictamente prohibido sin un permiso explícito del autor.\nAdmob, Play, TensorFlow y todas las tecnologías de Google relacionadas son propiedad de Google LLC y están sujetos a los términos de la licencia de Google LLC.\nPara obtener información adicional sobre los derechos de autor y los términos de la licencia, contáctenos.</string>
+    <string name="info_text">Versión 0.3.5 SR 199\nDesarrollado por S. Marano, SMH17 Todos los derechos reservados.Cualquier replicación, modificación, reutilización del código o elementos gráficos, incluso parcial, está estrictamente prohibido sin un permiso explícito del autor.\nAdmob, Play, TensorFlow y todas las tecnologías de Google relacionadas son propiedad de Google LLC y están sujetos a los términos de la licencia de Google LLC.\nPara obtener información adicional sobre los derechos de autor y los términos de la licencia, contáctenos.</string>
     <string name="choose_email_client">Elija un cliente de correo electrónico</string>
     <string name="problem_description">DESCRIPCIÓN DEL PROBLEMA</string>
     <string name="error">ERROR</string>
@@ -143,7 +143,8 @@
 	<string name="nothing_to_speech">Analice una imagen antes de usar esta función.</string>
     <string name="cannot_analyze_now">Algo ha salido mal.Algunas características requieren una conexión a Internet.Asegúrese de que su conexión esté activa y que la imagen no esté dañada o vuelva a intentarlo más tarde.</string>
     <string name="api_request_failed">La solicitud de API falló.Si el problema persiste, asegúrese de actualizar la aplicación a la última versión oficial disponible en Google Play.</string>
-	<string name="translation_fail">Motor de traducción no listo.</string>
+    <string name="quota_exceeded">¡Advertencia! Has alcanzado el límite temporal de uso gratuito de esta función.\nEl límite se aplica solo a funciones específicas asistidas por la nube, que tienen una cuota máxima de uso variable según el número de solicitudes al servidor y no está garantizada en el modo gratuito.\n\nInténtalo de nuevo más tarde o adquiere una suscripción premium en la sección de licencias.</string>
+    <string name="translation_fail">Motor de traducción no listo.</string>
     <string name="num_download_files">Números de archivos para descargar:</string>
     <string name="hide">Esconder</string>
 	<string name="stop">Detener</string>
@@ -184,6 +185,7 @@
 	<!-- Realtime section -->
     <string name="realtime_detector">Detector de tiempo real</string>
     <string name="realtime_detector_description">El detector de tiempo real le permite detectar elementos en la marcha sin conexión a Internet.Dado que esta característica utiliza modelos de red neuronales mucho más simples para ejecutarse con las capacidades limitadas de los dispositivos móviles, la precisión no puede ser comparable de ninguna manera a la detección basada en la nube.Si necesita más precisión, use las otras funciones dedicadas.\nSi lo usa por primera vez, en algún caso la aplicación necesita configurar algunas dependencias específicas del dispositivo, si ve una pantalla en blanco, espera e intente nuevamente más tarde.</string>
+    <string name="brief_description">identificación breve pero específica</string>
     <string name="toggle_camera_description">Cambiar Cámara</string>
     <string name="toggle_flash_description">Luz flash iniciar-detener</string>
     <string name="toggle_vocal_output_description">Iniciar-Detener a escuchar el resultado</string>

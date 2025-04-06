@@ -20,7 +20,7 @@
     </string-array>
 
     <string-array name="element_identification_mode">
-        <item>АВТОМАТИЧЕСКИЙ РЕЖИМ</item>
+        <item>Описание</item>
         <item>Идентификация</item>
         <item>Мультилокализация</item>
         <item>Пользовательский [I]</item>

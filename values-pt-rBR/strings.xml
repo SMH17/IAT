@@ -24,7 +24,7 @@
     <string name="year">ano</string>
     <string name="invalid_setting">Configuração inválida</string>
     <string name="insufficient_permissions">Permissões não é suficiente. Dê ao aplicativo as permissões necessárias.</string>
-    <string name="info_text">Versão 0.3.4 SR 198\nDesenvolvido por S. Marano, SMH17 Todos os direitos reservados. Qualquer replicação, modificação, reutilização do código ou elementos gráficos até parcial é estritamente proibido sem a permissão explícita do autor.\nAdmob, Play, Tensorflow e todas as tecnologias relacionadas ao Google são de propriedade do Google LLC e sujeitas aos termos da licença do Google LLC.\nPara informações adicionais sobre direitos autorais e termos de licença, entre em contato conosco.</string>
+    <string name="info_text">Versão 0.3.5 SR 199\nDesenvolvido por S. Marano, SMH17 Todos os direitos reservados. Qualquer replicação, modificação, reutilização do código ou elementos gráficos até parcial é estritamente proibido sem a permissão explícita do autor.\nAdmob, Play, Tensorflow e todas as tecnologias relacionadas ao Google são de propriedade do Google LLC e sujeitas aos termos da licença do Google LLC.\nPara informações adicionais sobre direitos autorais e termos de licença, entre em contato conosco.</string>
     <string name="choose_email_client">Escolha o cliente de email</string>
     <string name="problem_description">DESCRIÇÃO DO PROBLEMA</string>
     <string name="error">ERRO</string>
@@ -143,6 +143,7 @@
     <string name="nothing_to_speech">Analise uma imagem antes de usar esta função.</string>
     <string name="cannot_analyze_now">Algo deu errado.Alguns recursos requerem uma conexão com a Internet.Verifique se sua conexão está ativa e a imagem não está corrompida ou tente novamente mais tarde.</string>
     <string name="api_request_failed">A solicitação da API falhou.Se o problema persistir, atualize o aplicativo para a versão oficial mais recente disponível no Google Play.</string>
+    <string name="quota_exceeded">Aviso! Você atingiu o limite temporário de uso gratuito deste recurso.\nO limite se aplica apenas a funções específicas assistidas pela nuvem, que possuem uma cota máxima de uso variável dependendo do número de solicitações ao servidor e não é garantida no modo gratuito.\n\nTente novamente mais tarde ou adquira uma assinatura premium na seção de licenças.</string>
     <string name="translation_fail">Motor de tradução não está pronto.</string>
     <string name="num_download_files">Números de arquivos para baixar:</string>
     <string name="hide">Esconder</string>
@@ -203,6 +204,7 @@
     <!-- Element detection section -->
     <string name="element_detector">Detector de elementos</string>
     <string name="element_detector_description">O detector de elementos permite identificar elementos em uma imagem, para encontrar informações sobre eles.Ele suporta amplos conjuntos de categorias que variam de objetos inanimados a plantas e animais.\n\nUse o botão vermelho na parte inferior para carregar uma imagem.</string>
+    <string name="brief_description">identificação breve, mas específica</string>
     <string name="detection_success">Elementos detectados (toque para pesquisar informações, toque longo para copiar para a área de transferência):</string>
     <string name="detection_fail">-&gt; Opa! Não é possível identificar nenhum elemento nesta imagem.</string>
     <string name="model_error">-&gt; Opa! Erro não especificado durante a inicialização do modelo.\nCertifique-se de usar modelos em um formato adequado com metadados de etiquetas incorporadas e esse modelo não excede os limites dos recursos do seu dispositivo.</string>

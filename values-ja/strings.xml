@@ -24,7 +24,7 @@
     <string name="year">年</string>
     <string name="invalid_setting">無効な設定</string>
     <string name="insufficient_permissions">許可は十分ではありません。必要な権限をアプリに与えます。</string>
-    <string name="info_text">バージョン0.3.4 SR 198\nS. Marano、SMH17 All Rights Reservedによって開発されました。著者の明示的な許可なしに、部分的でさえも、コードまたはグラフィック要素の複製、変更、再利用は厳密に禁止されています。\nADMOB、PLAY、TENSORFLOW、および関連するすべてのGoogleテクノロジーは、Google LLCが所有し、Google LLCライセンス条件の対象となります。\n著作権とライセンス条件に関する詳細については、お問い合わせください。</string>
+    <string name="info_text">バージョン0.3.5 SR 199\nS. Marano、SMH17 All Rights Reservedによって開発されました。著者の明示的な許可なしに、部分的でさえも、コードまたはグラフィック要素の複製、変更、再利用は厳密に禁止されています。\nADMOB、PLAY、TENSORFLOW、および関連するすべてのGoogleテクノロジーは、Google LLCが所有し、Google LLCライセンス条件の対象となります。\n著作権とライセンス条件に関する詳細については、お問い合わせください。</string>
     <string name="choose_email_client">電子メールクライアントを選択してください</string>
     <string name="problem_description">問題の説明</string>
     <string name="error">エラー</string>
@@ -142,6 +142,7 @@
     <string name="nothing_to_speech">この関数を使用する前に写真を分析します。</string>
     <string name="cannot_analyze_now">何かがうまくいかなかった。一部の機能には、インターネット接続が必要です。接続がアクティブであり、画像が破損していないことを確認してください。または、後で再試行してください。</string>
     <string name="api_request_failed">APIリクエストは失敗しました。問題が続く場合は、Google Playで利用可能な最新の公式バージョンにアプリを更新してください。</string>
+    <string name="quota_exceeded">警告！この機能の無料利用の一時的な制限に達しました。\nこの制限はクラウド支援機能のみに適用され、最大使用回数はサーバーへのリクエスト数に応じて変動し、無料モードでは保証されません。\n\n後でもう一度試すか、ライセンスセクションでプレミアムサブスクリプションを取得してください。</string>  
     <string name="translation_fail">翻訳エンジンは準備ができていません。</string>
     <string name="num_download_files">ダウンロードするファイルの数：</string>
     <string name="hide">隠れる</string>
@@ -202,6 +203,7 @@
     <!-- Element detection section -->
     <string name="element_detector">要素検出器</string>
     <string name="element_detector_description">要素検出器を使用すると、画像内の要素を識別し、それらに関する情報を見つけることができます。それは、無生物から植物や動物に至るまでの幅広いカテゴリをサポートしています。\n\n下部の赤いボタンを使用して画像を読み込みます。</string>
+    <string name="brief_description">簡潔かつ具体的な識別</string>  
     <string name="detection_success">検出された要素（タップして情報をタップし、長いタップしてクリップボードにコピー）：</string>
     <string name="detection_fail">- &gt; ops！この写真の要素を識別できません。</string>
     <string name="model_error">- &gt; ops！モデルの初期化中の不特定のエラー。\n埋め込まれたラベルメタデータを備えた適切な形式でモデルを使用してください。そのモデルはデバイスリソースの制限を超えていません。</string>

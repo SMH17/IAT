@@ -20,7 +20,7 @@
     </string-array>
 
     <string-array name="element_identification_mode">
-        <item>AUTOMATIK</item>
+        <item>Beschreibung</item>
         <item>Identifizierung</item>
         <item>Mehrfachlokalisierung</item>
         <item>Benutzerdefiniert [I]</item>

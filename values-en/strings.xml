@@ -25,7 +25,7 @@
     <string name="year">year</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permissions">Permissions not enough. Give to the App the needed permissions.</string>
-    <string name="info_text">Version 0.3.4 SR 198\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.3.5 SR 199\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -144,6 +144,7 @@
     <string name="nothing_to_speech">Analyze a picture before using this function.</string>
     <string name="cannot_analyze_now">Something has gone wrong. Some features require an internet connection. Make sure your connection is active and image isn\'t corrupted or try again later.</string>
     <string name="api_request_failed">\nAPI request failed. If the problem persists, make sure to update the App to latest official version available on Google Play.</string>
+    <string name="quota_exceeded">Warning! You have reached a temporary usage limit for free use of this feature.\nThe limit applies only to specific cloud-assisted functions which have a maximum usage quota that varies depending on the number of requests to the server and is not guaranteed in the free mode.\n\nTry again later or get a premium subscription in license section.</string>
     <string name="translation_fail">Translation engine not ready.</string>
     <string name="num_download_files">Numbers of files to download:</string>
     <string name="hide">Hide</string>
@@ -207,6 +208,7 @@
     <!-- Element detection section -->
     <string name="element_detector">Element Detector</string>
     <string name="element_detector_description">Element detector allows you to identify elements within an image, to find information about them. It supports broad sets of categories ranging from inanimate objects to plants and animals.\n\nUse the red button at the bottom to load an image.</string>
+    <string name="brief_description">brief but specific identification</string>
     <string name="detection_success">Detected elements (tap to search info, long tap to copy to clipboard):</string>
     <string name="detection_fail">-> Oops! Cannot identify any element in this picture.</string>
     <string name="model_error">-> Oops! Unspecified error during model initialization.\nMake sure to use models in a suitable format with embedded labels metadata and that model doesn\'t exceed your device resources limits.</string>
@@ -426,6 +428,5 @@
     <string name="premium_gold_content">Gold Subscription Button</string>
     <string name="premium_gold_description">Yearly premium subscription disables all ads and limitations for the best user experience possible. Yearly Gold subscription is cheaper than 12 months of Silver subscription.</string>
     <!-- End Billing section -->
-
 
 </resources>

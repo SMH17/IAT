@@ -14,13 +14,13 @@
         <item>Text Detection</item>
         <item>Face Detection</item>
         <item>Barcode Detection</item>
-        <item>Exif Extraction</item>
+        <item>EXIF Extraction</item>
         <item>Custom [I]</item>
         <item>Custom [L]</item>
     </string-array>
 
     <string-array name="element_identification_mode">
-        <item>AUTO MODE</item>
+        <item>Description</item>
         <item>Identification</item>
         <item>Multi Localization</item>
         <item>Custom [I]</item>
