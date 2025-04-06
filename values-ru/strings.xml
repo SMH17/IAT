@@ -24,7 +24,7 @@
     <string name="year">год</string>
     <string name="invalid_setting">Неверная настройка</string>
     <string name="insufficient_permissions">Разрешений недостаточно.Дайте приложению необходимые разрешения.</string>
-    <string name="info_text">Версия 0.3.5 SR 199\nРазработано С. Марано, SMH17 Все права защищены.Любая репликация, модификация, повторное использование кода или графических элементов, даже частичные, строго запрещено без явного разрешения автора.\nAdmob, Play, Tensorflow и все связанные с ними Google Technologies принадлежат Google LLC и подвержены условиям лицензии Google LLC.\nДля получения дополнительной информации об авторских правах и условиях лицензии, свяжитесь с нами.</string>
+    <string name="info_text">Версия 0.3.5 SR 201\nРазработано С. Марано, SMH17 Все права защищены.Любая репликация, модификация, повторное использование кода или графических элементов, даже частичные, строго запрещено без явного разрешения автора.\nAdmob, Play, Tensorflow и все связанные с ними Google Technologies принадлежат Google LLC и подвержены условиям лицензии Google LLC.\nДля получения дополнительной информации об авторских правах и условиях лицензии, свяжитесь с нами.</string>
     <string name="choose_email_client">Выберите почтовый клиент</string>
     <string name="problem_description">ОПИСАНИЕ ПРОБЛЕМЫ</string>
     <string name="error">ОШИБКА</string>
@@ -53,10 +53,16 @@
     <string name="use_ocr_cloud">Используйте облако для точного обнаружения текста</string>
     <string name="use_face_detection_cloud">Используйте облако для точного обнаружения лица</string>
     <string name="enable_detector_localization">Включить перевод детектора</string>
-    <string name="batch_results_in_source_dir">Выходная партия приводит к исходному каталогу</string>
-    <string name="open_last_path">Открыть последний путь</string>
     <string name="show_detection_markers">Показать маркеры обнаружения</string>
     <string name="enable_tts">Говорить вслух</string>
+    <string name="batch_results_in_source_dir">Выходная партия приводит к исходному каталогу</string>
+    <string name="open_last_path">Открыть последний путь</string>
+    <string name="filter_unlabeled_output">Фильтруйте немеченые выводы</string>
+    <string name="face_comparison_comment">Комментарий к сравнению лиц.</string>
+    <string name="additional_facial_markers">Дополнительные лицевые маркеры</string>
+    <!-- ## Custom Detector Settings-->
+    <string name="custom_model_section">Пользовательская модель:</string>
+    <string name="custom_model_name">Пользовательская модель TF-Lite</string>
     <!-- ## Realtime Detector Settings-->
     <string name="setting_realtime_label">Варианты обнаружения в реальном времени:</string>
     <string name="extra_realtime_settings_note">ПРИМЕЧАНИЯ:\nПользовательские модели должны быть размещены в папке TFModels, расположенной в папке приложений по умолчанию.\nВ разделе в реальном времени вы можете найти дополнительные настройки об этом наборе набора функций вверху правой кнопкой.</string>
@@ -74,8 +80,6 @@
     <string name="realtime_live_viewport">Непрерывный поток</string>
     <string name="realtime_live_viewport_summary">Поток камеры не ждет синхронизацию рамки обнаружения</string>
     <string name="pref_category_object_detection">Идентификация / локализация элемента</string>
-    <string name="custom_model_name">Пользовательская модель TF-Lite</string>
-    <string name="filter_unlabeled_output">Фильтруйте немеченые выводы</string>
     <string name="object_detector_enable_multiple_objects">Включить несколько объектов</string>
     <string name="object_detector_enable_classification">Включить классификацию</string>
     <string name="autoreturn_barcode">Автоматический штрих-код в режиме сканирования</string>

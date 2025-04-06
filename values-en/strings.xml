@@ -25,7 +25,7 @@
     <string name="year">year</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permissions">Permissions not enough. Give to the App the needed permissions.</string>
-    <string name="info_text">Version 0.3.5 SR 199\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.3.5 SR 201\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -55,10 +55,16 @@
     <string name="use_ocr_cloud">Use Cloud for accurate text detection</string>
     <string name="use_face_detection_cloud">Use Cloud for accurate face detection</string>
     <string name="enable_detector_localization">Enable detector translation</string>
-    <string name="batch_results_in_source_dir">Output batch results in source directory</string>
-    <string name="open_last_path">Open last path</string>
     <string name="show_detection_markers">Show Detection Markers</string>
     <string name="enable_tts">Speak out loud results</string>
+    <string name="batch_results_in_source_dir">Output batch results in source directory</string>
+    <string name="open_last_path">Open last path</string>
+    <string name="filter_unlabeled_output">Filter unlabeled output</string>
+    <string name="face_comparison_comment">Faces comparison comment</string>
+    <string name="additional_facial_markers">Additional facial markers</string>
+    <!-- ## Custom Detector Settings-->
+    <string name="custom_model_section">Custom model:</string>
+    <string name="custom_model_name">Custom TF-Lite model</string>
     <!-- ## Realtime Detector Settings-->
     <string name="setting_realtime_label">Options for real time detection:</string>
     <string name="extra_realtime_settings_note">NOTES:\nCustom models must be placed in TFModels folder located in default app folder.\nIn realtime section you can find additional settings about this feature set tapping on top right button.</string>
@@ -76,8 +82,6 @@
     <string name="realtime_live_viewport">Continuous stream</string>
     <string name="realtime_live_viewport_summary">Camera flow doesn\'t wait detection frame synchronization</string>
     <string name="pref_category_object_detection">Element Identification / Localization</string>
-    <string name="custom_model_name">Custom TF-Lite model</string>
-    <string name="filter_unlabeled_output">Filter unlabeled output</string>
     <string name="object_detector_enable_multiple_objects">Enable multiple objects</string>
     <string name="object_detector_enable_classification">Enable classification</string>
     <string name="autoreturn_barcode">Auto-return barcode in scan mode</string>

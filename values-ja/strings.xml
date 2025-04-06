@@ -24,7 +24,7 @@
     <string name="year">年</string>
     <string name="invalid_setting">無効な設定</string>
     <string name="insufficient_permissions">許可は十分ではありません。必要な権限をアプリに与えます。</string>
-    <string name="info_text">バージョン0.3.5 SR 199\nS. Marano、SMH17 All Rights Reservedによって開発されました。著者の明示的な許可なしに、部分的でさえも、コードまたはグラフィック要素の複製、変更、再利用は厳密に禁止されています。\nADMOB、PLAY、TENSORFLOW、および関連するすべてのGoogleテクノロジーは、Google LLCが所有し、Google LLCライセンス条件の対象となります。\n著作権とライセンス条件に関する詳細については、お問い合わせください。</string>
+    <string name="info_text">バージョン0.3.5 SR 201\nS. Marano、SMH17 All Rights Reservedによって開発されました。著者の明示的な許可なしに、部分的でさえも、コードまたはグラフィック要素の複製、変更、再利用は厳密に禁止されています。\nADMOB、PLAY、TENSORFLOW、および関連するすべてのGoogleテクノロジーは、Google LLCが所有し、Google LLCライセンス条件の対象となります。\n著作権とライセンス条件に関する詳細については、お問い合わせください。</string>
     <string name="choose_email_client">電子メールクライアントを選択してください</string>
     <string name="problem_description">問題の説明</string>
     <string name="error">エラー</string>
@@ -53,10 +53,16 @@
     <string name="use_ocr_cloud">正確なテキスト検出にはクラウドを使用します</string>
     <string name="use_face_detection_cloud">正確な顔検出にはクラウドを使用します</string>
     <string name="enable_detector_localization">検出器の翻訳を有効にします</string>
-    <string name="batch_results_in_source_dir">出力バッチは、ソースディレクトリになります</string>
-    <string name="open_last_path">最後のパスを開きます</string>
     <string name="show_detection_markers">検出マーカーを表示します</string>
     <string name="enable_tts">大声で発言してください</string>
+    <string name="batch_results_in_source_dir">出力バッチは、ソースディレクトリになります</string>
+    <string name="open_last_path">最後のパスを開きます</string>
+    <string name="filter_unlabeled_output">フィルター非ベール済みの出力</string>
+    <string name="face_comparison_comment">顔比較のコメント。</string>
+    <string name="additional_facial_markers">追加の顔マーカー</string>
+    <!-- ## Custom Detector Settings-->
+    <string name="custom_model_section">カスタムモデル：</string>
+    <string name="custom_model_name">カスタムTF-LITEモデル</string>
     <!-- ## Realtime Detector Settings-->
     <string name="setting_realtime_label">リアルタイム検出のオプション：</string>
     <string name="extra_realtime_settings_note">ノート：\nカスタムモデルは、デフォルトのアプリフォルダーにあるTFModelsフォルダーに配置する必要があります。\nリアルタイムセクションでは、右上のボタンをタップするこの機能セットに関する追加の設定を見つけることができます。</string>
@@ -74,8 +80,6 @@
     <string name="realtime_live_viewport">連続ストリーム</string>
     <string name="realtime_live_viewport_summary">カメラのフローは、検出フレームの同期を待ちません</string>
     <string name="pref_category_object_detection">要素の識別 /ローカリゼーション</string>
-    <string name="custom_model_name">カスタムTF-LITEモデル</string>
-    <string name="filter_unlabeled_output">フィルター非ベール済みの出力</string>
     <string name="object_detector_enable_multiple_objects">複数のオブジェクトを有効にします</string>
     <string name="object_detector_enable_classification">分類を有効にします</string>
     <string name="autoreturn_barcode">スキャンモードのバーコードを自動リターンします</string>

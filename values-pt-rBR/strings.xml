@@ -24,7 +24,7 @@
     <string name="year">ano</string>
     <string name="invalid_setting">Configuração inválida</string>
     <string name="insufficient_permissions">Permissões não é suficiente. Dê ao aplicativo as permissões necessárias.</string>
-    <string name="info_text">Versão 0.3.5 SR 199\nDesenvolvido por S. Marano, SMH17 Todos os direitos reservados. Qualquer replicação, modificação, reutilização do código ou elementos gráficos até parcial é estritamente proibido sem a permissão explícita do autor.\nAdmob, Play, Tensorflow e todas as tecnologias relacionadas ao Google são de propriedade do Google LLC e sujeitas aos termos da licença do Google LLC.\nPara informações adicionais sobre direitos autorais e termos de licença, entre em contato conosco.</string>
+    <string name="info_text">Versão 0.3.5 SR 201\nDesenvolvido por S. Marano, SMH17 Todos os direitos reservados. Qualquer replicação, modificação, reutilização do código ou elementos gráficos até parcial é estritamente proibido sem a permissão explícita do autor.\nAdmob, Play, Tensorflow e todas as tecnologias relacionadas ao Google são de propriedade do Google LLC e sujeitas aos termos da licença do Google LLC.\nPara informações adicionais sobre direitos autorais e termos de licença, entre em contato conosco.</string>
     <string name="choose_email_client">Escolha o cliente de email</string>
     <string name="problem_description">DESCRIÇÃO DO PROBLEMA</string>
     <string name="error">ERRO</string>
@@ -54,10 +54,16 @@
     <string name="use_ocr_cloud">Use Cloud para detecção de texto precisa</string>
     <string name="use_face_detection_cloud">Use Cloud para detecção de rosto precisa</string>
     <string name="enable_detector_localization">Ativar tradução do detector</string>
-    <string name="batch_results_in_source_dir">O lote de saída resulta no diretório de origem</string>
-    <string name="open_last_path">Abra o último caminho</string>
     <string name="show_detection_markers">Mostrar marcadores de detecção</string>
     <string name="enable_tts">Fale em voz alta</string>
+    <string name="batch_results_in_source_dir">O lote de saída resulta no diretório de origem</string>
+    <string name="open_last_path">Abra o último caminho</string>
+    <string name="filter_unlabeled_output">Filtre a saída não marcada</string>
+    <string name="face_comparison_comment">Comentário comparação de rostos</string>
+    <string name="additional_facial_markers">Marcadores faciais adicionais</string>
+    <!-- ## Custom Detector Settings-->
+    <string name="custom_model_section">Modelo personalizado:</string>
+    <string name="custom_model_name">Modelo TF-Lite personalizado</string>
     <!-- ## Realtime Detector Settings-->
     <string name="setting_realtime_label">Opções para detecção em tempo real:</string>
     <string name="extra_realtime_settings_note">NOTA:\nOs modelos personalizados devem ser colocados na pasta TFModels localizados na pasta de aplicativos padrão.\nNa seção em tempo real, você pode encontrar configurações adicionais sobre esse conjunto de recursos tocando no botão superior direito.</string>
@@ -75,8 +81,6 @@
     <string name="realtime_live_viewport">Fluxo contínuo</string>
     <string name="realtime_live_viewport_summary">O fluxo da câmera não aguarda a sincronização do quadro de detecção</string>
     <string name="pref_category_object_detection">Identificação / localização de elementos</string>
-    <string name="custom_model_name">Modelo TF-Lite personalizado</string>
-    <string name="filter_unlabeled_output">Filtre a saída não marcada</string>
     <string name="object_detector_enable_multiple_objects">Ativar vários objetos</string>
     <string name="object_detector_enable_classification">Ativar classificação</string>
     <string name="autoreturn_barcode">Código de barras de retorno automático no modo de varredura</string>

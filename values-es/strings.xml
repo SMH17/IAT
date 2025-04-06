@@ -24,7 +24,7 @@
     <string name="year">año</string>
     <string name="invalid_setting">Configuración no válida</string>
     <string name="insufficient_permissions">Permisos no suficientes.Dé a la aplicación los permisos necesarios.</string>
-    <string name="info_text">Versión 0.3.5 SR 199\nDesarrollado por S. Marano, SMH17 Todos los derechos reservados.Cualquier replicación, modificación, reutilización del código o elementos gráficos, incluso parcial, está estrictamente prohibido sin un permiso explícito del autor.\nAdmob, Play, TensorFlow y todas las tecnologías de Google relacionadas son propiedad de Google LLC y están sujetos a los términos de la licencia de Google LLC.\nPara obtener información adicional sobre los derechos de autor y los términos de la licencia, contáctenos.</string>
+    <string name="info_text">Versión 0.3.5 SR 201\nDesarrollado por S. Marano, SMH17 Todos los derechos reservados.Cualquier replicación, modificación, reutilización del código o elementos gráficos, incluso parcial, está estrictamente prohibido sin un permiso explícito del autor.\nAdmob, Play, TensorFlow y todas las tecnologías de Google relacionadas son propiedad de Google LLC y están sujetos a los términos de la licencia de Google LLC.\nPara obtener información adicional sobre los derechos de autor y los términos de la licencia, contáctenos.</string>
     <string name="choose_email_client">Elija un cliente de correo electrónico</string>
     <string name="problem_description">DESCRIPCIÓN DEL PROBLEMA</string>
     <string name="error">ERROR</string>
@@ -54,11 +54,17 @@
     <string name="use_ocr_cloud">Use la nube para una detección de texto precisa</string>
     <string name="use_face_detection_cloud">Use la nube para una detección de cara precisa</string>
     <string name="enable_detector_localization">Habilitar la traducción del detector</string>
-    <string name="batch_results_in_source_dir">Resultados por lotes de salida en el directorio de origen</string>
-    <string name="open_last_path">Abrir el último camino</string>
     <string name="show_detection_markers">Mostrar marcadores de detección</string>
     <string name="enable_tts">Habla en voz alta resultados</string>
-	<!-- ## Realtime Detector Settings-->
+    <string name="batch_results_in_source_dir">Resultados por lotes de salida en el directorio de origen</string>
+    <string name="open_last_path">Abrir el último camino</string>
+    <string name="filter_unlabeled_output">Filtrar Salida sin etiqueta</string>
+    <string name="face_comparison_comment">Comentario comparación de rostros</string>
+    <string name="additional_facial_markers">Marcadores faciales adicionales</string>
+    <!-- ## Custom Detector Settings-->
+    <string name="custom_model_section">Modelo personalizado:</string>
+    <string name="custom_model_name">Modelo TF-lite personalizado</string>
+    <!-- ## Realtime Detector Settings-->
     <string name="setting_realtime_label">Opciones para la detección en tiempo real:</string>
     <string name="extra_realtime_settings_note">Notas:\nLos modelos personalizados deben colocarse en la carpeta TFModels ubicada en la carpeta de aplicaciones predeterminada.\nEn la sección en tiempo real, puede encontrar configuraciones adicionales sobre este conjunto de características para tocar el botón superior derecha.</string>
     <string name="pref_screen_title_realtime_settings">Configuración avanzada en tiempo real</string>
@@ -75,8 +81,6 @@
 	<string name="realtime_live_viewport">Corriente continua</string>
     <string name="realtime_live_viewport_summary">El flujo de la cámara no espera sincronización del marco de detección</string>
     <string name="pref_category_object_detection">Identificación / localización de elementos</string>
-    <string name="custom_model_name">Modelo TF-lite personalizado</string>
-    <string name="filter_unlabeled_output">Filtrar Salida sin etiqueta</string>
     <string name="object_detector_enable_multiple_objects">Habilitar múltiples objetos</string>
     <string name="object_detector_enable_classification">Habilitar clasificación</string>
     <string name="autoreturn_barcode">Código de barras de retorno automático en modo de escaneo</string>
