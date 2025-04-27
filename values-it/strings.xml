@@ -23,7 +23,7 @@
     <string name="year">anno</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permissions">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.3.5 SR 201\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
+    <string name="info_text">Versione 0.3.5 SR 203\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale &#232; strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono propriet&#224; di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="problem_description">DESCRIZIONE PROBLEMA</string>
     <string name="error">ERRORE</string>
@@ -267,7 +267,7 @@
     <string name="face_insight">Analisi Facciale</string>
     <string name="face_detection_description">Consente di rilevare volti all\'interno di un\'immagine, e gli attributi facciali associati. Questa funzione effettua inoltre un\'analisi emotiva per determinare lo stato emotivo del soggetto e in aggiunta &#232; in grado di determinare se il soggetto indossa un copricapo.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
     <string name="face_comparison_description">Compara la somiglianza di 2 volti per comparazioni d\'identit&#224; di livello forense. Per ottenere un risultato valido, ogni foto deve contenere una sola persona dove tutte le parti del volto (naso, occhi, bocca ecc.) sono ben visibili.\n\nUsa il pulsante rosso in basso per selezionare la prima immagine.</string>
-    <string name="face_age_description">Questa funzione prova a fare una stima approssimata dell\'et&#224;, la foto deve contenere una sola persona dove tutte le parti del volto (naso, occhi, bocca ecc.) sono ben visibili.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
+    <string name="face_age_description">Questa funzione prova a fare una stima approssimata dell\'et&#224;, per risultati accurati tutte le parti del volto (naso, occhi, bocca ecc.) devono essere ben visibili.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
     <string name="face_celebrity_description">Questa funzione ti permette d\'identificare i volti famosi.\n\nUsa il pulsante rosso in basso per selezionare un\'immagine.</string>
     <string name="face">VOLTO</string>
     <string name="face_detection_success">Volti individuati (clicca per copiare negli appunti):</string>

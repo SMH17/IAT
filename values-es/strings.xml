@@ -23,8 +23,8 @@
     <string name="month">mes</string>
     <string name="year">año</string>
     <string name="invalid_setting">Configuración no válida</string>
-    <string name="insufficient_permissions">Permisos no suficientes.Dé a la aplicación los permisos necesarios.</string>
-    <string name="info_text">Versión 0.3.5 SR 201\nDesarrollado por S. Marano, SMH17 Todos los derechos reservados.Cualquier replicación, modificación, reutilización del código o elementos gráficos, incluso parcial, está estrictamente prohibido sin un permiso explícito del autor.\nAdmob, Play, TensorFlow y todas las tecnologías de Google relacionadas son propiedad de Google LLC y están sujetos a los términos de la licencia de Google LLC.\nPara obtener información adicional sobre los derechos de autor y los términos de la licencia, contáctenos.</string>
+    <string name="insufficient_permissions">Permisos no suficientes. Dé a la aplicación los permisos necesarios.</string>
+    <string name="info_text">Versión 0.3.5 SR 203\nDesarrollado por S. Marano, SMH17 Todos los derechos reservados. Cualquier replicación, modificación, reutilización del código o elementos gráficos, incluso parcial, está estrictamente prohibido sin un permiso explícito del autor.\nAdmob, Play, TensorFlow y todas las tecnologías de Google relacionadas son propiedad de Google LLC y están sujetos a los términos de la licencia de Google LLC.\nPara obtener información adicional sobre los derechos de autor y los términos de la licencia, contáctenos.</string>
     <string name="choose_email_client">Elija un cliente de correo electrónico</string>
     <string name="problem_description">DESCRIPCIÓN DEL PROBLEMA</string>
     <string name="error">ERROR</string>
@@ -49,7 +49,7 @@
     <string name="app_theme">Tema de la aplicación</string>
     <string name="setting_title">Ajustes</string>
     <string name="alert_setting_text">Ingrese el número máximo de elementos, un número más alto le permitirá ver más resultados, sin embargo, los resultados adicionales tienen una relación de coincidencia menos probable.\nValor predeterminado: 10,</string>
-    <string name="alert_setting_quality">Establezca el nivel de calidad de detección (valor predeterminado: 1200).Un valor más alto podría producir resultados más precisos, pero es más lento.\nValor de calidad:</string>
+    <string name="alert_setting_quality">Establezca el nivel de calidad de detección (valor predeterminado: 1200). Un valor más alto podría producir resultados más precisos, pero es más lento.\nValor de calidad:</string>
     <string name="use_element_detection_cloud">Use la nube para la detección de elementos precisos</string>
     <string name="use_ocr_cloud">Use la nube para una detección de texto precisa</string>
     <string name="use_face_detection_cloud">Use la nube para una detección de cara precisa</string>
@@ -115,16 +115,16 @@
     <string name="tts_error">No se puede usar la función de texto a voz</string>
     <string name="alert_copied_values">Copiada al portapapeles!</string>
     <string name="alert_saved">¡Resultados guardados en un archivo local!</string>
-    <string name="detector_not_ready">El detector local aún no está listo.Vuelva a intentarlo más tarde si el problema persiste el dispositivo de reinicio.</string>
+    <string name="detector_not_ready">El detector local aún no está listo. Vuelva a intentarlo más tarde si el problema persiste el dispositivo de reinicio.</string>
     <string name="alert_not_again">No vuelvas a mostrar.</string>
-    <string name="alert_unexpected_error">Error inesperado.Si el problema persiste, envíe un informe de error.</string>
-    <string name="alert_adblocker">En su dispositivo se ha detectado un AdBlocker global.Desarrollar y mantener esta aplicación requiere recursos, tiempo y gastos.No podemos proporcionar todo esto gratis si bloquea incluso los anuncios.Los comandos de la aplicación ahora están deshabilitados.Deshabilite AdBlocker (o Whitelist esta aplicación) si desea utilizar el modo gratuito, o alternativamente, compre una suscripción premium.</string>
+    <string name="alert_unexpected_error">Error inesperado. Si el problema persiste, envíe un informe de error.</string>
+    <string name="alert_adblocker">En su dispositivo se ha detectado un AdBlocker global. Desarrollar y mantener esta aplicación requiere recursos, tiempo y gastos. No podemos proporcionar todo esto gratis si bloquea incluso los anuncios. Los comandos de la aplicación ahora están deshabilitados. Deshabilite AdBlocker (o Whitelist esta aplicación) si desea utilizar el modo gratuito, o alternativamente, compre una suscripción premium.</string>
     <string name="alert_disabled_network">En su dispositivo se ha detectado el modo avión o todas las funciones de conectividad están desactivadas. Solo los usuarios premium pueden usar la aplicación en modo fuera de línea porque Ads mantiene la versión gratuita. Para superar este límite, compre una suscripción Premium.</string>
-    <string name="alert_consent_info">Desde aquí puede administrar el consentimiento de privacidad.Se necesita un consentimiento adecuado solo para mostrar anuncios.No es necesario en modo premium.\nDé el consentimiento o obtenga una suscripción premium.</string>
-    <string name="alert_noadsconsent">Has negado el consentimiento para mostrar anuncios.Se necesitan anuncios para cubrir los gastos en modo gratuito.\nDé el consentimiento o obtenga una suscripción premium.</string>
+    <string name="alert_consent_info">Desde aquí puede administrar el consentimiento de privacidad. Se necesita un consentimiento adecuado solo para mostrar anuncios. No es necesario en modo premium.\nDé el consentimiento o obtenga una suscripción premium.</string>
+    <string name="alert_noadsconsent">Has negado el consentimiento para mostrar anuncios. Se necesitan anuncios para cubrir los gastos en modo gratuito.\nDé el consentimiento o obtenga una suscripción premium.</string>
     <string name="set_consent">Establecer el consentimiento</string>
-    <string name="alert_no_web_search">Resultado copiado al portapapeles.\nNo hay asistentes de búsqueda compatibles que se encuentren en su dispositivo.Instale un asistente de búsqueda compatible (por ejemplo, búsqueda de Google) para habilitar la función de búsqueda integrada.</string>
-    <string name="alert_no_open_url">Resultado copiado al portapapeles.\nNo se encuentran navegadores web compatibles en su dispositivo.Instale un navegador web compatible (por ejemplo, Chrome o Firefox) para habilitar la función de apertura directa de URL.</string>
+    <string name="alert_no_web_search">Resultado copiado al portapapeles.\nNo hay asistentes de búsqueda compatibles que se encuentren en su dispositivo. Instale un asistente de búsqueda compatible (por ejemplo, búsqueda de Google) para habilitar la función de búsqueda integrada.</string>
+    <string name="alert_no_open_url">Resultado copiado al portapapeles.\nNo se encuentran navegadores web compatibles en su dispositivo. Instale un navegador web compatible (por ejemplo, Chrome o Firefox) para habilitar la función de apertura directa de URL.</string>
     <string name="alert_camera_intent_error">Su dispositivo no puede manejar la intención de la cámara correctamente.\nActualice su versión de Android a una versión más nueva o instale una aplicación de cámara con un nuevo soporte de intención de cámara.</string>
     <string name="alert_gallery_intent_error">Su dispositivo no puede manejar la intención de la galería correctamente.\nActualice su versión de Android a una versión más nueva o instale una aplicación de la galería con un nuevo soporte de intención de la galería.</string>
     <string name="alert_imurl_title">Introducir URL</string>
@@ -135,7 +135,7 @@
     <string name="dialog_select_prompt">Elija una imagen de la cámara o la galería, o ingrese una URL de imagen.</string>
 	<string name="dialog_select_camera">Cámara</string>
     <string name="dialog_select_gallery">Galería</string>
-    <string name="image_picker_error">No puedo cargar esta imagen.Imagen no válida o permisos insuficientes.</string>
+    <string name="image_picker_error">No puedo cargar esta imagen. Imagen no válida o permisos insuficientes.</string>
     <string name="path">Ruta</string>
     <string name="select_photo">Seleccione una foto</string>
     <string name="select_directory">Seleccione un directorio</string>
@@ -145,8 +145,8 @@
     <string name="image_preview">Vista previa de imagen</string>
     <string name="loading_message">Análisis en progreso… por favor espere.</string>
 	<string name="nothing_to_speech">Analice una imagen antes de usar esta función.</string>
-    <string name="cannot_analyze_now">Algo ha salido mal.Algunas características requieren una conexión a Internet.Asegúrese de que su conexión esté activa y que la imagen no esté dañada o vuelva a intentarlo más tarde.</string>
-    <string name="api_request_failed">La solicitud de API falló.Si el problema persiste, asegúrese de actualizar la aplicación a la última versión oficial disponible en Google Play.</string>
+    <string name="cannot_analyze_now">Algo ha salido mal. Algunas características requieren una conexión a Internet. Asegúrese de que su conexión esté activa y que la imagen no esté dañada o vuelva a intentarlo más tarde.</string>
+    <string name="api_request_failed">La solicitud de API falló. Si el problema persiste, asegúrese de actualizar la aplicación a la última versión oficial disponible en Google Play.</string>
     <string name="quota_exceeded">¡Advertencia! Has alcanzado el límite temporal de uso gratuito de esta función.\nEl límite se aplica solo a funciones específicas asistidas por la nube, que tienen una cuota máxima de uso variable según el número de solicitudes al servidor y no está garantizada en el modo gratuito.\n\nInténtalo de nuevo más tarde o adquiere una suscripción premium en la sección de licencias.</string>
     <string name="translation_fail">Motor de traducción no listo.</string>
     <string name="num_download_files">Números de archivos para descargar:</string>
@@ -154,9 +154,9 @@
 	<string name="stop">Detener</string>
 	<string name="downloaded_file">Archivo descargado</string>
     <string name="download_file_error">Descargar error de archivo</string>
-    <string name="detection_recovery_mode_error">[La detección cambió automáticamente al modo local debido a un error durante el intento de usar la nube.Si el problema persiste, asegúrese de actualizar la aplicación a la última versión oficial disponible en Google Play.]</string>
+    <string name="detection_recovery_mode_error">[La detección cambió automáticamente al modo local debido a un error durante el intento de usar la nube. Si el problema persiste, asegúrese de actualizar la aplicación a la última versión oficial disponible en Google Play.]</string>
     <string name="mode_not_available_on_local">Este modo requiere una detección asistida por la nube.\nHabilite el modo de nube para este conjunto de características.</string>
-    <string name="alert_custom_models_info">Esta función permite a los usuarios avanzados usar modelos de inferencia personalizados para detectar elementos en modo de identificación [i] o modo de localización [L].Los modelos deben estar en formato compatible con tensorflow lite con extensión .tflite.Los modelos personalizados deben colocarse en la carpeta TFModel y luego configurarse en el menú Configuración.Si no se ha configurado ningún modelo personalizado, IAT ignorará la selección, permaneciendo en un modelo predeterminado.Lea la documentación para más detalles.</string>
+    <string name="alert_custom_models_info">Esta función permite a los usuarios avanzados usar modelos de inferencia personalizados para detectar elementos en modo de identificación [i] o modo de localización [L]. Los modelos deben estar en formato compatible con tensorflow lite con extensión .tflite. Los modelos personalizados deben colocarse en la carpeta TFModel y luego configurarse en el menú Configuración. Si no se ha configurado ningún modelo personalizado, IAT ignorará la selección, permaneciendo en un modelo predeterminado. Lea la documentación para más detalles.</string>
     <!-- End General messages and warning section -->
 
     <!-- Batch section -->
@@ -188,7 +188,7 @@
 	
 	<!-- Realtime section -->
     <string name="realtime_detector">Detector de tiempo real</string>
-    <string name="realtime_detector_description">El detector de tiempo real le permite detectar elementos en la marcha sin conexión a Internet.Dado que esta característica utiliza modelos de red neuronales mucho más simples para ejecutarse con las capacidades limitadas de los dispositivos móviles, la precisión no puede ser comparable de ninguna manera a la detección basada en la nube.Si necesita más precisión, use las otras funciones dedicadas.\nSi lo usa por primera vez, en algún caso la aplicación necesita configurar algunas dependencias específicas del dispositivo, si ve una pantalla en blanco, espera e intente nuevamente más tarde.</string>
+    <string name="realtime_detector_description">El detector de tiempo real le permite detectar elementos en la marcha sin conexión a Internet. Dado que esta característica utiliza modelos de red neuronales mucho más simples para ejecutarse con las capacidades limitadas de los dispositivos móviles, la precisión no puede ser comparable de ninguna manera a la detección basada en la nube. Si necesita más precisión, use las otras funciones dedicadas.\nSi lo usa por primera vez, en algún caso la aplicación necesita configurar algunas dependencias específicas del dispositivo, si ve una pantalla en blanco, espera e intente nuevamente más tarde.</string>
     <string name="brief_description">identificación breve pero específica</string>
     <string name="toggle_camera_description">Cambiar Cámara</string>
     <string name="toggle_flash_description">Luz flash iniciar-detener</string>
@@ -208,7 +208,7 @@
 
     <!-- Element detection section -->
     <string name="element_detector">Detector de elementos</string>
-    <string name="element_detector_description">El detector de elementos le permite identificar elementos dentro de una imagen, para encontrar información sobre ellos.Admite amplios conjuntos de categorías que van desde objetos inanimados hasta plantas y animales.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
+    <string name="element_detector_description">El detector de elementos le permite identificar elementos dentro de una imagen, para encontrar información sobre ellos. Admite amplios conjuntos de categorías que van desde objetos inanimados hasta plantas y animales.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
     <string name="detection_success">Elementos detectados (toque para buscar información, toque largo para copiar en el portapapeles):</string>
     <string name="detection_fail">-&gt; ¡Uy! No se puede identificar ningún elemento en esta imagen.</string>
     <string name="model_error">-&gt; ¡Uy! Error no especificado durante la inicialización del modelo.\nAsegúrese de usar modelos en un formato adecuado con metadatos de etiquetas integradas y ese modelo no excede los límites de recursos de su dispositivo.</string>
@@ -220,7 +220,7 @@
 
     <!-- Web detection section -->
     <string name="web_detector">Detector de imágenes web</string>
-    <string name="web_detector_description">El detector de imágenes web le permite encontrar información sobre la imagen, buscar en Internet imágenes similares y páginas web relacionadas, y adivinar el contenido según la información captada.Esta característica le proporciona las etiquetas relacionadas, los enlaces de las páginas web involucradas, que muestran imágenes coincidentes y visualmente similares (si están disponibles), lo que le permite guardar también los enlaces respectivos o los archivos de imagen.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
+    <string name="web_detector_description">El detector de imágenes web le permite encontrar información sobre la imagen, buscar en Internet imágenes similares y páginas web relacionadas, y adivinar el contenido según la información captada. Esta característica le proporciona las etiquetas relacionadas, los enlaces de las páginas web involucradas, que muestran imágenes coincidentes y visualmente similares (si están disponibles), lo que le permite guardar también los enlaces respectivos o los archivos de imagen.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
     <string name="detection_web_success">Coincidencias encontradas (toque para buscar información, toque largo para copiar al portapapeles):</string>
     <string name="detection_web_links">◄ Enlaces imágenes coincidentes (clic para abrir): ►</string>
     <string name="matching_images_links">◄ Imágenes coincidentes (clic para abrir): ►</string>
@@ -266,9 +266,9 @@
 
     <!-- Face Insight section -->
     <string name="face_insight">Análisis Facial</string>
-    <string name="face_detection_description">Detectar múltiples caras dentro de una imagen, junto con los atributos faciales asociados.Esta función también puede realizar un análisis emocional para determinar el estado emocional, además, puede decirle si la persona lleva ropa de cabeza.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
-    <string name="face_comparison_description">Esta función le permite comparar la semejanza entre 2 personas para la coincidencia de identidad de nivel forense.Tienes que cargar 2 imágenes diferentes.Para obtener un resultado válido, cada foto debe contener una sola cara donde todos los elementos (nariz, ojos, boca, etc.) son bien visibles.\n\nUse el botón rojo en la parte inferior para cargar la primera imagen.</string>
-    <string name="face_age_description">Esta función devuelve una estimación sin procesar del rango de edad probable.Para obtener un resultado válido, la foto debe contener una sola cara donde todos los elementos (nariz, ojos, boca, etc.) son bien visibles.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
+    <string name="face_detection_description">Detectar múltiples caras dentro de una imagen, junto con los atributos faciales asociados. Esta función también puede realizar un análisis emocional para determinar el estado emocional, además, puede decirle si la persona lleva ropa de cabeza.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
+    <string name="face_comparison_description">Esta función le permite comparar la semejanza entre 2 personas para la coincidencia de identidad de nivel forense. Tienes que cargar 2 imágenes diferentes. Para obtener un resultado válido, cada foto debe contener una sola cara donde todos los elementos (nariz, ojos, boca, etc.) son bien visibles.\n\nUse el botón rojo en la parte inferior para cargar la primera imagen.</string>
+    <string name="face_age_description">Esta función proporciona una estimación aproximada del rango de edad. Para obtener resultados precisos, todos los rasgos faciales (nariz, ojos, boca, etc.) deben ser claramente visibles.\n\nUsa el botón rojo en la parte inferior para cargar una imagen.</string>
     <string name="face_celebrity_description">Esta función le permite identificar a las celebridades.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
     <string name="face">ROSTRO</string>
     <string name="face_detection_success">Caras detectadas (toque para copiar en el portapapeles):</string>
@@ -364,7 +364,7 @@
 
     <!-- Colorimeter section -->
     <string name="colorimeter">Colorímetro</string>
-    <string name="colorimeter_description">Con Colorimeter, puede identificar todos los colores dentro de una imagen y ver su representación en RGB, HSB y notación hexadecimal.Para cada color detectado, la aplicación le dirá el nombre del color o el nombre del color más similar, en caso de que el tono de color sea poco común y no tenga nombre.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
+    <string name="colorimeter_description">Con Colorimeter, puede identificar todos los colores dentro de una imagen y ver su representación en RGB, HSB y notación hexadecimal. Para cada color detectado, la aplicación le dirá el nombre del color o el nombre del color más similar, en caso de que el tono de color sea poco común y no tenga nombre.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
     <string name="color_analysis_success">Resultado de análisis de color (toque para copiar en el portapapeles):</string>
     <string name="color_analysis_result_name">Nombre del color más cercano:</string>
     <string name="color_analysis_result_fail">-&gt; ¡Uy! No se puede identificar los colores.</string>
@@ -373,7 +373,7 @@
 
     <!-- Censorship meter section -->
     <string name="censorship_meter">Medidor de riesgo de censura</string>
-    <string name="censorship_meter_description">Esta herramienta le permite verificar una imagen para determinar si su contenido podría ser censurado por un sistema automático o conducir a la prohibición.Esta característica es útil ya que muchas redes sociales y sitios web realizan verificaciones automáticas de las imágenes cargadas y podrían tomar medidas contra el usuario si se detecta un contenido crítico, y esto a menudo erróneamente, especialmente si también hay informes humanos además de falsos positivos sospechosos.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
+    <string name="censorship_meter_description">Esta herramienta le permite verificar una imagen para determinar si su contenido podría ser censurado por un sistema automático o conducir a la prohibición. Esta característica es útil ya que muchas redes sociales y sitios web realizan verificaciones automáticas de las imágenes cargadas y podrían tomar medidas contra el usuario si se detecta un contenido crítico, y esto a menudo erróneamente, especialmente si también hay informes humanos además de falsos positivos sospechosos.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
     <string name="censorship_analysis_success">Resultado del análisis (toque para copiar en el portapapeles):</string>
     <string name="porn">-&gt; Porno:</string>
     <string name="racy">-&gt; Racy:</string>
@@ -381,14 +381,14 @@
     <string name="violence">-&gt; Violencia:</string>
 	<string name="spoof">-&gt; Falsification:</string>
     <string name="risk_analysis_summary">Resumen de probabilidad de riesgo:</string>
-    <string name="risk_detected">¡ADVERTENCIA!Se ha detectado un factor de riesgo.La carga de esta imagen podría causar prohibición y censura en muchas redes y comunidades sociales.Prestar atención.</string>
+    <string name="risk_detected">¡ADVERTENCIA!Se ha detectado un factor de riesgo. La carga de esta imagen podría causar prohibición y censura en muchas redes y comunidades sociales. Prestar atención.</string>
     <string name="no_risk_detected">El análisis automático no ha detectado riesgos.</string>
     <string name="no_risk_detected_almost">El análisis automático no ha detectado riesgos, pero aún puede estar sujeto a moderación automatizada en las redes más puritanas.</string>
     <!-- End Censorship meter section -->
 
     <!-- EXIF info section -->
     <string name="exif_info">Información EXIF</string>
-    <string name="exif_info_description">Esta característica le permite cargar y extraer información exif de archivos de imagen, si está disponible.\nEXIF es un estándar para metadatos que pueden incluir mucha información como copyright de imagen, el dispositivo utilizado, marca de tiempo de adquisición, datos de etiquetas GPS, software de manipulación de fotos utilizado, sensor de cámara, apertura, distancia focal, velocidad de obturación, balance de blancos, nivel de ISO, etc..\nNota:\nLos datos de EXIF ​​a menudo se eliminan por servicios que reprocesan las imágenes, por lo que puede encontrar datos nulos o inconsistentes si usa esta función con imágenes descargadas, por ejemplo, de Facebook, WhatsApp, Instagram y similares.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
+    <string name="exif_info_description">Esta característica le permite cargar y extraer información exif de archivos de imagen, si está disponible.\nEXIF es un estándar para metadatos que pueden incluir mucha información como copyright de imagen, el dispositivo utilizado, marca de tiempo de adquisición, datos de etiquetas GPS, software de manipulación de fotos utilizado, sensor de cámara, apertura, distancia focal, velocidad de obturación, balance de blancos, nivel de ISO, etc..\nNota:\nLos datos de EXIF a menudo se eliminan por servicios que reprocesan las imágenes, por lo que puede encontrar datos nulos o inconsistentes si usa esta función con imágenes descargadas, por ejemplo, de Facebook, WhatsApp, Instagram y similares.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
     <string name="exif_info_result_success">EXIF metadatos encontrados (toque para copiar en el portapapeles):</string>
     <string name="exif_info_result_fail">-&gt; ¡Uy! No puede identificar ningún exif en esta imagen.</string>
     <string name="exif_info_result_error">-&gt; ¡Uy! No se puede identificar ningún exif debido a un error inesperado.</string>
@@ -396,7 +396,7 @@
     <!-- ELA section -->
     <string name="ela">ELA</string>
     <string name="ela_description">Esta característica genera una máscara de error, para permitirle detectar secciones más fácilmente manipuladas en una imagen, según la inhomogeneidad en la distribución del error en comparación con el patrón local.\n(Una manera muy fácil de familiarizarse con la herramienta es intentar alterar algunas imágenes y ver cómo se ve la máscara de error en los puntos alterados).\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
-    <string name="ela_success">Deslice a la izquierda y a la derecha para mostrar la máscara de análisis y la imagen original.El patrón de distribución de errores incoherentes en un área específica indica que el área ha sido manipulado.Use la barra para establecer el umbral.</string>
+    <string name="ela_success">Deslice a la izquierda y a la derecha para mostrar la máscara de análisis y la imagen original. El patrón de distribución de errores incoherentes en un área específica indica que el área ha sido manipulado. Use la barra para establecer el umbral.</string>
     <string name="ela_error">¡¡Uy! Se produjo un error durante la generación de máscara de análisis.\nAsegúrese de que la imagen seleccionada sea válida.</string>
     <!-- End ELA section -->
 
@@ -413,19 +413,19 @@
     <string name="bm_error">No se puede verificar el estado de la licencia.</string>
     <string name="error_code">CÓDIGO DE ERROR:</string>
     <string name="faq">Preguntas más frecuentes</string>
-    <string name="faq_description">PREGUNTAS MÁS FRECUENTES:\n\n¿Por qué la suscripción en lugar de la compra única?\n-&gt; Debido a que la compra de una vez no puede ser sostenible a largo plazo, cada usuario agrega carga de trabajo a nuestros servidores y tenemos que cubrir los costos mensuales.\n\nHay aplicaciones que usan servidores sin anuncios y sin suscripciones, ¿por qué su aplicación es diferente?\n-&gt; Para algunas empresas es suficiente para que su aplicación se instale para obtener dinero, porque los usuarios de perfil revenden sus datos. En cambio, respetamos la privacidad del usuario y no tenemos ningún sistema de monetización opaco. Esto no menciona los servidores más caros que el promedio necesarios para las complejas tareas de visión por computadora basadas en la red neuronal realizadas por esta aplicación. El precio es muy bajo en comparación con el valor que esta aplicación agrega al conjunto de funciones de su dispositivo. Sin embargo, si no desea pagar la suscripción, no se preocupe, los anuncios en esta aplicación son lo menos para mantener el servicio, no son invasivos y molestos.\n\n¿Podría cancelar la suscripción si cambio de opinión en el futuro?\n-&gt; ¡Sí!Puede cancelar su suscripción en cualquier momento desde Play Store regresando al modo gratuito completo con anuncios.\n\n¿El precio de suscripción seguirá siendo el mismo?\n-&gt; El precio de suscripción no se puede cambiar una vez que se ha activado una suscripción.Solo podría cambiarse para nuevos usuarios que no tienen ninguna suscripción activa.Esta es la razón por la cual suscribirse ahora al precio de lanzamiento promocional (lo más bajo posible) es una ganga.\n\nSi tengo muchos dispositivos, ¿puedo usar premium en todos con solo una suscripción?\n-&gt; ¡Por supuesto!La licencia está vinculada a su cuenta de Google Play y se aplicará automáticamente a todos sus dispositivos vinculados a ella o que estarán vinculados en el futuro, sin ninguna necesidad de nuevas suscripciones para cada dispositivo.</string>
+    <string name="faq_description">PREGUNTAS MÁS FRECUENTES:\n\n¿Por qué la suscripción en lugar de la compra única?\n-&gt; Debido a que la compra de una vez no puede ser sostenible a largo plazo, cada usuario agrega carga de trabajo a nuestros servidores y tenemos que cubrir los costos mensuales.\n\nHay aplicaciones que usan servidores sin anuncios y sin suscripciones, ¿por qué su aplicación es diferente?\n-&gt; Para algunas empresas es suficiente para que su aplicación se instale para obtener dinero, porque los usuarios de perfil revenden sus datos. En cambio, respetamos la privacidad del usuario y no tenemos ningún sistema de monetización opaco. Esto no menciona los servidores más caros que el promedio necesarios para las complejas tareas de visión por computadora basadas en la red neuronal realizadas por esta aplicación. El precio es muy bajo en comparación con el valor que esta aplicación agrega al conjunto de funciones de su dispositivo. Sin embargo, si no desea pagar la suscripción, no se preocupe, los anuncios en esta aplicación son lo menos para mantener el servicio, no son invasivos y molestos.\n\n¿Podría cancelar la suscripción si cambio de opinión en el futuro?\n-&gt; ¡Sí!Puede cancelar su suscripción en cualquier momento desde Play Store regresando al modo gratuito completo con anuncios.\n\n¿El precio de suscripción seguirá siendo el mismo?\n-&gt; El precio de suscripción no se puede cambiar una vez que se ha activado una suscripción. Solo podría cambiarse para nuevos usuarios que no tienen ninguna suscripción activa. Esta es la razón por la cual suscribirse ahora al precio de lanzamiento promocional (lo más bajo posible) es una ganga.\n\nSi tengo muchos dispositivos, ¿puedo usar premium en todos con solo una suscripción?\n-&gt; ¡Por supuesto!La licencia está vinculada a su cuenta de Google Play y se aplicará automáticamente a todos sus dispositivos vinculados a ella o que estarán vinculados en el futuro, sin ninguna necesidad de nuevas suscripciones para cada dispositivo.</string>
 	<string name="active">ACTIVO</string>
 	<string name="pending">PENDIENTE</string>
 	<string name="disabled">DESHABILITADO</string>
     <string name="ads_mode_click">El modo con anuncios se deshabilitará automáticamente si compra una suscripción de plata u oro, y está habilitado si no hay ninguna suscripción activa.</string>
     <string name="ads_mode">Modo con anuncios</string>
-    <string name="ads_mode_description">Todas las funciones habilitadas, pero verá algunos anuncios al azar cuando accede a una nueva sección de esta aplicación desde el hogar.(El modo gratuito predeterminado)</string>
+    <string name="ads_mode_description">Todas las funciones habilitadas, pero verá algunos anuncios al azar cuando accede a una nueva sección de esta aplicación desde el hogar. (El modo gratuito predeterminado)</string>
     <string name="premium_silver">Suscripción de plata</string>
     <string name="premium_silver_content">Botón de suscripción de plata</string>
     <string name="premium_silver_description">La suscripción mensual premium deshabilita todos los anuncios y limitaciones para la mejor experiencia de usuario posible.</string>
     <string name="premium_gold">Suscripción de oro</string>
     <string name="premium_gold_content">Botón de suscripción de oro</string>
-    <string name="premium_gold_description">La suscripción premium anual deshabilita todos los anuncios y limitaciones para la mejor experiencia de usuario posible.La suscripción anual de oro es más barata que 12 meses de suscripción de plata.</string>
+    <string name="premium_gold_description">La suscripción premium anual deshabilita todos los anuncios y limitaciones para la mejor experiencia de usuario posible. La suscripción anual de oro es más barata que 12 meses de suscripción de plata.</string>
     <!-- End Billing section -->
 
 </resources>

@@ -24,7 +24,7 @@
     <string name="year">年</string>
     <string name="invalid_setting">無効な設定</string>
     <string name="insufficient_permissions">許可は十分ではありません。必要な権限をアプリに与えます。</string>
-    <string name="info_text">バージョン0.3.5 SR 201\nS. Marano、SMH17 All Rights Reservedによって開発されました。著者の明示的な許可なしに、部分的でさえも、コードまたはグラフィック要素の複製、変更、再利用は厳密に禁止されています。\nADMOB、PLAY、TENSORFLOW、および関連するすべてのGoogleテクノロジーは、Google LLCが所有し、Google LLCライセンス条件の対象となります。\n著作権とライセンス条件に関する詳細については、お問い合わせください。</string>
+    <string name="info_text">バージョン0.3.5 SR 203\nS. Marano、SMH17 All Rights Reservedによって開発されました。著者の明示的な許可なしに、部分的でさえも、コードまたはグラフィック要素の複製、変更、再利用は厳密に禁止されています。\nADMOB、PLAY、TENSORFLOW、および関連するすべてのGoogleテクノロジーは、Google LLCが所有し、Google LLCライセンス条件の対象となります。\n著作権とライセンス条件に関する詳細については、お問い合わせください。</string>
     <string name="choose_email_client">電子メールクライアントを選択してください</string>
     <string name="problem_description">問題の説明</string>
     <string name="error">エラー</string>
@@ -267,7 +267,7 @@
     <string name="face_insight">顔の洞察</string>
     <string name="face_detection_description">関連する顔の属性とともに、画像内の複数の顔を検出します。この機能は、感情的な分析を実行して感情的な状態を決定することもできます。\n\n下部の赤いボタンを使用して画像を読み込みます。</string>
     <string name="face_comparison_description">この関数を使用すると、法医学レベルのアイデンティティマッチングと2人の間の類似性を比較できます。2つの異なる画像をロードする必要があります。有効な結果を得るためには、各写真には、すべての要素（鼻、目、口など）がよく見える単一の顔を含める必要があります。\n\n下部の赤いボタンを使用して、最初の画像をロードします。</string>
-    <string name="face_age_description">この関数は、可能性のある年齢範囲の生の推定を返します。有効な結果を得るために、写真には、すべての要素（鼻、目、口など）がよく見えている単一の顔が含まれている必要があります。\n\n下部の赤いボタンを使用して画像を読み込みます。</string>
+    <string name="face_age_description">この機能は、おおよその年齢範囲を推定します。正確な結果を得るには、鼻・目・口などの顔のパーツがはっきり見えている必要があります。\n\n下の赤いボタンで画像を読み込んでください。</string>
     <string name="face_celebrity_description">この関数を使用すると、有名人を特定できます。\n\n下部の赤いボタンを使用して画像を読み込みます。</string>
     <string name="face">顔</string>
     <string name="face_detection_success">顔が検出されました（タップしてクリップボードにコピー）：</string>

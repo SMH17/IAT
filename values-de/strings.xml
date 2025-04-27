@@ -23,8 +23,8 @@
     <string name="month">monat</string>
     <string name="year">jahr</string>
     <string name="invalid_setting">Ungültige Einstellung</string>
-    <string name="insufficient_permissions">Berechtigungen nicht genug.Geben Sie der App die erforderlichen Berechtigungen.</string>
-    <string name="info_text">Version 0.3.5 SR 201\nEntwickelt von S. Marano, SMH17 Alle Rechte vorbehalten.Jede Replikation, Änderung, Wiederverwendung des Codes oder grafischen Elemente, die sogar teilweise ohne ausdrückliche Erlaubnis des Autors streng verboten sind.\nAdmob, Play, TensorFlow und alle verwandten Google-Technologien sind im Besitz von Google LLC und unterliegen den Google LLC Lizenzbedingungen.\nWeitere Informationen zu Urheberrechts- und Lizenzbedingungen erhalten Sie von uns.</string>
+    <string name="insufficient_permissions">Berechtigungen nicht genug. Geben Sie der App die erforderlichen Berechtigungen.</string>
+    <string name="info_text">Version 0.3.5 SR 203\nEntwickelt von S. Marano, SMH17 Alle Rechte vorbehalten. Jede Replikation, Änderung, Wiederverwendung des Codes oder grafischen Elemente, die sogar teilweise ohne ausdrückliche Erlaubnis des Autors streng verboten sind.\nAdmob, Play, TensorFlow und alle verwandten Google-Technologien sind im Besitz von Google LLC und unterliegen den Google LLC Lizenzbedingungen.\nWeitere Informationen zu Urheberrechts- und Lizenzbedingungen erhalten Sie von uns.</string>
     <string name="choose_email_client">Wählen Sie E-Mail Client</string>
     <string name="problem_description">PROBLEMBESCHREIBUNG</string>
     <string name="error">FEHLER</string>
@@ -49,7 +49,7 @@
     <string name="app_theme">App Thema</string>
     <string name="setting_title">Einstellungen</string>
     <string name="alert_setting_text">Geben Sie die maximale Anzahl von Elementen ein. Eine höhere Zahl ermöglicht es Ihnen, mehr Ergebnisse zu erkennen. Die zusätzlichen Ergebnisse haben jedoch ein geringer Wahrscheinlichkeit übereinstimmend.\nStandardwert: 10,,</string>
-    <string name="alert_setting_quality">Legen Sie die Erkennungsqualitätsniveau fest (Standardwert: 1200).Ein höherer Wert könnte genauere Ergebnisse erzielen, ist jedoch langsamer.\nQualitätswert:</string>
+    <string name="alert_setting_quality">Legen Sie die Erkennungsqualitätsniveau fest (Standardwert: 1200). Ein höherer Wert könnte genauere Ergebnisse erzielen, ist jedoch langsamer.\nQualitätswert:</string>
     <string name="use_element_detection_cloud">Verwenden Sie die Wolke für eine genaue Elementerkennung</string>
     <string name="use_ocr_cloud">Verwenden Sie die Cloud für eine genaue Texterkennung</string>
     <string name="use_face_detection_cloud">Verwenden Sie die Wolke für eine genaue Gesichtserkennung</string>
@@ -115,16 +115,16 @@
     <string name="tts_error">Text zur Sprachfunktion kann nicht verwendet werden</string>
     <string name="alert_copied_values">In die Zwischenablage kopiert!</string>
     <string name="alert_saved">Ergebnisse in einer lokalen Datei gespeichert!</string>
-    <string name="detector_not_ready">Lokaler Detektor noch nicht fertig.Versuchen Sie es später erneut, wenn das Problem bei der Wiederherstellung des Geräts anhält.</string>
+    <string name="detector_not_ready">Lokaler Detektor noch nicht fertig. Versuchen Sie es später erneut, wenn das Problem bei der Wiederherstellung des Geräts anhält.</string>
     <string name="alert_not_again">Zeigen Sie nicht noch einmal.</string>
-    <string name="alert_unexpected_error">Unerwarteter Fehler.Wenn das Problem bleibt, senden Sie einen Fehlerbericht.</string>
-    <string name="alert_adblocker">In Ihrem Gerät wurde ein globaler Adblocker erkannt.Die Entwicklung und Aufrechterhaltung dieser App erfordert Ressourcen, Zeit und Ausgaben.Wir können dies nicht kostenlos zur Verfügung stellen, wenn Sie auch die Anzeigen blockieren.Die Befehle der App sind jetzt deaktiviert.Deaktivieren Sie Adblocker (oder Whitelist diese App), wenn Sie den kostenlosen Modus verwenden möchten, oder kaufen Sie alternativ ein Premium-Abonnement.</string>
+    <string name="alert_unexpected_error">Unerwarteter Fehler. Wenn das Problem bleibt, senden Sie einen Fehlerbericht.</string>
+    <string name="alert_adblocker">In Ihrem Gerät wurde ein globaler Adblocker erkannt. Die Entwicklung und Aufrechterhaltung dieser App erfordert Ressourcen, Zeit und Ausgaben. Wir können dies nicht kostenlos zur Verfügung stellen, wenn Sie auch die Anzeigen blockieren. Die Befehle der App sind jetzt deaktiviert. Deaktivieren Sie Adblocker (oder Whitelist diese App), wenn Sie den kostenlosen Modus verwenden möchten, oder kaufen Sie alternativ ein Premium-Abonnement.</string>
     <string name="alert_disabled_network">Auf Ihrem Gerät wurde der Flugmodus erkannt oder alle Konnektivitätsfunktionen sind deaktiviert. Nur Premium-Benutzer können die App im Offline-Modus nutzen, da die kostenlose Version von Ads verwaltet wird. Um dieses Limit zu überwinden, erwerben Sie ein Premium-Abonnement.</string>
-	<string name="alert_consent_info">Von hier aus können Sie die Einverständniserklärung für die Privatsphäre verwalten.Eine ordnungsgemäße Zustimmung ist nur erforderlich, um Anzeigen zu zeigen.Es wird im Premium-Modus nicht benötigt.\nGeben Sie die Zustimmung ein oder erhalten Sie ein Premium-Abonnement.</string>
-    <string name="alert_noadsconsent">Sie haben die Zustimmung bestritten, Anzeigen zu zeigen.Anzeigen werden benötigt, um die Kosten im freien Modus abzudecken.\nGeben Sie die Zustimmung ein oder erhalten Sie ein Premium-Abonnement.</string>
+	<string name="alert_consent_info">Von hier aus können Sie die Einverständniserklärung für die Privatsphäre verwalten. Eine ordnungsgemäße Zustimmung ist nur erforderlich, um Anzeigen zu zeigen. Es wird im Premium-Modus nicht benötigt.\nGeben Sie die Zustimmung ein oder erhalten Sie ein Premium-Abonnement.</string>
+    <string name="alert_noadsconsent">Sie haben die Zustimmung bestritten, Anzeigen zu zeigen. Anzeigen werden benötigt, um die Kosten im freien Modus abzudecken.\nGeben Sie die Zustimmung ein oder erhalten Sie ein Premium-Abonnement.</string>
     <string name="set_consent">Einwilligung festlegen</string>
-    <string name="alert_no_web_search">Ergebnis in die Zwischenablage kopiert.\nKeine unterstützten Suchassistenten auf Ihrem Gerät gefunden.Installieren Sie einen unterstützten Suchassistenten (z. B. Google Search), um eine integrierte Suchfunktion zu aktivieren.</string>
-    <string name="alert_no_open_url">Ergebnis in die Zwischenablage kopiert.\nKeine unterstützten Webbrowser auf Ihrem Gerät gefunden.Installieren Sie einen unterstützten Webbrowser (z. B. Chrome oder Firefox), um eine direkte URL-Öffnungsfunktion zu aktivieren.</string>
+    <string name="alert_no_web_search">Ergebnis in die Zwischenablage kopiert.\nKeine unterstützten Suchassistenten auf Ihrem Gerät gefunden. Installieren Sie einen unterstützten Suchassistenten (z. B. Google Search), um eine integrierte Suchfunktion zu aktivieren.</string>
+    <string name="alert_no_open_url">Ergebnis in die Zwischenablage kopiert.\nKeine unterstützten Webbrowser auf Ihrem Gerät gefunden. Installieren Sie einen unterstützten Webbrowser (z. B. Chrome oder Firefox), um eine direkte URL-Öffnungsfunktion zu aktivieren.</string>
     <string name="alert_camera_intent_error">Ihr Gerät kann die Kameraabsichten nicht richtig verarbeiten.\nAktualisieren Sie Ihre Android-Version in einer neueren Version oder installieren Sie eine Kamera-App mit einer neueren Kameraabsichten.</string>
     <string name="alert_gallery_intent_error">Ihr Gerät kann die Galerie-Absicht nicht richtig verarbeiten.\nAktualisieren Sie Ihre Android Version in einer neueren Version oder installieren Sie eine Galerie-App mit einer neueren Galerie-Intent-Unterstützung.</string>
     <string name="alert_imurl_title">URL eingeben</string>
@@ -135,7 +135,7 @@
     <string name="dialog_select_prompt">Wählen Sie ein Bild aus der Kamera oder Galerie oder geben Sie eine Bild-URL ein.</string>
     <string name="dialog_select_camera">Kamera</string>
     <string name="dialog_select_gallery">Galerie</string>
-    <string name="image_picker_error">Dieses Bild kann nicht geladen werden.Ungültiges Bild oder unzureichende Berechtigungen.</string>
+    <string name="image_picker_error">Dieses Bild kann nicht geladen werden. Ungültiges Bild oder unzureichende Berechtigungen.</string>
     <string name="path">Pfad</string>
     <string name="select_photo">Wählen Sie ein Foto</string>
     <string name="select_directory">Wählen Sie ein Verzeichnis</string>
@@ -145,8 +145,8 @@
     <string name="image_preview">Bildvorschau</string>
     <string name="loading_message">Analyse in Bearbeitung… bitte warten.</string>
     <string name="nothing_to_speech">Analysieren Sie ein Bild, bevor Sie diese Funktion verwenden.</string>
-    <string name="cannot_analyze_now">Etwas ist schief gelaufen.Einige Funktionen erfordern eine Internetverbindung.Stellen Sie sicher, dass Ihre Verbindung aktiv ist und das Bild nicht beschädigt ist, oder versuchen Sie es später erneut.</string>
-    <string name="api_request_failed">\nDie API-Anfrage ist fehlgeschlagen.Wenn das Problem weiterhin besteht, achten Sie darauf, die App auf die neueste offizielle Version zu aktualisieren, die bei Google Play verfügbar ist.</string>
+    <string name="cannot_analyze_now">Etwas ist schief gelaufen. Einige Funktionen erfordern eine Internetverbindung. Stellen Sie sicher, dass Ihre Verbindung aktiv ist und das Bild nicht beschädigt ist, oder versuchen Sie es später erneut.</string>
+    <string name="api_request_failed">\nDie API-Anfrage ist fehlgeschlagen. Wenn das Problem weiterhin besteht, achten Sie darauf, die App auf die neueste offizielle Version zu aktualisieren, die bei Google Play verfügbar ist.</string>
     <string name="quota_exceeded">Achtung! Sie haben das temporäre Nutzungslimit für die kostenlose Verwendung dieser Funktion erreicht.\nDas Limit gilt nur für bestimmte cloud-gestützte Funktionen, die ein maximales Nutzungskontingent haben, das je nach Anzahl der Anfragen an den Server variiert und im kostenlosen Modus nicht garantiert ist.\n\nVersuchen Sie es später erneut oder erwerben Sie ein Premium-Abonnement im Lizenzbereich.</string>
     <string name="translation_fail">Übersetzungsmotor nicht bereit.</string>
     <string name="num_download_files">Anzahl der Dateien zum Herunterladen:</string>
@@ -154,7 +154,7 @@
     <string name="stop">Stoppen</string>
     <string name="downloaded_file">Heruntergeladene Datei</string>
     <string name="download_file_error">Dateifehler herunterladen</string>
-    <string name="detection_recovery_mode_error">[Die Erkennung wurde aufgrund eines Fehlers während des Versuchs, die Cloud zu verwenden, automatisch in den lokalen Modus umgestellt.Wenn das Problem weiterhin besteht, achten Sie darauf, die App auf die neueste offizielle Version zu aktualisieren, die bei Google Play verfügbar ist.]</string>
+    <string name="detection_recovery_mode_error">[Die Erkennung wurde aufgrund eines Fehlers während des Versuchs, die Cloud zu verwenden, automatisch in den lokalen Modus umgestellt. Wenn das Problem weiterhin besteht, achten Sie darauf, die App auf die neueste offizielle Version zu aktualisieren, die bei Google Play verfügbar ist.]</string>
     <string name="mode_not_available_on_local">Dieser Modus erfordert eine Cloud-gestützte Erkennung.\nBitte aktivieren Sie den Cloud-Modus für diesen Funktionssatz.</string>
     <string name="alert_custom_models_info">Mit dieser Funktion können fortgeschrittene Benutzer benutzerdefinierte Inferenzmodelle verwenden, um Elemente im Identifikationsmodus [I] oder Lokalisierungsmodus [L] zu erkennen. Die Modelle müssen im TensorFlow Lite-kompatiblen Format mit der Erweiterung .tflite vorliegen. Benutzerdefinierte Modelle müssen im Ordner TFModel abgelegt und dann im Einstellungsmenü konfiguriert werden. Wenn kein benutzerdefiniertes Modell konfiguriert wurde, ignoriert IAT die Auswahl und bleibt bei einem Standardmodell. Weitere Informationen finden Sie in der Dokumentation.</string>
     <!-- End General messages and warning section -->
@@ -207,7 +207,7 @@
 
     <!-- Element detection section -->
     <string name="element_detector">Elementdetektor</string>
-    <string name="element_detector_description">Mit dem Elementdetektor können Sie Elemente in einem Bild identifizieren und Informationen darüber finden.Es unterstützt breite Kategorien, die von leblosen Objekten bis hin zu Pflanzen und Tieren reichen.\n\nVerwenden Sie die rote Taste unten, um ein Bild zu laden.</string>
+    <string name="element_detector_description">Mit dem Elementdetektor können Sie Elemente in einem Bild identifizieren und Informationen darüber finden. Es unterstützt breite Kategorien, die von leblosen Objekten bis hin zu Pflanzen und Tieren reichen.\n\nVerwenden Sie die rote Taste unten, um ein Bild zu laden.</string>
     <string name="brief_description">kurze, aber spezifische Identifikation</string>
     <string name="detection_success">Erkennete Elemente (tippen Sie auf Informationen, langen Tippen Sie auf die Zwischenablage):</string>
     <string name="detection_fail">-&gt; Hoppla! In diesem Bild kann kein Element identifiziert werden.</string>
@@ -220,7 +220,7 @@
 
     <!-- Web detection section -->
     <string name="web_detector">Webbilddetektor</string>
-    <string name="web_detector_description">Mit Web Image Detector können Sie Informationen zum Bild finden, das Internet nach ähnlichen Bildern und zugehörigen Webseiten durchsuchen und den Inhalt gemäß den gepackten Informationen erraten.Diese Funktion bietet Ihnen die zugehörigen Beschriftungen, Links der beteiligten Webseiten, die übereinstimmende und visuell ähnliche Bilder (falls verfügbar) angezeigt werden, sodass Sie auch die jeweiligen Links oder die Bilddateien speichern können.\n\nVerwenden Sie die rote Taste unten, um ein Bild zu laden.</string>
+    <string name="web_detector_description">Mit Web Image Detector können Sie Informationen zum Bild finden, das Internet nach ähnlichen Bildern und zugehörigen Webseiten durchsuchen und den Inhalt gemäß den gepackten Informationen erraten. Diese Funktion bietet Ihnen die zugehörigen Beschriftungen, Links der beteiligten Webseiten, die übereinstimmende und visuell ähnliche Bilder (falls verfügbar) angezeigt werden, sodass Sie auch die jeweiligen Links oder die Bilddateien speichern können.\n\nVerwenden Sie die rote Taste unten, um ein Bild zu laden.</string>
     <string name="detection_web_success">Übereinstimmungen gefunden (tippen Sie auf Suchinformationen, lange tippen, um in die Zwischenablage zu kopieren):</string>
     <string name="detection_web_links">◄ Links mit passenden Bildern (zum Öffnen anklicken): ►</string>
     <string name="matching_images_links">◄ Übereinstimmende Bilder (zum Öffnen anklicken): ►</string>
@@ -266,9 +266,9 @@
 
     <!-- Face Insight section -->
     <string name="face_insight">Gesicht Insight</string>
-    <string name="face_detection_description">Erkennen Sie mehrere Gesichter innerhalb eines Bildes zusammen mit den zugehörigen Gesichtsattributen.Diese Funktion ist auch in der Lage, eine emotionale Analyse durchzuführen, um den emotionalen Zustand zu bestimmen und Ihnen festzustellen, ob die Person Kopfbedeckung trägt.\n\nVerwenden Sie die rote Taste unten, um ein Bild zu laden.</string>
+    <string name="face_detection_description">Erkennen Sie mehrere Gesichter innerhalb eines Bildes zusammen mit den zugehörigen Gesichtsattributen. Diese Funktion ist auch in der Lage, eine emotionale Analyse durchzuführen, um den emotionalen Zustand zu bestimmen und Ihnen festzustellen, ob die Person Kopfbedeckung trägt.\n\nVerwenden Sie die rote Taste unten, um ein Bild zu laden.</string>
     <string name="face_comparison_description">Mit dieser Funktion können Sie die Ähnlichkeit zwischen zwei Personen vergleichen, um einen Identitätsabgleich auf forensischer Ebene durchzuführen. Sie müssen zwei verschiedene Bilder laden. Um ein gültiges Ergebnis zu erhalten, muss jedes Foto ein einzelnes Gesicht enthalten, bei dem alle Elemente (Nase, Augen, Mund usw.) gut sichtbar sind.\n\nVerwenden Sie den roten Knopf unten, um das erste Bild zu laden.</string>
-    <string name="face_age_description">Diese Funktion gibt eine rohe Schätzung des wahrscheinlichen Altersbereichs zurück.Um ein gültiges Ergebnis zu erzielen, muss das Foto ein einzelnes Gesicht enthalten, in dem alle Elemente (Nase, Augen, Mund usw.) gut sichtbar sind.\n\nVerwenden Sie die rote Taste unten, um ein Bild zu laden.</string>
+    <string name="face_age_description">Diese Funktion gibt eine grobe Schätzung der Altersgruppe zurück. Für genaue Ergebnisse müssen alle Gesichtszüge (Nase, Augen, Mund usw.) deutlich sichtbar sein.\n\nVerwende den roten Button unten, um ein Bild zu laden.</string>
     <string name="face_celebrity_description">Mit dieser Funktion können Sie Prominente identifizieren.\n\nVerwenden Sie die rote Taste unten, um ein Bild zu laden.</string>
     <string name="face">GESICHT</string>
     <string name="face_detection_success">Gesichter erkannt (tippen, um in die Zwischenablage zu kopieren):</string>
@@ -363,7 +363,7 @@
 
     <!-- Colorimeter section -->
     <string name="colorimeter">Colorimeter</string>
-    <string name="colorimeter_description">Mit Colorimeter können Sie alle Farben in einem Bild identifizieren und ihre Darstellung in RGB, HSB und Hex-Notation sehen.Für jede erkannte Farbe zeigt die App den Namen der Farbe oder den Namen der ähnlichsten Farbe, falls der Farbton ungewöhnlich ist und keinen Namen hat.\n\nVerwenden Sie die rote Taste unten, um ein Bild zu laden.</string>
+    <string name="colorimeter_description">Mit Colorimeter können Sie alle Farben in einem Bild identifizieren und ihre Darstellung in RGB, HSB und Hex-Notation sehen. Für jede erkannte Farbe zeigt die App den Namen der Farbe oder den Namen der ähnlichsten Farbe, falls der Farbton ungewöhnlich ist und keinen Namen hat.\n\nVerwenden Sie die rote Taste unten, um ein Bild zu laden.</string>
     <string name="color_analysis_success">Farbanalyseergebnis (tippen, um in die Zwischenablage zu kopieren):</string>
     <string name="color_analysis_result_name">Nächster Farbname:</string>
     <string name="color_analysis_result_fail">-&gt; Hoppla! Farben nicht identifizieren.</string>
@@ -372,7 +372,7 @@
 
     <!-- Censorship meter section -->
     <string name="censorship_meter">Zensurrisikomessgerät</string>
-    <string name="censorship_meter_description">Mit diesem Tool können Sie ein Bild überprüfen, um festzustellen, ob sein Inhalt durch automatisches System zensiert oder zu Verbot führen kann.Diese Funktion ist nützlich, da viele soziale Netzwerke und Websites automatische Überprüfungen der hochgeladenen Bilder durchführen und gegen den Benutzer Maßnahmen ergreifen können, wenn ein kritischer Inhalt erkannt wird, und dies oft fälschlicherweise, insbesondere wenn zusätzlich zu misstrauischen Fehlalarmen auch menschliche Berichte vorhanden sind.\n\nVerwenden Sie die rote Taste unten, um ein Bild zu laden.</string>
+    <string name="censorship_meter_description">Mit diesem Tool können Sie ein Bild überprüfen, um festzustellen, ob sein Inhalt durch automatisches System zensiert oder zu Verbot führen kann. Diese Funktion ist nützlich, da viele soziale Netzwerke und Websites automatische Überprüfungen der hochgeladenen Bilder durchführen und gegen den Benutzer Maßnahmen ergreifen können, wenn ein kritischer Inhalt erkannt wird, und dies oft fälschlicherweise, insbesondere wenn zusätzlich zu misstrauischen Fehlalarmen auch menschliche Berichte vorhanden sind.\n\nVerwenden Sie die rote Taste unten, um ein Bild zu laden.</string>
     <string name="censorship_analysis_success">Analyseergebnis (tippen, um in die Zwischenablage zu kopieren):</string>
     <string name="porn">-&gt; Porno:</string>
     <string name="racy">-&gt; Racy:</string>
@@ -380,23 +380,23 @@
     <string name="violence">-&gt; Gewalt:</string>
     <string name="spoof">-&gt; Falschmeldung:</string>
     <string name="risk_analysis_summary">Zusammenfassung der Risikowahrscheinlichkeit:</string>
-    <string name="risk_detected">WARNUNG!Ein Risikofaktor wurde festgestellt.Das Hochladen dieses Bildes könnte in vielen sozialen Netzwerken und Gemeinschaften Verbot und Zensur verursachen.Passt auf.</string>
+    <string name="risk_detected">WARNUNG!Ein Risikofaktor wurde festgestellt. Das Hochladen dieses Bildes könnte in vielen sozialen Netzwerken und Gemeinschaften Verbot und Zensur verursachen. Passt auf.</string>
     <string name="no_risk_detected">Die automatische Analyse hat keine Risiken erkannt.</string>
     <string name="no_risk_detected_almost">Die automatische Analyse hat Risiken nicht erkannt, kann jedoch in den puritanischen Netzwerken weiterhin automatisiert werden.</string>
     <!-- End Censorship meter section -->
 
     <!-- EXIF info section -->
     <string name="exif_info">EXIF info</string>
-    <string name="exif_info_description">Mit dieser Funktion können Sie EXIF ​​-Informationen aus Bilddateien laden und extrahieren, falls verfügbar.\nEXIF ist ein Standard für Metadaten, die viele Informationen als Image Copyright, das verwendete Gerät, Erfassungszeitstempel, GPS-Tag-Daten, verwendete Photo-Manipulation-Software, Kamerasensor, Blende, Brennweite, Verschlusszeit, Weißabgleich, ISO-Level usw. enthalten können..\nNotiz:\nEXIF-Daten werden häufig von Diensten entfernt, die die Bilder neu verarbeiten, sodass Sie Null- oder inkonsistente Daten finden können, wenn Sie diese Funktion mit Bildern verwenden, die beispielsweise von Facebook, WhatsApp, Instagram und ähnlichem heruntergeladen sind.\n\nVerwenden Sie die rote Taste unten, um ein Bild zu laden.</string>
+    <string name="exif_info_description">Mit dieser Funktion können Sie EXIF Informationen aus Bilddateien laden und extrahieren, falls verfügbar.\nEXIF ist ein Standard für Metadaten, die viele Informationen als Image Copyright, das verwendete Gerät, Erfassungszeitstempel, GPS-Tag-Daten, verwendete Photo-Manipulation-Software, Kamerasensor, Blende, Brennweite, Verschlusszeit, Weißabgleich, ISO-Level usw. enthalten können..\nNotiz:\nEXIF-Daten werden häufig von Diensten entfernt, die Bilder neu verarbeiten, sodass Sie Null- oder inkonsistente Daten finden können, wenn Sie diese Funktion mit Bildern verwenden, die beispielsweise von Facebook, WhatsApp, Instagram und ähnlichem heruntergeladen sind.\n\nVerwenden Sie die rote Taste unten, um ein Bild zu laden.</string>
     <string name="exif_info_result_success">EXIF-Metadaten gefunden (tippen, um in die Zwischenablage zu kopieren):</string>
-    <string name="exif_info_result_fail">-&gt; Hoppla! In diesem Bild kann kein EXIF ​​identifizieren.</string>
-    <string name="exif_info_result_error">-&gt; Hoppla! Aufgrund eines unerwarteten Fehlers kann kein EXIF ​​identifiziert werden.</string>
+    <string name="exif_info_result_fail">-&gt; Hoppla! In diesem Bild kann kein EXIF identifizieren.</string>
+    <string name="exif_info_result_error">-&gt; Hoppla! Aufgrund eines unerwarteten Fehlers kann kein EXIF identifiziert werden.</string>
     <!-- End EXIF info section -->
 
     <!-- ELA section -->
     <string name="ela">ELA</string>
     <string name="ela_description">Diese Funktion generiert eine Fehlermaske, mit der Sie Abschnitte in einem Bild leichter erkennen können, die manipuliert werden können, je nach Inhomogenität der Fehlerverteilung im Vergleich zum lokalen Muster.\n(Eine sehr einfache Möglichkeit, sich mit dem Tool vertraut zu machen, besteht darin, zu versuchen, einige Bilder zu ändern und zu sehen, wie die Fehlermaske an den geänderten Punkten aussieht.)\n\nVerwenden Sie die rote Schaltfläche unten, um ein Bild zu laden.</string>
-    <string name="ela_success">Schieben Sie nach links und rechts, um die Analysemaske und das Originalbild anzuzeigen.Das inkohärente Fehlerverteilungsmuster in einem bestimmten Bereich zeigt an, dass der Bereich manipuliert wurde.Verwenden Sie die Stange, um die Schwelle festzulegen.</string>
+    <string name="ela_success">Schieben Sie nach links und rechts, um die Analysemaske und das Originalbild anzuzeigen. Das inkohärente Fehlerverteilungsmuster in einem bestimmten Bereich zeigt an, dass der Bereich manipuliert wurde. Verwenden Sie die Stange, um die Schwelle festzulegen.</string>
     <string name="ela_error">Hoppla! Während der Analysemaskenerzeugung trat ein Fehler auf.\nStellen Sie sicher, dass das ausgewählte Bild gültig ist.</string>
     <!-- End ELA section -->
 
@@ -425,7 +425,7 @@
     <string name="premium_silver_description">Das monatliche Premium-Abonnement deaktiviert alle Anzeigen und Einschränkungen für die bestmögliche Benutzererfahrung.</string>
     <string name="premium_gold">Goldabonnement</string>
     <string name="premium_gold_content">Gold Abonnement Taste</string>
-    <string name="premium_gold_description">Jährliches Premium-Abonnement deaktiviert alle Anzeigen und Einschränkungen für die bestmögliche Benutzererfahrung.Das jährliche Gold-Abonnement ist billiger als 12 Monate Silver-Abonnement.</string>
+    <string name="premium_gold_description">Jährliches Premium-Abonnement deaktiviert alle Anzeigen und Einschränkungen für die bestmögliche Benutzererfahrung. Das jährliche Gold-Abonnement ist billiger als 12 Monate Silver-Abonnement.</string>
     <!-- End Billing section -->
 
 </resources>

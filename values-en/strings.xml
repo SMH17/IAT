@@ -25,7 +25,7 @@
     <string name="year">year</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permissions">Permissions not enough. Give to the App the needed permissions.</string>
-    <string name="info_text">Version 0.3.5 SR 201\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.3.5 SR 203\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -272,7 +272,7 @@
     <string name="face_insight">Face Insight</string>
     <string name="face_detection_description">Detect multiple faces within an image, along with the associated facial attributes. This function is also able to perform an emotional analysis to determine the emotional state plus It can tell you if the person is wearing headwear.\n\nUse the red button at the bottom to load an image.</string>
     <string name="face_comparison_description">This function allows you to compare resemblance between 2 persons for forensic level identity matching. You have to load 2 different images. In order to get a valid result, each photo must contain a single face where all elements (nose, eyes, mouth etc.) are well visible.\n\nUse the red button at the bottom to load the first image.</string>
-    <string name="face_age_description">This function returns a raw estimation of the likely age range. In order to get a valid result, the photo must contain a single face where all elements (nose, eyes, mouth etc.) are well visible.\n\nUse the red button at the bottom to load an image.</string>
+    <string name="face_age_description">This feature provides a rough estimate of the likely age range. For accurate results, all facial features (nose, eyes, mouth, etc.) must be clearly visible.\n\nUse the red button at the bottom to load an image.</string>
     <string name="face_celebrity_description">This function allows you to identify celebrities.\n\nUse the red button at the bottom to load an image.</string>
     <string name="face">FACE</string>
     <string name="face_detection_success">Faces detected (tap to copy to clipboard):</string>
