@@ -8,12 +8,21 @@
     <string name="share_title">Tell to friends</string>
     <string name="bug_report">Bug report</string>
     <string name="share_text">link</string>
+    <string name="share_image">Share Image</string>
+    <string name="share_images">Share Images</string>
+    <string name="share_image_bt">➤ Image</string>
+    <string name="shared_images">Shared images</string>
+    <string name="no_share_intent_app">No app available to handle the share action.</string>
     <string name="note">Note</string>
     <string name="warning">Warning</string>
     <string name="hint">Hint</string>
     <string name="close">Close</string>
     <string name="done">Done</string>
     <string name="wait_and_retry">Try again after I finish.</string>
+    <string name="background_processing">Background processing</string>
+    <string name="processing">Processing</string>
+    <string name="task_running">Task is running…</string>
+    <string name="ok">OK</string>
     <string name="next">Continue</string>
     <string name="undo">Undo</string>
     <string name="communicate">Communicate</string>
@@ -25,7 +34,7 @@
     <string name="year">year</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permissions">Permissions not enough. Give to the App the needed permissions.</string>
-    <string name="info_text">Version 0.3.5 SR 203\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.3.8 SR 221\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -38,7 +47,7 @@
     <string name="action_download">Download</string>
     <string name="action_tts">Start-Stop Listen Result</string>
     <string name="action_search">Search</string>
-    <string name="action_smart_sort">Smart Sort</string>
+    <string name="action_smart_sort">AI Sorting</string>
     <string name="action_batch">Batch</string>
     <string name="action_settings">Settings</string>
     <string name="action_info">Info</string>
@@ -49,19 +58,22 @@
     <!-- Setting section -->
     <string name="app_theme">App Theme</string>
     <string name="setting_title">Settings</string>
-    <string name="alert_setting_text">Input the max number of elements, an higher number will allow you to see more results, however the additional results have a less likely match ratio.\nDefault value: 10,</string>
+    <string name="alert_max_res_setting_text">Input the max number of elements, an higher number will allow you to see more results, however the additional results have a less likely match ratio.\nDefault value: 10,</string>
     <string name="alert_setting_quality">Set the detection quality level (default value: 1200). An higher value could produce more accurate results but is slower.\nQuality value:</string>
     <string name="use_element_detection_cloud">Use Cloud for accurate element detection</string>
     <string name="use_ocr_cloud">Use Cloud for accurate text detection</string>
     <string name="use_face_detection_cloud">Use Cloud for accurate face detection</string>
+    <string name="use_colorimeter_old_mode">Use old mode for colorimeter</string>
     <string name="enable_detector_localization">Enable detector translation</string>
     <string name="show_detection_markers">Show Detection Markers</string>
     <string name="enable_tts">Speak out loud results</string>
+    <string name="include_subfolder_files">Include subfolders in batch processing</string>
     <string name="batch_results_in_source_dir">Output batch results in source directory</string>
     <string name="open_last_path">Open last path</string>
     <string name="filter_unlabeled_output">Filter unlabeled output</string>
-    <string name="face_comparison_comment">Faces comparison comment</string>
     <string name="additional_facial_markers">Additional facial markers</string>
+    <string name="face_comparison_comment">Faces comparison comment</string>
+    <string name="edge_gpu">GPU/NPU Negotiation</string>
     <!-- ## Custom Detector Settings-->
     <string name="custom_model_section">Custom model:</string>
     <string name="custom_model_name">Custom TF-Lite model</string>
@@ -122,7 +134,7 @@
     <string name="alert_adblocker">In your device has been detected a global AdBlocker. Developing and maintaining this App requires resources, time and expenses. We cannot provide all this for free if you block even the Ads. The commands of the App are now disabled. Disable AdBlocker (or whitelist this App) if you want to use the free mode, or alternatively, purchase a Premium subscription.</string>
     <string name="alert_disabled_network">In your device has been detected airplane mode or all connectivity features disabled. Only premium users can use the app in offline mode because free version is maintained by Ads. To overcome this limit, purchase a Premium subscription.</string>
     <string name="alert_consent_info">From here you can manage privacy consent. A proper consent is needed only to show ads. It isn\'t needed in premium mode.\nGive the consent or get a premium subscription.</string>
-    <string name="alert_noadsconsent">You have denied the consent to show ads. Ads are needed to cover expenses in free mode.\nGive the consent or get a premium subscription.</string>
+    <string name="alert_no_ads_consent">You have denied the consent to show ads. Ads are needed to cover expenses in free mode.\nGive the consent or get a premium subscription.</string>
     <string name="set_consent">Set Consent</string>
     <string name="alert_no_web_search">Result copied to clipboard.\nNo supported search assistants found on your device. Install a supported search assistant (e.g. Google Search) to enable integrated search feature.</string>
     <string name="alert_no_open_url">Result copied to clipboard.\nNo supported web browsers found on your device. Install a supported web browser(e.g. Chrome or Firefox) to enable direct url opening feature.</string>
@@ -144,7 +156,7 @@
     <string name="save_file_error">Error during file saving!</string>
     <string name="storage_manager_error">Storage manager error!</string>
     <string name="image_preview">Image preview</string>
-    <string name="loading_message">Analysis in progress&#8230; Please wait.</string>
+    <string name="loading_message">Analysis in progress… Please wait.</string>
     <string name="nothing_to_speech">Analyze a picture before using this function.</string>
     <string name="cannot_analyze_now">Something has gone wrong. Some features require an internet connection. Make sure your connection is active and image isn\'t corrupted or try again later.</string>
     <string name="api_request_failed">\nAPI request failed. If the problem persists, make sure to update the App to latest official version available on Google Play.</string>
@@ -173,20 +185,30 @@
     <string name="complete_analysis_before">Complete an analysis before.</string>
     <string name="keyword_not_found">Keyword not found!</string>
     <string name="batch_search_description">This function allows you to search contents of interest leaving only elements whose results match a keyword.\nEnter the keyword.</string>
-    <string name="output_path_tip">If you click save button on top, results will be saved in default IAT path, however, in settings you can configure the batch results saving, in order to output results txt in the source directory.</string>
-    <string name="batch_success">Batch analysis completed.\nClick on each element to see results, long press to copy results on clipboard.</string>
+    <string name="output_path_tip">If you tap save button on top, results will be saved in default IAT path, however, in settings you can configure the batch results saving, in order to output results txt in the source directory.</string>
+    <string name="batch_success">Batch analysis completed.\Tap on each element to see results, long press to copy results on clipboard.</string>
     <string name="batch_fail">Batch procedure fail.\nMake sure the selected path contains valid image files, or send a bug report using navigation drawer menu if you think it\'s an App error.</string>
     <string name="analysis_type">Analysis type:</string>
     <string name="analysis_result">Analysis results:</string>
     <string name="copy_b">Copy</string>
     <string name="save">Save</string>
     <string name="search">Search</string>
+    <string name="search_mode">Search Mode</string>
+    <string name="select_search_mode">Select search mode</string>
+    <string name="by_keyword">By Keyword</string>
+    <string name="by_resemblance">By Resemblance</string>
+    <string name="by_geometric_affinity">By Geometric Affinity</string>
+    <string name="min_threshold">Minimum threshold:</string>
+    <string name="relevant_results">Relevant results</string>
     <string name="translate">Translate</string>
     <string name="smart_sort_alert">This function automatically sorts the images in selected path, according the detected content, moving or copying them in an appropriate folder if already exists in the path, or in a new subfolder with the classification category name.\n\n</string>
-    <string name="smart_sort_completed">Smart Sort task completed. Number of sorted files: </string>
-    <string name="threshold">Minimum classification threshold:</string>
+    <string name="smart_sort_by_resemblance_alert">This feature automatically sorts images containing people in the selected path by resemblance, moving or copying them into separate folders according to the similarity threshold.</string>
+    <string name="no_face">NO_FACE</string>
+    <string name="person">Person_%03d</string>
+    <string name="smart_sort_completed">Smart Sorting task completed. Number of sorted files: </string>
+    <string name="min_classification_threshold">Minimum classification threshold:</string>
     <string name="blank_string" translatable="false">…</string>
-    <string name="play_symbol" translatable="false">&#9658;</string>
+    <string name="play_symbol" translatable="false">►</string>
     <string name="stop_symbol" translatable="false">&#9632;</string>
     <!-- End Batch section -->
 
@@ -212,10 +234,10 @@
     <!-- Element detection section -->
     <string name="element_detector">Element Detector</string>
     <string name="element_detector_description">Element detector allows you to identify elements within an image, to find information about them. It supports broad sets of categories ranging from inanimate objects to plants and animals.\n\nUse the red button at the bottom to load an image.</string>
-    <string name="brief_description">brief but specific identification</string>
+    <string name="element_brief_description">brief but specific identification</string>
     <string name="detection_success">Detected elements (tap to search info, long tap to copy to clipboard):</string>
     <string name="detection_fail">-> Oops! Cannot identify any element in this picture.</string>
-    <string name="model_error">-> Oops! Unspecified error during model initialization.\nMake sure to use models in a suitable format with embedded labels metadata and that model doesn\'t exceed your device resources limits.</string>
+    <string name="model_error">-> Oops! Unspecified error during model initialization.\nMake sure to use models in a suitable format with embedded labels metadata and that model doesn\'t exceed the resource limits of your device.</string>
     <string name="analysis_error">-> Oops! Error during analysis.</string>
     <string name="detection_offline_success">Detected elements in offline mode (tap to search info, long tap to copy to clipboard):</string>
     <string name="detection_offline_fail">-> Oops! Cannot identify any element in this picture.\n\nYou are in local mode, with an internet connection active you can get better results.</string>
@@ -226,10 +248,10 @@
     <string name="web_detector">Web Image Detector</string>
     <string name="web_detector_description">Web image detector allows you to find info about the image, searching the Internet for similar images and related web pages, and guessing the content according the grabbed information. This feature provides you the related labels, links of the involved web pages, showing matching and visually similar images (if available), allowing you to save also the respective links or the image files.\n\nUse the red button at the bottom to load an image.</string>
     <string name="detection_web_success">Matches found (tap to search info, long tap to copy to clipboard):</string>
-    <string name="detection_web_links">&#9668; Webpages with matched images (click to open): &#9658;</string>
-    <string name="matching_images_links">&#9668; Matching images (click to open): &#9658;</string>
-    <string name="partially_matching_images_links">&#9668; Partially matching (click to open): &#9658;</string>
-    <string name="similar_images_links">&#9668; Similar images (click to open): &#9658;</string>
+    <string name="detection_web_links">◄ Webpages with matched images (tap to open): ►</string>
+    <string name="matching_images_links">◄ Matching images (tap to open): ►</string>
+    <string name="partially_matching_images_links">◄ Partially matching (tap to open): ►</string>
+    <string name="similar_images_links">◄ Similar images (tap to open): ►</string>
     <string name="matching_web_pages">Web pages with matched images:</string>
     <string name="matching_images">Matching images</string>
     <string name="partially_matching_images">Partially matching</string>
@@ -258,19 +280,21 @@
     <!-- Logo detection section -->
     <string name="logo_detector">Logo Detector</string>
     <string name="logo_detector_description">Logo detector allows you to identify logos, to find information about brands and products.\n\nUse the red button at the bottom to load an image.</string>
+    <string name="logo_brief_description">name the brand or organization shown</string>
     <string name="detection_logo_fail">-> Oops! Cannot identify any logo in this picture.</string>
     <!-- End Logo detection section -->
 
     <!-- Landmark detection section -->
     <string name="landmark_detector">Landmark Detector</string>
     <string name="landmark_detector_description">Landmark detector allows you to identify popular natural and man-made structures, to search info about them or their locality.\n\nUse the red button at the bottom to load an image.</string>
+    <string name="landmark_brief_description">name the most likely place shown</string>
     <string name="detection_landmark_success">Detected landmarks (tap to search info, long tap to copy to clipboard):</string>
     <string name="detection_landmark_fail">-> Oops! Cannot identify any landmark in this picture.</string>
     <!-- End Landmark detection section -->
 
     <!-- Face Insight section -->
     <string name="face_insight">Face Insight</string>
-    <string name="face_detection_description">Detect multiple faces within an image, along with the associated facial attributes. This function is also able to perform an emotional analysis to determine the emotional state plus It can tell you if the person is wearing headwear.\n\nUse the red button at the bottom to load an image.</string>
+    <string name="face_detection_description">Detect multiple faces in an image along with their associated facial attributes. This function can also perform emotional analysis to determine each subject’s emotional state, and it can provide details about facial structure.\n\nUse the red button at the bottom to load an image.</string>
     <string name="face_comparison_description">This function allows you to compare resemblance between 2 persons for forensic level identity matching. You have to load 2 different images. In order to get a valid result, each photo must contain a single face where all elements (nose, eyes, mouth etc.) are well visible.\n\nUse the red button at the bottom to load the first image.</string>
     <string name="face_age_description">This feature provides a rough estimate of the likely age range. For accurate results, all facial features (nose, eyes, mouth, etc.) must be clearly visible.\n\nUse the red button at the bottom to load an image.</string>
     <string name="face_celebrity_description">This function allows you to identify celebrities.\n\nUse the red button at the bottom to load an image.</string>
@@ -281,11 +305,14 @@
     <string name="detection_face_fail_offline">-> Oops! Cannot identify any face in this picture.\n\nYou are in local mode, with an internet connection active you can get better results.</string>
     <string name="face_age_success">Age range estimation completed (tap to copy to clipboard):</string>
     <string name="face_comparison_success">Faces compared (tap to copy to clipboard):</string>
-    <string name="face_comparison_fail">-> Oops! Cannot compare faces.\nMaybe one of the picture provided isn\'t good enough.\n\nIf you think this is an error, use bug report command in the drawer menu.</string>
+    <string name="face_comparison_fail">-> Oops! Cannot compare faces.\nMaybe one of the pictures provided isn\'t good enough.\n\nIf you think this is an error, use bug report command in the drawer menu.</string>
     <string name="face_comparison_matching">Faces compared match.</string>
     <string name="face_comparison_partial_matching">Faces compared have a high resemblance level.</string>
     <string name="face_comparison_low_matching">The resemblance level is low.</string>
     <string name="face_comparison_no_matching">The resemblance level is extremely low.</string>
+    <string name="face_comparison_offline">You are in offline mode. Enable cloud mode for more advanced resemblance comparison and identity matching.</string>
+    <string name="geometric_affinity_only">This is geometric affinity check only, because you are in offline mode and local facial similarity engine is not available.</string>
+    <string name="geometric_affinity">Geometric affinity</string>
     <string name="face_celebrity_success">Detected high facial similarity with one or more celebrities (tap to search info, long tap to copy to clipboard):</string>
     <string name="face_celebrity_fail">-> Oops! Cannot identify any celebrity in this picture.</string>
     <string name="emotional_analysis">Emotional analysis</string>
@@ -346,16 +373,18 @@
     <string name="mouth_center">Mouth center</string>
     <string name="chin_gnathion">Chin gnation</string>
     <string name="chin_left_gonion">Chin left gonion</string>
-    <!--    <string name="chin_right_gonion">Chin right gonion</string>-->
+    <string name="chin_right_gonion">Chin right gonion</string>
     <string name="face_status">Face status</string>
     <string name="rotation">Rotation</string>
-    <string name="maxillofacial_armony_score">Maxillofacial harmony</string>
+    <string name="maxillofacial_harmony_score">Maxillofacial harmony</string>
+    <string name="harmony_confidence">Harmony evaluation confidence</string>
     <string name="happiness_probability">Happiness probability</string>
     <string name="is_smiling_probability">Is smiling probability</string>
     <string name="is_left_eye_open_probability">Is left eye opened probability</string>
     <string name="is_right_eye_open_probability">Is right eye opened probability</string>
     <string name="resemblance_level">Resemblance level</string>
     <string name="first_image_loaded">-> First image loaded!\n\nPlease load a second image for comparison.</string>
+    <string name="face_edge_pack_notice_message">A new on-device facial analysis engine is available.\nThis enables extra features such as searching for a face in a folder in Batch mode, and it will be used when there is no network connection, when the cloud engine is disabled, or when cloud services are unavailable.\n\nTo enable this feature, the app must download an additional %1$s of data.</string>
     <!-- End Face Insight section -->
 
     <!-- Barcode detector section -->
@@ -363,6 +392,7 @@
     <string name="barcode_detector_description">Barcode detector can detect almost all types of barcodes.\n1D barcodes:\nEAN-13, EAN-8, UPC-A, UPC-E, Code-39, Code-93, Code-128, ITF, Codabar.\n2D barcodes:\nQR Code, Data Matrix, PDF-417, AZTEC.\n\nUse the red buttons at the bottom to load an image or enter in camera scan mode.</string>
     <string name="barcode_detector_success">Barcode data detected (tap to copy to clipboard, long tap to search info):</string>
     <string name="barcode_detector_fail">-> Oops! Cannot identify any barcode in this picture.</string>
+    <string name="code_format">Code Type</string>
     <string name="barcode_error">"-> Error reading barcode: %1$s"</string>
     <!-- End Barcode detector section -->
 
@@ -400,9 +430,14 @@
 
     <!-- ELA section -->
     <string name="ela">ELA</string>
-    <string name="ela_description">This feature generates an error mask, to allow you to spot more easily tampered sections in an image, according the inhomogeneity in the distribution of the error compared to the local pattern.\n(A very easy way to familiarize with the tool is to try to alter some images and see how the error mask looks in the altered points.)\n\nUse the red button at the bottom to load an image.</string>
+    <string name="ela_description">This feature generates an error mask, to allow you to spot more easily tampered sections in an image, according to the inhomogeneity in the distribution of the error compared to the local pattern.\n(A very easy way to familiarize with the tool is to try to alter some images and see how the error mask looks in the altered points.)\n\nUse the red button at the bottom to load an image.</string>
     <string name="ela_success">Slide left and right to show analysis mask and original picture. Incoherent error distribution pattern in a specific area indicates the area has been tampered. Use the bar to set threshold.</string>
     <string name="ela_error">Oops! An error occurred during the analysis mask generation.\nMake sure the image selected is valid.</string>
+    <string name="gen_ai_detector_description">This feature detects algorithmic patterns typically introduced by generative AI, GANs or Diffusion Models contaminations.\n\nUse the red button at the bottom to load an image.</string>
+    <string name="ai_gen_success">Note that some AI-based image enhancement features and other minor contamination factors could cause false positives, and this is a research field constantly evolving, so it isn\'t granted that all kinds of AI generations are detected.</string>
+    <string name="ai_gen_failure">An error occurred during the image analysis. Make sure the image file is valid and its resolution isn\'t too low.</string>
+    <string name="ai_gen_probability">AI contamination probability</string>
+    <string name="genai_detector_pack_notice_message">New GenAI Detector module is available.\nThis feature allows detection of AI generated images and deepfakes. To enable it the app must download an additional 41MB of data.</string>
     <!-- End ELA section -->
 
     <!-- Likelihood levels -->
@@ -422,6 +457,7 @@
     <string name="active">ACTIVE</string>
     <string name="pending">PENDING</string>
     <string name="disabled">DISABLED</string>
+    <string name="subscription_suspended_warning">Your %1$s is currently suspended. This may be due to a paused subscription or a declined payment during a renewal attempt.\nPlease visit the Google Play Subscription Center to manage or update your subscription.</string>
     <string name="ads_mode_click">Ads mode will be automatically disabled if you purchase a Silver or Gold subscription, and It is enabled if there isn\'t any subscription active.</string>
     <string name="ads_mode">Ads Mode</string>
     <string name="ads_mode_description">All features enabled but you will see some ads randomly when you access a new section of this App from the home. (The default free mode)</string>
@@ -432,5 +468,28 @@
     <string name="premium_gold_content">Gold Subscription Button</string>
     <string name="premium_gold_description">Yearly premium subscription disables all ads and limitations for the best user experience possible. Yearly Gold subscription is cheaper than 12 months of Silver subscription.</string>
     <!-- End Billing section -->
+
+    <!-- General On Demand features -->
+    <string name="pad_reason_pack_state_missing">Pack state is missing.</string>
+    <string name="pad_reason_pack_not_completed">Pack not completed (status=%1$d).</string>
+    <string name="pad_reason_file_missing_or_invalid">File missing or invalid in the asset pack.</string>
+    <string name="pad_reason_get_pack_states_failed">getPackStates failed: %1$s</string>
+    <string name="pad_enable_feature_title">Enable feature?</string>
+    <string name="pad_enable_feature_message">This feature requires additional assets.</string>
+    <string name="pad_download_required_title">Download required</string>
+    <string name="pad_download_assets_now_message">Download assets now?</string>
+    <string name="pad_download_message_no_status">This feature requires additional data.\n\nDownload now?</string>
+    <!-- %1$s should already be the full "Status: ..." line -->
+    <string name="pad_download_message_with_status">This feature requires additional data.\n\n%1$s\n\nDownload now?</string>
+    <string name="pad_download_failed">Download failed: </string>
+    <string name="pad_download_canceled">Download canceled</string>
+    <string name="pad_status_prefix">Status: %1$s</string>
+    <!-- Buttons -->
+    <string name="pad_btn_yes">Yes</string>
+    <string name="pad_btn_no">No</string>
+    <string name="pad_btn_download">Download</string>
+    <string name="pad_btn_cancel">Cancel</string>
+    <string name="pad_btn_not_now">Not now</string>
+    <!-- End General On Demand features -->
 
 </resources>

@@ -7,12 +7,21 @@
     <string name="share_title">Decirle a sus amigos</string>
     <string name="bug_report">Informe de error</string>
     <string name="share_text">enlace</string>
+    <string name="share_image">Compartir imagen</string>
+    <string name="share_images">Compartir imágenes</string>
+    <string name="share_image_bt">➤ Imagen</string>
+    <string name="shared_images">Imágenes compartidas</string>
+    <string name="no_share_intent_app">No hay app disponible para compartir</string>
     <string name="note">Nota</string>
     <string name="warning">Advertencia</string>
     <string name="hint">Pista</string>
     <string name="close">Cerrar</string>
     <string name="done">Hecho</string>
     <string name="wait_and_retry">Inténtalo de nuevo después de que termine.</string>
+    <string name="background_processing">Procesamiento en segundo plano</string>
+    <string name="processing">Procesando</string>
+    <string name="task_running">Tarea en ejecución…</string>
+    <string name="ok">OK</string>
     <string name="next">Continuar</string>
     <string name="undo">Deshacer</string>
     <string name="communicate">Comunicar</string>
@@ -24,7 +33,7 @@
     <string name="year">año</string>
     <string name="invalid_setting">Configuración no válida</string>
     <string name="insufficient_permissions">Permisos no suficientes. Dé a la aplicación los permisos necesarios.</string>
-    <string name="info_text">Versión 0.3.5 SR 203\nDesarrollado por S. Marano, SMH17 Todos los derechos reservados. Cualquier replicación, modificación, reutilización del código o elementos gráficos, incluso parcial, está estrictamente prohibido sin un permiso explícito del autor.\nAdmob, Play, TensorFlow y todas las tecnologías de Google relacionadas son propiedad de Google LLC y están sujetos a los términos de la licencia de Google LLC.\nPara obtener información adicional sobre los derechos de autor y los términos de la licencia, contáctenos.</string>
+    <string name="info_text">Versión 0.3.8 SR 221\nDesarrollado por S. Marano, SMH17 Todos los derechos reservados. Cualquier replicación, modificación, reutilización del código o elementos gráficos, incluso parcial, está estrictamente prohibido sin un permiso explícito del autor.\nAdmob, Play, TensorFlow y todas las tecnologías de Google relacionadas son propiedad de Google LLC y están sujetos a los términos de la licencia de Google LLC.\nPara obtener información adicional sobre los derechos de autor y los términos de la licencia, contáctenos.</string>
     <string name="choose_email_client">Elija un cliente de correo electrónico</string>
     <string name="problem_description">DESCRIPCIÓN DEL PROBLEMA</string>
     <string name="error">ERROR</string>
@@ -37,7 +46,7 @@
     <string name="action_download">Descargar</string>
     <string name="action_tts">Iniciar-Detener a escuchar el resultado</string>
     <string name="action_search">Buscar</string>
-    <string name="action_smart_sort">Smart Sort</string>
+    <string name="action_smart_sort">Ordenamiento AI</string>
     <string name="action_batch">Lote</string>
     <string name="action_settings">Ajustes</string>
     <string name="action_info">Información</string>
@@ -48,19 +57,22 @@
 	<!-- Setting section -->
     <string name="app_theme">Tema de la aplicación</string>
     <string name="setting_title">Ajustes</string>
-    <string name="alert_setting_text">Ingrese el número máximo de elementos, un número más alto le permitirá ver más resultados, sin embargo, los resultados adicionales tienen una relación de coincidencia menos probable.\nValor predeterminado: 10,</string>
+    <string name="alert_max_res_setting_text">Ingrese el número máximo de elementos, un número más alto le permitirá ver más resultados, sin embargo, los resultados adicionales tienen una relación de coincidencia menos probable.\nValor predeterminado: 10,</string>
     <string name="alert_setting_quality">Establezca el nivel de calidad de detección (valor predeterminado: 1200). Un valor más alto podría producir resultados más precisos, pero es más lento.\nValor de calidad:</string>
     <string name="use_element_detection_cloud">Use la nube para la detección de elementos precisos</string>
     <string name="use_ocr_cloud">Use la nube para una detección de texto precisa</string>
     <string name="use_face_detection_cloud">Use la nube para una detección de cara precisa</string>
+    <string name="use_colorimeter_old_mode">Usar modo antiguo del colorímetro</string>
     <string name="enable_detector_localization">Habilitar la traducción del detector</string>
     <string name="show_detection_markers">Mostrar marcadores de detección</string>
     <string name="enable_tts">Habla en voz alta resultados</string>
-    <string name="batch_results_in_source_dir">Resultados por lotes de salida en el directorio de origen</string>
+    <string name="include_subfolder_files">Incluir subcarpetas en lote</string>
+    <string name="batch_results_in_source_dir">Guardar resultados del lote en la carpeta de origen</string>
     <string name="open_last_path">Abrir el último camino</string>
     <string name="filter_unlabeled_output">Filtrar Salida sin etiqueta</string>
-    <string name="face_comparison_comment">Comentario comparación de rostros</string>
     <string name="additional_facial_markers">Marcadores faciales adicionales</string>
+    <string name="face_comparison_comment">Comentario comparación de rostros</string>
+    <string name="edge_gpu">Optimización GPU/NPU</string>
     <!-- ## Custom Detector Settings-->
     <string name="custom_model_section">Modelo personalizado:</string>
     <string name="custom_model_name">Modelo TF-lite personalizado</string>
@@ -121,7 +133,7 @@
     <string name="alert_adblocker">En su dispositivo se ha detectado un AdBlocker global. Desarrollar y mantener esta aplicación requiere recursos, tiempo y gastos. No podemos proporcionar todo esto gratis si bloquea incluso los anuncios. Los comandos de la aplicación ahora están deshabilitados. Deshabilite AdBlocker (o Whitelist esta aplicación) si desea utilizar el modo gratuito, o alternativamente, compre una suscripción premium.</string>
     <string name="alert_disabled_network">En su dispositivo se ha detectado el modo avión o todas las funciones de conectividad están desactivadas. Solo los usuarios premium pueden usar la aplicación en modo fuera de línea porque Ads mantiene la versión gratuita. Para superar este límite, compre una suscripción Premium.</string>
     <string name="alert_consent_info">Desde aquí puede administrar el consentimiento de privacidad. Se necesita un consentimiento adecuado solo para mostrar anuncios. No es necesario en modo premium.\nDé el consentimiento o obtenga una suscripción premium.</string>
-    <string name="alert_noadsconsent">Has negado el consentimiento para mostrar anuncios. Se necesitan anuncios para cubrir los gastos en modo gratuito.\nDé el consentimiento o obtenga una suscripción premium.</string>
+    <string name="alert_no_ads_consent">Has negado el consentimiento para mostrar anuncios. Se necesitan anuncios para cubrir los gastos en modo gratuito.\nDé el consentimiento o obtenga una suscripción premium.</string>
     <string name="set_consent">Establecer el consentimiento</string>
     <string name="alert_no_web_search">Resultado copiado al portapapeles.\nNo hay asistentes de búsqueda compatibles que se encuentren en su dispositivo. Instale un asistente de búsqueda compatible (por ejemplo, búsqueda de Google) para habilitar la función de búsqueda integrada.</string>
     <string name="alert_no_open_url">Resultado copiado al portapapeles.\nNo se encuentran navegadores web compatibles en su dispositivo. Instale un navegador web compatible (por ejemplo, Chrome o Firefox) para habilitar la función de apertura directa de URL.</string>
@@ -173,23 +185,33 @@
     <string name="keyword_not_found">Palabra clave no encontrada!</string>
     <string name="batch_search_description">Esta función le permite buscar contenidos de interés, dejando solo elementos cuyos resultados coinciden con una palabra clave.\nIngrese la palabra clave.</string>
     <string name="output_path_tip">Si hace clic en el botón Guardar en la parte superior, los resultados se guardarán en la ruta IAT predeterminada, sin embargo, en la configuración puede configurar el ahorro de resultados de lotes, para obtener los resultados de TXT en el directorio de origen.</string>
-    <string name="batch_success">Análisis por lotes completado.\nHaga clic en cada elemento para ver los resultados, presione Long para copiar resultados en el portapapeles.</string>
-    <string name="batch_fail">Procedimiento por lotes Fall.\nAsegúrese de que la ruta seleccionada contenga archivos de imagen válidos o envíe un informe de errores utilizando el menú de cajón de navegación si cree que es un error de aplicación.</string>
+    <string name="batch_success">Análisis por lotes completado.\nHaga clic en cada elemento para ver los resultados, mantenga presionado para copiar resultados en el portapapeles.</string>
+    <string name="batch_fail">Procedimiento por lotes fallido.\nAsegúrese de que la ruta seleccionada contenga archivos de imagen válidos o envíe un informe de errores utilizando el menú de cajón de navegación si cree que es un error de aplicación.</string>
     <string name="analysis_type">Tipo de análisis:</string>
     <string name="analysis_result">Resultados de analisis:</string>
     <string name="copy_b">Copiar</string>
     <string name="save">Guardar</string>
     <string name="search">Buscar</string>
+    <string name="search_mode">Modo de búsqueda</string>
+    <string name="select_search_mode">Selecciona el modo de búsqueda</string>
+    <string name="by_keyword">Por palabra clave</string>
+    <string name="by_resemblance">Por semejanza</string>
+    <string name="by_geometric_affinity">Por afinidad geométrica</string>
+    <string name="min_threshold">Umbral mínimo:</string>
+    <string name="relevant_results">Resultados relevantes</string>
     <string name="translate">Traducir</string>
     <string name="smart_sort_alert">Esta función ordena automáticamente las imágenes en la ruta seleccionada, según el contenido detectado, moviéndolas o copiándolas a una carpeta adecuada si ya existe en la ruta, o en una nueva subcarpeta con el nombre de la categoría de clasificación.\n\n</string>
+    <string name="smart_sort_by_resemblance_alert">Esta función ordena automáticamente las imágenes que contienen personas en la ruta seleccionada por semejanza, moviéndolas o copiándolas a carpetas separadas según el umbral de similitud.</string>
+    <string name="no_face">SIN_ROSTROS</string>
+    <string name="person">Persona_%03d</string>
     <string name="smart_sort_completed">Tarea de Ordenación Inteligente completada. Número de archivos ordenados: </string>
-    <string name="threshold">Umbral mínimo de clasificación:</string>
+    <string name="min_classification_threshold">Umbral mínimo de clasificación:</string>
     <!-- End Batch section -->
 	
 	<!-- Realtime section -->
     <string name="realtime_detector">Detector de tiempo real</string>
-    <string name="realtime_detector_description">El detector de tiempo real le permite detectar elementos en la marcha sin conexión a Internet. Dado que esta característica utiliza modelos de red neuronales mucho más simples para ejecutarse con las capacidades limitadas de los dispositivos móviles, la precisión no puede ser comparable de ninguna manera a la detección basada en la nube. Si necesita más precisión, use las otras funciones dedicadas.\nSi lo usa por primera vez, en algún caso la aplicación necesita configurar algunas dependencias específicas del dispositivo, si ve una pantalla en blanco, espera e intente nuevamente más tarde.</string>
-    <string name="brief_description">identificación breve pero específica</string>
+    <string name="realtime_detector_description">El detector de tiempo real le permite detectar elementos sobre la marcha sin conexión a Internet. Dado que esta característica utiliza modelos de red neuronales mucho más simples para ejecutarse con las capacidades limitadas de los dispositivos móviles, la precisión no puede ser comparable de ninguna manera a la detección basada en la nube. Si necesita más precisión, use las otras funciones dedicadas.\nSi lo usa por primera vez, en algún caso la aplicación necesita configurar algunas dependencias específicas del dispositivo, si ve una pantalla en blanco, espere e intente nuevamente más tarde.</string>
+    <string name="element_brief_description">identificación breve pero específica</string>
     <string name="toggle_camera_description">Cambiar Cámara</string>
     <string name="toggle_flash_description">Luz flash iniciar-detener</string>
     <string name="toggle_vocal_output_description">Iniciar-Detener a escuchar el resultado</string>
@@ -254,19 +276,21 @@
     <!-- Logo detection section -->
     <string name="logo_detector">Logo Detector</string>
     <string name="logo_detector_description">El detector de logotipos le permite identificar logotipos, encontrar información sobre marcas y productos.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
+    <string name="logo_brief_description">indica la marca u organización mostrada</string>
     <string name="detection_logo_fail">-&gt; ¡Uy! No se puede identificar ningún logotipo en esta imagen.</string>
     <!-- End Logo detection section -->
 
     <!-- Landmark detection section -->
     <string name="landmark_detector">Landmark Detector</string>
     <string name="landmark_detector_description">Landmark Detector le permite identificar estructuras populares naturales y hechas por el hombre, buscar información sobre ellas o su localidad.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
+    <string name="landmark_brief_description">indica el lugar más probable mostrado</string>
     <string name="detection_landmark_success">Puntos de referencia detectados (toque para buscar información, toque largo para copiar en el portapapeles):</string>
     <string name="detection_landmark_fail">-&gt; ¡Uy! No se puede identificar ningún punto de referencia en esta imagen.</string>
     <!-- End Landmark detection section -->
 
     <!-- Face Insight section -->
     <string name="face_insight">Análisis Facial</string>
-    <string name="face_detection_description">Detectar múltiples caras dentro de una imagen, junto con los atributos faciales asociados. Esta función también puede realizar un análisis emocional para determinar el estado emocional, además, puede decirle si la persona lleva ropa de cabeza.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
+    <string name="face_detection_description">Detecta múltiples rostros en una imagen con sus atributos. También analiza emociones y proporciona detalles de la estructura facial.\n\nUsa el botón rojo inferior para cargar una imagen.</string>
     <string name="face_comparison_description">Esta función le permite comparar la semejanza entre 2 personas para la coincidencia de identidad de nivel forense. Tienes que cargar 2 imágenes diferentes. Para obtener un resultado válido, cada foto debe contener una sola cara donde todos los elementos (nariz, ojos, boca, etc.) son bien visibles.\n\nUse el botón rojo en la parte inferior para cargar la primera imagen.</string>
     <string name="face_age_description">Esta función proporciona una estimación aproximada del rango de edad. Para obtener resultados precisos, todos los rasgos faciales (nariz, ojos, boca, etc.) deben ser claramente visibles.\n\nUsa el botón rojo en la parte inferior para cargar una imagen.</string>
     <string name="face_celebrity_description">Esta función le permite identificar a las celebridades.\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
@@ -282,6 +306,9 @@
     <string name="face_comparison_partial_matching">Los rostros comparados tienen un alto nivel de semejanza.</string>
     <string name="face_comparison_low_matching">El nivel de semejanza es bajo.</string>
     <string name="face_comparison_no_matching">El nivel de semejanza es extremadamente bajo.</string>
+    <string name="face_comparison_offline">Estás en modo sin conexión. Activa el modo en la nube para una comparación de semejanza e identificación más avanzadas.</string>
+    <string name="geometric_affinity_only">Esta es solo una comprobación de afinidad geométrica, ya que estás en modo sin conexión y el motor local de similitud facial no está disponible.</string>
+    <string name="geometric_affinity">Afinidad geométrica</string>
     <string name="face_celebrity_success">Detectado alta similitud facial con una o más celebridades (toque para buscar información, toque largo para copiar al portapapeles):</string>
     <string name="face_celebrity_fail">-&gt; ¡Uy! No se puede identificar ninguna celebridad en esta imagen.</string>
     <string name="emotional_analysis">Análisis emocional</string>
@@ -320,8 +347,8 @@
     <string name="midpoint_between_eyes">Punto medio entre ojos</string>
     <string name="left_of_left_eyebrow">Izquierda de la ceja izquierda</string>
     <string name="right_of_left_eyebrow">Ceja derecha de la izquierda</string>
-    <string name="left_of_right_eyebrow">Cada de la izquierda de la derecha</string>
-    <string name="right_of_right_eyebrow">Derecho de la ceja derecha</string>
+    <string name="left_of_right_eyebrow">Izquierda de la ceja derecha</string>
+    <string name="right_of_right_eyebrow">Derecha de la ceja derecha</string>
     <string name="left_eyebrow_upper_midpoint">Punto medio superior de la ceja izquierda</string>
     <string name="right_eyebrow_upper_midpoint">Punto medio superior de la ceja derecha</string>
     <string name="left_ear_tragus">Tragus del oído izquierdo</string>
@@ -341,17 +368,19 @@
     <string name="mouth_right">Boca a la derecha</string>
     <string name="mouth_center">Centro bucal</string>
     <string name="chin_gnathion">Gnación de la barbilla</string>
-    <string name="chin_left_gonion">Chin Left Gonion</string>
-    
+    <string name="chin_left_gonion">Gonion izquierdo del mentón</string>
+    <string name="chin_right_gonion">Gonion derecho del mentón</string>
     <string name="face_status">Estatus de cara</string>
     <string name="rotation">Rotación</string>
-    <string name="maxillofacial_armony_score">Armonía maxilofacial</string>
+    <string name="maxillofacial_harmony_score">Armonía maxilofacial</string>
+    <string name="harmony_confidence">Confianza en la evaluación de armonía</string>
     <string name="happiness_probability">Probabilidad de felicidad</string>
     <string name="is_smiling_probability">Probabilidad sonriente</string>
     <string name="is_left_eye_open_probability">Probabilidad de ojo izquierdo abierto</string>
     <string name="is_right_eye_open_probability">Probabilidad de ojo derecho</string>
     <string name="resemblance_level">Nivel de semejanza</string>
     <string name="first_image_loaded">-&gt; ¡Primera imagen cargada!\n\nCargue una segunda imagen para comparar.</string>
+    <string name="face_edge_pack_notice_message">Nuevo motor de análisis facial en el dispositivo disponible.\nPermite funciones como buscar un rostro en carpetas en modo Lote y se usa sin conexión o con el cloud desactivado.\n\nPara activarlo, la app debe descargar %1$s adicionales.</string>
     <!-- End Face Insight section -->
 
     <!-- Barcode detector section -->
@@ -359,6 +388,7 @@
     <string name="barcode_detector_description">El detector de códigos de barras puede detectar casi todos los tipos de códigos de barras.\nCódigos de barras 1D:\nEan-13, Ean-8, UPC-A, UPC-E, Code-39, Code-93, Code-128, ITF, Codabar.\nCódigos de barras 2d:\nCódigo QR, Matriz de datos, PDF-417, AZTEC.\n\nUse los botones rojos en la parte inferior para cargar una imagen o ingrese en el modo de escaneo de la cámara.</string>
     <string name="barcode_detector_success">Datos de código de barras detectados (toque para copiar en el portapapeles, toque largo para buscar información):</string>
     <string name="barcode_detector_fail">-&gt; ¡Uy! No se puede identificar ningún código de barras en esta imagen.</string>
+    <string name="code_format">Tipo de código</string>
     <string name="barcode_error">"-&gt; Error de lectura de código de barras: %1$s"</string>
     <!-- End Barcode detector section -->
 
@@ -398,6 +428,11 @@
     <string name="ela_description">Esta característica genera una máscara de error, para permitirle detectar secciones más fácilmente manipuladas en una imagen, según la inhomogeneidad en la distribución del error en comparación con el patrón local.\n(Una manera muy fácil de familiarizarse con la herramienta es intentar alterar algunas imágenes y ver cómo se ve la máscara de error en los puntos alterados).\n\nUse el botón rojo en la parte inferior para cargar una imagen.</string>
     <string name="ela_success">Deslice a la izquierda y a la derecha para mostrar la máscara de análisis y la imagen original. El patrón de distribución de errores incoherentes en un área específica indica que el área ha sido manipulado. Use la barra para establecer el umbral.</string>
     <string name="ela_error">¡¡Uy! Se produjo un error durante la generación de máscara de análisis.\nAsegúrese de que la imagen seleccionada sea válida.</string>
+    <string name="gen_ai_detector_description">Detecta patrones típicos de IA generativa, GANs o modelos de difusión.\n\nUsa el botón rojo inferior para cargar una imagen.</string>
+    <string name="ai_gen_success">Mejoras por IA y otras alteraciones pueden causar falsos positivos. El campo evoluciona y no se garantiza detectar todos los casos.</string>
+    <string name="ai_gen_failure">Error en el análisis. Verifica que la imagen sea válida y tenga buena resolución.</string>
+    <string name="ai_gen_probability">Probabilidad de contenido AI</string>
+    <string name="genai_detector_pack_notice_message">Nuevo módulo GenAI Detector disponible.\nDetecta imágenes generadas y deepfakes. Requiere descargar 41MB.</string>
     <!-- End ELA section -->
 
     <!-- Likelihood levels -->
@@ -417,6 +452,7 @@
 	<string name="active">ACTIVO</string>
 	<string name="pending">PENDIENTE</string>
 	<string name="disabled">DESHABILITADO</string>
+    <string name="subscription_suspended_warning">Tu %1$s está actualmente suspendida. Esto puede deberse a una suscripción en pausa o a un pago rechazado durante el intento de renovación.\nVisita el Centro de Suscripciones de Google Play para gestionar o actualizar tu suscripción.</string>
     <string name="ads_mode_click">El modo con anuncios se deshabilitará automáticamente si compra una suscripción de plata u oro, y está habilitado si no hay ninguna suscripción activa.</string>
     <string name="ads_mode">Modo con anuncios</string>
     <string name="ads_mode_description">Todas las funciones habilitadas, pero verá algunos anuncios al azar cuando accede a una nueva sección de esta aplicación desde el hogar. (El modo gratuito predeterminado)</string>
@@ -427,5 +463,27 @@
     <string name="premium_gold_content">Botón de suscripción de oro</string>
     <string name="premium_gold_description">La suscripción premium anual deshabilita todos los anuncios y limitaciones para la mejor experiencia de usuario posible. La suscripción anual de oro es más barata que 12 meses de suscripción de plata.</string>
     <!-- End Billing section -->
+
+    <!-- General On Demand features -->
+    <string name="pad_reason_pack_state_missing">Estado del pack ausente.</string>
+    <string name="pad_reason_pack_not_completed">Pack no completado (estado=%1$d).</string>
+    <string name="pad_reason_file_missing_or_invalid">Archivo ausente o inválido en el pack.</string>
+    <string name="pad_reason_get_pack_states_failed">getPackStates falló: %1$s</string>
+    <string name="pad_enable_feature_title">¿Activar función?</string>
+    <string name="pad_enable_feature_message">Esta función necesita recursos adicionales.</string>
+    <string name="pad_download_required_title">Descarga requerida</string>
+    <string name="pad_download_assets_now_message">¿Descargar recursos ahora?</string>
+    <string name="pad_download_message_no_status">Esta función necesita datos adicionales.\n\n¿Descargar ahora?</string>
+    <string name="pad_download_message_with_status">Esta función necesita datos adicionales.\n\n%1$s\n\n¿Descargar ahora?</string>
+    <string name="pad_download_failed">Descarga fallida: </string>
+    <string name="pad_download_canceled">Descarga cancelada</string>
+    <string name="pad_status_prefix">Estado: %1$s</string>
+    <!-- Buttons -->
+    <string name="pad_btn_yes">Sí</string>
+    <string name="pad_btn_no">No</string>
+    <string name="pad_btn_download">Descargar</string>
+    <string name="pad_btn_cancel">Cancelar</string>
+    <string name="pad_btn_not_now">No ahora</string>
+    <!-- End General On Demand features -->
 
 </resources>

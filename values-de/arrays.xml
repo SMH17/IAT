@@ -27,6 +27,11 @@
         <item>Benutzerdefiniert [L]</item>
     </string-array>
 
+    <string-array name="identification_mode">
+        <item>Beschreibung</item>
+        <item>Identifizierung</item>
+    </string-array>
+
     <string-array name="face_analysis_mode">
         <item>Erkennung</item>
         <item>Vergleich</item>
@@ -39,6 +44,11 @@
         <item>Allgemeiner Text</item>
         <item>Dichtes Dokument</item>
         <item>Handschriftlich</item>
+    </string-array>
+
+    <string-array name="ela_mode">
+        <item>Fehlermaske</item>
+        <item>KI-Erkennung</item>
     </string-array>
 
     <string-array name="language_hints">

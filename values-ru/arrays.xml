@@ -3,18 +3,18 @@
 
     <string-array name="theme_mode">
         <item>По умолчанию</item>
-        <item>Светлый</item>
-        <item>Темный</item>
-        <item>Автоматически</item>
+        <item>Светлая</item>
+        <item>Темная</item>
+        <item>Авто</item>
     </string-array>
 
     <string-array name="analysis_mode">
-        <item>Обнаружение элементов</item>
-        <item>Мультилокализация</item>
-        <item>Обнаружение текста</item>
-        <item>Обнаружение лиц</item>
-        <item>Обнаружение штрихкода</item>
-        <item>Извлечение Exif</item>
+        <item>Распознавание элементов</item>
+        <item>Множественная локализация</item>
+        <item>Распознавание текста</item>
+        <item>Распознавание лиц</item>
+        <item>Распознавание штрихкодов</item>
+        <item>Извлечение EXIF</item>
         <item>Пользовательский [I]</item>
         <item>Пользовательский [L]</item>
     </string-array>
@@ -22,27 +22,37 @@
     <string-array name="element_identification_mode">
         <item>Описание</item>
         <item>Идентификация</item>
-        <item>Мультилокализация</item>
+        <item>Множественная локализация</item>
         <item>Пользовательский [I]</item>
         <item>Пользовательский [L]</item>
+    </string-array>
+
+    <string-array name="identification_mode">
+        <item>Описание</item>
+        <item>Идентификация</item>
     </string-array>
 
     <string-array name="face_analysis_mode">
         <item>Обнаружение</item>
         <item>Сравнение</item>
         <item>Оценка возраста</item>
-        <item>Определение VIP</item>
+        <item>Поиск VIP</item>
     </string-array>
 
     <string-array name="ocr_mode_hints">
-        <item>АВТОМАТИЧЕСКИЙ РЕЖИМ</item>
+        <item>АВТО РЕЖИМ</item>
         <item>Обычный текст</item>
         <item>Плотный документ</item>
         <item>Рукописный</item>
     </string-array>
 
+    <string-array name="ela_mode">
+        <item>Маска ошибок</item>
+        <item>Распознавание Gen AI</item>
+    </string-array>
+
     <string-array name="language_hints">
-        <item>АВТО ЯЗЫК</item>
+        <item>АВТО</item>
         <item>Африкаанс</item>
         <item>Арабский</item>
         <item>Ассамский</item>
@@ -72,8 +82,8 @@
         <item>Японский</item>
         <item>Казахский</item>
         <item>Корейский</item>
-        <item>Киргизский</item>
-        <item>Латышский</item>
+        <item>Кыргызский</item>
+        <item>Латвийский</item>
         <item>Литовский</item>
         <item>Македонский</item>
         <item>Маратхи</item>

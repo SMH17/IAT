@@ -27,6 +27,11 @@
         <item>Custom [L]</item>
     </string-array>
 
+    <string-array name="identification_mode">
+        <item>Description</item>
+        <item>Identification</item>
+    </string-array>
+
     <string-array name="face_analysis_mode">
         <item>Detection</item>
         <item>Comparison</item>
@@ -39,6 +44,11 @@
         <item>Generic Text</item>
         <item>Dense Document</item>
         <item>Handwritten</item>
+    </string-array>
+
+    <string-array name="ela_mode">
+        <item>Error Mask</item>
+        <item>Gen AI Detection</item>
     </string-array>
 
     <string-array name="language_hints">

@@ -27,6 +27,11 @@
         <item>Personalizado [L]</item>
     </string-array>
 
+    <string-array name="identification_mode">
+        <item>Descripción</item>
+        <item>Identificación</item>
+    </string-array>
+
     <string-array name="face_analysis_mode">
         <item>Detección</item>
         <item>Comparación</item>
@@ -39,6 +44,11 @@
         <item>Texto genérico</item>
         <item>Documento denso</item>
         <item>Manuscrito</item>
+    </string-array>
+
+    <string-array name="ela_mode">
+        <item>Máscara de error</item>
+        <item>Detección AI</item>
     </string-array>
 
     <string-array name="language_hints">

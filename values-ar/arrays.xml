@@ -2,55 +2,65 @@
 <resources>
 
     <string-array name="theme_mode">
-        <item>افتراضي</item>
+        <item>الافتراضي</item>
         <item>فاتح</item>
-        <item>غامق</item>
+        <item>داكن</item>
         <item>تلقائي</item>
     </string-array>
 
     <string-array name="analysis_mode">
         <item>اكتشاف العناصر</item>
-        <item>التوطين المتعدد</item>
+        <item>تحديد مواقع متعدد</item>
         <item>اكتشاف النص</item>
-        <item>اكتشاف الوجه</item>
-        <item>اكتشاف الرمز الشريطي</item>
-        <item>استخراج Exif</item>
+        <item>اكتشاف الوجوه</item>
+        <item>اكتشاف الباركود</item>
+        <item>استخراج EXIF</item>
         <item>مخصص [I]</item>
         <item>مخصص [L]</item>
     </string-array>
 
     <string-array name="element_identification_mode">
-        <item>وصف</item>
-        <item>التعريف</item>
-        <item>التوطين المتعدد</item>
+        <item>الوصف</item>
+        <item>التعرف</item>
+        <item>تحديد مواقع متعدد</item>
         <item>مخصص [I]</item>
         <item>مخصص [L]</item>
     </string-array>
 
+    <string-array name="identification_mode">
+        <item>الوصف</item>
+        <item>التعرف</item>
+    </string-array>
+
     <string-array name="face_analysis_mode">
-        <item>الكشف</item>
-        <item>المقارنة</item>
+        <item>اكتشاف</item>
+        <item>مقارنة</item>
         <item>تقدير العمر</item>
-        <item>تحديد هوية الشخص المهم</item>
+        <item>تحديد الشخصيات المهمة</item>
     </string-array>
 
     <string-array name="ocr_mode_hints">
-        <item>الوضع التلقائي</item>
+        <item>وضع تلقائي</item>
         <item>نص عام</item>
         <item>مستند كثيف</item>
         <item>مكتوب بخط اليد</item>
     </string-array>
 
+    <string-array name="ela_mode">
+        <item>قناع الخطأ</item>
+        <item>اكتشاف الذكاء الاصطناعي التوليدي</item>
+    </string-array>
+
     <string-array name="language_hints">
-        <item>اللغة التلقائية</item>
-        <item>الأفريقانية</item>
+        <item>لغة تلقائية</item>
+        <item>الأفريكانية</item>
         <item>العربية</item>
-        <item>الآسامية</item>
+        <item>الأسدية</item>
         <item>الأذربيجانية</item>
         <item>البيلاروسية</item>
         <item>البنغالية</item>
         <item>البلغارية</item>
-        <item>الكتالونية</item>
+        <item>الكتالانية</item>
         <item>الصينية</item>
         <item>الكرواتية</item>
         <item>التشيكية</item>
@@ -70,7 +80,7 @@
         <item>الإندونيسية</item>
         <item>الإيطالية</item>
         <item>اليابانية</item>
-        <item>الكازاخية</item>
+        <item>الكازاخستانية</item>
         <item>الكورية</item>
         <item>القيرغيزية</item>
         <item>اللاتفية</item>
@@ -80,25 +90,25 @@
         <item>المنغولية</item>
         <item>النيبالية</item>
         <item>النرويجية</item>
-        <item>البشتون</item>
-        <item>فارسية</item>
-        <item>بولندية</item>
-        <item>برتغالية</item>
-        <item>رومانية</item>
-        <item>روسية</item>
-        <item>سنسكريتية</item>
-        <item>صربية</item>
-        <item>سلوفاكية</item>
-        <item>سلوفينية</item>
-        <item>إسبانية</item>
-        <item>سويدي</item>
-        <item>تاميلية</item>
-        <item>تايلاندية</item>
-        <item>تركية</item>
-        <item>أوكرانية</item>
-        <item>أردية</item>
-        <item>أوزبكية</item>
-        <item>فيتنامية</item>
+        <item>الباشتو</item>
+        <item>الفارسية</item>
+        <item>البولندية</item>
+        <item>البرتغالية</item>
+        <item>الرومانية</item>
+        <item>الروسية</item>
+        <item>السنسكريتية</item>
+        <item>الصربية</item>
+        <item>السلوفاكية</item>
+        <item>السلوفينية</item>
+        <item>الإسبانية</item>
+        <item>السويدية</item>
+        <item>التاميلية</item>
+        <item>التايلندية</item>
+        <item>التركية</item>
+        <item>الأوكرانية</item>
+        <item>الأردية</item>
+        <item>الأوزبكية</item>
+        <item>الفيتنامية</item>
     </string-array>
 
 </resources>
