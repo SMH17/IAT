@@ -35,7 +35,7 @@
     <string name="year">سنة</string>
     <string name="invalid_setting">إعداد غير صالح</string>
     <string name="insufficient_permissions">الصلاحيات غير كافية. امنح التطبيق الصلاحيات المطلوبة.</string>
-    <string name="info_text">الإصدار 0.3.8 SR 221\nتم التطوير بواسطة S. Marano, SMH17 جميع الحقوق محفوظة. يُحظر تمامًا أي نسخ أو تعديل أو إعادة استخدام للكود أو العناصر الرسومية ولو جزئيًا دون إذن صريح من المؤلف.\nAdMob و Play و TensorFlow وجميع تقنيات Google ذات الصلة مملوكة لشركة Google LLC وتخضع لشروط ترخيص Google LLC.\nلمزيد من المعلومات حول حقوق الطبع والنشر وشروط الترخيص، اتصل بنا.</string>
+    <string name="info_text">الإصدار 0.3.8 SR 223\nتم التطوير بواسطة S. Marano, SMH17 جميع الحقوق محفوظة. يُحظر تمامًا أي نسخ أو تعديل أو إعادة استخدام للكود أو العناصر الرسومية ولو جزئيًا دون إذن صريح من المؤلف.\nAdMob و Play و TensorFlow وجميع تقنيات Google ذات الصلة مملوكة لشركة Google LLC وتخضع لشروط ترخيص Google LLC.\nلمزيد من المعلومات حول حقوق الطبع والنشر وشروط الترخيص، اتصل بنا.</string>
     <string name="choose_email_client">اختر عميل البريد الإلكتروني</string>
     <string name="problem_description">وصف المشكلة</string>
     <string name="error">خطأ</string>
@@ -59,7 +59,7 @@
     <!-- Setting section -->
     <string name="app_theme">سمة التطبيق</string>
     <string name="setting_title">الإعدادات</string>
-    <string name="alert_max_res_setting_text">أدخل الحد الأقصى لعدد العناصر، سيسمح لك الرقم الأعلى برؤية المزيد من النتائج، ومع ذلك فإن النتائج الإضافية لديها نسبة تطابق أقل احتمالية.\nالقيمة الافتراضية: 10،</string>
+    <string name="alert_max_res_setting_text">أدخل الحد الأقصى لعدد العناصر. قد تعرض القيم الأعلى نتائج أكثر، لكن النتائج الإضافية قد تكون أقل صلة.\nالقيمة الافتراضية: 10،</string>
     <string name="alert_setting_quality">قم بتعيين مستوى جودة الاكتشاف (القيمة الافتراضية: 1200). القيمة الأعلى قد تنتج نتائج أكثر دقة ولكنها أبطأ.\nقيمة الجودة:</string>
     <string name="use_element_detection_cloud">استخدم السحابة لاكتشاف العناصر بدقة</string>
     <string name="use_ocr_cloud">استخدم السحابة لاكتشاف النص بدقة</string>

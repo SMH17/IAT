@@ -32,7 +32,7 @@
     <string name="year">anno</string>
     <string name="invalid_setting">Impostazioni non valide</string>
     <string name="insufficient_permissions">Permessi insufficienti. Concedi all\'App i permessi necessari.</string>
-    <string name="info_text">Versione 0.3.8 SR 221\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale è strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono proprietà di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
+    <string name="info_text">Versione 0.3.8 SR 223\nSviluppata da S. Marano, SMH17 tutti i diritti riservati. Qualsiasi copia, modifica o replica non autorizzata anche se solo parziale è strettamente vietata senza esplicito consenso dell\'autore.\nAdMob, Play, TensorFlow e le relative tecnologie Google sono proprietà di Google LLC e soggette ai termini di licenza di Google LLC.\nPer informazioni aggiuntive sul copyright e i termini di licenza, contattaci.</string>
     <string name="choose_email_client">Seleziona il tuo client email</string>
     <string name="problem_description">DESCRIZIONE PROBLEMA</string>
     <string name="error">ERRORE</string>
@@ -56,7 +56,7 @@
     <!-- Setting section -->
     <string name="app_theme">Tema App</string>
     <string name="setting_title">Impostazioni</string>
-    <string name="alert_max_res_setting_text">Inserisci il massimo numero di elementi. Un valore elevato consente di visualizzare un maggior numero di risultati ma i risultati extra avranno un tasso di corrispondenza minore.\nValore di default: 10,</string>
+    <string name="alert_max_res_setting_text">Inserisci il numero massimo di elementi. Valori più alti possono restituire più risultati, ma le corrispondenze aggiuntive potrebbero essere meno pertinenti.\nValore di default: 10,</string>
     <string name="alert_setting_quality">Imposta qualità identificazione (valore predefinito: 1200). Un livello alto può produrre risultati più accurati ma è più lento.\nLivello qualità:</string>
     <string name="use_element_detection_cloud">Usa Cloud per identificazione elementi accurata</string>
     <string name="use_ocr_cloud">Usa Cloud per identificazione accurata testo</string>

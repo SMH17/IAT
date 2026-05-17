@@ -35,7 +35,7 @@
     <string name="year">年</string>
     <string name="invalid_setting">無効な設定</string>
     <string name="insufficient_permissions">権限が不足しています。アプリに必要な権限を付与してください。</string>
-    <string name="info_text">バージョン 0.3.8 SR 221\n開発：S. Marano, SMH17 All rights reserved. 著者の明示的な許可なく、コードやグラフィック要素の一部でも複製、変更、再利用することは固く禁じられています。\nAdMob、Play、TensorFlowおよび関連するGoogleの技術はGoogle LLCが所有し、Google LLCのライセンス条項に従います。\n著作権およびライセンスに関する詳細については、お問い合わせください。</string>
+    <string name="info_text">バージョン 0.3.8 SR 223\n開発：S. Marano, SMH17 All rights reserved. 著者の明示的な許可なく、コードやグラフィック要素の一部でも複製、変更、再利用することは固く禁じられています。\nAdMob、Play、TensorFlowおよび関連するGoogleの技術はGoogle LLCが所有し、Google LLCのライセンス条項に従います。\n著作権およびライセンスに関する詳細については、お問い合わせください。</string>
     <string name="choose_email_client">メールクライアントを選択</string>
     <string name="problem_description">問題の説明</string>
     <string name="error">エラー</string>
@@ -56,7 +56,7 @@
 
     <string name="app_theme">アプリのテーマ</string>
     <string name="setting_title">設定</string>
-    <string name="alert_max_res_setting_text">要素の最大数を入力します。数値を大きくするとより多くの結果が表示されますが、追加される結果は一致率が低くなる可能性があります。\nデフォルト値: 10</string>
+    <string name="alert_max_res_setting_text">最大要素数を入力してください。値を大きくすると結果が増えますが、追加の一致は関連性が低くなる場合があります。\nデフォルト値: 10</string>
     <string name="alert_setting_quality">検出品質レベルを設定します（デフォルト値: 1200）。数値を大きくするとより正確な結果が得られる可能性がありますが、処理に時間がかかります。\n品質値:</string>
     <string name="use_element_detection_cloud">正確な要素検出にクラウドを使用</string>
     <string name="use_ocr_cloud">正確なテキスト検出にクラウドを使用</string>

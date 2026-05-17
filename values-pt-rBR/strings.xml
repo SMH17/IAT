@@ -33,7 +33,7 @@
     <string name="year">ano</string>
     <string name="invalid_setting">Configuração inválida</string>
     <string name="insufficient_permissions">Permissões insuficientes. Dê ao aplicativo as permissões necessárias.</string>
-    <string name="info_text">Versão 0.3.8 SR 221\nDesenvolvido por S. Marano, SMH17 Todos os direitos reservados. Qualquer replicação, modificação, reutilização do código ou elementos gráficos até parcial é estritamente proibido sem a permissão explícita do autor.\nAdmob, Play, Tensorflow e todas as tecnologias relacionadas ao Google são de propriedade do Google LLC e sujeitas aos termos da licença do Google LLC.\nPara informações adicionais sobre direitos autorais e termos de licença, entre em contato conosco.</string>
+    <string name="info_text">Versão 0.3.8 SR 223\nDesenvolvido por S. Marano, SMH17 Todos os direitos reservados. Qualquer replicação, modificação, reutilização do código ou elementos gráficos até parcial é estritamente proibido sem a permissão explícita do autor.\nAdmob, Play, Tensorflow e todas as tecnologias relacionadas ao Google são de propriedade do Google LLC e sujeitas aos termos da licença do Google LLC.\nPara informações adicionais sobre direitos autorais e termos de licença, entre em contato conosco.</string>
     <string name="choose_email_client">Escolha o cliente de email</string>
     <string name="problem_description">DESCRIÇÃO DO PROBLEMA</string>
     <string name="error">ERRO</string>
@@ -57,7 +57,7 @@
     <!-- Setting section -->
     <string name="app_theme">Tema do aplicativo</string>
     <string name="setting_title">Configurações</string>
-    <string name="alert_max_res_setting_text">Insira o número máximo de elementos, um número mais alto permitirá que você veja mais resultados, no entanto, os resultados adicionais têm uma taxa de correspondência menos provável.\nValor padrão: 10,</string>
+    <string name="alert_max_res_setting_text">Insira o número máximo de elementos. Valores maiores podem retornar mais resultados, mas as correspondências adicionais podem ser menos relevantes.\nValor padrão: 10,</string>
     <string name="alert_setting_quality">Defina o nível de qualidade de detecção (valor padrão: 1200). Um valor mais alto pode produzir resultados mais precisos, mas é mais lento.\nValor de qualidade:</string>
     <string name="use_element_detection_cloud">Use Cloud para detecção de elementos precisos</string>
     <string name="use_ocr_cloud">Use Cloud para detecção de texto precisa</string>

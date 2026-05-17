@@ -33,7 +33,7 @@
     <string name="year">jahr</string>
     <string name="invalid_setting">Ungültige Einstellung</string>
     <string name="insufficient_permissions">Berechtigungen nicht genug. Geben Sie der App die erforderlichen Berechtigungen.</string>
-    <string name="info_text">Version 0.3.8 SR 221\nEntwickelt von S. Marano, SMH17 Alle Rechte vorbehalten. Jede Replikation, Änderung, Wiederverwendung des Codes oder grafischen Elemente, die sogar teilweise ohne ausdrückliche Erlaubnis des Autors streng verboten sind.\nAdmob, Play, TensorFlow und alle verwandten Google-Technologien sind im Besitz von Google LLC und unterliegen den Google LLC Lizenzbedingungen.\nWeitere Informationen zu Urheberrechts- und Lizenzbedingungen erhalten Sie von uns.</string>
+    <string name="info_text">Version 0.3.8 SR 223\nEntwickelt von S. Marano, SMH17 Alle Rechte vorbehalten. Jede Replikation, Änderung, Wiederverwendung des Codes oder grafischen Elemente, die sogar teilweise ohne ausdrückliche Erlaubnis des Autors streng verboten sind.\nAdmob, Play, TensorFlow und alle verwandten Google-Technologien sind im Besitz von Google LLC und unterliegen den Google LLC Lizenzbedingungen.\nWeitere Informationen zu Urheberrechts- und Lizenzbedingungen erhalten Sie von uns.</string>
     <string name="choose_email_client">Wählen Sie E-Mail Client</string>
     <string name="problem_description">PROBLEMBESCHREIBUNG</string>
     <string name="error">FEHLER</string>
@@ -57,7 +57,7 @@
     <!-- Setting section -->
     <string name="app_theme">App Thema</string>
     <string name="setting_title">Einstellungen</string>
-    <string name="alert_max_res_setting_text">Geben Sie die maximale Anzahl von Elementen ein. Eine höhere Zahl ermöglicht es Ihnen, mehr Ergebnisse zu erkennen. Die zusätzlichen Ergebnisse haben jedoch eine geringere Wahrscheinlichkeit übereinzustimmen.\nStandardwert: 10,</string>
+    <string name="alert_max_res_setting_text">Geben Sie die maximale Anzahl an Elementen ein. Höhere Werte können mehr Ergebnisse liefern, zusätzliche Treffer sind jedoch möglicherweise weniger relevant.\nStandardwert: 10,</string>
     <string name="alert_setting_quality">Legen Sie die Erkennungsqualitätsniveau fest (Standardwert: 1200). Ein höherer Wert könnte genauere Ergebnisse erzielen, ist jedoch langsamer.\nQualitätswert:</string>
     <string name="use_element_detection_cloud">Verwenden Sie die Wolke für eine genaue Elementerkennung</string>
     <string name="use_ocr_cloud">Verwenden Sie die Cloud für eine genaue Texterkennung</string>

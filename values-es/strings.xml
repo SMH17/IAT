@@ -33,7 +33,7 @@
     <string name="year">año</string>
     <string name="invalid_setting">Configuración no válida</string>
     <string name="insufficient_permissions">Permisos no suficientes. Dé a la aplicación los permisos necesarios.</string>
-    <string name="info_text">Versión 0.3.8 SR 221\nDesarrollado por S. Marano, SMH17 Todos los derechos reservados. Cualquier replicación, modificación, reutilización del código o elementos gráficos, incluso parcial, está estrictamente prohibido sin un permiso explícito del autor.\nAdmob, Play, TensorFlow y todas las tecnologías de Google relacionadas son propiedad de Google LLC y están sujetos a los términos de la licencia de Google LLC.\nPara obtener información adicional sobre los derechos de autor y los términos de la licencia, contáctenos.</string>
+    <string name="info_text">Versión 0.3.8 SR 223\nDesarrollado por S. Marano, SMH17 Todos los derechos reservados. Cualquier replicación, modificación, reutilización del código o elementos gráficos, incluso parcial, está estrictamente prohibido sin un permiso explícito del autor.\nAdmob, Play, TensorFlow y todas las tecnologías de Google relacionadas son propiedad de Google LLC y están sujetos a los términos de la licencia de Google LLC.\nPara obtener información adicional sobre los derechos de autor y los términos de la licencia, contáctenos.</string>
     <string name="choose_email_client">Elija un cliente de correo electrónico</string>
     <string name="problem_description">DESCRIPCIÓN DEL PROBLEMA</string>
     <string name="error">ERROR</string>
@@ -57,7 +57,7 @@
 	<!-- Setting section -->
     <string name="app_theme">Tema de la aplicación</string>
     <string name="setting_title">Ajustes</string>
-    <string name="alert_max_res_setting_text">Ingrese el número máximo de elementos, un número más alto le permitirá ver más resultados, sin embargo, los resultados adicionales tienen una relación de coincidencia menos probable.\nValor predeterminado: 10,</string>
+    <string name="alert_max_res_setting_text">Introduce el número máximo de elementos. Valores más altos pueden devolver más resultados, pero las coincidencias adicionales pueden ser menos relevantes.\nValor predeterminado: 10,</string>
     <string name="alert_setting_quality">Establezca el nivel de calidad de detección (valor predeterminado: 1200). Un valor más alto podría producir resultados más precisos, pero es más lento.\nValor de calidad:</string>
     <string name="use_element_detection_cloud">Use la nube para la detección de elementos precisos</string>
     <string name="use_ocr_cloud">Use la nube para una detección de texto precisa</string>
