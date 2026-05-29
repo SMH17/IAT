@@ -34,7 +34,7 @@
     <string name="year">year</string>
     <string name="invalid_setting">Invalid setting</string>
     <string name="insufficient_permissions">Permissions not enough. Give to the App the needed permissions.</string>
-    <string name="info_text">Version 0.3.8 SR 223\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
+    <string name="info_text">Version 0.3.8 SR 226\nDeveloped by S. Marano, SMH17 all rights reserved. Any replication, modification, reuse of the code or graphic elements even partial is strictly forbidden without explicit permission of the author.\nAdMob, Play, TensorFlow and all related Google technologies are owned by Google LLC and subject to Google LLC license terms.\nFor additional info about copyright and license terms, contact us.</string>
     <string name="choose_email_client">Choose email client</string>
     <string name="problem_description">PROBLEM DESCRIPTION</string>
     <string name="error">ERROR</string>
@@ -457,6 +457,7 @@
     <string name="active">ACTIVE</string>
     <string name="pending">PENDING</string>
     <string name="disabled">DISABLED</string>
+    <string name="subscription_canceled">Your premium subscription has been canceled or revoked.</string>
     <string name="subscription_suspended_warning">Your %1$s is currently suspended. This may be due to a paused subscription or a declined payment during a renewal attempt.\nPlease visit the Google Play Subscription Center to manage or update your subscription.</string>
     <string name="ads_mode_click">Ads mode will be automatically disabled if you purchase a Silver or Gold subscription, and It is enabled if there isn\'t any subscription active.</string>
     <string name="ads_mode">Ads Mode</string>

@@ -35,7 +35,7 @@
     <string name="year">سنة</string>
     <string name="invalid_setting">إعداد غير صالح</string>
     <string name="insufficient_permissions">الصلاحيات غير كافية. امنح التطبيق الصلاحيات المطلوبة.</string>
-    <string name="info_text">الإصدار 0.3.8 SR 223\nتم التطوير بواسطة S. Marano, SMH17 جميع الحقوق محفوظة. يُحظر تمامًا أي نسخ أو تعديل أو إعادة استخدام للكود أو العناصر الرسومية ولو جزئيًا دون إذن صريح من المؤلف.\nAdMob و Play و TensorFlow وجميع تقنيات Google ذات الصلة مملوكة لشركة Google LLC وتخضع لشروط ترخيص Google LLC.\nلمزيد من المعلومات حول حقوق الطبع والنشر وشروط الترخيص، اتصل بنا.</string>
+    <string name="info_text">الإصدار 0.3.8 SR 226\nتم التطوير بواسطة S. Marano, SMH17 جميع الحقوق محفوظة. يُحظر تمامًا أي نسخ أو تعديل أو إعادة استخدام للكود أو العناصر الرسومية ولو جزئيًا دون إذن صريح من المؤلف.\nAdMob و Play و TensorFlow وجميع تقنيات Google ذات الصلة مملوكة لشركة Google LLC وتخضع لشروط ترخيص Google LLC.\nلمزيد من المعلومات حول حقوق الطبع والنشر وشروط الترخيص، اتصل بنا.</string>
     <string name="choose_email_client">اختر عميل البريد الإلكتروني</string>
     <string name="problem_description">وصف المشكلة</string>
     <string name="error">خطأ</string>
@@ -458,6 +458,7 @@
     <string name="active">نشط</string>
     <string name="pending">قيد الانتظار</string>
     <string name="disabled">معطل</string>
+    <string name="subscription_canceled">تم إلغاء أو سحب اشتراكك المميز.</string>
     <string name="subscription_suspended_warning">%1$s معلق حاليًا. قد يكون هذا بسبب إيقاف الاشتراك مؤقتًا أو رفض الدفع أثناء محاولة التجديد.\nيرجى زيارة مركز اشتراكات Google Play لإدارة اشتراكك أو تحديثه.</string>
     <string name="ads_mode_click">سيتم تعطيل وضع الإعلانات تلقائيًا إذا اشتريت اشتراكًا فضيًا أو ذهبيًا، ويتم تمكينه إذا لم يكن هناك أي اشتراك نشط.</string>
     <string name="ads_mode">وضع الإعلانات</string>

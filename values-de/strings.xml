@@ -33,7 +33,7 @@
     <string name="year">jahr</string>
     <string name="invalid_setting">Ungültige Einstellung</string>
     <string name="insufficient_permissions">Berechtigungen nicht genug. Geben Sie der App die erforderlichen Berechtigungen.</string>
-    <string name="info_text">Version 0.3.8 SR 223\nEntwickelt von S. Marano, SMH17 Alle Rechte vorbehalten. Jede Replikation, Änderung, Wiederverwendung des Codes oder grafischen Elemente, die sogar teilweise ohne ausdrückliche Erlaubnis des Autors streng verboten sind.\nAdmob, Play, TensorFlow und alle verwandten Google-Technologien sind im Besitz von Google LLC und unterliegen den Google LLC Lizenzbedingungen.\nWeitere Informationen zu Urheberrechts- und Lizenzbedingungen erhalten Sie von uns.</string>
+    <string name="info_text">Version 0.3.8 SR 226\nEntwickelt von S. Marano, SMH17 Alle Rechte vorbehalten. Jede Replikation, Änderung, Wiederverwendung des Codes oder grafischen Elemente, die sogar teilweise ohne ausdrückliche Erlaubnis des Autors streng verboten sind.\nAdmob, Play, TensorFlow und alle verwandten Google-Technologien sind im Besitz von Google LLC und unterliegen den Google LLC Lizenzbedingungen.\nWeitere Informationen zu Urheberrechts- und Lizenzbedingungen erhalten Sie von uns.</string>
     <string name="choose_email_client">Wählen Sie E-Mail Client</string>
     <string name="problem_description">PROBLEMBESCHREIBUNG</string>
     <string name="error">FEHLER</string>
@@ -453,6 +453,7 @@
     <string name="active">AKTIV</string>
     <string name="pending">AUSSTEHEND</string>
     <string name="disabled">DEAKTIVIERT</string>
+    <string name="subscription_canceled">Dein Premium-Abonnement wurde gekündigt oder widerrufen.</string>
     <string name="subscription_suspended_warning">Dein %1$s ist derzeit ausgesetzt. Dies kann an einer pausierten Mitgliedschaft oder einer abgelehnten Zahlung beim Verlängerungsversuch liegen.\nBesuche das Google Play Abonnement-Center, um dein Abonnement zu verwalten oder zu aktualisieren.</string>
     <string name="ads_mode_click">Der Ads-Modus wird automatisch deaktiviert, wenn Sie ein Silver-Abonnement oder Gold-Abonnement erwerben, und es ist aktiviert, wenn kein Abonnement aktiv ist.</string>
     <string name="ads_mode">Ads-Modus</string>

@@ -35,7 +35,7 @@
     <string name="year">年</string>
     <string name="invalid_setting">無効な設定</string>
     <string name="insufficient_permissions">権限が不足しています。アプリに必要な権限を付与してください。</string>
-    <string name="info_text">バージョン 0.3.8 SR 223\n開発：S. Marano, SMH17 All rights reserved. 著者の明示的な許可なく、コードやグラフィック要素の一部でも複製、変更、再利用することは固く禁じられています。\nAdMob、Play、TensorFlowおよび関連するGoogleの技術はGoogle LLCが所有し、Google LLCのライセンス条項に従います。\n著作権およびライセンスに関する詳細については、お問い合わせください。</string>
+    <string name="info_text">バージョン 0.3.8 SR 226\n開発：S. Marano, SMH17 All rights reserved. 著者の明示的な許可なく、コードやグラフィック要素の一部でも複製、変更、再利用することは固く禁じられています。\nAdMob、Play、TensorFlowおよび関連するGoogleの技術はGoogle LLCが所有し、Google LLCのライセンス条項に従います。\n著作権およびライセンスに関する詳細については、お問い合わせください。</string>
     <string name="choose_email_client">メールクライアントを選択</string>
     <string name="problem_description">問題の説明</string>
     <string name="error">エラー</string>
@@ -421,6 +421,7 @@
     <string name="active">有効</string>
     <string name="pending">保留中</string>
     <string name="disabled">無効</string>
+    <string name="subscription_canceled">プレミアムサブスクリプションはキャンセルまたは無効化されました。</string>
     <string name="subscription_suspended_warning">現在%1$sは一時停止されています。これは、サブスクリプションの一時停止、または更新試行中の支払いの拒否が原因である可能性があります。\nGoogle Playサブスクリプションセンターにアクセスして、サブスクリプションを管理または更新してください。</string>
     <string name="ads_mode_click">SilverまたはGoldサブスクリプションをご購入いただくと、広告モードは自動的に無効になります。現在有効なサブスクリプションがない場合は有効になります。</string>
     <string name="ads_mode">広告モード</string>
